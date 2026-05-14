@@ -1,1 +1,459 @@
-
+{
+  "_meta": {
+    "version": "2026-05-14",
+    "generated_at": "2026-05-14T16:46:27Z",
+    "sport": "NFL",
+    "team_count": 32,
+    "source": "underdog /v1/teams"
+  },
+  "teams": {
+    "8459772c-695a-5890-afa1-7ec38da17201": {
+      "abbr": "ARI",
+      "name": "Arizona Cardinals",
+      "colors": {
+        "primary_dark": "#97233F",
+        "primary_light": "#97233F",
+        "primary_text_dark": "#FFFFFF",
+        "primary_text_light": "#FFFFFF",
+        "secondary_dark": "#F0F0F0",
+        "secondary_light": "#F0F0F0",
+        "secondary_text_dark": "#101010",
+        "secondary_text_light": "#101010"
+      }
+    },
+    "8699a914-7d44-5a36-b7a6-2063d3ea761f": {
+      "abbr": "ATL",
+      "name": "Atlanta Falcons",
+      "colors": {
+        "primary_dark": "#A71930",
+        "primary_light": "#A71930",
+        "primary_text_dark": "#FFFFFF",
+        "primary_text_light": "#FFFFFF",
+        "secondary_dark": "#1B1B1B",
+        "secondary_light": "#1B1B1B",
+        "secondary_text_dark": "#FFFFFF",
+        "secondary_text_light": "#FFFFFF"
+      }
+    },
+    "01bfe9d5-f671-57ed-aa60-249fcca9267c": {
+      "abbr": "BAL",
+      "name": "Baltimore Ravens",
+      "colors": {
+        "primary_dark": "#241773",
+        "primary_light": "#241773",
+        "primary_text_dark": "#FFFFFF",
+        "primary_text_light": "#FFFFFF",
+        "secondary_dark": "#1B1B1B",
+        "secondary_light": "#1B1B1B",
+        "secondary_text_dark": "#FFFFFF",
+        "secondary_text_light": "#FFFFFF"
+      }
+    },
+    "0719b253-43db-532e-8b5c-6c12c6c3f951": {
+      "abbr": "BUF",
+      "name": "Buffalo Bills",
+      "colors": {
+        "primary_dark": "#00338D",
+        "primary_light": "#00338D",
+        "primary_text_dark": "#FFFFFF",
+        "primary_text_light": "#FFFFFF",
+        "secondary_dark": "#C60C30",
+        "secondary_light": "#C60C30",
+        "secondary_text_dark": "#FFFFFF",
+        "secondary_text_light": "#FFFFFF"
+      }
+    },
+    "17f3bc4a-e2d6-5dc5-a554-00549ff0139f": {
+      "abbr": "CAR",
+      "name": "Carolina Panthers",
+      "colors": {
+        "primary_dark": "#0085CA",
+        "primary_light": "#0085CA",
+        "primary_text_dark": "#FFFFFF",
+        "primary_text_light": "#FFFFFF",
+        "secondary_dark": "#1B1B1B",
+        "secondary_light": "#1B1B1B",
+        "secondary_text_dark": "#FFFFFF",
+        "secondary_text_light": "#FFFFFF"
+      }
+    },
+    "e8a4678a-ccdb-5f35-be13-aef6e59a5680": {
+      "abbr": "CHI",
+      "name": "Chicago Bears",
+      "colors": {
+        "primary_dark": "#0B162A",
+        "primary_light": "#0B162A",
+        "primary_text_dark": "#FFFFFF",
+        "primary_text_light": "#FFFFFF",
+        "secondary_dark": "#C83803",
+        "secondary_light": "#C83803",
+        "secondary_text_dark": "#FFFFFF",
+        "secondary_text_light": "#FFFFFF"
+      }
+    },
+    "ab235cf0-a041-5d36-8241-90a90f0dcb5e": {
+      "abbr": "CIN",
+      "name": "Cincinnati Bengals",
+      "colors": {
+        "primary_dark": "#FB4F14",
+        "primary_light": "#FB4F14",
+        "primary_text_dark": "#101010",
+        "primary_text_light": "#101010",
+        "secondary_dark": "#1B1B1B",
+        "secondary_light": "#1B1B1B",
+        "secondary_text_dark": "#FFFFFF",
+        "secondary_text_light": "#FFFFFF"
+      }
+    },
+    "338ae7df-02ad-5a94-9767-60f511bd55e1": {
+      "abbr": "CLE",
+      "name": "Cleveland Browns",
+      "colors": {
+        "primary_dark": "#311D00",
+        "primary_light": "#311D00",
+        "primary_text_dark": "#FFFFFF",
+        "primary_text_light": "#FFFFFF",
+        "secondary_dark": "#ff3c00",
+        "secondary_light": "#ff3c00",
+        "secondary_text_dark": "#101010",
+        "secondary_text_light": "#101010"
+      }
+    },
+    "26e67e06-664e-50a6-ad7b-c102705fde8b": {
+      "abbr": "DAL",
+      "name": "Dallas Cowboys",
+      "colors": {
+        "primary_dark": "#003594",
+        "primary_light": "#003594",
+        "primary_text_dark": "#FFFFFF",
+        "primary_text_light": "#FFFFFF",
+        "secondary_dark": "#B0B7BC",
+        "secondary_light": "#B0B7BC",
+        "secondary_text_dark": "#101010",
+        "secondary_text_light": "#101010"
+      }
+    },
+    "7b3b21be-a209-5dee-a3f7-3fae61f52a1e": {
+      "abbr": "DEN",
+      "name": "Denver Broncos",
+      "colors": {
+        "primary_dark": "#FB4F14",
+        "primary_light": "#FB4F14",
+        "primary_text_dark": "#101010",
+        "primary_text_light": "#101010",
+        "secondary_dark": "#002244",
+        "secondary_light": "#002244",
+        "secondary_text_dark": "#FFFFFF",
+        "secondary_text_light": "#FFFFFF"
+      }
+    },
+    "a8980eb6-327f-5bc5-abf9-de1e944b566d": {
+      "abbr": "DET",
+      "name": "Detroit Lions",
+      "colors": {
+        "primary_dark": "#0076B6",
+        "primary_light": "#0076B6",
+        "primary_text_dark": "#FFFFFF",
+        "primary_text_light": "#FFFFFF",
+        "secondary_dark": "#B0B7BC",
+        "secondary_light": "#B0B7BC",
+        "secondary_text_dark": "#101010",
+        "secondary_text_light": "#101010"
+      }
+    },
+    "a2fadaac-562f-5a7e-bd63-6d88d90c1ac4": {
+      "abbr": "GB",
+      "name": "Green Bay Packers",
+      "colors": {
+        "primary_dark": "#203731",
+        "primary_light": "#203731",
+        "primary_text_dark": "#FFFFFF",
+        "primary_text_light": "#FFFFFF",
+        "secondary_dark": "#FFB612",
+        "secondary_light": "#FFB612",
+        "secondary_text_dark": "#101010",
+        "secondary_text_light": "#101010"
+      }
+    },
+    "4ab08caa-b79d-598e-82ef-0906a60d2a89": {
+      "abbr": "HOU",
+      "name": "Houston Texans",
+      "colors": {
+        "primary_dark": "#03202F",
+        "primary_light": "#03202F",
+        "primary_text_dark": "#FFFFFF",
+        "primary_text_light": "#FFFFFF",
+        "secondary_dark": "#A71930",
+        "secondary_light": "#A71930",
+        "secondary_text_dark": "#FFFFFF",
+        "secondary_text_light": "#FFFFFF"
+      }
+    },
+    "f11f1cf1-9933-5203-8181-95020ee64399": {
+      "abbr": "IND",
+      "name": "Indianapolis Colts",
+      "colors": {
+        "primary_dark": "#002C5F",
+        "primary_light": "#002C5F",
+        "primary_text_dark": "#FFFFFF",
+        "primary_text_light": "#FFFFFF",
+        "secondary_dark": "#A2AAAD",
+        "secondary_light": "#A2AAAD",
+        "secondary_text_dark": "#101010",
+        "secondary_text_light": "#101010"
+      }
+    },
+    "b49b653c-dc7c-516e-b1c2-da1b30d1b1a6": {
+      "abbr": "JAX",
+      "name": "Jacksonville Jaguars",
+      "colors": {
+        "primary_dark": "#006778",
+        "primary_light": "#006778",
+        "primary_text_dark": "#FFFFFF",
+        "primary_text_light": "#FFFFFF",
+        "secondary_dark": "#1b1b1b",
+        "secondary_light": "#1b1b1b",
+        "secondary_text_dark": "#FFFFFF",
+        "secondary_text_light": "#FFFFFF"
+      }
+    },
+    "a6f458f4-5078-56e4-a839-af96f1191314": {
+      "abbr": "KC",
+      "name": "Kansas City Chiefs",
+      "colors": {
+        "primary_dark": "#E31837",
+        "primary_light": "#E31837",
+        "primary_text_dark": "#FFFFFF",
+        "primary_text_light": "#FFFFFF",
+        "secondary_dark": "#FFB81C",
+        "secondary_light": "#FFB81C",
+        "secondary_text_dark": "#101010",
+        "secondary_text_light": "#101010"
+      }
+    },
+    "c7b497d4-18b6-522b-abaa-e5c3d24bc021": {
+      "abbr": "LAC",
+      "name": "Los Angeles Chargers",
+      "colors": {
+        "primary_dark": "#0080C6",
+        "primary_light": "#0080C6",
+        "primary_text_dark": "#FFFFFF",
+        "primary_text_light": "#FFFFFF",
+        "secondary_dark": "#FFC20E",
+        "secondary_light": "#FFC20E",
+        "secondary_text_dark": "#101010",
+        "secondary_text_light": "#101010"
+      }
+    },
+    "d150534e-6a05-587b-b9e3-50ef86602e20": {
+      "abbr": "LAR",
+      "name": "Los Angeles Rams",
+      "colors": {
+        "primary_dark": "#003594",
+        "primary_light": "#003594",
+        "primary_text_dark": "#FFFFFF",
+        "primary_text_light": "#FFFFFF",
+        "secondary_dark": "#FFA300",
+        "secondary_light": "#FFA300",
+        "secondary_text_dark": "#101010",
+        "secondary_text_light": "#101010"
+      }
+    },
+    "5ce78c37-b02c-52da-9e4f-fcd65b6ccb76": {
+      "abbr": "LV",
+      "name": "Las Vegas Raiders",
+      "colors": {
+        "primary_dark": "#1B1B1B",
+        "primary_light": "#1B1B1B",
+        "primary_text_dark": "#FFFFFF",
+        "primary_text_light": "#FFFFFF",
+        "secondary_dark": "#A5ACAF",
+        "secondary_light": "#A5ACAF",
+        "secondary_text_dark": "#101010",
+        "secondary_text_light": "#101010"
+      }
+    },
+    "9153e0a9-da83-5246-ba43-417537f1bcce": {
+      "abbr": "MIA",
+      "name": "Miami Dolphins",
+      "colors": {
+        "primary_dark": "#008E97",
+        "primary_light": "#008E97",
+        "primary_text_dark": "#FFFFFF",
+        "primary_text_light": "#FFFFFF",
+        "secondary_dark": "#FC4C02",
+        "secondary_light": "#FC4C02",
+        "secondary_text_dark": "#FFFFFF",
+        "secondary_text_light": "#FFFFFF"
+      }
+    },
+    "5af1e185-627e-5345-851d-3c65c5b66614": {
+      "abbr": "MIN",
+      "name": "Minnesota Vikings",
+      "colors": {
+        "primary_dark": "#4F2683",
+        "primary_light": "#4F2683",
+        "primary_text_dark": "#FFFFFF",
+        "primary_text_light": "#FFFFFF",
+        "secondary_dark": "#FFC62F",
+        "secondary_light": "#FFC62F",
+        "secondary_text_dark": "#101010",
+        "secondary_text_light": "#101010"
+      }
+    },
+    "ef876de9-81ac-5e60-af6e-0ca1700f3a51": {
+      "abbr": "NE",
+      "name": "New England Patriots",
+      "colors": {
+        "primary_dark": "#002244",
+        "primary_light": "#002244",
+        "primary_text_dark": "#FFFFFF",
+        "primary_text_light": "#FFFFFF",
+        "secondary_dark": "#C60C30",
+        "secondary_light": "#C60C30",
+        "secondary_text_dark": "#FFFFFF",
+        "secondary_text_light": "#FFFFFF"
+      }
+    },
+    "530518ed-91db-57c4-9077-27cc0dd9a293": {
+      "abbr": "NO",
+      "name": "New Orleans Saints",
+      "colors": {
+        "primary_dark": "#101820",
+        "primary_light": "#101820",
+        "primary_text_dark": "#FFFFFF",
+        "primary_text_light": "#FFFFFF",
+        "secondary_dark": "#D3BC8D",
+        "secondary_light": "#D3BC8D",
+        "secondary_text_dark": "#101010",
+        "secondary_text_light": "#101010"
+      }
+    },
+    "d40a4380-49a6-5b5f-ab7d-f5393787ed12": {
+      "abbr": "NYG",
+      "name": "New York Giants",
+      "colors": {
+        "primary_dark": "#0B2265",
+        "primary_light": "#0B2265",
+        "primary_text_dark": "#FFFFFF",
+        "primary_text_light": "#FFFFFF",
+        "secondary_dark": "#A71930",
+        "secondary_light": "#A71930",
+        "secondary_text_dark": "#FFFFFF",
+        "secondary_text_light": "#FFFFFF"
+      }
+    },
+    "516ded41-e882-5175-9a00-d0b4c028eb74": {
+      "abbr": "NYJ",
+      "name": "New York Jets",
+      "colors": {
+        "primary_dark": "#125740",
+        "primary_light": "#125740",
+        "primary_text_dark": "#FFFFFF",
+        "primary_text_light": "#FFFFFF",
+        "secondary_dark": "#F0F0F0",
+        "secondary_light": "#F0F0F0",
+        "secondary_text_dark": "#101010",
+        "secondary_text_light": "#101010"
+      }
+    },
+    "de7219e5-92f1-5989-804a-68479055ba42": {
+      "abbr": "PHI",
+      "name": "Philadelphia Eagles",
+      "colors": {
+        "primary_dark": "#004C54",
+        "primary_light": "#004C54",
+        "primary_text_dark": "#FFFFFF",
+        "primary_text_light": "#FFFFFF",
+        "secondary_dark": "#1b1b1b",
+        "secondary_light": "#1b1b1b",
+        "secondary_text_dark": "#FFFFFF",
+        "secondary_text_light": "#FFFFFF"
+      }
+    },
+    "ecc8eb1b-f714-57a6-bcf3-b183dd6c12a8": {
+      "abbr": "PIT",
+      "name": "Pittsburgh Steelers",
+      "colors": {
+        "primary_dark": "#101820",
+        "primary_light": "#101820",
+        "primary_text_dark": "#FFFFFF",
+        "primary_text_light": "#FFFFFF",
+        "secondary_dark": "#FFB612",
+        "secondary_light": "#FFB612",
+        "secondary_text_dark": "#101010",
+        "secondary_text_light": "#101010"
+      }
+    },
+    "31631011-5902-52f6-ba01-c4c8d8eb3fd9": {
+      "abbr": "SEA",
+      "name": "Seattle Seahawks",
+      "colors": {
+        "primary_dark": "#69BE28",
+        "primary_light": "#69BE28",
+        "primary_text_dark": "#FFFFFF",
+        "primary_text_light": "#FFFFFF",
+        "secondary_dark": "#002244",
+        "secondary_light": "#002244",
+        "secondary_text_dark": "#FFFFFF",
+        "secondary_text_light": "#FFFFFF"
+      }
+    },
+    "7161e62b-de20-56e2-a300-0dc23637faaa": {
+      "abbr": "SF",
+      "name": "San Francisco 49ers",
+      "colors": {
+        "primary_dark": "#AA0000",
+        "primary_light": "#AA0000",
+        "primary_text_dark": "#FFFFFF",
+        "primary_text_light": "#FFFFFF",
+        "secondary_dark": "#B3995D",
+        "secondary_light": "#B3995D",
+        "secondary_text_dark": "#101010",
+        "secondary_text_light": "#101010"
+      }
+    },
+    "1a20f1da-c502-5224-9c4a-bc363174cd21": {
+      "abbr": "TB",
+      "name": "Tampa Bay Buccaneers",
+      "colors": {
+        "primary_dark": "#D50A0A",
+        "primary_light": "#D50A0A",
+        "primary_text_dark": "#FFFFFF",
+        "primary_text_light": "#FFFFFF",
+        "secondary_dark": "#34302B",
+        "secondary_light": "#34302B",
+        "secondary_text_dark": "#FFFFFF",
+        "secondary_text_light": "#FFFFFF"
+      }
+    },
+    "f96aa8db-21c2-5b86-b49d-7e64b4eda61d": {
+      "abbr": "TEN",
+      "name": "Tennessee Titans",
+      "colors": {
+        "primary_dark": "#0C2340",
+        "primary_light": "#0C2340",
+        "primary_text_dark": "#FFFFFF",
+        "primary_text_light": "#FFFFFF",
+        "secondary_dark": "#4B92DB",
+        "secondary_light": "#4B92DB",
+        "secondary_text_dark": "#101010",
+        "secondary_text_light": "#101010"
+      }
+    },
+    "a6d8dc19-daaf-5798-a8f2-df7f9fc9eecd": {
+      "abbr": "WAS",
+      "name": "Washington Commanders",
+      "colors": {
+        "primary_dark": "#5A1414",
+        "primary_light": "#5A1414",
+        "primary_text_dark": "#FFFFFF",
+        "primary_text_light": "#FFFFFF",
+        "secondary_dark": "#FFB612",
+        "secondary_light": "#FFB612",
+        "secondary_text_dark": "#101010",
+        "secondary_text_light": "#101010"
+      }
+    }
+  }
+}
