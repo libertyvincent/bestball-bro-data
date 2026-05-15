@@ -135,69 +135,88 @@ def load_team_keys():
 
 # --- PDF parsing --------------------------------------------------------
 # Match a per-team page title (e.g. "2026 Cleveland Browns Projections").
-TITLE_RE = re.compile(r"2026\s+([A-Za-z][A-Za-z'\.\s]+?)\s+Projections\b")
+# Character class allows digits so "49ers" matches.
+TITLE_RE = re.compile(r"2026\s+([A-Za-z][A-Za-z0-9'\.\s]+?)\s+Projections\b")
 
-# Match an offense row line on a per-team page:
-#   <POS> <player name (multi-word)> <16 numeric stats>
-# Player names may contain spaces, periods (C.J., Jr.), apostrophes
-# (Ja'Marr, De'Von), hyphens (Smith-Njigba), and Roman-numeral suffixes
-# (III). The 16 trailing integers are the stat columns in fixed order:
-#   Gm | Pass(Att Comp Yds TD INT Sk) | Rush(Att Yds TD)
-#      | Rec(Tgt Rec Yd TD) | Pts | Rk
-OFFENSE_ROW_RE = re.compile(
-    r"^(?P<pos>QB|RB|WR|TE)\s+"
-    r"(?P<name>[A-Za-z][A-Za-z'\.\-\s]+?)"
-    r"\s+(?P<stats>\d+(?:\s+\d+){15})\s*$"
-)
+# Column order on the offense table (18 columns):
+#   Pos | Player | Gm
+#       | Pass(Att Comp Yds TD INT Sk)
+#       | Rush(Att Yds TD)
+#       | Rec(Tgt Rec Yd TD)
+#       | Pts | Rk
+# Cells[2:18] are the 16 numeric stat columns; cells[0]=Pos, cells[1]=name.
+OFFENSE_HEADER_CELLS = ("Pos", "Player", "Gm")
 
 
-def parse_team_page(text: str, abbr: str) -> list:
-    """Extract QB/RB/WR/TE rows from one team page's extracted text."""
+def parse_team_page(page, abbr: str) -> list:
+    """Extract QB/RB/WR/TE rows from a team page using table extraction.
+
+    The team pages have three side-by-side tables (offense | defense |
+    weekly scores) plus several smaller ones below. extract_text() glues
+    rows across all columns, which made line-regex parsing impossible.
+    extract_tables() respects the drawn table boundaries.
+    """
     players = []
-    for line in text.splitlines():
-        line = line.strip()
-        m = OFFENSE_ROW_RE.match(line)
-        if not m:
+    tables = page.extract_tables() or []
+    for table in tables:
+        if not table or len(table) < 2:
             continue
-        pos = m.group("pos")
-        name = m.group("name").strip()
-        # Filter aggregate "Total" rows -- they share the leading position
-        # token (e.g. "QB Total 34 549 ...") but the name slot reads "Total".
-        if name.lower() == "total":
+        header = [str(c or "").strip() for c in table[0]]
+        # The offense table is the only one starting with Pos | Player | Gm.
+        if len(header) < 18 or tuple(header[:3]) != OFFENSE_HEADER_CELLS:
             continue
-        nums = [int(x) for x in m.group("stats").split()]
-        gm, _att, _comp, p_yds, p_td, _int, _sk, \
-            r_att, r_yds, r_td, \
-            tgt, rec, rec_yd, rec_td, \
-            pts, _rk = nums
-        components = {
-            "pass_yd": p_yds,
-            "pass_td": p_td,
-            "rush_att": r_att,
-            "rush_yd": r_yds,
-            "rush_td": r_td,
-            "targets": tgt,
-            "rec": rec,
-            "rec_yd": rec_yd,
-            "rec_td": rec_td,
-        }
-        proj_total = compute_proj_total(components)
-        proj_ppg = round(proj_total / gm, 2) if gm > 0 else 0.0
-        vor = round(proj_total - REPLACEMENT_LEVELS[pos], 1)
-        players.append({
-            "name": name,
-            "team": abbr,
-            "pos": pos,
-            "games": gm,
-            "proj_total": proj_total,
-            "proj_ppg": proj_ppg,
-            "vor": vor,
-            "tier": assign_tier(vor, pos),
-            "pos_rk": 0,              # half-PPR rank, filled after sorting
-            "clay_pos_rk": 0,         # Clay's full-PPR rank, filled after sorting
-            "clay_ppr_total": pts,
-            "components": components,
-        })
+        for row in table[1:]:
+            cells = [str(c or "").strip() for c in row]
+            if len(cells) < 18:
+                continue
+            pos = cells[0]
+            if pos not in SKILL_POSITIONS:
+                continue
+            name = cells[1]
+            # Skip aggregate "QB Total" / "RB Total" / etc. rows -- they
+            # share the leading position token but the player slot reads
+            # "Total".
+            if not name or name.lower() == "total":
+                continue
+            try:
+                nums = [int(cells[i]) for i in range(2, 18)]
+            except (ValueError, TypeError):
+                # Non-numeric cell -- malformed row, skip it.
+                continue
+            gm, _att, _comp, p_yds, p_td, _int, _sk, \
+                r_att, r_yds, r_td, \
+                tgt, rec, rec_yd, rec_td, \
+                pts, _rk = nums
+            components = {
+                "pass_yd": p_yds,
+                "pass_td": p_td,
+                "rush_att": r_att,
+                "rush_yd": r_yds,
+                "rush_td": r_td,
+                "targets": tgt,
+                "rec": rec,
+                "rec_yd": rec_yd,
+                "rec_td": rec_td,
+            }
+            proj_total = compute_proj_total(components)
+            proj_ppg = round(proj_total / gm, 2) if gm > 0 else 0.0
+            vor = round(proj_total - REPLACEMENT_LEVELS[pos], 1)
+            players.append({
+                "name": name,
+                "team": abbr,
+                "pos": pos,
+                "games": gm,
+                "proj_total": proj_total,
+                "proj_ppg": proj_ppg,
+                "vor": vor,
+                "tier": assign_tier(vor, pos),
+                "pos_rk": 0,              # half-PPR rank, filled after sorting
+                "clay_pos_rk": 0,         # Clay's full-PPR rank, filled after sorting
+                "clay_ppr_total": pts,
+                "components": components,
+            })
+        # Found the offense table -- no need to keep scanning this page.
+        break
     return players
 
 
@@ -228,7 +247,7 @@ def main() -> None:
                 continue
             teams_seen.add(team_name)
             abbr = name_to_abbr[team_name]
-            page_players = parse_team_page(text, abbr)
+            page_players = parse_team_page(page, abbr)
             print(f"[build]   p.{page_num:>3} {team_name:<24} ({abbr}) "
                   f"-> {len(page_players)} players")
             all_players.extend(page_players)
