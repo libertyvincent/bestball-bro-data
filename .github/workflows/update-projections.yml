@@ -1,0 +1,43 @@
+name: Update Clay projections
+
+on:
+  schedule:
+    # Daily at 11:00 UTC (7 AM ET during DST, 6 AM ET in winter).
+    # Clay typically updates the PDF overnight; this catches it before
+    # most US drafters start their day.
+    - cron: "0 11 * * *"
+  workflow_dispatch: {}  # allow manual triggering from the Actions tab
+
+permissions:
+  contents: write  # needed for the bot to push the refreshed JSON
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run build.py
+        run: python build.py
+
+      - name: Commit if projections changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add projections/nfl_2026.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "data: refresh Clay projections $(date -u +%Y-%m-%d)"
+            git push
+          fi
