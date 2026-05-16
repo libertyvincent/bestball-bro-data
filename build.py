@@ -138,85 +138,136 @@ def load_team_keys():
 # Character class allows digits so "49ers" matches.
 TITLE_RE = re.compile(r"2026\s+([A-Za-z][A-Za-z0-9'\.\s]+?)\s+Projections\b")
 
-# Column order on the offense table (18 columns):
+# Vertical tolerance (PDF points) for clustering words into the same logical
+# row. Adjacent rows in Clay's tables are ~10pt apart, so 3pt is safe.
+Y_TOL = 3.0
+
+# Offense table column order (18 columns total):
 #   Pos | Player | Gm
 #       | Pass(Att Comp Yds TD INT Sk)
 #       | Rush(Att Yds TD)
 #       | Rec(Tgt Rec Yd TD)
 #       | Pts | Rk
-# Cells[2:18] are the 16 numeric stat columns; cells[0]=Pos, cells[1]=name.
-OFFENSE_HEADER_CELLS = ("Pos", "Player", "Gm")
+# The 16 numeric stat words follow Pos+Player; cells[2:18] are the stats.
+
+
+def _cluster_into_rows(words):
+    """Group extract_words() output into logical rows by y-coordinate."""
+    rows = []
+    for w in sorted(words, key=lambda w: (w["top"], w["x0"])):
+        if rows and abs(w["top"] - rows[-1][-1]["top"]) <= Y_TOL:
+            rows[-1].append(w)
+        else:
+            rows.append([w])
+    return [sorted(r, key=lambda w: w["x0"]) for r in rows]
+
+
+def _find_offense_header(rows):
+    """Locate the Pos|Player|Gm|...|Rk header row of the offense table.
+    Returns the list of 18 header word dicts (sorted left-to-right), or None.
+    """
+    for row in rows:
+        for i in range(len(row) - 17):
+            texts = [w["text"] for w in row[i:i + 18]]
+            if (texts[0] == "Pos" and texts[1] == "Player"
+                    and texts[2] == "Gm" and texts[-1] == "Rk"):
+                return row[i:i + 18]
+    return None
 
 
 def parse_team_page(page, abbr: str) -> list:
-    """Extract QB/RB/WR/TE rows from a team page using table extraction.
+    """Extract QB/RB/WR/TE rows by clustering extract_words() output into
+    rows and columns.
 
-    The team pages have three side-by-side tables (offense | defense |
-    weekly scores) plus several smaller ones below. extract_text() glues
-    rows across all columns, which made line-regex parsing impossible.
-    extract_tables() respects the drawn table boundaries.
+    This is robust against PDFs whose tables aren't drawn with line objects
+    (Clay's PDF uses background-shaded columns, which pdfplumber's table
+    detection can't see). Algorithm:
+      1. Pull every word on the page with (x0, top, x1).
+      2. Cluster into logical rows by `top` within Y_TOL.
+      3. Find the offense header row by signature ("Pos Player Gm ... Rk").
+      4. Use the header words' x-positions to define the offense table's
+         x-range. The Gm column's x-start separates the player-name words
+         (to the left) from the 16 stat words (to the right).
+      5. For each subsequent row whose first offense-range word is a skill
+         position (QB/RB/WR/TE), assemble name + stats and emit a player.
     """
+    try:
+        words = page.extract_words(use_text_flow=False)
+    except Exception:
+        return []
+    if not words:
+        return []
+
+    rows = _cluster_into_rows(words)
+    header = _find_offense_header(rows)
+    if not header:
+        return []
+
+    # x-boundaries of the offense table (with small tolerance pads).
+    x_left = header[0]["x0"] - 5
+    x_right = header[-1]["x1"] + 8
+    # Words at or right of `gm_x_start` are stat columns (Gm and onward);
+    # words to the left of it are the player-name fragments.
+    gm_x_start = header[2]["x0"] - 2
+    header_top = header[0]["top"]
+
     players = []
-    tables = page.extract_tables() or []
-    for table in tables:
-        if not table or len(table) < 2:
+    for row in rows:
+        # Skip rows at or above the header line.
+        if row[0]["top"] <= header_top + Y_TOL:
             continue
-        header = [str(c or "").strip() for c in table[0]]
-        # The offense table is the only one starting with Pos | Player | Gm.
-        if len(header) < 18 or tuple(header[:3]) != OFFENSE_HEADER_CELLS:
+        # Keep only words within the offense x-range.
+        offense = [w for w in row if x_left <= w["x0"] <= x_right]
+        if not offense:
             continue
-        for row in table[1:]:
-            cells = [str(c or "").strip() for c in row]
-            if len(cells) < 18:
-                continue
-            pos = cells[0]
-            if pos not in SKILL_POSITIONS:
-                continue
-            name = cells[1]
-            # Skip aggregate "QB Total" / "RB Total" / etc. rows -- they
-            # share the leading position token but the player slot reads
-            # "Total".
-            if not name or name.lower() == "total":
-                continue
-            try:
-                nums = [int(cells[i]) for i in range(2, 18)]
-            except (ValueError, TypeError):
-                # Non-numeric cell -- malformed row, skip it.
-                continue
-            gm, _att, _comp, p_yds, p_td, _int, _sk, \
-                r_att, r_yds, r_td, \
-                tgt, rec, rec_yd, rec_td, \
-                pts, _rk = nums
-            components = {
-                "pass_yd": p_yds,
-                "pass_td": p_td,
-                "rush_att": r_att,
-                "rush_yd": r_yds,
-                "rush_td": r_td,
-                "targets": tgt,
-                "rec": rec,
-                "rec_yd": rec_yd,
-                "rec_td": rec_td,
-            }
-            proj_total = compute_proj_total(components)
-            proj_ppg = round(proj_total / gm, 2) if gm > 0 else 0.0
-            vor = round(proj_total - REPLACEMENT_LEVELS[pos], 1)
-            players.append({
-                "name": name,
-                "team": abbr,
-                "pos": pos,
-                "games": gm,
-                "proj_total": proj_total,
-                "proj_ppg": proj_ppg,
-                "vor": vor,
-                "tier": assign_tier(vor, pos),
-                "pos_rk": 0,              # half-PPR rank, filled after sorting
-                "clay_pos_rk": 0,         # Clay's full-PPR rank, filled after sorting
-                "clay_ppr_total": pts,
-                "components": components,
-            })
-        # Found the offense table -- no need to keep scanning this page.
-        break
+        pos = offense[0]["text"]
+        if pos not in SKILL_POSITIONS:
+            continue
+        # Split remaining words into name fragments vs stat numbers.
+        name_parts, stat_parts = [], []
+        for w in offense[1:]:
+            (name_parts if w["x0"] < gm_x_start else stat_parts).append(w["text"])
+        name = " ".join(name_parts).strip()
+        if not name or name.lower() == "total":
+            continue
+        if len(stat_parts) < 16:
+            continue
+        try:
+            nums = [int(s) for s in stat_parts[:16]]
+        except ValueError:
+            continue
+        gm, _att, _comp, p_yds, p_td, _int, _sk, \
+            r_att, r_yds, r_td, \
+            tgt, rec, rec_yd, rec_td, \
+            pts, _rk = nums
+        components = {
+            "pass_yd": p_yds,
+            "pass_td": p_td,
+            "rush_att": r_att,
+            "rush_yd": r_yds,
+            "rush_td": r_td,
+            "targets": tgt,
+            "rec": rec,
+            "rec_yd": rec_yd,
+            "rec_td": rec_td,
+        }
+        proj_total = compute_proj_total(components)
+        proj_ppg = round(proj_total / gm, 2) if gm > 0 else 0.0
+        vor = round(proj_total - REPLACEMENT_LEVELS[pos], 1)
+        players.append({
+            "name": name,
+            "team": abbr,
+            "pos": pos,
+            "games": gm,
+            "proj_total": proj_total,
+            "proj_ppg": proj_ppg,
+            "vor": vor,
+            "tier": assign_tier(vor, pos),
+            "pos_rk": 0,              # half-PPR rank, filled after sorting
+            "clay_pos_rk": 0,         # Clay's full-PPR rank, filled after sorting
+            "clay_ppr_total": pts,
+            "components": components,
+        })
     return players
 
 
