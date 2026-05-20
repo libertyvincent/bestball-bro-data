@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "version": "2026-05-19",
-    "generated_at": "2026-05-19T13:55:20.653793+00:00",
+    "version": "2026-05-20",
+    "generated_at": "2026-05-20T13:38:09.687695+00:00",
     "season": 2026,
     "sport": "NFL",
     "scoring": "underdog_half_ppr",
@@ -540,7 +540,7 @@
       "tier": 3,
       "pos_rk": 22,
       "clay_pos_rk": 22,
-      "clay_ppr_total": 245,
+      "clay_ppr_total": 246,
       "components": {
         "pass_yd": 3946,
         "pass_td": 21,
@@ -4882,7 +4882,7 @@
       "proj_ppg": 9.78,
       "vor": 66.3,
       "tier": 3,
-      "pos_rk": 30,
+      "pos_rk": 29,
       "clay_pos_rk": 28,
       "clay_ppr_total": 206,
       "components": {
@@ -4926,11 +4926,11 @@
       "team": "IND",
       "pos": "WR",
       "games": 17,
-      "proj_total": 166.4,
-      "proj_ppg": 9.79,
-      "vor": 66.4,
+      "proj_total": 166.3,
+      "proj_ppg": 9.78,
+      "vor": 66.3,
       "tier": 3,
-      "pos_rk": 29,
+      "pos_rk": 30,
       "clay_pos_rk": 30,
       "clay_ppr_total": 203,
       "components": {
@@ -4941,7 +4941,7 @@
         "rush_td": 0,
         "targets": 115,
         "rec": 68,
-        "rec_yd": 1024,
+        "rec_yd": 1023,
         "rec_td": 5
       }
     },
@@ -5454,9 +5454,9 @@
       "team": "IND",
       "pos": "WR",
       "games": 17,
-      "proj_total": 128.9,
+      "proj_total": 128.8,
       "proj_ppg": 7.58,
-      "vor": 28.9,
+      "vor": 28.8,
       "tier": 4,
       "pos_rk": 53,
       "clay_pos_rk": 52,
@@ -5469,7 +5469,7 @@
         "rush_td": 0,
         "targets": 105,
         "rec": 76,
-        "rec_yd": 718,
+        "rec_yd": 717,
         "rec_td": 3
       }
     },
