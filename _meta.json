@@ -1,0 +1,13 @@
+{
+  "season": 2026,
+  "generated_at": "2026-05-21T05:33:42Z",
+  "files": {
+    "projections": {
+      "path": "v1/projections/nfl_2026.json",
+      "version": "0.0.1",
+      "sha256": "703c264c9edb0d222e03531276f44a81d4b665bf727fe6a51b77d76c9ab1c944"
+    }
+  },
+  "tournaments": [],
+  "scoring_systems": []
+}
