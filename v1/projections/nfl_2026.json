@@ -1,0 +1,255 @@
+{
+  "_meta": {
+    "season": 2026,
+    "scoring": "half_ppr_underdog",
+    "generated_at": "2026-05-21T05:33:42Z",
+    "model_version": "0.0.1",
+    "n_players": 9,
+    "methodology": "v0_prior_season_passthrough"
+  },
+  "players": [
+    {
+      "name": "Josh Allen",
+      "team": "BUF",
+      "position": "QB",
+      "gsis_id": "00-0000001",
+      "season": {
+        "mean": 354,
+        "median": 354,
+        "std": 22.5,
+        "percentiles": {
+          "p10": 325.2,
+          "p25": 338.8,
+          "p50": 354,
+          "p75": 369.2,
+          "p90": 382.8,
+          "p95": 391
+        },
+        "games_played": {
+          "mean": 16,
+          "p10": 13,
+          "p50": 16,
+          "p90": 17
+        }
+      },
+      "vor": 354,
+      "position_rank": "QB1"
+    },
+    {
+      "name": "Patrick Mahomes",
+      "team": "KC",
+      "position": "QB",
+      "gsis_id": "00-0000005",
+      "season": {
+        "mean": 332,
+        "median": 332,
+        "std": 22.5,
+        "percentiles": {
+          "p10": 303.2,
+          "p25": 316.8,
+          "p50": 332,
+          "p75": 347.2,
+          "p90": 360.8,
+          "p95": 369
+        },
+        "games_played": {
+          "mean": 16,
+          "p10": 13,
+          "p50": 16,
+          "p90": 17
+        }
+      },
+      "vor": 332,
+      "position_rank": "QB2"
+    },
+    {
+      "name": "Bijan Robinson",
+      "team": "ATL",
+      "position": "RB",
+      "gsis_id": "00-0000002",
+      "season": {
+        "mean": 330.5,
+        "median": 330.5,
+        "std": 42.7,
+        "percentiles": {
+          "p10": 275.8,
+          "p25": 301.7,
+          "p50": 330.5,
+          "p75": 359.3,
+          "p90": 385.2,
+          "p95": 400.7
+        },
+        "games_played": {
+          "mean": 16,
+          "p10": 13,
+          "p50": 16,
+          "p90": 17
+        }
+      },
+      "vor": 330.5,
+      "position_rank": "RB1"
+    },
+    {
+      "name": "Rookie WR",
+      "team": "JAX",
+      "position": "WR",
+      "gsis_id": "00-0000009",
+      "season": {
+        "mean": 264.8,
+        "median": 264.8,
+        "std": 24.5,
+        "percentiles": {
+          "p10": 233.4,
+          "p25": 248.2,
+          "p50": 264.8,
+          "p75": 281.3,
+          "p90": 296.1,
+          "p95": 305
+        },
+        "games_played": {
+          "mean": 16,
+          "p10": 13,
+          "p50": 16,
+          "p90": 17
+        }
+      },
+      "vor": 264.8,
+      "position_rank": "WR1"
+    },
+    {
+      "name": "Christian McCaffrey",
+      "team": "SF",
+      "position": "RB",
+      "gsis_id": "00-0000006",
+      "season": {
+        "mean": 253,
+        "median": 253,
+        "std": 42.7,
+        "percentiles": {
+          "p10": 198.3,
+          "p25": 224.2,
+          "p50": 253,
+          "p75": 281.8,
+          "p90": 307.7,
+          "p95": 323.2
+        },
+        "games_played": {
+          "mean": 16,
+          "p10": 13,
+          "p50": 16,
+          "p90": 17
+        }
+      },
+      "vor": 253,
+      "position_rank": "RB2"
+    },
+    {
+      "name": "CeeDee Lamb",
+      "team": "DAL",
+      "position": "WR",
+      "gsis_id": "00-0000003",
+      "season": {
+        "mean": 252.5,
+        "median": 252.5,
+        "std": 24.5,
+        "percentiles": {
+          "p10": 221.1,
+          "p25": 236,
+          "p50": 252.5,
+          "p75": 269,
+          "p90": 283.9,
+          "p95": 292.8
+        },
+        "games_played": {
+          "mean": 16,
+          "p10": 13,
+          "p50": 16,
+          "p90": 17
+        }
+      },
+      "vor": 252.5,
+      "position_rank": "WR2"
+    },
+    {
+      "name": "Justin Jefferson",
+      "team": "MIN",
+      "position": "WR",
+      "gsis_id": "00-0000007",
+      "season": {
+        "mean": 234,
+        "median": 234,
+        "std": 24.5,
+        "percentiles": {
+          "p10": 202.6,
+          "p25": 217.5,
+          "p50": 234,
+          "p75": 250.5,
+          "p90": 265.4,
+          "p95": 274.3
+        },
+        "games_played": {
+          "mean": 16,
+          "p10": 13,
+          "p50": 16,
+          "p90": 17
+        }
+      },
+      "vor": 234,
+      "position_rank": "WR3"
+    },
+    {
+      "name": "Sam LaPorta",
+      "team": "DET",
+      "position": "TE",
+      "gsis_id": "00-0000004",
+      "season": {
+        "mean": 158.5,
+        "median": 158.5,
+        "std": 29.8,
+        "percentiles": {
+          "p10": 120.4,
+          "p25": 138.4,
+          "p50": 158.5,
+          "p75": 178.6,
+          "p90": 196.6,
+          "p95": 207.4
+        },
+        "games_played": {
+          "mean": 16,
+          "p10": 13,
+          "p50": 16,
+          "p90": 17
+        }
+      },
+      "vor": 158.5,
+      "position_rank": "TE1"
+    },
+    {
+      "name": "Travis Kelce",
+      "team": "KC",
+      "position": "TE",
+      "gsis_id": "00-0000008",
+      "season": {
+        "mean": 119,
+        "median": 119,
+        "std": 29.8,
+        "percentiles": {
+          "p10": 80.9,
+          "p25": 98.9,
+          "p50": 119,
+          "p75": 139.1,
+          "p90": 157.1,
+          "p95": 167.9
+        },
+        "games_played": {
+          "mean": 16,
+          "p10": 13,
+          "p50": 16,
+          "p90": 17
+        }
+      },
+      "vor": 119,
+      "position_rank": "TE2"
+    }
+  ]
+}
