@@ -1,13 +1,12 @@
 {
   "season": 2026,
-  "generated_at": "2026-05-24T05:51:35Z",
-  "files": {
-    "projections": {
-      "path": "v1/projections/nfl_2026.json",
-      "version": "0.0.1",
-      "sha256": "31a096477852cf4f98fa692bb4754b0014f4e230923e8912eebdcc0b239038ab"
+  "generated_at": "2026-05-24T23:23:24Z",
+  "slates": {
+    "nfl_2026_season": {
+      "underdog_slate_id": "a9c04e81-1ace-4b16-a31d-4c725a47f16f",
+      "path": "v1/projections/nfl_2026_season.json",
+      "sha256": "1cec6d08e5905decdca6c2c3a8c6dc12ec13dd85b652679fc228d9dabe506c0f",
+      "version": "1.0.0"
     }
-  },
-  "tournaments": [],
-  "scoring_systems": []
+  }
 }
