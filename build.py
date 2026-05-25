@@ -633,6 +633,10 @@ def main() -> None:
     print("[build] starting Clay projections build")
     abbrs, name_to_abbr = load_team_keys()
     print(f"[build] loaded {len(abbrs)} canonical team abbreviations")
+    # --- DEBUG (unit-grades only) ----------------------------------------
+    # Echo the exact regex compiled into UNIT_GRADE_RE so we can confirm
+    # the previous fix landed on the intended pattern.
+    print(f"[debug] UNIT_GRADE_RE.pattern = {UNIT_GRADE_RE.pattern!r}")
 
     response = requests.get(SOURCE_URL, timeout=60)
     response.raise_for_status()
@@ -685,6 +689,44 @@ def main() -> None:
             # team rows wins. Defensive against ESPN page-number changes.
             if "Off Gr" in text and "Def Gr" in text:
                 candidate = parse_unit_grades_page(text, name_to_abbr)
+                # --- DEBUG (unit-grades only) -------------------------
+                # The parser is rejecting the page that obviously holds
+                # the table; instrument the scan so we can see, for
+                # every candidate page: line count, raw-regex match
+                # count, and how many of those rows resolved to a known
+                # team abbr. For any candidate page that doesn't reach
+                # 32 resolved teams, dump the header (first 5 lines)
+                # plus every line whose token shape looks like a
+                # grade row (>=13 numeric tokens), marking whether it
+                # matched UNIT_GRADE_RE and, if so, what team name was
+                # extracted (so we can see name-vs-abbr mismatches).
+                lines = text.splitlines()
+                stripped = [ln.strip() for ln in lines]
+                raw_matches = [ln for ln in stripped if UNIT_GRADE_RE.match(ln)]
+                print(f"[debug] unit_grades scan: page {page_num} -> "
+                      f"{len(lines)} lines, {len(raw_matches)} regex matches, "
+                      f"{len(candidate)} teams resolved")
+                if len(candidate) < EXPECTED_TEAM_COUNT:
+                    print(f"[debug]   page {page_num} first 5 lines:")
+                    for ln_num, line in enumerate(stripped[:5], start=1):
+                        print(f"[debug]     L{ln_num:>2}: {line!r}")
+                    num_re = re.compile(r"^\d+(?:\.\d+)?$")
+                    for ln_num, line in enumerate(stripped, start=1):
+                        toks = line.split()
+                        numeric = sum(1 for t in toks if num_re.match(t))
+                        if numeric < 13:
+                            continue
+                        m = UNIT_GRADE_RE.match(line)
+                        if m:
+                            tname = m.group("team").strip()
+                            resolved = name_to_abbr.get(tname)
+                            print(f"[debug]   L{ln_num:>3} MATCH "
+                                  f"team={tname!r} -> abbr={resolved!r}: "
+                                  f"{line!r}")
+                        else:
+                            print(f"[debug]   L{ln_num:>3} NO-MATCH "
+                                  f"({numeric} numeric tokens): {line!r}")
+                # ------------------------------------------------------
                 if len(candidate) > len(grades_parsed):
                     grades_parsed = candidate
 
