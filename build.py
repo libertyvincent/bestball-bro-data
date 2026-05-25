@@ -525,6 +525,8 @@ def validate_offense_vs_legacy(offense_players: list,
     """
     legacy_by_key = {f"{p['name']}|{p['team']}|{p['pos']}": p
                      for p in legacy_players.values()}
+    offense_by_key = {f"{op['name']}|{op['team']}|{op['position']}": op
+                      for op in offense_players}
     drift = []      # small/expected
     suspect = []    # too large to be int/fumble delta alone
     for op in offense_players:
@@ -538,10 +540,27 @@ def validate_offense_vs_legacy(offense_players: list,
                             lp["proj_total"], delta))
         elif abs(delta) > 0.5:
             drift.append(delta)
+    # --- DEBUG (cross-feed only) ----------------------------------------
+    # Unconditional named baseline (Josh Allen, BUF QB — canonical
+    # high-INT high-rush-TD QB) so we always see the same player's
+    # breakdown across runs. Then for every suspect (up to 10), dump
+    # the same side-by-side, so we can attribute the delta to a
+    # specific scoring rule (INT, fumble, missing field) rather than
+    # guess. The print path is below; we exit AFTER the dump.
+    allen_key = "Josh Allen|BUF|QB"
+    if allen_key in offense_by_key and allen_key in legacy_by_key:
+        _dump_cross_feed_breakdown(offense_by_key[allen_key],
+                                   legacy_by_key[allen_key],
+                                   "named-baseline")
+    # --------------------------------------------------------------------
     if suspect:
         for k, a, b, d in suspect[:10]:
             print(f"[build] ERROR half-PPR drift >25pt: {k} "
                   f"offense={a} legacy={b} delta={d:+.1f}")
+            op = offense_by_key.get(k)
+            lp = legacy_by_key.get(k)
+            if op and lp:
+                _dump_cross_feed_breakdown(op, lp, "suspect")
         if len(suspect) > 10:
             print(f"[build]   ... and {len(suspect) - 10} more")
         sys.exit(f"[build] {len(suspect)} player(s) exceeded the "
@@ -549,6 +568,60 @@ def validate_offense_vs_legacy(offense_players: list,
     if drift:
         print(f"[build] half-PPR cross-feed: {len(drift)} players drifted "
               f"0.5-25pt vs legacy (expected — INT/fumble rule delta)")
+
+
+def _dump_cross_feed_breakdown(op: dict, lp: dict, label: str) -> None:
+    """Side-by-side dump: raw stat panel, legacy per-component
+    contributions, offense feed's clay_full_ppr → half-PPR derivation,
+    and an INT-attribution sketch so the source of any delta is
+    obvious from the log. Read-only diagnostic — does not change the
+    cross-feed threshold or the validator's exit behavior."""
+    key = f"{op['name']}|{op['team']}|{op['position']}"
+    comp = lp["components"]
+    legacy_total = lp["proj_total"]
+    offense_total = op["projected_points_half_ppr"]
+    clay_full = op["projected_points_full_ppr"]
+    delta = legacy_total - offense_total
+    print(f"[debug] cross-feed {label}: {key}")
+    print(f"[debug]   raw stats: games={op['games']} "
+          f"pass_att={op['passing_attempts']} "
+          f"pass_comp={op['passing_completions']} "
+          f"pass_yds={op['passing_yards']} "
+          f"pass_tds={op['passing_tds']} "
+          f"pass_ints={op['passing_ints']} "
+          f"rush_att={op['rushing_attempts']} "
+          f"rush_yds={op['rushing_yards']} "
+          f"rush_tds={op['rushing_tds']} "
+          f"tgt={op['targets']} rec={op['receptions']} "
+          f"rec_yds={op['receiving_yards']} "
+          f"rec_tds={op['receiving_tds']}")
+    print(f"[debug]   legacy components: {comp}")
+    print(f"[debug]   legacy proj_total = {legacy_total:.1f} "
+          f"(half-PPR; no INT/fumble penalty)")
+    print(f"[debug]     pass_yd*0.04 = {comp['pass_yd']*0.04:>7.1f}")
+    print(f"[debug]     pass_td*4    = {comp['pass_td']*4:>7.1f}")
+    print(f"[debug]     rush_yd*0.1  = {comp['rush_yd']*0.1:>7.1f}")
+    print(f"[debug]     rush_td*6    = {comp['rush_td']*6:>7.1f}")
+    print(f"[debug]     rec*0.5      = {comp['rec']*0.5:>7.1f}")
+    print(f"[debug]     rec_yd*0.1   = {comp['rec_yd']*0.1:>7.1f}")
+    print(f"[debug]     rec_td*6     = {comp['rec_td']*6:>7.1f}")
+    print(f"[debug]   offense feed:")
+    print(f"[debug]     clay_full_ppr  = {clay_full:>7.1f} (PDF Pts column)")
+    print(f"[debug]     0.5 * rec      = {0.5*op['receptions']:>7.1f}")
+    print(f"[debug]     half-PPR total = {offense_total:>7.1f} "
+          f"(= clay_full_ppr - 0.5*rec)")
+    print(f"[debug]   delta = legacy({legacy_total:.1f}) - "
+          f"offense({offense_total:.1f}) = {delta:+.1f}")
+    # Attribution sketch: under CLAY_NATIVE_SCORING the only penalties
+    # Clay applies that compute_proj_total omits are INT*(-2) and
+    # fumble_lost*(-2). If `delta` is close to `2*pass_ints`, INTs are
+    # the entire story; any residual is the fumble term (which the
+    # PDF row doesn't expose, so we can only infer it).
+    int_explain = 2 * op["passing_ints"]
+    residual = delta - int_explain
+    print(f"[debug]   attribution: INT penalty (2*{op['passing_ints']}) "
+          f"= {int_explain}pt; residual after INTs = {residual:+.1f} "
+          f"(implied fumble_lost*(-2) + rounding if positive)")
 
 
 # --- Feed assembly ------------------------------------------------------
