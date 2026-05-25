@@ -69,25 +69,32 @@ REPLACEMENT_LEVELS = {"QB": 200.0, "RB": 110.0, "WR": 100.0, "TE": 85.0}
 SCORING_RULES = {
     "pass_yd": 0.04,
     "pass_td": 4.0,
+    "pass_int": -1.0,
     "rush_yd": 0.1,
     "rush_td": 6.0,
     "rec": 0.5,
     "rec_yd": 0.1,
     "rec_td": 6.0,
 }
-# Clay's PDF uses its own native scoring (full PPR, 4 pts/pass TD,
-# -2/INT). Echoed into the offense source feed's _meta so downstream
-# consumers don't have to guess.
+# Underdog full-PPR scoring rules — the source rules Clay's PDF Pts
+# column is computed against. The half-PPR projection we publish is
+# derived from this by swapping reception 1.0 → 0.5. Interception is
+# -1 (Underdog's published rule, not -2 as we previously assumed);
+# fumble_lost (-2) and two_pt_conversion (+2) are listed for
+# completeness but neither stat is exposed as a per-row column in the
+# PDF, so the half-PPR reconstruction in compute_proj_total can't
+# apply them — they live implicitly inside Clay's published Pts.
 CLAY_NATIVE_SCORING = {
     "passing_yard": 0.04,
     "passing_td": 4,
-    "interception": -2,
+    "interception": -1,
     "rushing_yard": 0.1,
     "rushing_td": 6,
     "reception": 1.0,
     "receiving_yard": 0.1,
     "receiving_td": 6,
     "fumble_lost": -2,
+    "two_pt_conversion": 2,
 }
 
 # --- Team abbreviation normalization ------------------------------------
@@ -135,15 +142,21 @@ def assign_tier(vor: float, pos: str) -> int:
 
 
 def compute_proj_total(c: dict) -> float:
-    """Fantasy points from component stats. Underdog half-PPR scoring."""
+    """Fantasy points from component stats. Underdog half-PPR scoring.
+
+    Applies the INT penalty (-1) — previous omission inflated QB
+    projections by 15-20 points each. fumble_lost and two_pt_conversion
+    aren't in the per-row stat extract, so they aren't applied here;
+    they're already baked into Clay's Pts column on the offense feed."""
     return round(
-        c["pass_yd"] * SCORING_RULES["pass_yd"]
-        + c["pass_td"] * SCORING_RULES["pass_td"]
-        + c["rush_yd"] * SCORING_RULES["rush_yd"]
-        + c["rush_td"] * SCORING_RULES["rush_td"]
-        + c["rec"]     * SCORING_RULES["rec"]
-        + c["rec_yd"]  * SCORING_RULES["rec_yd"]
-        + c["rec_td"]  * SCORING_RULES["rec_td"],
+        c["pass_yd"]  * SCORING_RULES["pass_yd"]
+        + c["pass_td"]  * SCORING_RULES["pass_td"]
+        + c["pass_int"] * SCORING_RULES["pass_int"]
+        + c["rush_yd"]  * SCORING_RULES["rush_yd"]
+        + c["rush_td"]  * SCORING_RULES["rush_td"]
+        + c["rec"]      * SCORING_RULES["rec"]
+        + c["rec_yd"]   * SCORING_RULES["rec_yd"]
+        + c["rec_td"]   * SCORING_RULES["rec_td"],
         1,
     )
 
@@ -283,9 +296,12 @@ def parse_offense_rows(text: str) -> list:
             r_att, r_yds, r_td, \
             tgt, rec, rec_yd, rec_td, \
             pts, _rk = nums
-        # Legacy-feed components (half-PPR pipeline).
+        # Legacy-feed components (half-PPR pipeline). pass_int is
+        # included so compute_proj_total can apply the -1/INT penalty
+        # downstream; previous schema omitted it and that's what
+        # inflated QB proj_totals.
         components = {
-            "pass_yd": p_yds, "pass_td": p_td,
+            "pass_yd": p_yds, "pass_td": p_td, "pass_int": p_int,
             "rush_att": r_att, "rush_yd": r_yds, "rush_td": r_td,
             "targets": tgt, "rec": rec, "rec_yd": rec_yd, "rec_td": rec_td,
         }
@@ -515,18 +531,16 @@ def validate_offense_vs_legacy(offense_players: list,
     """Cross-feed reconciliation: legacy proj_total vs offense
     projected_points_half_ppr for the same player.
 
-    These won't be exactly equal — the offense feed derives half-PPR
-    as (Clay's full-PPR total) - (0.5 * receptions), which carries
-    Clay's INT and fumble penalties; the legacy proj_total recomputes
-    from the components dict with a stripped-down rule set that omits
-    INT/fumble penalties. Expect a few points of drift on QBs with
-    high INT counts. Anything past ~25 points indicates a real
-    methodology bug — fail loudly so we don't ship corrupted output.
+    These won't be exactly equal. compute_proj_total applies the
+    INT penalty (-1) but can't apply fumble_lost (-2) or
+    two_pt_conversion (+2) because neither stat is exposed as a
+    per-row column in the PDF — both are implicit in Clay's Pts.
+    Expected residual drift is small (a few points; fumble counts
+    are low). Anything past 25pt indicates a real methodology bug
+    — fail loudly so we don't ship corrupted output.
     """
     legacy_by_key = {f"{p['name']}|{p['team']}|{p['pos']}": p
                      for p in legacy_players.values()}
-    offense_by_key = {f"{op['name']}|{op['team']}|{op['position']}": op
-                      for op in offense_players}
     drift = []      # small/expected
     suspect = []    # too large to be int/fumble delta alone
     for op in offense_players:
@@ -540,88 +554,17 @@ def validate_offense_vs_legacy(offense_players: list,
                             lp["proj_total"], delta))
         elif abs(delta) > 0.5:
             drift.append(delta)
-    # --- DEBUG (cross-feed only) ----------------------------------------
-    # Unconditional named baseline (Josh Allen, BUF QB — canonical
-    # high-INT high-rush-TD QB) so we always see the same player's
-    # breakdown across runs. Then for every suspect (up to 10), dump
-    # the same side-by-side, so we can attribute the delta to a
-    # specific scoring rule (INT, fumble, missing field) rather than
-    # guess. The print path is below; we exit AFTER the dump.
-    allen_key = "Josh Allen|BUF|QB"
-    if allen_key in offense_by_key and allen_key in legacy_by_key:
-        _dump_cross_feed_breakdown(offense_by_key[allen_key],
-                                   legacy_by_key[allen_key],
-                                   "named-baseline")
-    # --------------------------------------------------------------------
     if suspect:
         for k, a, b, d in suspect[:10]:
             print(f"[build] ERROR half-PPR drift >25pt: {k} "
                   f"offense={a} legacy={b} delta={d:+.1f}")
-            op = offense_by_key.get(k)
-            lp = legacy_by_key.get(k)
-            if op and lp:
-                _dump_cross_feed_breakdown(op, lp, "suspect")
         if len(suspect) > 10:
             print(f"[build]   ... and {len(suspect) - 10} more")
         sys.exit(f"[build] {len(suspect)} player(s) exceeded the "
                  f"25pt cross-feed drift threshold")
     if drift:
         print(f"[build] half-PPR cross-feed: {len(drift)} players drifted "
-              f"0.5-25pt vs legacy (expected — INT/fumble rule delta)")
-
-
-def _dump_cross_feed_breakdown(op: dict, lp: dict, label: str) -> None:
-    """Side-by-side dump: raw stat panel, legacy per-component
-    contributions, offense feed's clay_full_ppr → half-PPR derivation,
-    and an INT-attribution sketch so the source of any delta is
-    obvious from the log. Read-only diagnostic — does not change the
-    cross-feed threshold or the validator's exit behavior."""
-    key = f"{op['name']}|{op['team']}|{op['position']}"
-    comp = lp["components"]
-    legacy_total = lp["proj_total"]
-    offense_total = op["projected_points_half_ppr"]
-    clay_full = op["projected_points_full_ppr"]
-    delta = legacy_total - offense_total
-    print(f"[debug] cross-feed {label}: {key}")
-    print(f"[debug]   raw stats: games={op['games']} "
-          f"pass_att={op['passing_attempts']} "
-          f"pass_comp={op['passing_completions']} "
-          f"pass_yds={op['passing_yards']} "
-          f"pass_tds={op['passing_tds']} "
-          f"pass_ints={op['passing_ints']} "
-          f"rush_att={op['rushing_attempts']} "
-          f"rush_yds={op['rushing_yards']} "
-          f"rush_tds={op['rushing_tds']} "
-          f"tgt={op['targets']} rec={op['receptions']} "
-          f"rec_yds={op['receiving_yards']} "
-          f"rec_tds={op['receiving_tds']}")
-    print(f"[debug]   legacy components: {comp}")
-    print(f"[debug]   legacy proj_total = {legacy_total:.1f} "
-          f"(half-PPR; no INT/fumble penalty)")
-    print(f"[debug]     pass_yd*0.04 = {comp['pass_yd']*0.04:>7.1f}")
-    print(f"[debug]     pass_td*4    = {comp['pass_td']*4:>7.1f}")
-    print(f"[debug]     rush_yd*0.1  = {comp['rush_yd']*0.1:>7.1f}")
-    print(f"[debug]     rush_td*6    = {comp['rush_td']*6:>7.1f}")
-    print(f"[debug]     rec*0.5      = {comp['rec']*0.5:>7.1f}")
-    print(f"[debug]     rec_yd*0.1   = {comp['rec_yd']*0.1:>7.1f}")
-    print(f"[debug]     rec_td*6     = {comp['rec_td']*6:>7.1f}")
-    print(f"[debug]   offense feed:")
-    print(f"[debug]     clay_full_ppr  = {clay_full:>7.1f} (PDF Pts column)")
-    print(f"[debug]     0.5 * rec      = {0.5*op['receptions']:>7.1f}")
-    print(f"[debug]     half-PPR total = {offense_total:>7.1f} "
-          f"(= clay_full_ppr - 0.5*rec)")
-    print(f"[debug]   delta = legacy({legacy_total:.1f}) - "
-          f"offense({offense_total:.1f}) = {delta:+.1f}")
-    # Attribution sketch: under CLAY_NATIVE_SCORING the only penalties
-    # Clay applies that compute_proj_total omits are INT*(-2) and
-    # fumble_lost*(-2). If `delta` is close to `2*pass_ints`, INTs are
-    # the entire story; any residual is the fumble term (which the
-    # PDF row doesn't expose, so we can only infer it).
-    int_explain = 2 * op["passing_ints"]
-    residual = delta - int_explain
-    print(f"[debug]   attribution: INT penalty (2*{op['passing_ints']}) "
-          f"= {int_explain}pt; residual after INTs = {residual:+.1f} "
-          f"(implied fumble_lost*(-2) + rounding if positive)")
+              f"0.5-25pt vs legacy (expected — fumble residual)")
 
 
 # --- Feed assembly ------------------------------------------------------
@@ -706,10 +649,6 @@ def main() -> None:
     print("[build] starting Clay projections build")
     abbrs, name_to_abbr = load_team_keys()
     print(f"[build] loaded {len(abbrs)} canonical team abbreviations")
-    # --- DEBUG (unit-grades only) ----------------------------------------
-    # Echo the exact regex compiled into UNIT_GRADE_RE so we can confirm
-    # the previous fix landed on the intended pattern.
-    print(f"[debug] UNIT_GRADE_RE.pattern = {UNIT_GRADE_RE.pattern!r}")
 
     response = requests.get(SOURCE_URL, timeout=60)
     response.raise_for_status()
@@ -757,47 +696,13 @@ def main() -> None:
                           f"-> {len(page_players)} players, "
                           f"{len(weeks)} weeks")
 
-            # Unit-grades scan: run UNIT_GRADE_RE against every page; the
-            # page whose rows resolve to the most canonical NFL abbrs
-            # wins. No header-substring pre-filter — heuristic sniffs
-            # like that have repeatedly locked the parser out of pages
-            # it could otherwise handle, so we default to "scan
-            # everything, validate the best result."
+            # Unit-grades scan: run UNIT_GRADE_RE against every page;
+            # the page whose rows resolve to the most canonical NFL
+            # abbrs wins. No header-substring pre-filter — a sniff on
+            # "Off Gr"/"Def Gr" used to live here and silently locked
+            # us out of page 63 because extract_text() doesn't render
+            # those labels as contiguous substrings.
             candidate = parse_unit_grades_page(text, name_to_abbr)
-            # --- DEBUG (unit-grades only) -----------------------------
-            # One-line summary printed unconditionally so we can see
-            # the shape on every page (regex matches vs resolved teams
-            # distinguishes a regex bug from a name-mapping bug). Deep
-            # dump only when the page actually looks like a candidate
-            # (>=1 regex match OR >=1 numeric-heavy row) and didn't
-            # already produce a clean 32-team table — keeps the log
-            # focused on the pages that matter.
-            stripped = [ln.strip() for ln in text.splitlines()]
-            raw_matches = [ln for ln in stripped if UNIT_GRADE_RE.match(ln)]
-            num_re = re.compile(r"^\d+(?:\.\d+)?$")
-            heavy = [(i + 1, ln) for i, ln in enumerate(stripped)
-                     if sum(1 for t in ln.split() if num_re.match(t)) >= 13]
-            print(f"[debug] unit_grades scan: page {page_num} -> "
-                  f"{len(stripped)} lines, {len(raw_matches)} regex matches, "
-                  f"{len(candidate)} teams resolved")
-            if (raw_matches or heavy) and len(candidate) < EXPECTED_TEAM_COUNT:
-                print(f"[debug]   page {page_num} first 5 lines:")
-                for ln_num, line in enumerate(stripped[:5], start=1):
-                    print(f"[debug]     L{ln_num:>2}: {line!r}")
-                for ln_num, line in heavy:
-                    m = UNIT_GRADE_RE.match(line)
-                    if m:
-                        tname = m.group("team").strip()
-                        resolved = name_to_abbr.get(tname)
-                        print(f"[debug]   L{ln_num:>3} MATCH "
-                              f"team={tname!r} -> abbr={resolved!r}: "
-                              f"{line!r}")
-                    else:
-                        numeric = sum(1 for t in line.split()
-                                      if num_re.match(t))
-                        print(f"[debug]   L{ln_num:>3} NO-MATCH "
-                              f"({numeric} numeric tokens): {line!r}")
-            # ----------------------------------------------------------
             if len(candidate) > len(grades_parsed):
                 grades_parsed = candidate
 
