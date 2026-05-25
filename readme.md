@@ -41,7 +41,6 @@ In addition to Clay's projections, the daily workflow publishes three sources of
 | `sources/etr_2026_superflex.json` | ETR | Underdog Superflex rankings. |
 | `sources/legup_2026_ud.json` | LegUp `ud-ranks` | Underdog Season slate, with Underdog UUIDs. |
 | `sources/legup_2026_eliminator.json` | LegUp `eliminator-ranks` | Eliminator slate; includes Week-17 opponent column. |
-| `sources/legup_2026_mainevent.json` | LegUp `main-event` | BBM7 Main Event ranks; no Underdog UUID — blender keys by name+pos+team. |
 
 The blender that consumes these lives in [`bestball-bro-sim`](https://github.com/libertyvincent/bestball-bro-sim); this repo's job ends at publishing.
 

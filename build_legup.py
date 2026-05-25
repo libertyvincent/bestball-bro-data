@@ -35,7 +35,6 @@ LEGUP_SOURCES = [
     # (slug, slate, output_name)
     ("ud-ranks",         "nfl_2026_season",     "legup_2026_ud"),
     ("eliminator-ranks", "nfl_2026_eliminator", "legup_2026_eliminator"),
-    ("main-event",       "nfl_2026_season",     "legup_2026_mainevent"),
 ]
 
 # Each LegUp slug has its own column layout. We pin expected_headers per
@@ -73,22 +72,6 @@ SLUG_SCHEMA: dict[str, dict] = {
             "legup_rank":     "Rank",
             "legup_pos_rank": "P Rk",
             "wk17_opponent":  "Wk17",
-        },
-    },
-    "main-event": {
-        # No "id" column; the blender resolves name+pos+team. Note the
-        # position-rank header is "Pos Rk" here, not "P Rk". No Wk17.
-        "expected_headers": [
-            "Name", "Team", "Pos", "Pos Rk", "Rank", "Rookie",
-        ],
-        "field_map": {
-            "underdog_id":    None,
-            "player_name":    "Name",
-            "position":       "Pos",
-            "team":           "Team",
-            "legup_rank":     "Rank",
-            "legup_pos_rank": "Pos Rk",
-            "wk17_opponent":  None,
         },
     },
 }
