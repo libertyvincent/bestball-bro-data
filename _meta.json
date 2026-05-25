@@ -1,0 +1,12 @@
+{
+  "season": 2026,
+  "generated_at": "2026-05-25T15:27:25Z",
+  "slates": {
+    "nfl_2026_season": {
+      "underdog_slate_id": "a9c04e81-1ace-4b16-a31d-4c725a47f16f",
+      "path": "v1/projections/nfl_2026_season.json",
+      "sha256": "cb99b268f585f5af93a2db556af7248952666c6ee8801bf962a4c8839ce27f32",
+      "version": "1.0.0"
+    }
+  }
+}
