@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "version": "2026-05-23",
-    "generated_at": "2026-05-23T11:59:29.271228+00:00",
+    "version": "2026-05-25",
+    "generated_at": "2026-05-25T15:05:49.867695+00:00",
     "season": 2026,
     "sport": "NFL",
     "scoring": "underdog_half_ppr",
@@ -16,6 +16,7 @@
     "scoring_rules": {
       "pass_yd": 0.04,
       "pass_td": 4.0,
+      "pass_int": -1.0,
       "rush_yd": 0.1,
       "rush_td": 6.0,
       "rec": 0.5,
@@ -30,9 +31,9 @@
       "team": "BUF",
       "pos": "QB",
       "games": 17,
-      "proj_total": 391.7,
-      "proj_ppg": 23.04,
-      "vor": 191.7,
+      "proj_total": 379.7,
+      "proj_ppg": 22.34,
+      "vor": 179.7,
       "tier": 1,
       "pos_rk": 1,
       "clay_pos_rk": 1,
@@ -40,6 +41,7 @@
       "components": {
         "pass_yd": 3945,
         "pass_td": 26,
+        "pass_int": 12,
         "rush_att": 116,
         "rush_yd": 579,
         "rush_td": 12,
@@ -54,9 +56,9 @@
       "team": "BAL",
       "pos": "QB",
       "games": 17,
-      "proj_total": 350.4,
-      "proj_ppg": 20.61,
-      "vor": 150.4,
+      "proj_total": 340.4,
+      "proj_ppg": 20.02,
+      "vor": 140.4,
       "tier": 2,
       "pos_rk": 2,
       "clay_pos_rk": 2,
@@ -64,6 +66,7 @@
       "components": {
         "pass_yd": 3884,
         "pass_td": 26,
+        "pass_int": 10,
         "rush_att": 122,
         "rush_yd": 670,
         "rush_td": 4,
@@ -78,9 +81,9 @@
       "team": "PHI",
       "pos": "QB",
       "games": 17,
-      "proj_total": 345.0,
-      "proj_ppg": 20.29,
-      "vor": 145.0,
+      "proj_total": 336.0,
+      "proj_ppg": 19.76,
+      "vor": 136.0,
       "tier": 2,
       "pos_rk": 4,
       "clay_pos_rk": 3,
@@ -88,6 +91,7 @@
       "components": {
         "pass_yd": 3780,
         "pass_td": 24,
+        "pass_int": 9,
         "rush_att": 106,
         "rush_yd": 438,
         "rush_td": 9,
@@ -102,9 +106,9 @@
       "team": "NE",
       "pos": "QB",
       "games": 17,
-      "proj_total": 349.0,
-      "proj_ppg": 20.53,
-      "vor": 149.0,
+      "proj_total": 338.0,
+      "proj_ppg": 19.88,
+      "vor": 138.0,
       "tier": 2,
       "pos_rk": 3,
       "clay_pos_rk": 4,
@@ -112,6 +116,7 @@
       "components": {
         "pass_yd": 4094,
         "pass_td": 27,
+        "pass_int": 11,
         "rush_att": 101,
         "rush_yd": 532,
         "rush_td": 4,
@@ -126,9 +131,9 @@
       "team": "WAS",
       "pos": "QB",
       "games": 17,
-      "proj_total": 339.2,
-      "proj_ppg": 19.95,
-      "vor": 139.2,
+      "proj_total": 329.2,
+      "proj_ppg": 19.36,
+      "vor": 129.2,
       "tier": 2,
       "pos_rk": 5,
       "clay_pos_rk": 5,
@@ -136,6 +141,7 @@
       "components": {
         "pass_yd": 3855,
         "pass_td": 22,
+        "pass_int": 10,
         "rush_att": 131,
         "rush_yd": 670,
         "rush_td": 5,
@@ -150,9 +156,9 @@
       "team": "CIN",
       "pos": "QB",
       "games": 17,
-      "proj_total": 327.7,
-      "proj_ppg": 19.28,
-      "vor": 127.7,
+      "proj_total": 316.7,
+      "proj_ppg": 18.63,
+      "vor": 116.7,
       "tier": 2,
       "pos_rk": 7,
       "clay_pos_rk": 6,
@@ -160,6 +166,7 @@
       "components": {
         "pass_yd": 4120,
         "pass_td": 33,
+        "pass_int": 11,
         "rush_att": 52,
         "rush_yd": 189,
         "rush_td": 2,
@@ -174,9 +181,9 @@
       "team": "NYG",
       "pos": "QB",
       "games": 17,
-      "proj_total": 328.8,
-      "proj_ppg": 19.34,
-      "vor": 128.8,
+      "proj_total": 318.8,
+      "proj_ppg": 18.75,
+      "vor": 118.8,
       "tier": 2,
       "pos_rk": 6,
       "clay_pos_rk": 7,
@@ -184,6 +191,7 @@
       "components": {
         "pass_yd": 3687,
         "pass_td": 21,
+        "pass_int": 10,
         "rush_att": 101,
         "rush_yd": 553,
         "rush_td": 7,
@@ -198,9 +206,9 @@
       "team": "DEN",
       "pos": "QB",
       "games": 17,
-      "proj_total": 318.3,
-      "proj_ppg": 18.72,
-      "vor": 118.3,
+      "proj_total": 307.3,
+      "proj_ppg": 18.08,
+      "vor": 107.3,
       "tier": 2,
       "pos_rk": 11,
       "clay_pos_rk": 8,
@@ -208,6 +216,7 @@
       "components": {
         "pass_yd": 3871,
         "pass_td": 26,
+        "pass_int": 11,
         "rush_att": 82,
         "rush_yd": 355,
         "rush_td": 4,
@@ -222,9 +231,9 @@
       "team": "SF",
       "pos": "QB",
       "games": 17,
-      "proj_total": 327.0,
-      "proj_ppg": 19.24,
-      "vor": 127.0,
+      "proj_total": 313.0,
+      "proj_ppg": 18.41,
+      "vor": 113.0,
       "tier": 2,
       "pos_rk": 8,
       "clay_pos_rk": 9,
@@ -232,6 +241,7 @@
       "components": {
         "pass_yd": 4182,
         "pass_td": 27,
+        "pass_int": 14,
         "rush_att": 65,
         "rush_yd": 277,
         "rush_td": 4,
@@ -246,9 +256,9 @@
       "team": "LAR",
       "pos": "QB",
       "games": 17,
-      "proj_total": 321.2,
-      "proj_ppg": 18.89,
-      "vor": 121.2,
+      "proj_total": 311.2,
+      "proj_ppg": 18.31,
+      "vor": 111.2,
       "tier": 2,
       "pos_rk": 9,
       "clay_pos_rk": 10,
@@ -256,6 +266,7 @@
       "components": {
         "pass_yd": 4282,
         "pass_td": 35,
+        "pass_int": 10,
         "rush_att": 27,
         "rush_yd": 39,
         "rush_td": 1,
@@ -270,9 +281,9 @@
       "team": "KC",
       "pos": "QB",
       "games": 17,
-      "proj_total": 314.3,
-      "proj_ppg": 18.49,
-      "vor": 114.3,
+      "proj_total": 302.3,
+      "proj_ppg": 17.78,
+      "vor": 102.3,
       "tier": 2,
       "pos_rk": 13,
       "clay_pos_rk": 11,
@@ -280,6 +291,7 @@
       "components": {
         "pass_yd": 3993,
         "pass_td": 26,
+        "pass_int": 12,
         "rush_att": 53,
         "rush_yd": 326,
         "rush_td": 3,
@@ -294,9 +306,9 @@
       "team": "JAX",
       "pos": "QB",
       "games": 17,
-      "proj_total": 320.6,
-      "proj_ppg": 18.86,
-      "vor": 120.6,
+      "proj_total": 307.6,
+      "proj_ppg": 18.09,
+      "vor": 107.6,
       "tier": 2,
       "pos_rk": 10,
       "clay_pos_rk": 12,
@@ -304,6 +316,7 @@
       "components": {
         "pass_yd": 3929,
         "pass_td": 25,
+        "pass_int": 13,
         "rush_att": 73,
         "rush_yd": 334,
         "rush_td": 5,
@@ -318,9 +331,9 @@
       "team": "DAL",
       "pos": "QB",
       "games": 17,
-      "proj_total": 315.1,
-      "proj_ppg": 18.54,
-      "vor": 115.1,
+      "proj_total": 303.1,
+      "proj_ppg": 17.83,
+      "vor": 103.1,
       "tier": 2,
       "pos_rk": 12,
       "clay_pos_rk": 13,
@@ -328,6 +341,7 @@
       "components": {
         "pass_yd": 4113,
         "pass_td": 30,
+        "pass_int": 12,
         "rush_att": 51,
         "rush_yd": 186,
         "rush_td": 2,
@@ -342,16 +356,17 @@
       "team": "LAC",
       "pos": "QB",
       "games": 17,
-      "proj_total": 310.5,
-      "proj_ppg": 18.26,
-      "vor": 110.5,
-      "tier": 2,
+      "proj_total": 299.5,
+      "proj_ppg": 17.62,
+      "vor": 99.5,
+      "tier": 3,
       "pos_rk": 14,
       "clay_pos_rk": 14,
       "clay_ppr_total": 282,
       "components": {
         "pass_yd": 3847,
         "pass_td": 26,
+        "pass_int": 11,
         "rush_att": 78,
         "rush_yd": 406,
         "rush_td": 2,
@@ -366,16 +381,17 @@
       "team": "CHI",
       "pos": "QB",
       "games": 17,
-      "proj_total": 303.0,
-      "proj_ppg": 17.82,
-      "vor": 103.0,
-      "tier": 2,
+      "proj_total": 293.0,
+      "proj_ppg": 17.24,
+      "vor": 93.0,
+      "tier": 3,
       "pos_rk": 15,
       "clay_pos_rk": 15,
       "clay_ppr_total": 281,
       "components": {
         "pass_yd": 3821,
         "pass_td": 25,
+        "pass_int": 10,
         "rush_att": 71,
         "rush_yd": 382,
         "rush_td": 2,
@@ -390,9 +406,9 @@
       "team": "DET",
       "pos": "QB",
       "games": 17,
-      "proj_total": 295.2,
-      "proj_ppg": 17.36,
-      "vor": 95.2,
+      "proj_total": 285.2,
+      "proj_ppg": 16.78,
+      "vor": 85.2,
       "tier": 3,
       "pos_rk": 17,
       "clay_pos_rk": 16,
@@ -400,6 +416,7 @@
       "components": {
         "pass_yd": 4208,
         "pass_td": 29,
+        "pass_int": 10,
         "rush_att": 27,
         "rush_yd": 49,
         "rush_td": 1,
@@ -414,9 +431,9 @@
       "team": "IND",
       "pos": "QB",
       "games": 17,
-      "proj_total": 296.4,
-      "proj_ppg": 17.44,
-      "vor": 96.4,
+      "proj_total": 285.4,
+      "proj_ppg": 16.79,
+      "vor": 85.4,
       "tier": 3,
       "pos_rk": 16,
       "clay_pos_rk": 17,
@@ -424,6 +441,7 @@
       "components": {
         "pass_yd": 3743,
         "pass_td": 20,
+        "pass_int": 11,
         "rush_att": 73,
         "rush_yd": 307,
         "rush_td": 6,
@@ -438,9 +456,9 @@
       "team": "TB",
       "pos": "QB",
       "games": 17,
-      "proj_total": 291.3,
-      "proj_ppg": 17.14,
-      "vor": 91.3,
+      "proj_total": 279.3,
+      "proj_ppg": 16.43,
+      "vor": 79.3,
       "tier": 3,
       "pos_rk": 18,
       "clay_pos_rk": 18,
@@ -448,6 +466,7 @@
       "components": {
         "pass_yd": 3824,
         "pass_td": 25,
+        "pass_int": 12,
         "rush_att": 54,
         "rush_yd": 323,
         "rush_td": 1,
@@ -462,9 +481,9 @@
       "team": "NO",
       "pos": "QB",
       "games": 17,
-      "proj_total": 287.9,
-      "proj_ppg": 16.94,
-      "vor": 87.9,
+      "proj_total": 276.9,
+      "proj_ppg": 16.29,
+      "vor": 76.9,
       "tier": 3,
       "pos_rk": 19,
       "clay_pos_rk": 19,
@@ -472,6 +491,7 @@
       "components": {
         "pass_yd": 3887,
         "pass_td": 20,
+        "pass_int": 11,
         "rush_att": 66,
         "rush_yd": 284,
         "rush_td": 4,
@@ -486,9 +506,9 @@
       "team": "GB",
       "pos": "QB",
       "games": 17,
-      "proj_total": 287.1,
-      "proj_ppg": 16.89,
-      "vor": 87.1,
+      "proj_total": 276.1,
+      "proj_ppg": 16.24,
+      "vor": 76.1,
       "tier": 3,
       "pos_rk": 20,
       "clay_pos_rk": 20,
@@ -496,6 +516,7 @@
       "components": {
         "pass_yd": 3994,
         "pass_td": 25,
+        "pass_int": 11,
         "rush_att": 50,
         "rush_yd": 213,
         "rush_td": 1,
@@ -510,16 +531,17 @@
       "team": "MIN",
       "pos": "QB",
       "games": 17,
-      "proj_total": 272.1,
-      "proj_ppg": 16.01,
-      "vor": 72.1,
+      "proj_total": 262.1,
+      "proj_ppg": 15.42,
+      "vor": 62.1,
       "tier": 3,
-      "pos_rk": 23,
+      "pos_rk": 22,
       "clay_pos_rk": 21,
       "clay_ppr_total": 250,
       "components": {
         "pass_yd": 3345,
         "pass_td": 19,
+        "pass_int": 10,
         "rush_att": 71,
         "rush_yd": 443,
         "rush_td": 3,
@@ -534,16 +556,17 @@
       "team": "HOU",
       "pos": "QB",
       "games": 17,
-      "proj_total": 272.7,
-      "proj_ppg": 16.04,
-      "vor": 72.7,
+      "proj_total": 260.7,
+      "proj_ppg": 15.34,
+      "vor": 60.7,
       "tier": 3,
-      "pos_rk": 22,
+      "pos_rk": 23,
       "clay_pos_rk": 22,
       "clay_ppr_total": 246,
       "components": {
         "pass_yd": 3946,
         "pass_td": 21,
+        "pass_int": 12,
         "rush_att": 57,
         "rush_yd": 249,
         "rush_td": 1,
@@ -558,9 +581,9 @@
       "team": "SEA",
       "pos": "QB",
       "games": 17,
-      "proj_total": 275.0,
-      "proj_ppg": 16.18,
-      "vor": 75.0,
+      "proj_total": 263.0,
+      "proj_ppg": 15.47,
+      "vor": 63.0,
       "tier": 3,
       "pos_rk": 21,
       "clay_pos_rk": 23,
@@ -568,6 +591,7 @@
       "components": {
         "pass_yd": 4013,
         "pass_td": 24,
+        "pass_int": 12,
         "rush_att": 44,
         "rush_yd": 125,
         "rush_td": 1,
@@ -582,9 +606,9 @@
       "team": "MIA",
       "pos": "QB",
       "games": 17,
-      "proj_total": 267.7,
-      "proj_ppg": 15.75,
-      "vor": 67.7,
+      "proj_total": 256.7,
+      "proj_ppg": 15.1,
+      "vor": 56.7,
       "tier": 3,
       "pos_rk": 24,
       "clay_pos_rk": 24,
@@ -592,6 +616,7 @@
       "components": {
         "pass_yd": 3584,
         "pass_td": 13,
+        "pass_int": 11,
         "rush_att": 105,
         "rush_yd": 543,
         "rush_td": 3,
@@ -606,9 +631,9 @@
       "team": "CAR",
       "pos": "QB",
       "games": 17,
-      "proj_total": 264.6,
-      "proj_ppg": 15.56,
-      "vor": 64.6,
+      "proj_total": 252.6,
+      "proj_ppg": 14.86,
+      "vor": 52.6,
       "tier": 3,
       "pos_rk": 25,
       "clay_pos_rk": 25,
@@ -616,6 +641,7 @@
       "components": {
         "pass_yd": 3634,
         "pass_td": 20,
+        "pass_int": 12,
         "rush_att": 58,
         "rush_yd": 272,
         "rush_td": 2,
@@ -630,16 +656,17 @@
       "team": "NYJ",
       "pos": "QB",
       "games": 17,
-      "proj_total": 260.6,
-      "proj_ppg": 15.33,
-      "vor": 60.6,
-      "tier": 3,
+      "proj_total": 246.6,
+      "proj_ppg": 14.51,
+      "vor": 46.6,
+      "tier": 4,
       "pos_rk": 26,
       "clay_pos_rk": 26,
       "clay_ppr_total": 232,
       "components": {
         "pass_yd": 3816,
         "pass_td": 20,
+        "pass_int": 14,
         "rush_att": 58,
         "rush_yd": 220,
         "rush_td": 1,
@@ -654,16 +681,17 @@
       "team": "TEN",
       "pos": "QB",
       "games": 17,
-      "proj_total": 246.2,
-      "proj_ppg": 14.48,
-      "vor": 46.2,
+      "proj_total": 236.2,
+      "proj_ppg": 13.89,
+      "vor": 36.2,
       "tier": 4,
-      "pos_rk": 28,
+      "pos_rk": 27,
       "clay_pos_rk": 27,
       "clay_ppr_total": 219,
       "components": {
         "pass_yd": 3754,
         "pass_td": 16,
+        "pass_int": 10,
         "rush_att": 47,
         "rush_yd": 200,
         "rush_td": 2,
@@ -678,16 +706,17 @@
       "team": "PIT",
       "pos": "QB",
       "games": 17,
-      "proj_total": 246.5,
-      "proj_ppg": 14.5,
-      "vor": 46.5,
+      "proj_total": 235.5,
+      "proj_ppg": 13.85,
+      "vor": 35.5,
       "tier": 4,
-      "pos_rk": 27,
+      "pos_rk": 28,
       "clay_pos_rk": 28,
       "clay_ppr_total": 218,
       "components": {
         "pass_yd": 3764,
         "pass_td": 20,
+        "pass_int": 11,
         "rush_att": 28,
         "rush_yd": 99,
         "rush_td": 1,
@@ -702,16 +731,17 @@
       "team": "ARI",
       "pos": "QB",
       "games": 17,
-      "proj_total": 221.4,
-      "proj_ppg": 13.02,
-      "vor": 21.4,
-      "tier": 4,
+      "proj_total": 212.4,
+      "proj_ppg": 12.49,
+      "vor": 12.4,
+      "tier": 5,
       "pos_rk": 29,
       "clay_pos_rk": 29,
       "clay_ppr_total": 199,
       "components": {
         "pass_yd": 3360,
         "pass_td": 15,
+        "pass_int": 9,
         "rush_att": 47,
         "rush_yd": 210,
         "rush_td": 1,
@@ -726,9 +756,9 @@
       "team": "LV",
       "pos": "QB",
       "games": 17,
-      "proj_total": 212.7,
-      "proj_ppg": 12.51,
-      "vor": 12.7,
+      "proj_total": 202.7,
+      "proj_ppg": 11.92,
+      "vor": 2.7,
       "tier": 5,
       "pos_rk": 30,
       "clay_pos_rk": 30,
@@ -736,6 +766,7 @@
       "components": {
         "pass_yd": 3052,
         "pass_td": 14,
+        "pass_int": 10,
         "rush_att": 52,
         "rush_yd": 226,
         "rush_td": 2,
@@ -750,9 +781,9 @@
       "team": "ATL",
       "pos": "QB",
       "games": 17,
-      "proj_total": 131.2,
-      "proj_ppg": 7.72,
-      "vor": -68.8,
+      "proj_total": 123.2,
+      "proj_ppg": 7.25,
+      "vor": -76.8,
       "tier": 6,
       "pos_rk": 32,
       "clay_pos_rk": 31,
@@ -760,6 +791,7 @@
       "components": {
         "pass_yd": 2169,
         "pass_td": 10,
+        "pass_int": 8,
         "rush_att": 16,
         "rush_yd": 44,
         "rush_td": 0,
@@ -774,9 +806,9 @@
       "team": "CLE",
       "pos": "QB",
       "games": 17,
-      "proj_total": 131.4,
-      "proj_ppg": 7.73,
-      "vor": -68.6,
+      "proj_total": 125.4,
+      "proj_ppg": 7.38,
+      "vor": -74.6,
       "tier": 6,
       "pos_rk": 31,
       "clay_pos_rk": 32,
@@ -784,6 +816,7 @@
       "components": {
         "pass_yd": 1857,
         "pass_td": 8,
+        "pass_int": 6,
         "rush_att": 38,
         "rush_yd": 191,
         "rush_td": 1,
@@ -798,9 +831,9 @@
       "team": "ATL",
       "pos": "QB",
       "games": 17,
-      "proj_total": 125.1,
-      "proj_ppg": 7.36,
-      "vor": -74.9,
+      "proj_total": 120.1,
+      "proj_ppg": 7.06,
+      "vor": -79.9,
       "tier": 6,
       "pos_rk": 33,
       "clay_pos_rk": 33,
@@ -808,6 +841,7 @@
       "components": {
         "pass_yd": 1884,
         "pass_td": 9,
+        "pass_int": 5,
         "rush_att": 19,
         "rush_yd": 77,
         "rush_td": 1,
@@ -822,9 +856,9 @@
       "team": "CLE",
       "pos": "QB",
       "games": 17,
-      "proj_total": 124.2,
-      "proj_ppg": 7.31,
-      "vor": -75.8,
+      "proj_total": 118.2,
+      "proj_ppg": 6.95,
+      "vor": -81.8,
       "tier": 6,
       "pos_rk": 34,
       "clay_pos_rk": 34,
@@ -832,6 +866,7 @@
       "components": {
         "pass_yd": 1819,
         "pass_td": 8,
+        "pass_int": 6,
         "rush_att": 24,
         "rush_yd": 134,
         "rush_td": 1,
@@ -846,16 +881,17 @@
       "team": "LV",
       "pos": "QB",
       "games": 17,
-      "proj_total": 50.4,
-      "proj_ppg": 2.96,
-      "vor": -149.6,
-      "tier": 7,
+      "proj_total": 47.4,
+      "proj_ppg": 2.79,
+      "vor": -152.6,
+      "tier": 8,
       "pos_rk": 35,
       "clay_pos_rk": 35,
       "clay_ppr_total": 46,
       "components": {
         "pass_yd": 833,
         "pass_td": 4,
+        "pass_int": 3,
         "rush_att": 6,
         "rush_yd": 11,
         "rush_td": 0,
@@ -870,9 +906,9 @@
       "team": "MIN",
       "pos": "QB",
       "games": 17,
-      "proj_total": 46.4,
-      "proj_ppg": 2.73,
-      "vor": -153.6,
+      "proj_total": 44.4,
+      "proj_ppg": 2.61,
+      "vor": -155.6,
       "tier": 8,
       "pos_rk": 36,
       "clay_pos_rk": 36,
@@ -880,6 +916,7 @@
       "components": {
         "pass_yd": 599,
         "pass_td": 3,
+        "pass_int": 2,
         "rush_att": 10,
         "rush_yd": 44,
         "rush_td": 1,
@@ -894,9 +931,9 @@
       "team": "ARI",
       "pos": "QB",
       "games": 2,
-      "proj_total": 32.8,
-      "proj_ppg": 16.4,
-      "vor": -167.2,
+      "proj_total": 30.8,
+      "proj_ppg": 15.4,
+      "vor": -169.2,
       "tier": 8,
       "pos_rk": 37,
       "clay_pos_rk": 37,
@@ -904,6 +941,7 @@
       "components": {
         "pass_yd": 448,
         "pass_td": 3,
+        "pass_int": 2,
         "rush_att": 7,
         "rush_yd": 29,
         "rush_td": 0,
@@ -922,12 +960,13 @@
       "proj_ppg": 0.65,
       "vor": -188.9,
       "tier": 9,
-      "pos_rk": 41,
+      "pos_rk": 38,
       "clay_pos_rk": 38,
       "clay_ppr_total": 11,
       "components": {
         "pass_yd": 140,
         "pass_td": 1,
+        "pass_int": 0,
         "rush_att": 3,
         "rush_yd": 15,
         "rush_td": 0,
@@ -946,110 +985,15 @@
       "proj_ppg": 0.65,
       "vor": -189.0,
       "tier": 9,
-      "pos_rk": 42,
+      "pos_rk": 39,
       "clay_pos_rk": 39,
       "clay_ppr_total": 11,
       "components": {
         "pass_yd": 159,
         "pass_td": 1,
+        "pass_int": 0,
         "rush_att": 1,
         "rush_yd": 6,
-        "rush_td": 0,
-        "targets": 0,
-        "rec": 0,
-        "rec_yd": 0,
-        "rec_td": 0
-      }
-    },
-    "Marcus Mariota|WAS|QB": {
-      "name": "Marcus Mariota",
-      "team": "WAS",
-      "pos": "QB",
-      "games": 17,
-      "proj_total": 11.6,
-      "proj_ppg": 0.68,
-      "vor": -188.4,
-      "tier": 9,
-      "pos_rk": 38,
-      "clay_pos_rk": 40,
-      "clay_ppr_total": 10,
-      "components": {
-        "pass_yd": 166,
-        "pass_td": 1,
-        "rush_att": 2,
-        "rush_yd": 10,
-        "rush_td": 0,
-        "targets": 0,
-        "rec": 0,
-        "rec_yd": 0,
-        "rec_td": 0
-      }
-    },
-    "Nick Mullens|JAX|QB": {
-      "name": "Nick Mullens",
-      "team": "JAX",
-      "pos": "QB",
-      "games": 17,
-      "proj_total": 11.5,
-      "proj_ppg": 0.68,
-      "vor": -188.5,
-      "tier": 9,
-      "pos_rk": 39,
-      "clay_pos_rk": 41,
-      "clay_ppr_total": 10,
-      "components": {
-        "pass_yd": 179,
-        "pass_td": 1,
-        "rush_att": 1,
-        "rush_yd": 3,
-        "rush_td": 0,
-        "targets": 0,
-        "rec": 0,
-        "rec_yd": 0,
-        "rec_td": 0
-      }
-    },
-    "Jarrett Stidham|DEN|QB": {
-      "name": "Jarrett Stidham",
-      "team": "DEN",
-      "pos": "QB",
-      "games": 17,
-      "proj_total": 11.1,
-      "proj_ppg": 0.65,
-      "vor": -188.9,
-      "tier": 9,
-      "pos_rk": 40,
-      "clay_pos_rk": 42,
-      "clay_ppr_total": 10,
-      "components": {
-        "pass_yd": 161,
-        "pass_td": 1,
-        "rush_att": 2,
-        "rush_yd": 7,
-        "rush_td": 0,
-        "targets": 0,
-        "rec": 0,
-        "rec_yd": 0,
-        "rec_td": 0
-      }
-    },
-    "Jake Browning|TB|QB": {
-      "name": "Jake Browning",
-      "team": "TB",
-      "pos": "QB",
-      "games": 17,
-      "proj_total": 11.0,
-      "proj_ppg": 0.65,
-      "vor": -189.0,
-      "tier": 9,
-      "pos_rk": 43,
-      "clay_pos_rk": 43,
-      "clay_ppr_total": 10,
-      "components": {
-        "pass_yd": 163,
-        "pass_td": 1,
-        "rush_att": 1,
-        "rush_yd": 5,
         "rush_td": 0,
         "targets": 0,
         "rec": 0,
@@ -1066,14 +1010,115 @@
       "proj_ppg": 0.64,
       "vor": -189.1,
       "tier": 9,
-      "pos_rk": 44,
-      "clay_pos_rk": 44,
+      "pos_rk": 40,
+      "clay_pos_rk": 40,
       "clay_ppr_total": 10,
       "components": {
         "pass_yd": 150,
         "pass_td": 1,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 9,
+        "rush_td": 0,
+        "targets": 0,
+        "rec": 0,
+        "rec_yd": 0,
+        "rec_td": 0
+      }
+    },
+    "Marcus Mariota|WAS|QB": {
+      "name": "Marcus Mariota",
+      "team": "WAS",
+      "pos": "QB",
+      "games": 17,
+      "proj_total": 10.6,
+      "proj_ppg": 0.62,
+      "vor": -189.4,
+      "tier": 9,
+      "pos_rk": 41,
+      "clay_pos_rk": 41,
+      "clay_ppr_total": 10,
+      "components": {
+        "pass_yd": 166,
+        "pass_td": 1,
+        "pass_int": 1,
+        "rush_att": 2,
+        "rush_yd": 10,
+        "rush_td": 0,
+        "targets": 0,
+        "rec": 0,
+        "rec_yd": 0,
+        "rec_td": 0
+      }
+    },
+    "Nick Mullens|JAX|QB": {
+      "name": "Nick Mullens",
+      "team": "JAX",
+      "pos": "QB",
+      "games": 17,
+      "proj_total": 10.5,
+      "proj_ppg": 0.62,
+      "vor": -189.5,
+      "tier": 9,
+      "pos_rk": 43,
+      "clay_pos_rk": 42,
+      "clay_ppr_total": 10,
+      "components": {
+        "pass_yd": 179,
+        "pass_td": 1,
+        "pass_int": 1,
+        "rush_att": 1,
+        "rush_yd": 3,
+        "rush_td": 0,
+        "targets": 0,
+        "rec": 0,
+        "rec_yd": 0,
+        "rec_td": 0
+      }
+    },
+    "Jarrett Stidham|DEN|QB": {
+      "name": "Jarrett Stidham",
+      "team": "DEN",
+      "pos": "QB",
+      "games": 17,
+      "proj_total": 10.1,
+      "proj_ppg": 0.59,
+      "vor": -189.9,
+      "tier": 9,
+      "pos_rk": 45,
+      "clay_pos_rk": 43,
+      "clay_ppr_total": 10,
+      "components": {
+        "pass_yd": 161,
+        "pass_td": 1,
+        "pass_int": 1,
+        "rush_att": 2,
+        "rush_yd": 7,
+        "rush_td": 0,
+        "targets": 0,
+        "rec": 0,
+        "rec_yd": 0,
+        "rec_td": 0
+      }
+    },
+    "Jake Browning|TB|QB": {
+      "name": "Jake Browning",
+      "team": "TB",
+      "pos": "QB",
+      "games": 17,
+      "proj_total": 10.0,
+      "proj_ppg": 0.59,
+      "vor": -190.0,
+      "tier": 9,
+      "pos_rk": 46,
+      "clay_pos_rk": 44,
+      "clay_ppr_total": 10,
+      "components": {
+        "pass_yd": 163,
+        "pass_td": 1,
+        "pass_int": 1,
+        "rush_att": 1,
+        "rush_yd": 5,
         "rush_td": 0,
         "targets": 0,
         "rec": 0,
@@ -1086,16 +1131,17 @@
       "team": "CHI",
       "pos": "QB",
       "games": 17,
-      "proj_total": 10.8,
-      "proj_ppg": 0.64,
-      "vor": -189.2,
+      "proj_total": 9.8,
+      "proj_ppg": 0.58,
+      "vor": -190.2,
       "tier": 9,
-      "pos_rk": 46,
+      "pos_rk": 48,
       "clay_pos_rk": 45,
       "clay_ppr_total": 10,
       "components": {
         "pass_yd": 156,
         "pass_td": 1,
+        "pass_int": 1,
         "rush_att": 2,
         "rush_yd": 6,
         "rush_td": 0,
@@ -1110,16 +1156,17 @@
       "team": "CIN",
       "pos": "QB",
       "games": 17,
-      "proj_total": 10.7,
-      "proj_ppg": 0.63,
-      "vor": -189.3,
+      "proj_total": 9.7,
+      "proj_ppg": 0.57,
+      "vor": -190.3,
       "tier": 9,
-      "pos_rk": 50,
+      "pos_rk": 52,
       "clay_pos_rk": 46,
       "clay_ppr_total": 10,
       "components": {
         "pass_yd": 164,
         "pass_td": 1,
+        "pass_int": 1,
         "rush_att": 0,
         "rush_yd": 1,
         "rush_td": 0,
@@ -1134,9 +1181,9 @@
       "team": "LAR",
       "pos": "QB",
       "games": 17,
-      "proj_total": 10.3,
-      "proj_ppg": 0.61,
-      "vor": -189.7,
+      "proj_total": 9.3,
+      "proj_ppg": 0.55,
+      "vor": -190.7,
       "tier": 9,
       "pos_rk": 59,
       "clay_pos_rk": 47,
@@ -1144,152 +1191,9 @@
       "components": {
         "pass_yd": 146,
         "pass_td": 1,
+        "pass_int": 1,
         "rush_att": 1,
         "rush_yd": 5,
-        "rush_td": 0,
-        "targets": 0,
-        "rec": 0,
-        "rec_yd": 0,
-        "rec_td": 0
-      }
-    },
-    "Mason Rudolph|PIT|QB": {
-      "name": "Mason Rudolph",
-      "team": "PIT",
-      "pos": "QB",
-      "games": 17,
-      "proj_total": 10.9,
-      "proj_ppg": 0.64,
-      "vor": -189.1,
-      "tier": 9,
-      "pos_rk": 45,
-      "clay_pos_rk": 48,
-      "clay_ppr_total": 9,
-      "components": {
-        "pass_yd": 163,
-        "pass_td": 1,
-        "rush_att": 1,
-        "rush_yd": 4,
-        "rush_td": 0,
-        "targets": 0,
-        "rec": 0,
-        "rec_yd": 0,
-        "rec_td": 0
-      }
-    },
-    "Riley Leonard|IND|QB": {
-      "name": "Riley Leonard",
-      "team": "IND",
-      "pos": "QB",
-      "games": 17,
-      "proj_total": 10.8,
-      "proj_ppg": 0.64,
-      "vor": -189.2,
-      "tier": 9,
-      "pos_rk": 47,
-      "clay_pos_rk": 49,
-      "clay_ppr_total": 9,
-      "components": {
-        "pass_yd": 158,
-        "pass_td": 1,
-        "rush_att": 1,
-        "rush_yd": 5,
-        "rush_td": 0,
-        "targets": 0,
-        "rec": 0,
-        "rec_yd": 0,
-        "rec_td": 0
-      }
-    },
-    "Spencer Rattler|NO|QB": {
-      "name": "Spencer Rattler",
-      "team": "NO",
-      "pos": "QB",
-      "games": 17,
-      "proj_total": 10.8,
-      "proj_ppg": 0.64,
-      "vor": -189.2,
-      "tier": 9,
-      "pos_rk": 48,
-      "clay_pos_rk": 50,
-      "clay_ppr_total": 9,
-      "components": {
-        "pass_yd": 153,
-        "pass_td": 1,
-        "rush_att": 1,
-        "rush_yd": 7,
-        "rush_td": 0,
-        "targets": 0,
-        "rec": 0,
-        "rec_yd": 0,
-        "rec_td": 0
-      }
-    },
-    "Jameis Winston|NYG|QB": {
-      "name": "Jameis Winston",
-      "team": "NYG",
-      "pos": "QB",
-      "games": 17,
-      "proj_total": 10.8,
-      "proj_ppg": 0.64,
-      "vor": -189.2,
-      "tier": 9,
-      "pos_rk": 49,
-      "clay_pos_rk": 51,
-      "clay_ppr_total": 9,
-      "components": {
-        "pass_yd": 163,
-        "pass_td": 1,
-        "rush_att": 1,
-        "rush_yd": 3,
-        "rush_td": 0,
-        "targets": 0,
-        "rec": 0,
-        "rec_yd": 0,
-        "rec_td": 0
-      }
-    },
-    "Tyrod Taylor|GB|QB": {
-      "name": "Tyrod Taylor",
-      "team": "GB",
-      "pos": "QB",
-      "games": 17,
-      "proj_total": 10.6,
-      "proj_ppg": 0.62,
-      "vor": -189.4,
-      "tier": 9,
-      "pos_rk": 51,
-      "clay_pos_rk": 52,
-      "clay_ppr_total": 9,
-      "components": {
-        "pass_yd": 136,
-        "pass_td": 1,
-        "rush_att": 2,
-        "rush_yd": 12,
-        "rush_td": 0,
-        "targets": 0,
-        "rec": 0,
-        "rec_yd": 0,
-        "rec_td": 0
-      }
-    },
-    "Trey Lance|LAC|QB": {
-      "name": "Trey Lance",
-      "team": "LAC",
-      "pos": "QB",
-      "games": 17,
-      "proj_total": 10.6,
-      "proj_ppg": 0.62,
-      "vor": -189.4,
-      "tier": 9,
-      "pos_rk": 52,
-      "clay_pos_rk": 53,
-      "clay_ppr_total": 9,
-      "components": {
-        "pass_yd": 147,
-        "pass_td": 1,
-        "rush_att": 1,
-        "rush_yd": 7,
         "rush_td": 0,
         "targets": 0,
         "rec": 0,
@@ -1306,38 +1210,15 @@
       "proj_ppg": 0.62,
       "vor": -189.5,
       "tier": 9,
-      "pos_rk": 54,
-      "clay_pos_rk": 54,
+      "pos_rk": 42,
+      "clay_pos_rk": 48,
       "clay_ppr_total": 9,
       "components": {
         "pass_yd": 153,
         "pass_td": 1,
+        "pass_int": 0,
         "rush_att": 1,
         "rush_yd": 4,
-        "rush_td": 0,
-        "targets": 0,
-        "rec": 0,
-        "rec_yd": 0,
-        "rec_td": 0
-      }
-    },
-    "Teddy Bridgewater|DET|QB": {
-      "name": "Teddy Bridgewater",
-      "team": "DET",
-      "pos": "QB",
-      "games": 17,
-      "proj_total": 10.5,
-      "proj_ppg": 0.62,
-      "vor": -189.5,
-      "tier": 9,
-      "pos_rk": 55,
-      "clay_pos_rk": 55,
-      "clay_ppr_total": 9,
-      "components": {
-        "pass_yd": 151,
-        "pass_td": 1,
-        "rush_att": 1,
-        "rush_yd": 5,
         "rush_td": 0,
         "targets": 0,
         "rec": 0,
@@ -1354,14 +1235,190 @@
       "proj_ppg": 0.62,
       "vor": -189.5,
       "tier": 9,
-      "pos_rk": 56,
-      "clay_pos_rk": 56,
+      "pos_rk": 44,
+      "clay_pos_rk": 49,
       "clay_ppr_total": 9,
       "components": {
         "pass_yd": 153,
         "pass_td": 1,
+        "pass_int": 0,
         "rush_att": 1,
         "rush_yd": 4,
+        "rush_td": 0,
+        "targets": 0,
+        "rec": 0,
+        "rec_yd": 0,
+        "rec_td": 0
+      }
+    },
+    "Mason Rudolph|PIT|QB": {
+      "name": "Mason Rudolph",
+      "team": "PIT",
+      "pos": "QB",
+      "games": 17,
+      "proj_total": 9.9,
+      "proj_ppg": 0.58,
+      "vor": -190.1,
+      "tier": 9,
+      "pos_rk": 47,
+      "clay_pos_rk": 50,
+      "clay_ppr_total": 9,
+      "components": {
+        "pass_yd": 163,
+        "pass_td": 1,
+        "pass_int": 1,
+        "rush_att": 1,
+        "rush_yd": 4,
+        "rush_td": 0,
+        "targets": 0,
+        "rec": 0,
+        "rec_yd": 0,
+        "rec_td": 0
+      }
+    },
+    "Riley Leonard|IND|QB": {
+      "name": "Riley Leonard",
+      "team": "IND",
+      "pos": "QB",
+      "games": 17,
+      "proj_total": 9.8,
+      "proj_ppg": 0.58,
+      "vor": -190.2,
+      "tier": 9,
+      "pos_rk": 49,
+      "clay_pos_rk": 51,
+      "clay_ppr_total": 9,
+      "components": {
+        "pass_yd": 158,
+        "pass_td": 1,
+        "pass_int": 1,
+        "rush_att": 1,
+        "rush_yd": 5,
+        "rush_td": 0,
+        "targets": 0,
+        "rec": 0,
+        "rec_yd": 0,
+        "rec_td": 0
+      }
+    },
+    "Spencer Rattler|NO|QB": {
+      "name": "Spencer Rattler",
+      "team": "NO",
+      "pos": "QB",
+      "games": 17,
+      "proj_total": 9.8,
+      "proj_ppg": 0.58,
+      "vor": -190.2,
+      "tier": 9,
+      "pos_rk": 50,
+      "clay_pos_rk": 52,
+      "clay_ppr_total": 9,
+      "components": {
+        "pass_yd": 153,
+        "pass_td": 1,
+        "pass_int": 1,
+        "rush_att": 1,
+        "rush_yd": 7,
+        "rush_td": 0,
+        "targets": 0,
+        "rec": 0,
+        "rec_yd": 0,
+        "rec_td": 0
+      }
+    },
+    "Jameis Winston|NYG|QB": {
+      "name": "Jameis Winston",
+      "team": "NYG",
+      "pos": "QB",
+      "games": 17,
+      "proj_total": 9.8,
+      "proj_ppg": 0.58,
+      "vor": -190.2,
+      "tier": 9,
+      "pos_rk": 51,
+      "clay_pos_rk": 53,
+      "clay_ppr_total": 9,
+      "components": {
+        "pass_yd": 163,
+        "pass_td": 1,
+        "pass_int": 1,
+        "rush_att": 1,
+        "rush_yd": 3,
+        "rush_td": 0,
+        "targets": 0,
+        "rec": 0,
+        "rec_yd": 0,
+        "rec_td": 0
+      }
+    },
+    "Tyrod Taylor|GB|QB": {
+      "name": "Tyrod Taylor",
+      "team": "GB",
+      "pos": "QB",
+      "games": 17,
+      "proj_total": 9.6,
+      "proj_ppg": 0.56,
+      "vor": -190.4,
+      "tier": 9,
+      "pos_rk": 53,
+      "clay_pos_rk": 54,
+      "clay_ppr_total": 9,
+      "components": {
+        "pass_yd": 136,
+        "pass_td": 1,
+        "pass_int": 1,
+        "rush_att": 2,
+        "rush_yd": 12,
+        "rush_td": 0,
+        "targets": 0,
+        "rec": 0,
+        "rec_yd": 0,
+        "rec_td": 0
+      }
+    },
+    "Trey Lance|LAC|QB": {
+      "name": "Trey Lance",
+      "team": "LAC",
+      "pos": "QB",
+      "games": 17,
+      "proj_total": 9.6,
+      "proj_ppg": 0.56,
+      "vor": -190.4,
+      "tier": 9,
+      "pos_rk": 54,
+      "clay_pos_rk": 55,
+      "clay_ppr_total": 9,
+      "components": {
+        "pass_yd": 147,
+        "pass_td": 1,
+        "pass_int": 1,
+        "rush_att": 1,
+        "rush_yd": 7,
+        "rush_td": 0,
+        "targets": 0,
+        "rec": 0,
+        "rec_yd": 0,
+        "rec_td": 0
+      }
+    },
+    "Teddy Bridgewater|DET|QB": {
+      "name": "Teddy Bridgewater",
+      "team": "DET",
+      "pos": "QB",
+      "games": 17,
+      "proj_total": 9.5,
+      "proj_ppg": 0.56,
+      "vor": -190.5,
+      "tier": 9,
+      "pos_rk": 56,
+      "clay_pos_rk": 56,
+      "clay_ppr_total": 9,
+      "components": {
+        "pass_yd": 151,
+        "pass_td": 1,
+        "pass_int": 1,
+        "rush_att": 1,
+        "rush_yd": 5,
         "rush_td": 0,
         "targets": 0,
         "rec": 0,
@@ -1374,9 +1431,9 @@
       "team": "BAL",
       "pos": "QB",
       "games": 17,
-      "proj_total": 10.1,
-      "proj_ppg": 0.59,
-      "vor": -189.9,
+      "proj_total": 9.1,
+      "proj_ppg": 0.54,
+      "vor": -190.9,
       "tier": 9,
       "pos_rk": 61,
       "clay_pos_rk": 57,
@@ -1384,6 +1441,7 @@
       "components": {
         "pass_yd": 129,
         "pass_td": 1,
+        "pass_int": 1,
         "rush_att": 2,
         "rush_yd": 9,
         "rush_td": 0,
@@ -1398,9 +1456,9 @@
       "team": "SF",
       "pos": "QB",
       "games": 17,
-      "proj_total": 10.0,
-      "proj_ppg": 0.59,
-      "vor": -190.0,
+      "proj_total": 9.0,
+      "proj_ppg": 0.53,
+      "vor": -191.0,
       "tier": 9,
       "pos_rk": 63,
       "clay_pos_rk": 58,
@@ -1408,6 +1466,7 @@
       "components": {
         "pass_yd": 146,
         "pass_td": 1,
+        "pass_int": 1,
         "rush_att": 1,
         "rush_yd": 2,
         "rush_td": 0,
@@ -1422,9 +1481,9 @@
       "team": "NYJ",
       "pos": "QB",
       "games": 17,
-      "proj_total": 10.4,
-      "proj_ppg": 0.61,
-      "vor": -189.6,
+      "proj_total": 9.4,
+      "proj_ppg": 0.55,
+      "vor": -190.6,
       "tier": 9,
       "pos_rk": 57,
       "clay_pos_rk": 59,
@@ -1432,6 +1491,7 @@
       "components": {
         "pass_yd": 143,
         "pass_td": 1,
+        "pass_int": 1,
         "rush_att": 2,
         "rush_yd": 7,
         "rush_td": 0,
@@ -1446,9 +1506,9 @@
       "team": "TEN",
       "pos": "QB",
       "games": 17,
-      "proj_total": 10.4,
-      "proj_ppg": 0.61,
-      "vor": -189.6,
+      "proj_total": 9.4,
+      "proj_ppg": 0.55,
+      "vor": -190.6,
       "tier": 9,
       "pos_rk": 58,
       "clay_pos_rk": 60,
@@ -1456,6 +1516,7 @@
       "components": {
         "pass_yd": 154,
         "pass_td": 1,
+        "pass_int": 1,
         "rush_att": 1,
         "rush_yd": 2,
         "rush_td": 0,
@@ -1470,9 +1531,9 @@
       "team": "HOU",
       "pos": "QB",
       "games": 17,
-      "proj_total": 10.2,
-      "proj_ppg": 0.6,
-      "vor": -189.8,
+      "proj_total": 9.2,
+      "proj_ppg": 0.54,
+      "vor": -190.8,
       "tier": 9,
       "pos_rk": 60,
       "clay_pos_rk": 61,
@@ -1480,6 +1541,7 @@
       "components": {
         "pass_yd": 146,
         "pass_td": 1,
+        "pass_int": 1,
         "rush_att": 1,
         "rush_yd": 4,
         "rush_td": 0,
@@ -1494,9 +1556,9 @@
       "team": "SEA",
       "pos": "QB",
       "games": 17,
-      "proj_total": 9.9,
-      "proj_ppg": 0.58,
-      "vor": -190.1,
+      "proj_total": 8.9,
+      "proj_ppg": 0.52,
+      "vor": -191.1,
       "tier": 9,
       "pos_rk": 64,
       "clay_pos_rk": 62,
@@ -1504,6 +1566,7 @@
       "components": {
         "pass_yd": 134,
         "pass_td": 1,
+        "pass_int": 1,
         "rush_att": 1,
         "rush_yd": 5,
         "rush_td": 0,
@@ -1518,9 +1581,9 @@
       "team": "BUF",
       "pos": "QB",
       "games": 17,
-      "proj_total": 9.8,
-      "proj_ppg": 0.58,
-      "vor": -190.2,
+      "proj_total": 8.8,
+      "proj_ppg": 0.52,
+      "vor": -191.2,
       "tier": 9,
       "pos_rk": 65,
       "clay_pos_rk": 63,
@@ -1528,6 +1591,7 @@
       "components": {
         "pass_yd": 138,
         "pass_td": 1,
+        "pass_int": 1,
         "rush_att": 1,
         "rush_yd": 3,
         "rush_td": 0,
@@ -1542,16 +1606,17 @@
       "team": "MIA",
       "pos": "QB",
       "games": 17,
-      "proj_total": 10.6,
-      "proj_ppg": 0.62,
-      "vor": -189.4,
+      "proj_total": 9.6,
+      "proj_ppg": 0.56,
+      "vor": -190.4,
       "tier": 9,
-      "pos_rk": 53,
+      "pos_rk": 55,
       "clay_pos_rk": 64,
       "clay_ppr_total": 7,
       "components": {
         "pass_yd": 154,
         "pass_td": 1,
+        "pass_int": 1,
         "rush_att": 1,
         "rush_yd": 4,
         "rush_td": 0,
@@ -1566,9 +1631,9 @@
       "team": "ARI",
       "pos": "QB",
       "games": 15,
-      "proj_total": 10.0,
-      "proj_ppg": 0.67,
-      "vor": -190.0,
+      "proj_total": 9.0,
+      "proj_ppg": 0.6,
+      "vor": -191.0,
       "tier": 9,
       "pos_rk": 62,
       "clay_pos_rk": 65,
@@ -1576,6 +1641,7 @@
       "components": {
         "pass_yd": 142,
         "pass_td": 1,
+        "pass_int": 1,
         "rush_att": 1,
         "rush_yd": 3,
         "rush_td": 0,
@@ -1600,6 +1666,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 274,
         "rush_yd": 1328,
         "rush_td": 14,
@@ -1624,6 +1691,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 286,
         "rush_yd": 1371,
         "rush_td": 8,
@@ -1648,6 +1716,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 279,
         "rush_yd": 1149,
         "rush_td": 10,
@@ -1672,6 +1741,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 327,
         "rush_yd": 1510,
         "rush_td": 12,
@@ -1696,6 +1766,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 260,
         "rush_yd": 1315,
         "rush_td": 5,
@@ -1720,6 +1791,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 281,
         "rush_yd": 1137,
         "rush_td": 7,
@@ -1744,6 +1816,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 300,
         "rush_yd": 1400,
         "rush_td": 11,
@@ -1768,6 +1841,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 270,
         "rush_yd": 1153,
         "rush_td": 10,
@@ -1792,6 +1866,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 255,
         "rush_yd": 1129,
         "rush_td": 7,
@@ -1816,6 +1891,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 317,
         "rush_yd": 1480,
         "rush_td": 13,
@@ -1840,6 +1916,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 300,
         "rush_yd": 1237,
         "rush_td": 13,
@@ -1864,6 +1941,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 300,
         "rush_yd": 1285,
         "rush_td": 9,
@@ -1888,6 +1966,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 264,
         "rush_yd": 1161,
         "rush_td": 8,
@@ -1912,6 +1991,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 240,
         "rush_yd": 1045,
         "rush_td": 7,
@@ -1936,6 +2016,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 276,
         "rush_yd": 1234,
         "rush_td": 9,
@@ -1960,6 +2041,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 287,
         "rush_yd": 1256,
         "rush_td": 11,
@@ -1984,6 +2066,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 250,
         "rush_yd": 1133,
         "rush_td": 11,
@@ -2008,6 +2091,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 250,
         "rush_yd": 1049,
         "rush_td": 7,
@@ -2032,6 +2116,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 258,
         "rush_yd": 1117,
         "rush_td": 6,
@@ -2056,6 +2141,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 316,
         "rush_yd": 1240,
         "rush_td": 7,
@@ -2080,6 +2166,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 262,
         "rush_yd": 1062,
         "rush_td": 6,
@@ -2104,6 +2191,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 219,
         "rush_yd": 994,
         "rush_td": 8,
@@ -2128,6 +2216,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 232,
         "rush_yd": 930,
         "rush_td": 5,
@@ -2152,6 +2241,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 194,
         "rush_yd": 854,
         "rush_td": 7,
@@ -2176,6 +2266,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 237,
         "rush_yd": 991,
         "rush_td": 7,
@@ -2200,6 +2291,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 221,
         "rush_yd": 915,
         "rush_td": 8,
@@ -2224,6 +2316,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 214,
         "rush_yd": 930,
         "rush_td": 7,
@@ -2248,6 +2341,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 170,
         "rush_yd": 722,
         "rush_td": 7,
@@ -2272,6 +2366,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 180,
         "rush_yd": 789,
         "rush_td": 4,
@@ -2296,6 +2391,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 247,
         "rush_yd": 1076,
         "rush_td": 6,
@@ -2320,6 +2416,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 170,
         "rush_yd": 740,
         "rush_td": 4,
@@ -2344,6 +2441,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 223,
         "rush_yd": 972,
         "rush_td": 5,
@@ -2368,6 +2466,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 217,
         "rush_yd": 1012,
         "rush_td": 7,
@@ -2392,6 +2491,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 192,
         "rush_yd": 825,
         "rush_td": 6,
@@ -2416,6 +2516,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 135,
         "rush_yd": 567,
         "rush_td": 5,
@@ -2440,6 +2541,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 109,
         "rush_yd": 483,
         "rush_td": 4,
@@ -2464,6 +2566,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 106,
         "rush_yd": 431,
         "rush_td": 4,
@@ -2488,6 +2591,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 196,
         "rush_yd": 846,
         "rush_td": 7,
@@ -2512,6 +2616,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 168,
         "rush_yd": 775,
         "rush_td": 7,
@@ -2536,6 +2641,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 97,
         "rush_yd": 411,
         "rush_td": 3,
@@ -2560,6 +2666,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 136,
         "rush_yd": 554,
         "rush_td": 7,
@@ -2584,6 +2691,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 136,
         "rush_yd": 573,
         "rush_td": 3,
@@ -2608,6 +2716,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 162,
         "rush_yd": 749,
         "rush_td": 5,
@@ -2632,6 +2741,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 158,
         "rush_yd": 679,
         "rush_td": 5,
@@ -2656,6 +2766,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 143,
         "rush_yd": 579,
         "rush_td": 3,
@@ -2680,6 +2791,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 120,
         "rush_yd": 481,
         "rush_td": 2,
@@ -2704,6 +2816,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 49,
         "rush_yd": 223,
         "rush_td": 1,
@@ -2728,6 +2841,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 102,
         "rush_yd": 443,
         "rush_td": 3,
@@ -2752,6 +2866,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 135,
         "rush_yd": 560,
         "rush_td": 4,
@@ -2776,6 +2891,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 97,
         "rush_yd": 385,
         "rush_td": 3,
@@ -2800,6 +2916,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 100,
         "rush_yd": 420,
         "rush_td": 4,
@@ -2824,6 +2941,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 55,
         "rush_yd": 229,
         "rush_td": 1,
@@ -2848,6 +2966,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 51,
         "rush_yd": 219,
         "rush_td": 2,
@@ -2872,6 +2991,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 98,
         "rush_yd": 418,
         "rush_td": 1,
@@ -2896,6 +3016,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 83,
         "rush_yd": 340,
         "rush_td": 3,
@@ -2920,6 +3041,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 100,
         "rush_yd": 431,
         "rush_td": 3,
@@ -2944,6 +3066,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 67,
         "rush_yd": 286,
         "rush_td": 2,
@@ -2968,6 +3091,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 89,
         "rush_yd": 365,
         "rush_td": 2,
@@ -2992,6 +3116,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 83,
         "rush_yd": 373,
         "rush_td": 3,
@@ -3016,6 +3141,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 80,
         "rush_yd": 340,
         "rush_td": 2,
@@ -3040,6 +3166,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 70,
         "rush_yd": 291,
         "rush_td": 2,
@@ -3064,6 +3191,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 33,
         "rush_yd": 139,
         "rush_td": 1,
@@ -3088,6 +3216,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 49,
         "rush_yd": 211,
         "rush_td": 2,
@@ -3112,6 +3241,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 8,
         "rush_yd": 34,
         "rush_td": 0,
@@ -3136,6 +3266,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 4,
         "rush_yd": 19,
         "rush_td": 0,
@@ -3160,6 +3291,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 22,
         "rush_yd": 98,
         "rush_td": 1,
@@ -3184,6 +3316,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 50,
         "rush_yd": 210,
         "rush_td": 1,
@@ -3208,6 +3341,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 22,
         "rush_yd": 99,
         "rush_td": 1,
@@ -3232,6 +3366,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 40,
         "rush_yd": 170,
         "rush_td": 1,
@@ -3256,6 +3391,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 32,
         "rush_yd": 138,
         "rush_td": 1,
@@ -3280,6 +3416,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 34,
         "rush_yd": 141,
         "rush_td": 1,
@@ -3304,6 +3441,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 44,
         "rush_yd": 186,
         "rush_td": 1,
@@ -3328,6 +3466,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 44,
         "rush_yd": 183,
         "rush_td": 1,
@@ -3352,6 +3491,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 44,
         "rush_yd": 181,
         "rush_td": 1,
@@ -3376,6 +3516,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 4,
         "rush_yd": 18,
         "rush_td": 0,
@@ -3400,6 +3541,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 36,
         "rush_yd": 143,
         "rush_td": 1,
@@ -3424,6 +3566,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 9,
         "rush_yd": 40,
         "rush_td": 0,
@@ -3448,6 +3591,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 35,
         "rush_yd": 146,
         "rush_td": 2,
@@ -3472,6 +3616,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 17,
         "rush_yd": 78,
         "rush_td": 0,
@@ -3496,6 +3641,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 29,
         "rush_yd": 121,
         "rush_td": 1,
@@ -3520,6 +3666,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 13,
         "rush_yd": 56,
         "rush_td": 0,
@@ -3544,6 +3691,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 26,
         "rush_yd": 110,
         "rush_td": 1,
@@ -3568,6 +3716,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 20,
         "rush_yd": 85,
         "rush_td": 1,
@@ -3592,6 +3741,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 20,
         "rush_yd": 83,
         "rush_td": 1,
@@ -3616,6 +3766,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 17,
         "rush_yd": 70,
         "rush_td": 0,
@@ -3640,6 +3791,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 31,
         "rush_yd": 129,
         "rush_td": 1,
@@ -3664,6 +3816,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 9,
         "rush_td": 0,
@@ -3688,6 +3841,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 13,
         "rush_yd": 52,
         "rush_td": 0,
@@ -3712,6 +3866,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 12,
         "rush_yd": 51,
         "rush_td": 0,
@@ -3736,6 +3891,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 4,
         "rush_yd": 17,
         "rush_td": 0,
@@ -3760,6 +3916,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 4,
         "rush_yd": 18,
         "rush_td": 0,
@@ -3784,6 +3941,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 4,
         "rush_yd": 18,
         "rush_td": 0,
@@ -3808,6 +3966,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 11,
         "rush_yd": 48,
         "rush_td": 0,
@@ -3832,6 +3991,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 8,
         "rush_td": 0,
@@ -3856,6 +4016,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -3880,6 +4041,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -3904,6 +4066,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -3928,6 +4091,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 13,
         "rush_yd": 55,
         "rush_td": 0,
@@ -3952,6 +4116,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 13,
         "rush_yd": 54,
         "rush_td": 0,
@@ -3976,6 +4141,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -4000,6 +4166,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 9,
         "rush_yd": 36,
         "rush_td": 0,
@@ -4024,6 +4191,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 4,
         "rush_yd": 18,
         "rush_td": 0,
@@ -4048,6 +4216,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -4072,6 +4241,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -4096,6 +4266,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -4120,6 +4291,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -4144,6 +4316,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -4168,6 +4341,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -4192,6 +4366,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -4216,6 +4391,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -4240,6 +4416,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 16,
         "rush_yd": 106,
         "rush_td": 1,
@@ -4264,6 +4441,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 4,
         "rush_yd": 21,
         "rush_td": 0,
@@ -4288,6 +4466,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 5,
         "rush_yd": 25,
         "rush_td": 0,
@@ -4312,6 +4491,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 13,
         "rush_td": 0,
@@ -4336,6 +4516,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 13,
         "rush_td": 0,
@@ -4360,6 +4541,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 11,
         "rush_td": 0,
@@ -4384,6 +4566,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 8,
         "rush_yd": 43,
         "rush_td": 1,
@@ -4408,6 +4591,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -4432,6 +4616,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 11,
         "rush_td": 0,
@@ -4456,6 +4641,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 4,
         "rush_yd": 23,
         "rush_td": 0,
@@ -4480,6 +4666,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 12,
         "rush_td": 0,
@@ -4504,6 +4691,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -4528,6 +4716,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -4552,6 +4741,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -4576,6 +4766,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 10,
         "rush_yd": 57,
         "rush_td": 0,
@@ -4600,6 +4791,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -4624,6 +4816,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -4648,6 +4841,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -4672,6 +4866,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -4696,6 +4891,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -4720,6 +4916,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -4744,6 +4941,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -4768,6 +4966,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 12,
         "rush_td": 0,
@@ -4792,6 +4991,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -4816,6 +5016,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 7,
         "rush_yd": 36,
         "rush_td": 0,
@@ -4840,6 +5041,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 7,
         "rush_yd": 45,
         "rush_td": 1,
@@ -4864,6 +5066,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 12,
         "rush_td": 0,
@@ -4888,6 +5091,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 9,
         "rush_yd": 50,
         "rush_td": 0,
@@ -4912,6 +5116,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -4936,6 +5141,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -4960,6 +5166,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -4984,6 +5191,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -5008,6 +5216,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -5032,6 +5241,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -5056,6 +5266,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -5080,6 +5291,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 8,
         "rush_yd": 39,
         "rush_td": 0,
@@ -5104,6 +5316,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 13,
         "rush_td": 0,
@@ -5128,6 +5341,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 4,
         "rush_yd": 25,
         "rush_td": 0,
@@ -5152,6 +5366,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -5176,6 +5391,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 6,
         "rush_yd": 32,
         "rush_td": 0,
@@ -5200,6 +5416,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 4,
         "rush_yd": 23,
         "rush_td": 0,
@@ -5224,6 +5441,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 4,
         "rush_yd": 22,
         "rush_td": 0,
@@ -5248,6 +5466,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 12,
         "rush_yd": 76,
         "rush_td": 1,
@@ -5272,6 +5491,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -5296,6 +5516,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 12,
         "rush_td": 0,
@@ -5320,6 +5541,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 9,
         "rush_yd": 65,
         "rush_td": 0,
@@ -5344,6 +5566,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 14,
         "rush_td": 0,
@@ -5368,6 +5591,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 4,
         "rush_yd": 24,
         "rush_td": 0,
@@ -5392,6 +5616,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -5416,6 +5641,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -5440,6 +5666,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 11,
         "rush_td": 0,
@@ -5464,6 +5691,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 11,
         "rush_td": 0,
@@ -5488,6 +5716,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 6,
         "rush_yd": 35,
         "rush_td": 0,
@@ -5512,6 +5741,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 6,
         "rush_yd": 32,
         "rush_td": 0,
@@ -5536,6 +5766,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -5560,6 +5791,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 14,
         "rush_yd": 87,
         "rush_td": 1,
@@ -5584,6 +5816,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 12,
         "rush_td": 0,
@@ -5608,6 +5841,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -5632,6 +5866,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -5656,6 +5891,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -5680,6 +5916,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 10,
         "rush_yd": 58,
         "rush_td": 0,
@@ -5704,6 +5941,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 4,
         "rush_yd": 25,
         "rush_td": 0,
@@ -5728,6 +5966,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 12,
         "rush_td": 0,
@@ -5752,6 +5991,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -5776,6 +6016,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 4,
         "rush_yd": 22,
         "rush_td": 0,
@@ -5800,6 +6041,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 11,
         "rush_td": 0,
@@ -5824,6 +6066,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -5848,6 +6091,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -5872,6 +6116,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -5896,6 +6141,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 11,
         "rush_td": 0,
@@ -5920,6 +6166,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 8,
         "rush_yd": 45,
         "rush_td": 0,
@@ -5944,6 +6191,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 12,
         "rush_td": 0,
@@ -5968,6 +6216,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -5992,6 +6241,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -6016,6 +6266,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 13,
         "rush_yd": 76,
         "rush_td": 0,
@@ -6040,6 +6291,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -6064,6 +6316,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 12,
         "rush_td": 0,
@@ -6088,6 +6341,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -6112,6 +6366,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -6136,6 +6391,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -6160,6 +6416,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -6184,6 +6441,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 12,
         "rush_td": 0,
@@ -6208,6 +6466,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 11,
         "rush_td": 0,
@@ -6232,6 +6491,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 11,
         "rush_td": 0,
@@ -6256,6 +6516,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -6280,6 +6541,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -6304,6 +6566,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -6328,6 +6591,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -6352,6 +6616,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -6376,6 +6641,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 11,
         "rush_td": 0,
@@ -6400,6 +6666,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 9,
         "rush_yd": 47,
         "rush_td": 0,
@@ -6424,6 +6691,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 8,
         "rush_yd": 45,
         "rush_td": 0,
@@ -6448,6 +6716,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -6472,6 +6741,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -6496,6 +6766,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -6520,6 +6791,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -6544,6 +6816,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 18,
         "rush_yd": 102,
         "rush_td": 0,
@@ -6568,6 +6841,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -6592,6 +6866,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -6616,6 +6891,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -6640,6 +6916,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 5,
         "rush_yd": 27,
         "rush_td": 0,
@@ -6664,6 +6941,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -6688,6 +6966,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -6712,6 +6991,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -6736,6 +7016,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 4,
         "rush_yd": 21,
         "rush_td": 0,
@@ -6760,6 +7041,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -6784,6 +7066,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 4,
         "rush_yd": 22,
         "rush_td": 0,
@@ -6808,6 +7091,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -6832,6 +7116,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -6856,6 +7141,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 11,
         "rush_td": 0,
@@ -6880,6 +7166,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -6904,6 +7191,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 11,
         "rush_td": 0,
@@ -6928,6 +7216,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -6952,6 +7241,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 12,
         "rush_td": 0,
@@ -6976,6 +7266,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 4,
         "rush_yd": 26,
         "rush_td": 0,
@@ -7000,6 +7291,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -7024,6 +7316,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -7048,6 +7341,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -7072,6 +7366,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -7096,6 +7391,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 12,
         "rush_td": 0,
@@ -7120,6 +7416,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -7144,6 +7441,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -7168,6 +7466,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -7192,6 +7491,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -7216,6 +7516,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 10,
         "rush_yd": 50,
         "rush_td": 1,
@@ -7240,6 +7541,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -7264,6 +7566,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -7288,6 +7591,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 11,
         "rush_td": 0,
@@ -7312,6 +7616,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -7336,6 +7641,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -7360,6 +7666,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 4,
         "rush_yd": 22,
         "rush_td": 0,
@@ -7384,6 +7691,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -7408,6 +7716,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 4,
         "rush_yd": 23,
         "rush_td": 0,
@@ -7432,6 +7741,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -7456,6 +7766,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -7480,6 +7791,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -7504,6 +7816,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -7528,6 +7841,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -7552,6 +7866,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -7576,6 +7891,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 5,
         "rush_yd": 24,
         "rush_td": 0,
@@ -7600,6 +7916,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 13,
         "rush_td": 0,
@@ -7624,6 +7941,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 4,
         "rush_yd": 26,
         "rush_td": 0,
@@ -7648,6 +7966,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 4,
         "rush_yd": 24,
         "rush_td": 0,
@@ -7672,6 +7991,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -7696,6 +8016,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 11,
         "rush_td": 0,
@@ -7720,6 +8041,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 4,
         "rush_yd": 23,
         "rush_td": 0,
@@ -7744,6 +8066,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -7768,6 +8091,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -7792,6 +8116,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -7816,6 +8141,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -7840,6 +8166,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -7864,6 +8191,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 11,
         "rush_td": 0,
@@ -7888,6 +8216,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -7912,6 +8241,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -7936,6 +8266,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -7960,6 +8291,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -7984,6 +8316,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -8008,6 +8341,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -8032,6 +8366,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 12,
         "rush_td": 0,
@@ -8056,6 +8391,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 6,
         "rush_yd": 44,
         "rush_td": 0,
@@ -8080,6 +8416,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 12,
         "rush_td": 0,
@@ -8104,6 +8441,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 4,
         "rush_yd": 25,
         "rush_td": 0,
@@ -8128,6 +8466,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 4,
         "rush_yd": 24,
         "rush_td": 0,
@@ -8152,6 +8491,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -8176,6 +8516,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -8200,6 +8541,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -8224,6 +8566,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -8248,6 +8591,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -8272,6 +8616,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -8296,6 +8641,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -8320,6 +8666,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -8344,6 +8691,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -8368,6 +8716,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -8392,6 +8741,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -8416,6 +8766,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -8440,6 +8791,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -8464,6 +8816,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -8488,6 +8841,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -8512,6 +8866,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -8536,6 +8891,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -8560,6 +8916,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -8584,6 +8941,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -8608,6 +8966,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -8632,6 +8991,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -8656,6 +9016,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 4,
         "rush_yd": 16,
         "rush_td": 0,
@@ -8680,6 +9041,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 6,
         "rush_yd": 14,
         "rush_td": 0,
@@ -8704,6 +9066,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -8728,6 +9091,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -8752,6 +9116,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 8,
         "rush_yd": 21,
         "rush_td": 0,
@@ -8776,6 +9141,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -8800,6 +9166,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -8824,6 +9191,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -8848,6 +9216,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 10,
         "rush_yd": 35,
         "rush_td": 1,
@@ -8872,6 +9241,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -8896,6 +9266,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 8,
         "rush_td": 0,
@@ -8920,6 +9291,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -8944,6 +9316,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -8968,6 +9341,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -8992,6 +9366,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9016,6 +9391,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9040,6 +9416,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9064,6 +9441,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9088,6 +9466,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9112,6 +9491,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9136,6 +9516,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9160,6 +9541,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9184,6 +9566,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9208,6 +9591,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9232,6 +9616,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9256,6 +9641,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 9,
         "rush_yd": 18,
         "rush_td": 0,
@@ -9280,6 +9666,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9304,6 +9691,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9328,6 +9716,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9352,6 +9741,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9376,6 +9766,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9400,6 +9791,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9424,6 +9816,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9448,6 +9841,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9472,6 +9866,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9496,6 +9891,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9520,6 +9916,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9544,6 +9941,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9568,6 +9966,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9592,6 +9991,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9616,6 +10016,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9640,6 +10041,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9664,6 +10066,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9688,6 +10091,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9712,6 +10116,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9736,6 +10141,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9760,6 +10166,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9784,6 +10191,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9808,6 +10216,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9832,6 +10241,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9856,6 +10266,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 5,
         "rush_yd": 20,
         "rush_td": 0,
@@ -9880,6 +10291,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9904,6 +10316,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9928,6 +10341,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 4,
         "rush_yd": 10,
         "rush_td": 0,
@@ -9952,6 +10366,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -9976,6 +10391,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10000,6 +10416,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10024,6 +10441,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10048,6 +10466,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10072,6 +10491,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10096,6 +10516,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10120,6 +10541,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10144,6 +10566,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10168,6 +10591,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10192,6 +10616,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10216,6 +10641,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10240,6 +10666,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10264,6 +10691,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10288,6 +10716,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10312,6 +10741,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10336,6 +10766,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10360,6 +10791,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10384,6 +10816,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10408,6 +10841,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10432,6 +10866,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10456,6 +10891,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10480,6 +10916,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10504,6 +10941,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10528,6 +10966,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10552,6 +10991,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10576,6 +11016,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10600,6 +11041,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10624,6 +11066,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10648,6 +11091,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10672,6 +11116,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10696,6 +11141,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10720,6 +11166,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10744,6 +11191,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10768,6 +11216,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10792,6 +11241,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10816,6 +11266,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10840,6 +11291,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10864,6 +11316,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10888,6 +11341,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10912,6 +11366,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,
@@ -10936,6 +11391,7 @@
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
+        "pass_int": 0,
         "rush_att": 0,
         "rush_yd": 0,
         "rush_td": 0,

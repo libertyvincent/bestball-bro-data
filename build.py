@@ -69,25 +69,32 @@ REPLACEMENT_LEVELS = {"QB": 200.0, "RB": 110.0, "WR": 100.0, "TE": 85.0}
 SCORING_RULES = {
     "pass_yd": 0.04,
     "pass_td": 4.0,
+    "pass_int": -1.0,
     "rush_yd": 0.1,
     "rush_td": 6.0,
     "rec": 0.5,
     "rec_yd": 0.1,
     "rec_td": 6.0,
 }
-# Clay's PDF uses its own native scoring (full PPR, 4 pts/pass TD,
-# -2/INT). Echoed into the offense source feed's _meta so downstream
-# consumers don't have to guess.
+# Underdog full-PPR scoring rules — the source rules Clay's PDF Pts
+# column is computed against. The half-PPR projection we publish is
+# derived from this by swapping reception 1.0 → 0.5. Interception is
+# -1 (Underdog's published rule, not -2 as we previously assumed);
+# fumble_lost (-2) and two_pt_conversion (+2) are listed for
+# completeness but neither stat is exposed as a per-row column in the
+# PDF, so the half-PPR reconstruction in compute_proj_total can't
+# apply them — they live implicitly inside Clay's published Pts.
 CLAY_NATIVE_SCORING = {
     "passing_yard": 0.04,
     "passing_td": 4,
-    "interception": -2,
+    "interception": -1,
     "rushing_yard": 0.1,
     "rushing_td": 6,
     "reception": 1.0,
     "receiving_yard": 0.1,
     "receiving_td": 6,
     "fumble_lost": -2,
+    "two_pt_conversion": 2,
 }
 
 # --- Team abbreviation normalization ------------------------------------
@@ -135,15 +142,21 @@ def assign_tier(vor: float, pos: str) -> int:
 
 
 def compute_proj_total(c: dict) -> float:
-    """Fantasy points from component stats. Underdog half-PPR scoring."""
+    """Fantasy points from component stats. Underdog half-PPR scoring.
+
+    Applies the INT penalty (-1) — previous omission inflated QB
+    projections by 15-20 points each. fumble_lost and two_pt_conversion
+    aren't in the per-row stat extract, so they aren't applied here;
+    they're already baked into Clay's Pts column on the offense feed."""
     return round(
-        c["pass_yd"] * SCORING_RULES["pass_yd"]
-        + c["pass_td"] * SCORING_RULES["pass_td"]
-        + c["rush_yd"] * SCORING_RULES["rush_yd"]
-        + c["rush_td"] * SCORING_RULES["rush_td"]
-        + c["rec"]     * SCORING_RULES["rec"]
-        + c["rec_yd"]  * SCORING_RULES["rec_yd"]
-        + c["rec_td"]  * SCORING_RULES["rec_td"],
+        c["pass_yd"]  * SCORING_RULES["pass_yd"]
+        + c["pass_td"]  * SCORING_RULES["pass_td"]
+        + c["pass_int"] * SCORING_RULES["pass_int"]
+        + c["rush_yd"]  * SCORING_RULES["rush_yd"]
+        + c["rush_td"]  * SCORING_RULES["rush_td"]
+        + c["rec"]      * SCORING_RULES["rec"]
+        + c["rec_yd"]   * SCORING_RULES["rec_yd"]
+        + c["rec_td"]   * SCORING_RULES["rec_td"],
         1,
     )
 
@@ -175,7 +188,7 @@ def load_team_keys():
 
 # --- PDF parsing --------------------------------------------------------
 # Match a per-team page title (e.g. "2026 Cleveland Browns Projections").
-TITLE_RE = re.compile(r"2026\s+([A-Za-z][A-Za-z'\.\s]+?)\s+Projections\b")
+TITLE_RE = re.compile(r"2026\s+([A-Za-z][A-Za-z0-9'\.\s]+?)\s+Projections\b")
 
 # Match an offense row line on a per-team page:
 #   <POS> <player name (multi-word)> <16 numeric stats>
@@ -184,30 +197,38 @@ TITLE_RE = re.compile(r"2026\s+([A-Za-z][A-Za-z'\.\s]+?)\s+Projections\b")
 # (III). The 16 trailing integers are the stat columns in fixed order:
 #   Gm | Pass(Att Comp Yds TD INT Sk) | Rush(Att Yds TD)
 #      | Rec(Tgt Rec Yd TD) | Pts | Rk
+# No end anchor: pdfplumber concatenates the offense, defense, and
+# weekly-score rows into a single line per row, so anything after the
+# 16th stat is harmlessly ignored.
 OFFENSE_ROW_RE = re.compile(
     r"^(?P<pos>QB|RB|WR|TE)\s+"
     r"(?P<name>[A-Za-z][A-Za-z'\.\-\s]+?)"
-    r"\s+(?P<stats>\d+(?:\s+\d+){15})\s*$"
+    r"\s+(?P<stats>\d+(?:\s+\d+){15})(?!\d)"
 )
 
-# Match a weekly-score-projections row on a per-team page:
-#   <wk> <opp_team_code> <V|H> <tm_score> <opp_score> <win_prob>%
-# Bye-week rows omit the opp/loc/scores/prob (or render as blanks); we
-# detect them with the bye variant below.
+# Weekly-score-projection rows live at the END of each concatenated line
+# (offense + defense + weekly trail, all merged by pdfplumber). We use
+# re.search with end-of-line anchoring and a leading (?:^|\s) so we
+# don't false-positive on numbers buried in the offense/defense stats.
+#
+# Three line shapes:
+#   1. Standard week:  "... 1 LAC V 17.2 29.1 13%"
+#   2. Bye week:       "... 14 0.0 0.0"
+#   3. Season total:   "... Total 306 465 21%"
 WEEKLY_SCORE_RE = re.compile(
-    r"^(?P<wk>\d{1,2})\s+"
-    r"(?P<opp>[A-Z]{2,3})\s+"
+    r"(?:^|\s)(?P<wk>\d{1,2})\s+"
+    r"@?(?P<opp>[A-Z]{2,3})\s+"
     r"(?P<loc>[VH])\s+"
     r"(?P<tm_score>\d+(?:\.\d+)?)\s+"
     r"(?P<opp_score>\d+(?:\.\d+)?)\s+"
     r"(?P<win_prob>\d{1,3})%\s*$"
 )
-# Bye-week row: <wk> [BYE label] 0(.0)? 0(.0)? — never matches a bare
-# integer alone, so page-footer page numbers can't false-positive into
-# a fake bye. Spec says bye renders with blank opp/loc and zero scores;
-# we require the zeros to appear so we only consume real bye rows.
 WEEKLY_BYE_RE = re.compile(
-    r"^(?P<wk>\d{1,2})\s+(?:BYE\s+)?0(?:\.0+)?\s+0(?:\.0+)?\s*$",
+    r"(?:^|\s)(?P<wk>\d{1,2})\s+0(?:\.0+)?\s+0(?:\.0+)?\s*$"
+)
+WEEKLY_TOTAL_RE = re.compile(
+    r"(?:^|\s)Total\s+(?P<tm_total>\d+)\s+(?P<opp_total>\d+)\s+"
+    r"(?P<win_pct>\d{1,3})%\s*$",
     re.I,
 )
 
@@ -230,7 +251,7 @@ PDF_UPDATED_RE = re.compile(
 # 6 aggregate cells (off_gr off_rk def_gr def_rk tot_gr tot_rk).
 # Aggregate grades are floats; ranks are 1-32 integers.
 UNIT_GRADE_RE = re.compile(
-    r"^(?P<team>[A-Za-z][A-Za-z'\.\s]+?)\s+"
+    r"^(?P<team>[A-Za-z][A-Za-z0-9'\.\s]+?)\s+"
     r"(?P<grades>\d+(?:\s+\d+){9})\s+"
     r"(?P<off_gr>\d+(?:\.\d+)?)\s+(?P<off_rk>\d+)\s+"
     r"(?P<def_gr>\d+(?:\.\d+)?)\s+(?P<def_rk>\d+)\s+"
@@ -275,9 +296,12 @@ def parse_offense_rows(text: str) -> list:
             r_att, r_yds, r_td, \
             tgt, rec, rec_yd, rec_td, \
             pts, _rk = nums
-        # Legacy-feed components (half-PPR pipeline).
+        # Legacy-feed components (half-PPR pipeline). pass_int is
+        # included so compute_proj_total can apply the -1/INT penalty
+        # downstream; previous schema omitted it and that's what
+        # inflated QB proj_totals.
         components = {
-            "pass_yd": p_yds, "pass_td": p_td,
+            "pass_yd": p_yds, "pass_td": p_td, "pass_int": p_int,
             "rush_att": r_att, "rush_yd": r_yds, "rush_td": r_td,
             "targets": tgt, "rec": rec, "rec_yd": rec_yd, "rec_td": rec_td,
         }
@@ -322,28 +346,24 @@ def parse_weekly_scores(text: str, abbrs: set) -> list:
     opponent/location/win_prob and 0.0 scores."""
     weeks: dict[int, dict] = {}
     for line in text.splitlines():
-        line = line.strip()
-        m = WEEKLY_SCORE_RE.match(line)
+        line = line.rstrip()
+        m = WEEKLY_SCORE_RE.search(line)
         if m:
             wk = int(m.group("wk"))
-            if not 1 <= wk <= 18 or wk in weeks:
-                continue
-            opp = normalize_team(m.group("opp"))
-            if opp not in abbrs:
-                # Stray match (e.g. an unrelated table row that happens
-                # to fit the shape) — skip rather than corrupt the table.
-                continue
-            weeks[wk] = {
-                "week":               wk,
-                "opponent":           opp,
-                "location":           m.group("loc"),
-                "team_nfl_score":     float(m.group("tm_score")),
-                "opponent_nfl_score": float(m.group("opp_score")),
-                "win_prob":           int(m.group("win_prob")) / 100.0,
-                "is_bye":             False,
-            }
-            continue
-        m = WEEKLY_BYE_RE.match(line)
+            if 1 <= wk <= 18 and wk not in weeks:
+                opp = normalize_team(m.group("opp"))
+                if opp in abbrs:
+                    weeks[wk] = {
+                        "week":               wk,
+                        "opponent":           opp,
+                        "location":           m.group("loc"),
+                        "team_nfl_score":     float(m.group("tm_score")),
+                        "opponent_nfl_score": float(m.group("opp_score")),
+                        "win_prob":           int(m.group("win_prob")) / 100.0,
+                        "is_bye":             False,
+                    }
+                    continue
+        m = WEEKLY_BYE_RE.search(line)
         if m:
             wk = int(m.group("wk"))
             if 1 <= wk <= 18 and wk not in weeks:
@@ -511,13 +531,13 @@ def validate_offense_vs_legacy(offense_players: list,
     """Cross-feed reconciliation: legacy proj_total vs offense
     projected_points_half_ppr for the same player.
 
-    These won't be exactly equal — the offense feed derives half-PPR
-    as (Clay's full-PPR total) - (0.5 * receptions), which carries
-    Clay's INT and fumble penalties; the legacy proj_total recomputes
-    from the components dict with a stripped-down rule set that omits
-    INT/fumble penalties. Expect a few points of drift on QBs with
-    high INT counts. Anything past ~25 points indicates a real
-    methodology bug — fail loudly so we don't ship corrupted output.
+    These won't be exactly equal. compute_proj_total applies the
+    INT penalty (-1) but can't apply fumble_lost (-2) or
+    two_pt_conversion (+2) because neither stat is exposed as a
+    per-row column in the PDF — both are implicit in Clay's Pts.
+    Expected residual drift is small (a few points; fumble counts
+    are low). Anything past 25pt indicates a real methodology bug
+    — fail loudly so we don't ship corrupted output.
     """
     legacy_by_key = {f"{p['name']}|{p['team']}|{p['pos']}": p
                      for p in legacy_players.values()}
@@ -544,7 +564,7 @@ def validate_offense_vs_legacy(offense_players: list,
                  f"25pt cross-feed drift threshold")
     if drift:
         print(f"[build] half-PPR cross-feed: {len(drift)} players drifted "
-              f"0.5-25pt vs legacy (expected — INT/fumble rule delta)")
+              f"0.5-25pt vs legacy (expected — fumble residual)")
 
 
 # --- Feed assembly ------------------------------------------------------
@@ -649,6 +669,7 @@ def main() -> None:
                 pdf_updated = parse_pdf_updated(text)
 
             title_match = TITLE_RE.search(text)
+
             if title_match:
                 team_name = title_match.group(1).strip()
                 if team_name in name_to_abbr and team_name not in teams_seen:
@@ -675,13 +696,15 @@ def main() -> None:
                           f"-> {len(page_players)} players, "
                           f"{len(weeks)} weeks")
 
-            # Unit-grades page: any page whose text contains both
-            # "Off Gr" and "Def Gr" headers and parses cleanly to >=32
-            # team rows wins. Defensive against ESPN page-number changes.
-            if "Off Gr" in text and "Def Gr" in text:
-                candidate = parse_unit_grades_page(text, name_to_abbr)
-                if len(candidate) > len(grades_parsed):
-                    grades_parsed = candidate
+            # Unit-grades scan: run UNIT_GRADE_RE against every page;
+            # the page whose rows resolve to the most canonical NFL
+            # abbrs wins. No header-substring pre-filter — a sniff on
+            # "Off Gr"/"Def Gr" used to live here and silently locked
+            # us out of page 63 because extract_text() doesn't render
+            # those labels as contiguous substrings.
+            candidate = parse_unit_grades_page(text, name_to_abbr)
+            if len(candidate) > len(grades_parsed):
+                grades_parsed = candidate
 
     if len(teams_seen) != EXPECTED_TEAM_COUNT:
         missing = set(name_to_abbr) - teams_seen
