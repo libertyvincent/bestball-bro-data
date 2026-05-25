@@ -1,12 +1,42 @@
 {
   "season": 2026,
-  "generated_at": "2026-05-25T15:27:25Z",
+  "generated_at": "2026-05-25T23:34:14Z",
   "slates": {
     "nfl_2026_season": {
       "underdog_slate_id": "a9c04e81-1ace-4b16-a31d-4c725a47f16f",
       "path": "v1/projections/nfl_2026_season.json",
-      "sha256": "cb99b268f585f5af93a2db556af7248952666c6ee8801bf962a4c8839ce27f32",
-      "version": "1.0.0"
+      "sha256": "ae8754c1beeb89e107a304aba5ee394798b718549c08a4534b1f8d6d8a52cff1",
+      "version": "1.0.0",
+      "v2_path": "v2/projections/nfl_2026_season.json",
+      "v2_sha256": "583f2ae6e738da062ea5bca23bff53dc0377d8b0d0f465b5493308d40dec399a",
+      "v2_generated_at": "2026-05-25T23:37:15Z"
+    },
+    "nfl_2026_eliminator": {
+      "underdog_slate_id": "0ee05b31-f904-4e6e-985b-42f290e3aa3a",
+      "path": "v1/projections/nfl_2026_eliminator.json",
+      "sha256": "462e7fc570f2bbed2421dc17e518b2706ef932d83929087e56e9620227f17844",
+      "version": "1.0.0",
+      "v2_path": "v2/projections/nfl_2026_eliminator.json",
+      "v2_sha256": "ce64ae0411ad2347a9115bcc9ce5e6ea39d76e95fb2935074b2e63f8ac2ab760",
+      "v2_generated_at": "2026-05-25T23:37:15Z"
+    },
+    "nfl_2026_weekly_winners": {
+      "underdog_slate_id": "d9fd5f58-393f-400c-a010-3bf79b822b48",
+      "path": "v1/projections/nfl_2026_weekly_winners.json",
+      "sha256": "5750bd54304a70b2ad54ed8a2a54f42a9100e07208122eec096c0d12aa96e389",
+      "version": "1.0.0",
+      "v2_path": "v2/projections/nfl_2026_weekly_winners.json",
+      "v2_sha256": "f444dc6f5ce4f403a142879f53de6c0b0b1b8ca25aac5152f1ee6d1ce3ef1cee",
+      "v2_generated_at": "2026-05-25T23:37:15Z"
+    },
+    "nfl_2026_superflex": {
+      "underdog_slate_id": "11300882-a76f-4e12-8a5e-1a6b4c513794",
+      "path": "v1/projections/nfl_2026_superflex.json",
+      "sha256": "4733726fea345df8916e8d2388b39fa8b7843339b9e9b5728b80ec999124771b",
+      "version": "1.0.0",
+      "v2_path": "v2/projections/nfl_2026_superflex.json",
+      "v2_sha256": "38e4e2ea47030e06f2d23c3f9ef5f7c06523bd2cc775c42bf00004240603e18d",
+      "v2_generated_at": "2026-05-25T23:37:15Z"
     }
   }
 }
