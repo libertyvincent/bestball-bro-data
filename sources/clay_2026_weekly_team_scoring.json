@@ -1,0 +1,5391 @@
+{
+  "_meta": {
+    "source_id": "mike_clay_weekly_team_scoring",
+    "source_name": "Mike Clay - ESPN 2026 NFL Projection Guide (weekly team scoring)",
+    "source_url": "https://g.espncdn.com/s/ffldraftkit/26/NFLDK2026_CS_ClayProjections2026.pdf",
+    "pdf_updated": "2026-05-19",
+    "fetched_at": "2026-05-25T15:52:38Z",
+    "format": "per_team_weekly_score_projections",
+    "scoring_unit": "nfl_game_points",
+    "scoring_description": "These are projected NFL game scoring (touchdowns + field goals + safeties + 2-pt conversions), not fantasy points. Use as a relative per-week multiplier vs the team's season average to derive opponent-adjustment factors for fantasy projections.",
+    "team_count": 32
+  },
+  "teams": {
+    "ARI": {
+      "season_projected_nfl_points_for": null,
+      "season_projected_nfl_points_against": null,
+      "weeks": [
+        {
+          "week": 1,
+          "opponent": "LAC",
+          "location": "V",
+          "team_nfl_score": 17.2,
+          "opponent_nfl_score": 29.1,
+          "win_prob": 0.13,
+          "is_bye": false
+        },
+        {
+          "week": 2,
+          "opponent": "SEA",
+          "location": "H",
+          "team_nfl_score": 16.4,
+          "opponent_nfl_score": 27.0,
+          "win_prob": 0.15,
+          "is_bye": false
+        },
+        {
+          "week": 3,
+          "opponent": "SF",
+          "location": "V",
+          "team_nfl_score": 18.0,
+          "opponent_nfl_score": 29.4,
+          "win_prob": 0.13,
+          "is_bye": false
+        },
+        {
+          "week": 4,
+          "opponent": "NYG",
+          "location": "V",
+          "team_nfl_score": 18.7,
+          "opponent_nfl_score": 26.5,
+          "win_prob": 0.24,
+          "is_bye": false
+        },
+        {
+          "week": 5,
+          "opponent": "DET",
+          "location": "H",
+          "team_nfl_score": 18.6,
+          "opponent_nfl_score": 27.9,
+          "win_prob": 0.19,
+          "is_bye": false
+        },
+        {
+          "week": 6,
+          "opponent": "LAR",
+          "location": "V",
+          "team_nfl_score": 14.3,
+          "opponent_nfl_score": 33.2,
+          "win_prob": 0.04,
+          "is_bye": false
+        },
+        {
+          "week": 7,
+          "opponent": "DEN",
+          "location": "H",
+          "team_nfl_score": 16.4,
+          "opponent_nfl_score": 26.0,
+          "win_prob": 0.18,
+          "is_bye": false
+        },
+        {
+          "week": 8,
+          "opponent": "DAL",
+          "location": "V",
+          "team_nfl_score": 18.7,
+          "opponent_nfl_score": 31.5,
+          "win_prob": 0.11,
+          "is_bye": false
+        },
+        {
+          "week": 9,
+          "opponent": "SEA",
+          "location": "V",
+          "team_nfl_score": 14.3,
+          "opponent_nfl_score": 29.1,
+          "win_prob": 0.07,
+          "is_bye": false
+        },
+        {
+          "week": 10,
+          "opponent": "LAR",
+          "location": "H",
+          "team_nfl_score": 16.4,
+          "opponent_nfl_score": 31.1,
+          "win_prob": 0.07,
+          "is_bye": false
+        },
+        {
+          "week": 11,
+          "opponent": "KC",
+          "location": "V",
+          "team_nfl_score": 16.5,
+          "opponent_nfl_score": 28.5,
+          "win_prob": 0.12,
+          "is_bye": false
+        },
+        {
+          "week": 12,
+          "opponent": "WAS",
+          "location": "H",
+          "team_nfl_score": 23.0,
+          "opponent_nfl_score": 25.1,
+          "win_prob": 0.42,
+          "is_bye": false
+        },
+        {
+          "week": 13,
+          "opponent": "PHI",
+          "location": "H",
+          "team_nfl_score": 17.1,
+          "opponent_nfl_score": 26.3,
+          "win_prob": 0.19,
+          "is_bye": false
+        },
+        {
+          "week": 14,
+          "opponent": null,
+          "location": null,
+          "team_nfl_score": 0.0,
+          "opponent_nfl_score": 0.0,
+          "win_prob": null,
+          "is_bye": true
+        },
+        {
+          "week": 15,
+          "opponent": "NYJ",
+          "location": "H",
+          "team_nfl_score": 20.0,
+          "opponent_nfl_score": 21.8,
+          "win_prob": 0.44,
+          "is_bye": false
+        },
+        {
+          "week": 16,
+          "opponent": "NO",
+          "location": "V",
+          "team_nfl_score": 18.7,
+          "opponent_nfl_score": 24.2,
+          "win_prob": 0.31,
+          "is_bye": false
+        },
+        {
+          "week": 17,
+          "opponent": "LV",
+          "location": "H",
+          "team_nfl_score": 21.5,
+          "opponent_nfl_score": 21.0,
+          "win_prob": 0.52,
+          "is_bye": false
+        },
+        {
+          "week": 18,
+          "opponent": "SF",
+          "location": "H",
+          "team_nfl_score": 20.0,
+          "opponent_nfl_score": 27.3,
+          "win_prob": 0.25,
+          "is_bye": false
+        }
+      ]
+    },
+    "ATL": {
+      "season_projected_nfl_points_for": null,
+      "season_projected_nfl_points_against": null,
+      "weeks": [
+        {
+          "week": 1,
+          "opponent": "PIT",
+          "location": "V",
+          "team_nfl_score": 16.4,
+          "opponent_nfl_score": 23.7,
+          "win_prob": 0.25,
+          "is_bye": false
+        },
+        {
+          "week": 2,
+          "opponent": "CAR",
+          "location": "H",
+          "team_nfl_score": 21.4,
+          "opponent_nfl_score": 20.8,
+          "win_prob": 0.52,
+          "is_bye": false
+        },
+        {
+          "week": 3,
+          "opponent": "GB",
+          "location": "V",
+          "team_nfl_score": 18.6,
+          "opponent_nfl_score": 27.4,
+          "win_prob": 0.2,
+          "is_bye": false
+        },
+        {
+          "week": 4,
+          "opponent": "NO",
+          "location": "V",
+          "team_nfl_score": 20.1,
+          "opponent_nfl_score": 23.5,
+          "win_prob": 0.38,
+          "is_bye": false
+        },
+        {
+          "week": 5,
+          "opponent": "BAL",
+          "location": "H",
+          "team_nfl_score": 19.2,
+          "opponent_nfl_score": 26.7,
+          "win_prob": 0.24,
+          "is_bye": false
+        },
+        {
+          "week": 6,
+          "opponent": "CHI",
+          "location": "H",
+          "team_nfl_score": 21.4,
+          "opponent_nfl_score": 25.5,
+          "win_prob": 0.35,
+          "is_bye": false
+        },
+        {
+          "week": 7,
+          "opponent": "SF",
+          "location": "H",
+          "team_nfl_score": 21.4,
+          "opponent_nfl_score": 26.6,
+          "win_prob": 0.32,
+          "is_bye": false
+        },
+        {
+          "week": 8,
+          "opponent": "TB",
+          "location": "V",
+          "team_nfl_score": 18.6,
+          "opponent_nfl_score": 26.3,
+          "win_prob": 0.24,
+          "is_bye": false
+        },
+        {
+          "week": 9,
+          "opponent": "CIN",
+          "location": "H",
+          "team_nfl_score": 21.1,
+          "opponent_nfl_score": 28.4,
+          "win_prob": 0.25,
+          "is_bye": false
+        },
+        {
+          "week": 10,
+          "opponent": "KC",
+          "location": "H",
+          "team_nfl_score": 19.9,
+          "opponent_nfl_score": 25.6,
+          "win_prob": 0.3,
+          "is_bye": false
+        },
+        {
+          "week": 11,
+          "opponent": null,
+          "location": null,
+          "team_nfl_score": 0.0,
+          "opponent_nfl_score": 0.0,
+          "win_prob": null,
+          "is_bye": true
+        },
+        {
+          "week": 12,
+          "opponent": "MIN",
+          "location": "V",
+          "team_nfl_score": 19.3,
+          "opponent_nfl_score": 24.2,
+          "win_prob": 0.33,
+          "is_bye": false
+        },
+        {
+          "week": 13,
+          "opponent": "DET",
+          "location": "H",
+          "team_nfl_score": 19.9,
+          "opponent_nfl_score": 27.2,
+          "win_prob": 0.25,
+          "is_bye": false
+        },
+        {
+          "week": 14,
+          "opponent": "CLE",
+          "location": "V",
+          "team_nfl_score": 17.8,
+          "opponent_nfl_score": 20.2,
+          "win_prob": 0.41,
+          "is_bye": false
+        },
+        {
+          "week": 15,
+          "opponent": "WAS",
+          "location": "V",
+          "team_nfl_score": 22.3,
+          "opponent_nfl_score": 26.4,
+          "win_prob": 0.35,
+          "is_bye": false
+        },
+        {
+          "week": 16,
+          "opponent": "TB",
+          "location": "H",
+          "team_nfl_score": 20.7,
+          "opponent_nfl_score": 24.2,
+          "win_prob": 0.37,
+          "is_bye": false
+        },
+        {
+          "week": 17,
+          "opponent": "NO",
+          "location": "H",
+          "team_nfl_score": 22.2,
+          "opponent_nfl_score": 21.4,
+          "win_prob": 0.53,
+          "is_bye": false
+        },
+        {
+          "week": 18,
+          "opponent": "CAR",
+          "location": "V",
+          "team_nfl_score": 19.3,
+          "opponent_nfl_score": 22.9,
+          "win_prob": 0.37,
+          "is_bye": false
+        }
+      ]
+    },
+    "BAL": {
+      "season_projected_nfl_points_for": null,
+      "season_projected_nfl_points_against": null,
+      "weeks": [
+        {
+          "week": 1,
+          "opponent": "IND",
+          "location": "V",
+          "team_nfl_score": 24.5,
+          "opponent_nfl_score": 21.4,
+          "win_prob": 0.61,
+          "is_bye": false
+        },
+        {
+          "week": 2,
+          "opponent": "NO",
+          "location": "H",
+          "team_nfl_score": 27.3,
+          "opponent_nfl_score": 17.0,
+          "win_prob": 0.84,
+          "is_bye": false
+        },
+        {
+          "week": 3,
+          "opponent": "DAL",
+          "location": "V",
+          "team_nfl_score": 26.3,
+          "opponent_nfl_score": 25.2,
+          "win_prob": 0.54,
+          "is_bye": false
+        },
+        {
+          "week": 4,
+          "opponent": "TEN",
+          "location": "H",
+          "team_nfl_score": 28.0,
+          "opponent_nfl_score": 15.1,
+          "win_prob": 0.9,
+          "is_bye": false
+        },
+        {
+          "week": 5,
+          "opponent": "ATL",
+          "location": "V",
+          "team_nfl_score": 26.7,
+          "opponent_nfl_score": 19.2,
+          "win_prob": 0.76,
+          "is_bye": false
+        },
+        {
+          "week": 6,
+          "opponent": "CLE",
+          "location": "V",
+          "team_nfl_score": 23.0,
+          "opponent_nfl_score": 15.8,
+          "win_prob": 0.75,
+          "is_bye": false
+        },
+        {
+          "week": 7,
+          "opponent": "CIN",
+          "location": "H",
+          "team_nfl_score": 27.3,
+          "opponent_nfl_score": 22.9,
+          "win_prob": 0.66,
+          "is_bye": false
+        },
+        {
+          "week": 8,
+          "opponent": "BUF",
+          "location": "V",
+          "team_nfl_score": 26.7,
+          "opponent_nfl_score": 27.3,
+          "win_prob": 0.48,
+          "is_bye": false
+        },
+        {
+          "week": 9,
+          "opponent": "JAX",
+          "location": "H",
+          "team_nfl_score": 27.3,
+          "opponent_nfl_score": 21.3,
+          "win_prob": 0.71,
+          "is_bye": false
+        },
+        {
+          "week": 10,
+          "opponent": "LAC",
+          "location": "H",
+          "team_nfl_score": 25.8,
+          "opponent_nfl_score": 21.8,
+          "win_prob": 0.64,
+          "is_bye": false
+        },
+        {
+          "week": 11,
+          "opponent": "CAR",
+          "location": "V",
+          "team_nfl_score": 24.5,
+          "opponent_nfl_score": 18.5,
+          "win_prob": 0.71,
+          "is_bye": false
+        },
+        {
+          "week": 12,
+          "opponent": "HOU",
+          "location": "V",
+          "team_nfl_score": 20.8,
+          "opponent_nfl_score": 20.0,
+          "win_prob": 0.53,
+          "is_bye": false
+        },
+        {
+          "week": 13,
+          "opponent": null,
+          "location": null,
+          "team_nfl_score": 0.0,
+          "opponent_nfl_score": 0.0,
+          "win_prob": null,
+          "is_bye": true
+        },
+        {
+          "week": 14,
+          "opponent": "TB",
+          "location": "H",
+          "team_nfl_score": 25.8,
+          "opponent_nfl_score": 19.8,
+          "win_prob": 0.71,
+          "is_bye": false
+        },
+        {
+          "week": 15,
+          "opponent": "PIT",
+          "location": "V",
+          "team_nfl_score": 21.6,
+          "opponent_nfl_score": 19.2,
+          "win_prob": 0.58,
+          "is_bye": false
+        },
+        {
+          "week": 16,
+          "opponent": "CLE",
+          "location": "H",
+          "team_nfl_score": 25.1,
+          "opponent_nfl_score": 13.7,
+          "win_prob": 0.86,
+          "is_bye": false
+        },
+        {
+          "week": 17,
+          "opponent": "CIN",
+          "location": "V",
+          "team_nfl_score": 25.2,
+          "opponent_nfl_score": 25.0,
+          "win_prob": 0.51,
+          "is_bye": false
+        },
+        {
+          "week": 18,
+          "opponent": "PIT",
+          "location": "H",
+          "team_nfl_score": 23.6,
+          "opponent_nfl_score": 17.1,
+          "win_prob": 0.73,
+          "is_bye": false
+        }
+      ]
+    },
+    "BUF": {
+      "season_projected_nfl_points_for": null,
+      "season_projected_nfl_points_against": null,
+      "weeks": [
+        {
+          "week": 1,
+          "opponent": "HOU",
+          "location": "V",
+          "team_nfl_score": 23.8,
+          "opponent_nfl_score": 24.6,
+          "win_prob": 0.47,
+          "is_bye": false
+        },
+        {
+          "week": 2,
+          "opponent": "DET",
+          "location": "H",
+          "team_nfl_score": 28.1,
+          "opponent_nfl_score": 27.2,
+          "win_prob": 0.53,
+          "is_bye": false
+        },
+        {
+          "week": 3,
+          "opponent": "LAC",
+          "location": "H",
+          "team_nfl_score": 28.8,
+          "opponent_nfl_score": 26.2,
+          "win_prob": 0.59,
+          "is_bye": false
+        },
+        {
+          "week": 4,
+          "opponent": "NE",
+          "location": "H",
+          "team_nfl_score": 28.1,
+          "opponent_nfl_score": 25.4,
+          "win_prob": 0.6,
+          "is_bye": false
+        },
+        {
+          "week": 5,
+          "opponent": "LAR",
+          "location": "V",
+          "team_nfl_score": 23.8,
+          "opponent_nfl_score": 32.5,
+          "win_prob": 0.21,
+          "is_bye": false
+        },
+        {
+          "week": 6,
+          "opponent": "LV",
+          "location": "V",
+          "team_nfl_score": 28.9,
+          "opponent_nfl_score": 22.4,
+          "win_prob": 0.73,
+          "is_bye": false
+        },
+        {
+          "week": 7,
+          "opponent": null,
+          "location": null,
+          "team_nfl_score": 0.0,
+          "opponent_nfl_score": 0.0,
+          "win_prob": null,
+          "is_bye": true
+        },
+        {
+          "week": 8,
+          "opponent": "BAL",
+          "location": "H",
+          "team_nfl_score": 27.3,
+          "opponent_nfl_score": 26.7,
+          "win_prob": 0.52,
+          "is_bye": false
+        },
+        {
+          "week": 9,
+          "opponent": "MIN",
+          "location": "V",
+          "team_nfl_score": 27.4,
+          "opponent_nfl_score": 24.2,
+          "win_prob": 0.61,
+          "is_bye": false
+        },
+        {
+          "week": 10,
+          "opponent": "NYJ",
+          "location": "V",
+          "team_nfl_score": 27.4,
+          "opponent_nfl_score": 23.1,
+          "win_prob": 0.65,
+          "is_bye": false
+        },
+        {
+          "week": 11,
+          "opponent": "MIA",
+          "location": "H",
+          "team_nfl_score": 33.2,
+          "opponent_nfl_score": 17.8,
+          "win_prob": 0.94,
+          "is_bye": false
+        },
+        {
+          "week": 12,
+          "opponent": "KC",
+          "location": "H",
+          "team_nfl_score": 28.1,
+          "opponent_nfl_score": 25.7,
+          "win_prob": 0.59,
+          "is_bye": false
+        },
+        {
+          "week": 13,
+          "opponent": "NE",
+          "location": "V",
+          "team_nfl_score": 26.0,
+          "opponent_nfl_score": 27.4,
+          "win_prob": 0.45,
+          "is_bye": false
+        },
+        {
+          "week": 14,
+          "opponent": "GB",
+          "location": "V",
+          "team_nfl_score": 26.7,
+          "opponent_nfl_score": 27.4,
+          "win_prob": 0.48,
+          "is_bye": false
+        },
+        {
+          "week": 15,
+          "opponent": "CHI",
+          "location": "H",
+          "team_nfl_score": 29.5,
+          "opponent_nfl_score": 25.5,
+          "win_prob": 0.64,
+          "is_bye": false
+        },
+        {
+          "week": 16,
+          "opponent": "DEN",
+          "location": "V",
+          "team_nfl_score": 23.8,
+          "opponent_nfl_score": 27.3,
+          "win_prob": 0.37,
+          "is_bye": false
+        },
+        {
+          "week": 17,
+          "opponent": "MIA",
+          "location": "V",
+          "team_nfl_score": 31.1,
+          "opponent_nfl_score": 19.9,
+          "win_prob": 0.86,
+          "is_bye": false
+        },
+        {
+          "week": 18,
+          "opponent": "NYJ",
+          "location": "H",
+          "team_nfl_score": 29.5,
+          "opponent_nfl_score": 21.1,
+          "win_prob": 0.78,
+          "is_bye": false
+        }
+      ]
+    },
+    "CAR": {
+      "season_projected_nfl_points_for": null,
+      "season_projected_nfl_points_against": null,
+      "weeks": [
+        {
+          "week": 1,
+          "opponent": "CHI",
+          "location": "H",
+          "team_nfl_score": 20.7,
+          "opponent_nfl_score": 23.3,
+          "win_prob": 0.41,
+          "is_bye": false
+        },
+        {
+          "week": 2,
+          "opponent": "ATL",
+          "location": "V",
+          "team_nfl_score": 20.8,
+          "opponent_nfl_score": 21.4,
+          "win_prob": 0.48,
+          "is_bye": false
+        },
+        {
+          "week": 3,
+          "opponent": "CLE",
+          "location": "V",
+          "team_nfl_score": 17.1,
+          "opponent_nfl_score": 18.0,
+          "win_prob": 0.47,
+          "is_bye": false
+        },
+        {
+          "week": 4,
+          "opponent": "DET",
+          "location": "H",
+          "team_nfl_score": 19.2,
+          "opponent_nfl_score": 24.9,
+          "win_prob": 0.3,
+          "is_bye": false
+        },
+        {
+          "week": 5,
+          "opponent": null,
+          "location": null,
+          "team_nfl_score": 0.0,
+          "opponent_nfl_score": 0.0,
+          "win_prob": null,
+          "is_bye": true
+        },
+        {
+          "week": 6,
+          "opponent": "PHI",
+          "location": "V",
+          "team_nfl_score": 15.7,
+          "opponent_nfl_score": 25.4,
+          "win_prob": 0.18,
+          "is_bye": false
+        },
+        {
+          "week": 7,
+          "opponent": "TB",
+          "location": "H",
+          "team_nfl_score": 19.9,
+          "opponent_nfl_score": 22.0,
+          "win_prob": 0.43,
+          "is_bye": false
+        },
+        {
+          "week": 8,
+          "opponent": "GB",
+          "location": "V",
+          "team_nfl_score": 17.9,
+          "opponent_nfl_score": 25.2,
+          "win_prob": 0.25,
+          "is_bye": false
+        },
+        {
+          "week": 9,
+          "opponent": "DEN",
+          "location": "H",
+          "team_nfl_score": 17.0,
+          "opponent_nfl_score": 22.9,
+          "win_prob": 0.29,
+          "is_bye": false
+        },
+        {
+          "week": 10,
+          "opponent": "NO",
+          "location": "V",
+          "team_nfl_score": 19.4,
+          "opponent_nfl_score": 21.3,
+          "win_prob": 0.43,
+          "is_bye": false
+        },
+        {
+          "week": 11,
+          "opponent": "BAL",
+          "location": "H",
+          "team_nfl_score": 18.5,
+          "opponent_nfl_score": 24.5,
+          "win_prob": 0.29,
+          "is_bye": false
+        },
+        {
+          "week": 12,
+          "opponent": "TB",
+          "location": "V",
+          "team_nfl_score": 17.9,
+          "opponent_nfl_score": 24.1,
+          "win_prob": 0.28,
+          "is_bye": false
+        },
+        {
+          "week": 13,
+          "opponent": "MIN",
+          "location": "V",
+          "team_nfl_score": 18.6,
+          "opponent_nfl_score": 22.0,
+          "win_prob": 0.38,
+          "is_bye": false
+        },
+        {
+          "week": 14,
+          "opponent": "NO",
+          "location": "H",
+          "team_nfl_score": 21.4,
+          "opponent_nfl_score": 19.2,
+          "win_prob": 0.58,
+          "is_bye": false
+        },
+        {
+          "week": 15,
+          "opponent": "CIN",
+          "location": "H",
+          "team_nfl_score": 21.4,
+          "opponent_nfl_score": 25.1,
+          "win_prob": 0.37,
+          "is_bye": false
+        },
+        {
+          "week": 16,
+          "opponent": "PIT",
+          "location": "V",
+          "team_nfl_score": 15.7,
+          "opponent_nfl_score": 21.5,
+          "win_prob": 0.3,
+          "is_bye": false
+        },
+        {
+          "week": 17,
+          "opponent": "SEA",
+          "location": "H",
+          "team_nfl_score": 17.0,
+          "opponent_nfl_score": 24.0,
+          "win_prob": 0.26,
+          "is_bye": false
+        },
+        {
+          "week": 18,
+          "opponent": "ATL",
+          "location": "H",
+          "team_nfl_score": 22.9,
+          "opponent_nfl_score": 19.3,
+          "win_prob": 0.63,
+          "is_bye": false
+        }
+      ]
+    },
+    "CHI": {
+      "season_projected_nfl_points_for": null,
+      "season_projected_nfl_points_against": null,
+      "weeks": [
+        {
+          "week": 1,
+          "opponent": "CAR",
+          "location": "V",
+          "team_nfl_score": 23.3,
+          "opponent_nfl_score": 20.7,
+          "win_prob": 0.59,
+          "is_bye": false
+        },
+        {
+          "week": 2,
+          "opponent": "MIN",
+          "location": "H",
+          "team_nfl_score": 25.4,
+          "opponent_nfl_score": 19.9,
+          "win_prob": 0.69,
+          "is_bye": false
+        },
+        {
+          "week": 3,
+          "opponent": "PHI",
+          "location": "H",
+          "team_nfl_score": 22.5,
+          "opponent_nfl_score": 23.4,
+          "win_prob": 0.47,
+          "is_bye": false
+        },
+        {
+          "week": 4,
+          "opponent": "NYJ",
+          "location": "H",
+          "team_nfl_score": 25.4,
+          "opponent_nfl_score": 18.9,
+          "win_prob": 0.73,
+          "is_bye": false
+        },
+        {
+          "week": 5,
+          "opponent": "GB",
+          "location": "V",
+          "team_nfl_score": 22.6,
+          "opponent_nfl_score": 25.2,
+          "win_prob": 0.4,
+          "is_bye": false
+        },
+        {
+          "week": 6,
+          "opponent": "ATL",
+          "location": "V",
+          "team_nfl_score": 25.5,
+          "opponent_nfl_score": 21.4,
+          "win_prob": 0.65,
+          "is_bye": false
+        },
+        {
+          "week": 7,
+          "opponent": "NE",
+          "location": "H",
+          "team_nfl_score": 23.9,
+          "opponent_nfl_score": 23.2,
+          "win_prob": 0.53,
+          "is_bye": false
+        },
+        {
+          "week": 8,
+          "opponent": "SEA",
+          "location": "V",
+          "team_nfl_score": 19.6,
+          "opponent_nfl_score": 26.2,
+          "win_prob": 0.27,
+          "is_bye": false
+        },
+        {
+          "week": 9,
+          "opponent": "TB",
+          "location": "H",
+          "team_nfl_score": 24.7,
+          "opponent_nfl_score": 22.0,
+          "win_prob": 0.6,
+          "is_bye": false
+        },
+        {
+          "week": 10,
+          "opponent": null,
+          "location": null,
+          "team_nfl_score": 0.0,
+          "opponent_nfl_score": 0.0,
+          "win_prob": null,
+          "is_bye": true
+        },
+        {
+          "week": 11,
+          "opponent": "NO",
+          "location": "H",
+          "team_nfl_score": 26.2,
+          "opponent_nfl_score": 19.2,
+          "win_prob": 0.74,
+          "is_bye": false
+        },
+        {
+          "week": 12,
+          "opponent": "DET",
+          "location": "V",
+          "team_nfl_score": 21.9,
+          "opponent_nfl_score": 27.0,
+          "win_prob": 0.32,
+          "is_bye": false
+        },
+        {
+          "week": 13,
+          "opponent": "JAX",
+          "location": "H",
+          "team_nfl_score": 26.2,
+          "opponent_nfl_score": 23.5,
+          "win_prob": 0.59,
+          "is_bye": false
+        },
+        {
+          "week": 14,
+          "opponent": "MIA",
+          "location": "V",
+          "team_nfl_score": 27.0,
+          "opponent_nfl_score": 17.7,
+          "win_prob": 0.81,
+          "is_bye": false
+        },
+        {
+          "week": 15,
+          "opponent": "BUF",
+          "location": "V",
+          "team_nfl_score": 25.5,
+          "opponent_nfl_score": 29.5,
+          "win_prob": 0.36,
+          "is_bye": false
+        },
+        {
+          "week": 16,
+          "opponent": "GB",
+          "location": "H",
+          "team_nfl_score": 24.7,
+          "opponent_nfl_score": 23.2,
+          "win_prob": 0.55,
+          "is_bye": false
+        },
+        {
+          "week": 17,
+          "opponent": "DET",
+          "location": "H",
+          "team_nfl_score": 23.9,
+          "opponent_nfl_score": 25.0,
+          "win_prob": 0.46,
+          "is_bye": false
+        },
+        {
+          "week": 18,
+          "opponent": "MIN",
+          "location": "V",
+          "team_nfl_score": 23.3,
+          "opponent_nfl_score": 22.0,
+          "win_prob": 0.55,
+          "is_bye": false
+        }
+      ]
+    },
+    "CIN": {
+      "season_projected_nfl_points_for": null,
+      "season_projected_nfl_points_against": null,
+      "weeks": [
+        {
+          "week": 1,
+          "opponent": "TB",
+          "location": "H",
+          "team_nfl_score": 26.5,
+          "opponent_nfl_score": 22.7,
+          "win_prob": 0.63,
+          "is_bye": false
+        },
+        {
+          "week": 2,
+          "opponent": "HOU",
+          "location": "V",
+          "team_nfl_score": 21.4,
+          "opponent_nfl_score": 23.1,
+          "win_prob": 0.44,
+          "is_bye": false
+        },
+        {
+          "week": 3,
+          "opponent": "PIT",
+          "location": "V",
+          "team_nfl_score": 22.2,
+          "opponent_nfl_score": 22.3,
+          "win_prob": 0.5,
+          "is_bye": false
+        },
+        {
+          "week": 4,
+          "opponent": "JAX",
+          "location": "H",
+          "team_nfl_score": 27.9,
+          "opponent_nfl_score": 24.3,
+          "win_prob": 0.63,
+          "is_bye": false
+        },
+        {
+          "week": 5,
+          "opponent": "MIA",
+          "location": "V",
+          "team_nfl_score": 28.8,
+          "opponent_nfl_score": 18.4,
+          "win_prob": 0.84,
+          "is_bye": false
+        },
+        {
+          "week": 6,
+          "opponent": null,
+          "location": null,
+          "team_nfl_score": 0.0,
+          "opponent_nfl_score": 0.0,
+          "win_prob": null,
+          "is_bye": true
+        },
+        {
+          "week": 7,
+          "opponent": "BAL",
+          "location": "V",
+          "team_nfl_score": 22.9,
+          "opponent_nfl_score": 27.3,
+          "win_prob": 0.34,
+          "is_bye": false
+        },
+        {
+          "week": 8,
+          "opponent": "TEN",
+          "location": "H",
+          "team_nfl_score": 28.7,
+          "opponent_nfl_score": 18.1,
+          "win_prob": 0.84,
+          "is_bye": false
+        },
+        {
+          "week": 9,
+          "opponent": "ATL",
+          "location": "V",
+          "team_nfl_score": 28.4,
+          "opponent_nfl_score": 21.1,
+          "win_prob": 0.75,
+          "is_bye": false
+        },
+        {
+          "week": 10,
+          "opponent": "PIT",
+          "location": "H",
+          "team_nfl_score": 24.3,
+          "opponent_nfl_score": 20.1,
+          "win_prob": 0.65,
+          "is_bye": false
+        },
+        {
+          "week": 11,
+          "opponent": "WAS",
+          "location": "V",
+          "team_nfl_score": 28.1,
+          "opponent_nfl_score": 25.0,
+          "win_prob": 0.61,
+          "is_bye": false
+        },
+        {
+          "week": 12,
+          "opponent": "NO",
+          "location": "H",
+          "team_nfl_score": 28.0,
+          "opponent_nfl_score": 19.9,
+          "win_prob": 0.77,
+          "is_bye": false
+        },
+        {
+          "week": 13,
+          "opponent": "CLE",
+          "location": "V",
+          "team_nfl_score": 23.6,
+          "opponent_nfl_score": 18.8,
+          "win_prob": 0.67,
+          "is_bye": false
+        },
+        {
+          "week": 14,
+          "opponent": "KC",
+          "location": "H",
+          "team_nfl_score": 25.7,
+          "opponent_nfl_score": 24.2,
+          "win_prob": 0.55,
+          "is_bye": false
+        },
+        {
+          "week": 15,
+          "opponent": "CAR",
+          "location": "V",
+          "team_nfl_score": 25.1,
+          "opponent_nfl_score": 21.4,
+          "win_prob": 0.63,
+          "is_bye": false
+        },
+        {
+          "week": 16,
+          "opponent": "IND",
+          "location": "V",
+          "team_nfl_score": 25.1,
+          "opponent_nfl_score": 24.4,
+          "win_prob": 0.53,
+          "is_bye": false
+        },
+        {
+          "week": 17,
+          "opponent": "BAL",
+          "location": "H",
+          "team_nfl_score": 25.0,
+          "opponent_nfl_score": 25.2,
+          "win_prob": 0.49,
+          "is_bye": false
+        },
+        {
+          "week": 18,
+          "opponent": "CLE",
+          "location": "H",
+          "team_nfl_score": 25.7,
+          "opponent_nfl_score": 16.7,
+          "win_prob": 0.8,
+          "is_bye": false
+        }
+      ]
+    },
+    "CLE": {
+      "season_projected_nfl_points_for": null,
+      "season_projected_nfl_points_against": null,
+      "weeks": [
+        {
+          "week": 1,
+          "opponent": "JAX",
+          "location": "V",
+          "team_nfl_score": 16.7,
+          "opponent_nfl_score": 24.2,
+          "win_prob": 0.24,
+          "is_bye": false
+        },
+        {
+          "week": 2,
+          "opponent": "TB",
+          "location": "V",
+          "team_nfl_score": 15.2,
+          "opponent_nfl_score": 22.6,
+          "win_prob": 0.25,
+          "is_bye": false
+        },
+        {
+          "week": 3,
+          "opponent": "CAR",
+          "location": "H",
+          "team_nfl_score": 18.0,
+          "opponent_nfl_score": 17.1,
+          "win_prob": 0.53,
+          "is_bye": false
+        },
+        {
+          "week": 4,
+          "opponent": "PIT",
+          "location": "H",
+          "team_nfl_score": 15.1,
+          "opponent_nfl_score": 17.9,
+          "win_prob": 0.4,
+          "is_bye": false
+        },
+        {
+          "week": 5,
+          "opponent": "NYJ",
+          "location": "V",
+          "team_nfl_score": 15.9,
+          "opponent_nfl_score": 19.5,
+          "win_prob": 0.38,
+          "is_bye": false
+        },
+        {
+          "week": 6,
+          "opponent": "BAL",
+          "location": "H",
+          "team_nfl_score": 15.8,
+          "opponent_nfl_score": 23.0,
+          "win_prob": 0.25,
+          "is_bye": false
+        },
+        {
+          "week": 7,
+          "opponent": "TEN",
+          "location": "V",
+          "team_nfl_score": 17.4,
+          "opponent_nfl_score": 18.0,
+          "win_prob": 0.48,
+          "is_bye": false
+        },
+        {
+          "week": 8,
+          "opponent": "PIT",
+          "location": "V",
+          "team_nfl_score": 13.0,
+          "opponent_nfl_score": 20.0,
+          "win_prob": 0.26,
+          "is_bye": false
+        },
+        {
+          "week": 9,
+          "opponent": "NO",
+          "location": "V",
+          "team_nfl_score": 16.7,
+          "opponent_nfl_score": 19.8,
+          "win_prob": 0.39,
+          "is_bye": false
+        },
+        {
+          "week": 10,
+          "opponent": "HOU",
+          "location": "H",
+          "team_nfl_score": 14.4,
+          "opponent_nfl_score": 18.7,
+          "win_prob": 0.35,
+          "is_bye": false
+        },
+        {
+          "week": 11,
+          "opponent": null,
+          "location": null,
+          "team_nfl_score": 0.0,
+          "opponent_nfl_score": 0.0,
+          "win_prob": null,
+          "is_bye": true
+        },
+        {
+          "week": 12,
+          "opponent": "LV",
+          "location": "H",
+          "team_nfl_score": 19.5,
+          "opponent_nfl_score": 16.6,
+          "win_prob": 0.6,
+          "is_bye": false
+        },
+        {
+          "week": 13,
+          "opponent": "CIN",
+          "location": "H",
+          "team_nfl_score": 18.8,
+          "opponent_nfl_score": 23.6,
+          "win_prob": 0.33,
+          "is_bye": false
+        },
+        {
+          "week": 14,
+          "opponent": "ATL",
+          "location": "H",
+          "team_nfl_score": 20.2,
+          "opponent_nfl_score": 17.8,
+          "win_prob": 0.59,
+          "is_bye": false
+        },
+        {
+          "week": 15,
+          "opponent": "NYG",
+          "location": "V",
+          "team_nfl_score": 16.7,
+          "opponent_nfl_score": 22.0,
+          "win_prob": 0.31,
+          "is_bye": false
+        },
+        {
+          "week": 16,
+          "opponent": "BAL",
+          "location": "V",
+          "team_nfl_score": 13.7,
+          "opponent_nfl_score": 25.1,
+          "win_prob": 0.14,
+          "is_bye": false
+        },
+        {
+          "week": 17,
+          "opponent": "IND",
+          "location": "H",
+          "team_nfl_score": 18.0,
+          "opponent_nfl_score": 20.1,
+          "win_prob": 0.43,
+          "is_bye": false
+        },
+        {
+          "week": 18,
+          "opponent": "CIN",
+          "location": "V",
+          "team_nfl_score": 16.7,
+          "opponent_nfl_score": 25.7,
+          "win_prob": 0.2,
+          "is_bye": false
+        }
+      ]
+    },
+    "DAL": {
+      "season_projected_nfl_points_for": null,
+      "season_projected_nfl_points_against": null,
+      "weeks": [
+        {
+          "week": 1,
+          "opponent": "NYG",
+          "location": "V",
+          "team_nfl_score": 27.1,
+          "opponent_nfl_score": 24.3,
+          "win_prob": 0.6,
+          "is_bye": false
+        },
+        {
+          "week": 2,
+          "opponent": "WAS",
+          "location": "H",
+          "team_nfl_score": 31.5,
+          "opponent_nfl_score": 22.9,
+          "win_prob": 0.79,
+          "is_bye": false
+        },
+        {
+          "week": 3,
+          "opponent": "BAL",
+          "location": "H",
+          "team_nfl_score": 25.2,
+          "opponent_nfl_score": 26.3,
+          "win_prob": 0.46,
+          "is_bye": false
+        },
+        {
+          "week": 4,
+          "opponent": "HOU",
+          "location": "V",
+          "team_nfl_score": 22.7,
+          "opponent_nfl_score": 23.1,
+          "win_prob": 0.49,
+          "is_bye": false
+        },
+        {
+          "week": 5,
+          "opponent": "TB",
+          "location": "H",
+          "team_nfl_score": 27.8,
+          "opponent_nfl_score": 22.7,
+          "win_prob": 0.68,
+          "is_bye": false
+        },
+        {
+          "week": 6,
+          "opponent": "GB",
+          "location": "V",
+          "team_nfl_score": 25.7,
+          "opponent_nfl_score": 26.0,
+          "win_prob": 0.49,
+          "is_bye": false
+        },
+        {
+          "week": 7,
+          "opponent": "PHI",
+          "location": "V",
+          "team_nfl_score": 23.4,
+          "opponent_nfl_score": 26.2,
+          "win_prob": 0.4,
+          "is_bye": false
+        },
+        {
+          "week": 8,
+          "opponent": "ARI",
+          "location": "H",
+          "team_nfl_score": 31.5,
+          "opponent_nfl_score": 18.7,
+          "win_prob": 0.89,
+          "is_bye": false
+        },
+        {
+          "week": 9,
+          "opponent": "IND",
+          "location": "V",
+          "team_nfl_score": 26.4,
+          "opponent_nfl_score": 24.4,
+          "win_prob": 0.57,
+          "is_bye": false
+        },
+        {
+          "week": 10,
+          "opponent": "SF",
+          "location": "H",
+          "team_nfl_score": 28.5,
+          "opponent_nfl_score": 25.1,
+          "win_prob": 0.62,
+          "is_bye": false
+        },
+        {
+          "week": 11,
+          "opponent": "TEN",
+          "location": "H",
+          "team_nfl_score": 30.0,
+          "opponent_nfl_score": 18.1,
+          "win_prob": 0.88,
+          "is_bye": false
+        },
+        {
+          "week": 12,
+          "opponent": "PHI",
+          "location": "H",
+          "team_nfl_score": 25.5,
+          "opponent_nfl_score": 24.1,
+          "win_prob": 0.55,
+          "is_bye": false
+        },
+        {
+          "week": 13,
+          "opponent": "SEA",
+          "location": "V",
+          "team_nfl_score": 22.7,
+          "opponent_nfl_score": 26.9,
+          "win_prob": 0.35,
+          "is_bye": false
+        },
+        {
+          "week": 14,
+          "opponent": null,
+          "location": null,
+          "team_nfl_score": 0.0,
+          "opponent_nfl_score": 0.0,
+          "win_prob": null,
+          "is_bye": true
+        },
+        {
+          "week": 15,
+          "opponent": "LAR",
+          "location": "V",
+          "team_nfl_score": 22.7,
+          "opponent_nfl_score": 31.0,
+          "win_prob": 0.22,
+          "is_bye": false
+        },
+        {
+          "week": 16,
+          "opponent": "JAX",
+          "location": "H",
+          "team_nfl_score": 29.2,
+          "opponent_nfl_score": 24.3,
+          "win_prob": 0.67,
+          "is_bye": false
+        },
+        {
+          "week": 17,
+          "opponent": "NYG",
+          "location": "H",
+          "team_nfl_score": 29.2,
+          "opponent_nfl_score": 22.2,
+          "win_prob": 0.74,
+          "is_bye": false
+        },
+        {
+          "week": 18,
+          "opponent": "WAS",
+          "location": "V",
+          "team_nfl_score": 29.4,
+          "opponent_nfl_score": 25.0,
+          "win_prob": 0.66,
+          "is_bye": false
+        }
+      ]
+    },
+    "DEN": {
+      "season_projected_nfl_points_for": null,
+      "season_projected_nfl_points_against": null,
+      "weeks": [
+        {
+          "week": 1,
+          "opponent": "KC",
+          "location": "V",
+          "team_nfl_score": 21.4,
+          "opponent_nfl_score": 21.9,
+          "win_prob": 0.48,
+          "is_bye": false
+        },
+        {
+          "week": 2,
+          "opponent": "JAX",
+          "location": "H",
+          "team_nfl_score": 25.8,
+          "opponent_nfl_score": 19.8,
+          "win_prob": 0.71,
+          "is_bye": false
+        },
+        {
+          "week": 3,
+          "opponent": "LAR",
+          "location": "H",
+          "team_nfl_score": 21.3,
+          "opponent_nfl_score": 24.5,
+          "win_prob": 0.39,
+          "is_bye": false
+        },
+        {
+          "week": 4,
+          "opponent": "SF",
+          "location": "V",
+          "team_nfl_score": 23.0,
+          "opponent_nfl_score": 22.8,
+          "win_prob": 0.51,
+          "is_bye": false
+        },
+        {
+          "week": 5,
+          "opponent": "LAC",
+          "location": "V",
+          "team_nfl_score": 22.2,
+          "opponent_nfl_score": 22.4,
+          "win_prob": 0.49,
+          "is_bye": false
+        },
+        {
+          "week": 6,
+          "opponent": "SEA",
+          "location": "H",
+          "team_nfl_score": 21.3,
+          "opponent_nfl_score": 20.4,
+          "win_prob": 0.53,
+          "is_bye": false
+        },
+        {
+          "week": 7,
+          "opponent": "ARI",
+          "location": "V",
+          "team_nfl_score": 26.0,
+          "opponent_nfl_score": 16.4,
+          "win_prob": 0.82,
+          "is_bye": false
+        },
+        {
+          "week": 8,
+          "opponent": "KC",
+          "location": "H",
+          "team_nfl_score": 23.6,
+          "opponent_nfl_score": 19.8,
+          "win_prob": 0.63,
+          "is_bye": false
+        },
+        {
+          "week": 9,
+          "opponent": "CAR",
+          "location": "V",
+          "team_nfl_score": 22.9,
+          "opponent_nfl_score": 17.0,
+          "win_prob": 0.71,
+          "is_bye": false
+        },
+        {
+          "week": 10,
+          "opponent": null,
+          "location": null,
+          "team_nfl_score": 0.0,
+          "opponent_nfl_score": 0.0,
+          "win_prob": null,
+          "is_bye": true
+        },
+        {
+          "week": 11,
+          "opponent": "LV",
+          "location": "H",
+          "team_nfl_score": 26.6,
+          "opponent_nfl_score": 14.4,
+          "win_prob": 0.88,
+          "is_bye": false
+        },
+        {
+          "week": 12,
+          "opponent": "PIT",
+          "location": "V",
+          "team_nfl_score": 20.0,
+          "opponent_nfl_score": 17.7,
+          "win_prob": 0.58,
+          "is_bye": false
+        },
+        {
+          "week": 13,
+          "opponent": "MIA",
+          "location": "H",
+          "team_nfl_score": 28.8,
+          "opponent_nfl_score": 11.9,
+          "win_prob": 0.96,
+          "is_bye": false
+        },
+        {
+          "week": 14,
+          "opponent": "NYJ",
+          "location": "V",
+          "team_nfl_score": 22.9,
+          "opponent_nfl_score": 17.2,
+          "win_prob": 0.7,
+          "is_bye": false
+        },
+        {
+          "week": 15,
+          "opponent": "LV",
+          "location": "V",
+          "team_nfl_score": 24.4,
+          "opponent_nfl_score": 16.5,
+          "win_prob": 0.77,
+          "is_bye": false
+        },
+        {
+          "week": 16,
+          "opponent": "BUF",
+          "location": "H",
+          "team_nfl_score": 27.3,
+          "opponent_nfl_score": 23.8,
+          "win_prob": 0.63,
+          "is_bye": false
+        },
+        {
+          "week": 17,
+          "opponent": "NE",
+          "location": "V",
+          "team_nfl_score": 21.4,
+          "opponent_nfl_score": 21.5,
+          "win_prob": 0.5,
+          "is_bye": false
+        },
+        {
+          "week": 18,
+          "opponent": "LAC",
+          "location": "H",
+          "team_nfl_score": 24.3,
+          "opponent_nfl_score": 20.3,
+          "win_prob": 0.64,
+          "is_bye": false
+        }
+      ]
+    },
+    "DET": {
+      "season_projected_nfl_points_for": null,
+      "season_projected_nfl_points_against": null,
+      "weeks": [
+        {
+          "week": 1,
+          "opponent": "NO",
+          "location": "H",
+          "team_nfl_score": 27.8,
+          "opponent_nfl_score": 17.7,
+          "win_prob": 0.83,
+          "is_bye": false
+        },
+        {
+          "week": 2,
+          "opponent": "BUF",
+          "location": "V",
+          "team_nfl_score": 27.2,
+          "opponent_nfl_score": 28.1,
+          "win_prob": 0.47,
+          "is_bye": false
+        },
+        {
+          "week": 3,
+          "opponent": "NYJ",
+          "location": "H",
+          "team_nfl_score": 27.0,
+          "opponent_nfl_score": 17.4,
+          "win_prob": 0.82,
+          "is_bye": false
+        },
+        {
+          "week": 4,
+          "opponent": "CAR",
+          "location": "V",
+          "team_nfl_score": 24.9,
+          "opponent_nfl_score": 19.2,
+          "win_prob": 0.7,
+          "is_bye": false
+        },
+        {
+          "week": 5,
+          "opponent": "ARI",
+          "location": "V",
+          "team_nfl_score": 27.9,
+          "opponent_nfl_score": 18.6,
+          "win_prob": 0.81,
+          "is_bye": false
+        },
+        {
+          "week": 6,
+          "opponent": null,
+          "location": null,
+          "team_nfl_score": 0.0,
+          "opponent_nfl_score": 0.0,
+          "win_prob": null,
+          "is_bye": true
+        },
+        {
+          "week": 7,
+          "opponent": "GB",
+          "location": "H",
+          "team_nfl_score": 26.3,
+          "opponent_nfl_score": 21.8,
+          "win_prob": 0.66,
+          "is_bye": false
+        },
+        {
+          "week": 8,
+          "opponent": "MIN",
+          "location": "H",
+          "team_nfl_score": 27.0,
+          "opponent_nfl_score": 18.4,
+          "win_prob": 0.79,
+          "is_bye": false
+        },
+        {
+          "week": 9,
+          "opponent": "MIA",
+          "location": "V",
+          "team_nfl_score": 28.7,
+          "opponent_nfl_score": 16.2,
+          "win_prob": 0.89,
+          "is_bye": false
+        },
+        {
+          "week": 10,
+          "opponent": "NE",
+          "location": "H",
+          "team_nfl_score": 24.5,
+          "opponent_nfl_score": 22.7,
+          "win_prob": 0.56,
+          "is_bye": false
+        },
+        {
+          "week": 11,
+          "opponent": "TB",
+          "location": "H",
+          "team_nfl_score": 26.3,
+          "opponent_nfl_score": 20.5,
+          "win_prob": 0.7,
+          "is_bye": false
+        },
+        {
+          "week": 12,
+          "opponent": "CHI",
+          "location": "H",
+          "team_nfl_score": 27.0,
+          "opponent_nfl_score": 21.9,
+          "win_prob": 0.68,
+          "is_bye": false
+        },
+        {
+          "week": 13,
+          "opponent": "ATL",
+          "location": "V",
+          "team_nfl_score": 27.2,
+          "opponent_nfl_score": 19.9,
+          "win_prob": 0.75,
+          "is_bye": false
+        },
+        {
+          "week": 14,
+          "opponent": "TEN",
+          "location": "H",
+          "team_nfl_score": 28.5,
+          "opponent_nfl_score": 15.9,
+          "win_prob": 0.89,
+          "is_bye": false
+        },
+        {
+          "week": 15,
+          "opponent": "MIN",
+          "location": "V",
+          "team_nfl_score": 24.9,
+          "opponent_nfl_score": 20.5,
+          "win_prob": 0.66,
+          "is_bye": false
+        },
+        {
+          "week": 16,
+          "opponent": "NYG",
+          "location": "H",
+          "team_nfl_score": 27.8,
+          "opponent_nfl_score": 20.0,
+          "win_prob": 0.77,
+          "is_bye": false
+        },
+        {
+          "week": 17,
+          "opponent": "CHI",
+          "location": "V",
+          "team_nfl_score": 25.0,
+          "opponent_nfl_score": 23.9,
+          "win_prob": 0.54,
+          "is_bye": false
+        },
+        {
+          "week": 18,
+          "opponent": "GB",
+          "location": "V",
+          "team_nfl_score": 24.2,
+          "opponent_nfl_score": 23.8,
+          "win_prob": 0.51,
+          "is_bye": false
+        }
+      ]
+    },
+    "GB": {
+      "season_projected_nfl_points_for": null,
+      "season_projected_nfl_points_against": null,
+      "weeks": [
+        {
+          "week": 1,
+          "opponent": "MIN",
+          "location": "V",
+          "team_nfl_score": 23.2,
+          "opponent_nfl_score": 21.2,
+          "win_prob": 0.57,
+          "is_bye": false
+        },
+        {
+          "week": 2,
+          "opponent": "NYJ",
+          "location": "V",
+          "team_nfl_score": 23.2,
+          "opponent_nfl_score": 20.2,
+          "win_prob": 0.61,
+          "is_bye": false
+        },
+        {
+          "week": 3,
+          "opponent": "ATL",
+          "location": "H",
+          "team_nfl_score": 27.4,
+          "opponent_nfl_score": 18.6,
+          "win_prob": 0.8,
+          "is_bye": false
+        },
+        {
+          "week": 4,
+          "opponent": "TB",
+          "location": "V",
+          "team_nfl_score": 22.5,
+          "opponent_nfl_score": 23.3,
+          "win_prob": 0.47,
+          "is_bye": false
+        },
+        {
+          "week": 5,
+          "opponent": "CHI",
+          "location": "H",
+          "team_nfl_score": 25.2,
+          "opponent_nfl_score": 22.6,
+          "win_prob": 0.6,
+          "is_bye": false
+        },
+        {
+          "week": 6,
+          "opponent": "DAL",
+          "location": "H",
+          "team_nfl_score": 26.0,
+          "opponent_nfl_score": 25.7,
+          "win_prob": 0.51,
+          "is_bye": false
+        },
+        {
+          "week": 7,
+          "opponent": "DET",
+          "location": "V",
+          "team_nfl_score": 21.8,
+          "opponent_nfl_score": 26.3,
+          "win_prob": 0.34,
+          "is_bye": false
+        },
+        {
+          "week": 8,
+          "opponent": "CAR",
+          "location": "H",
+          "team_nfl_score": 25.2,
+          "opponent_nfl_score": 17.9,
+          "win_prob": 0.75,
+          "is_bye": false
+        },
+        {
+          "week": 9,
+          "opponent": "NE",
+          "location": "V",
+          "team_nfl_score": 21.7,
+          "opponent_nfl_score": 24.5,
+          "win_prob": 0.4,
+          "is_bye": false
+        },
+        {
+          "week": 10,
+          "opponent": "MIN",
+          "location": "H",
+          "team_nfl_score": 25.2,
+          "opponent_nfl_score": 19.1,
+          "win_prob": 0.71,
+          "is_bye": false
+        },
+        {
+          "week": 11,
+          "opponent": null,
+          "location": null,
+          "team_nfl_score": 0.0,
+          "opponent_nfl_score": 0.0,
+          "win_prob": null,
+          "is_bye": true
+        },
+        {
+          "week": 12,
+          "opponent": "LAR",
+          "location": "V",
+          "team_nfl_score": 19.6,
+          "opponent_nfl_score": 29.5,
+          "win_prob": 0.17,
+          "is_bye": false
+        },
+        {
+          "week": 13,
+          "opponent": "NO",
+          "location": "V",
+          "team_nfl_score": 23.9,
+          "opponent_nfl_score": 20.5,
+          "win_prob": 0.62,
+          "is_bye": false
+        },
+        {
+          "week": 14,
+          "opponent": "BUF",
+          "location": "H",
+          "team_nfl_score": 27.4,
+          "opponent_nfl_score": 26.7,
+          "win_prob": 0.52,
+          "is_bye": false
+        },
+        {
+          "week": 15,
+          "opponent": "MIA",
+          "location": "H",
+          "team_nfl_score": 28.9,
+          "opponent_nfl_score": 14.8,
+          "win_prob": 0.92,
+          "is_bye": false
+        },
+        {
+          "week": 16,
+          "opponent": "CHI",
+          "location": "V",
+          "team_nfl_score": 23.2,
+          "opponent_nfl_score": 24.7,
+          "win_prob": 0.45,
+          "is_bye": false
+        },
+        {
+          "week": 17,
+          "opponent": "HOU",
+          "location": "H",
+          "team_nfl_score": 21.6,
+          "opponent_nfl_score": 19.4,
+          "win_prob": 0.58,
+          "is_bye": false
+        },
+        {
+          "week": 18,
+          "opponent": "DET",
+          "location": "H",
+          "team_nfl_score": 23.8,
+          "opponent_nfl_score": 24.2,
+          "win_prob": 0.49,
+          "is_bye": false
+        }
+      ]
+    },
+    "HOU": {
+      "season_projected_nfl_points_for": null,
+      "season_projected_nfl_points_against": null,
+      "weeks": [
+        {
+          "week": 1,
+          "opponent": "BUF",
+          "location": "H",
+          "team_nfl_score": 24.6,
+          "opponent_nfl_score": 23.8,
+          "win_prob": 0.53,
+          "is_bye": false
+        },
+        {
+          "week": 2,
+          "opponent": "CIN",
+          "location": "H",
+          "team_nfl_score": 23.1,
+          "opponent_nfl_score": 21.4,
+          "win_prob": 0.56,
+          "is_bye": false
+        },
+        {
+          "week": 3,
+          "opponent": "IND",
+          "location": "V",
+          "team_nfl_score": 20.2,
+          "opponent_nfl_score": 20.0,
+          "win_prob": 0.51,
+          "is_bye": false
+        },
+        {
+          "week": 4,
+          "opponent": "DAL",
+          "location": "H",
+          "team_nfl_score": 23.1,
+          "opponent_nfl_score": 22.7,
+          "win_prob": 0.51,
+          "is_bye": false
+        },
+        {
+          "week": 5,
+          "opponent": "TEN",
+          "location": "V",
+          "team_nfl_score": 21.7,
+          "opponent_nfl_score": 15.8,
+          "win_prob": 0.7,
+          "is_bye": false
+        },
+        {
+          "week": 6,
+          "opponent": "JAX",
+          "location": "V",
+          "team_nfl_score": 22.0,
+          "opponent_nfl_score": 20.9,
+          "win_prob": 0.54,
+          "is_bye": false
+        },
+        {
+          "week": 7,
+          "opponent": "NYG",
+          "location": "H",
+          "team_nfl_score": 23.0,
+          "opponent_nfl_score": 17.7,
+          "win_prob": 0.69,
+          "is_bye": false
+        },
+        {
+          "week": 8,
+          "opponent": null,
+          "location": null,
+          "team_nfl_score": 0.0,
+          "opponent_nfl_score": 0.0,
+          "win_prob": null,
+          "is_bye": true
+        },
+        {
+          "week": 9,
+          "opponent": "LAC",
+          "location": "V",
+          "team_nfl_score": 19.4,
+          "opponent_nfl_score": 22.4,
+          "win_prob": 0.39,
+          "is_bye": false
+        },
+        {
+          "week": 10,
+          "opponent": "CLE",
+          "location": "V",
+          "team_nfl_score": 18.7,
+          "opponent_nfl_score": 14.4,
+          "win_prob": 0.65,
+          "is_bye": false
+        },
+        {
+          "week": 11,
+          "opponent": "IND",
+          "location": "H",
+          "team_nfl_score": 22.3,
+          "opponent_nfl_score": 17.9,
+          "win_prob": 0.66,
+          "is_bye": false
+        },
+        {
+          "week": 12,
+          "opponent": "BAL",
+          "location": "H",
+          "team_nfl_score": 20.0,
+          "opponent_nfl_score": 20.8,
+          "win_prob": 0.47,
+          "is_bye": false
+        },
+        {
+          "week": 13,
+          "opponent": "PIT",
+          "location": "V",
+          "team_nfl_score": 17.2,
+          "opponent_nfl_score": 17.7,
+          "win_prob": 0.48,
+          "is_bye": false
+        },
+        {
+          "week": 14,
+          "opponent": "WAS",
+          "location": "V",
+          "team_nfl_score": 23.2,
+          "opponent_nfl_score": 20.6,
+          "win_prob": 0.59,
+          "is_bye": false
+        },
+        {
+          "week": 15,
+          "opponent": "JAX",
+          "location": "H",
+          "team_nfl_score": 23.0,
+          "opponent_nfl_score": 19.8,
+          "win_prob": 0.61,
+          "is_bye": false
+        },
+        {
+          "week": 16,
+          "opponent": "PHI",
+          "location": "V",
+          "team_nfl_score": 17.1,
+          "opponent_nfl_score": 21.8,
+          "win_prob": 0.34,
+          "is_bye": false
+        },
+        {
+          "week": 17,
+          "opponent": "GB",
+          "location": "V",
+          "team_nfl_score": 19.4,
+          "opponent_nfl_score": 21.6,
+          "win_prob": 0.42,
+          "is_bye": false
+        },
+        {
+          "week": 18,
+          "opponent": "TEN",
+          "location": "H",
+          "team_nfl_score": 23.8,
+          "opponent_nfl_score": 13.7,
+          "win_prob": 0.83,
+          "is_bye": false
+        }
+      ]
+    },
+    "IND": {
+      "season_projected_nfl_points_for": null,
+      "season_projected_nfl_points_against": null,
+      "weeks": [
+        {
+          "week": 1,
+          "opponent": "BAL",
+          "location": "H",
+          "team_nfl_score": 21.4,
+          "opponent_nfl_score": 24.5,
+          "win_prob": 0.39,
+          "is_bye": false
+        },
+        {
+          "week": 2,
+          "opponent": "KC",
+          "location": "V",
+          "team_nfl_score": 20.1,
+          "opponent_nfl_score": 25.5,
+          "win_prob": 0.31,
+          "is_bye": false
+        },
+        {
+          "week": 3,
+          "opponent": "HOU",
+          "location": "H",
+          "team_nfl_score": 20.0,
+          "opponent_nfl_score": 20.2,
+          "win_prob": 0.49,
+          "is_bye": false
+        },
+        {
+          "week": 4,
+          "opponent": "WAS",
+          "location": "V",
+          "team_nfl_score": 25.5,
+          "opponent_nfl_score": 23.2,
+          "win_prob": 0.58,
+          "is_bye": false
+        },
+        {
+          "week": 5,
+          "opponent": "PIT",
+          "location": "V",
+          "team_nfl_score": 18.6,
+          "opponent_nfl_score": 21.5,
+          "win_prob": 0.4,
+          "is_bye": false
+        },
+        {
+          "week": 6,
+          "opponent": "TEN",
+          "location": "H",
+          "team_nfl_score": 25.1,
+          "opponent_nfl_score": 17.4,
+          "win_prob": 0.76,
+          "is_bye": false
+        },
+        {
+          "week": 7,
+          "opponent": "MIN",
+          "location": "V",
+          "team_nfl_score": 21.6,
+          "opponent_nfl_score": 22.0,
+          "win_prob": 0.48,
+          "is_bye": false
+        },
+        {
+          "week": 8,
+          "opponent": "JAX",
+          "location": "V",
+          "team_nfl_score": 22.3,
+          "opponent_nfl_score": 25.6,
+          "win_prob": 0.38,
+          "is_bye": false
+        },
+        {
+          "week": 9,
+          "opponent": "DAL",
+          "location": "H",
+          "team_nfl_score": 24.4,
+          "opponent_nfl_score": 26.4,
+          "win_prob": 0.43,
+          "is_bye": false
+        },
+        {
+          "week": 10,
+          "opponent": "MIA",
+          "location": "H",
+          "team_nfl_score": 27.3,
+          "opponent_nfl_score": 15.6,
+          "win_prob": 0.87,
+          "is_bye": false
+        },
+        {
+          "week": 11,
+          "opponent": "HOU",
+          "location": "V",
+          "team_nfl_score": 17.9,
+          "opponent_nfl_score": 22.3,
+          "win_prob": 0.34,
+          "is_bye": false
+        },
+        {
+          "week": 12,
+          "opponent": "NYG",
+          "location": "H",
+          "team_nfl_score": 24.4,
+          "opponent_nfl_score": 21.4,
+          "win_prob": 0.6,
+          "is_bye": false
+        },
+        {
+          "week": 13,
+          "opponent": null,
+          "location": null,
+          "team_nfl_score": 0.0,
+          "opponent_nfl_score": 0.0,
+          "win_prob": null,
+          "is_bye": true
+        },
+        {
+          "week": 14,
+          "opponent": "PHI",
+          "location": "V",
+          "team_nfl_score": 18.6,
+          "opponent_nfl_score": 25.5,
+          "win_prob": 0.26,
+          "is_bye": false
+        },
+        {
+          "week": 15,
+          "opponent": "TEN",
+          "location": "V",
+          "team_nfl_score": 23.0,
+          "opponent_nfl_score": 19.4,
+          "win_prob": 0.63,
+          "is_bye": false
+        },
+        {
+          "week": 16,
+          "opponent": "CIN",
+          "location": "H",
+          "team_nfl_score": 24.4,
+          "opponent_nfl_score": 25.1,
+          "win_prob": 0.47,
+          "is_bye": false
+        },
+        {
+          "week": 17,
+          "opponent": "CLE",
+          "location": "V",
+          "team_nfl_score": 20.1,
+          "opponent_nfl_score": 18.0,
+          "win_prob": 0.57,
+          "is_bye": false
+        },
+        {
+          "week": 18,
+          "opponent": "JAX",
+          "location": "H",
+          "team_nfl_score": 24.4,
+          "opponent_nfl_score": 23.5,
+          "win_prob": 0.53,
+          "is_bye": false
+        }
+      ]
+    },
+    "JAX": {
+      "season_projected_nfl_points_for": null,
+      "season_projected_nfl_points_against": null,
+      "weeks": [
+        {
+          "week": 1,
+          "opponent": "CLE",
+          "location": "H",
+          "team_nfl_score": 24.2,
+          "opponent_nfl_score": 16.7,
+          "win_prob": 0.76,
+          "is_bye": false
+        },
+        {
+          "week": 2,
+          "opponent": "DEN",
+          "location": "V",
+          "team_nfl_score": 19.8,
+          "opponent_nfl_score": 25.8,
+          "win_prob": 0.29,
+          "is_bye": false
+        },
+        {
+          "week": 3,
+          "opponent": "NE",
+          "location": "H",
+          "team_nfl_score": 24.1,
+          "opponent_nfl_score": 23.9,
+          "win_prob": 0.51,
+          "is_bye": false
+        },
+        {
+          "week": 4,
+          "opponent": "CIN",
+          "location": "V",
+          "team_nfl_score": 24.3,
+          "opponent_nfl_score": 27.9,
+          "win_prob": 0.37,
+          "is_bye": false
+        },
+        {
+          "week": 5,
+          "opponent": "PHI",
+          "location": "H",
+          "team_nfl_score": 21.6,
+          "opponent_nfl_score": 25.2,
+          "win_prob": 0.37,
+          "is_bye": false
+        },
+        {
+          "week": 6,
+          "opponent": "HOU",
+          "location": "H",
+          "team_nfl_score": 20.9,
+          "opponent_nfl_score": 22.0,
+          "win_prob": 0.46,
+          "is_bye": false
+        },
+        {
+          "week": 7,
+          "opponent": null,
+          "location": null,
+          "team_nfl_score": 0.0,
+          "opponent_nfl_score": 0.0,
+          "win_prob": null,
+          "is_bye": true
+        },
+        {
+          "week": 8,
+          "opponent": "IND",
+          "location": "H",
+          "team_nfl_score": 25.6,
+          "opponent_nfl_score": 22.3,
+          "win_prob": 0.62,
+          "is_bye": false
+        },
+        {
+          "week": 9,
+          "opponent": "BAL",
+          "location": "V",
+          "team_nfl_score": 21.3,
+          "opponent_nfl_score": 27.3,
+          "win_prob": 0.29,
+          "is_bye": false
+        },
+        {
+          "week": 10,
+          "opponent": "TEN",
+          "location": "V",
+          "team_nfl_score": 25.0,
+          "opponent_nfl_score": 20.1,
+          "win_prob": 0.67,
+          "is_bye": false
+        },
+        {
+          "week": 11,
+          "opponent": "NYG",
+          "location": "V",
+          "team_nfl_score": 24.3,
+          "opponent_nfl_score": 24.2,
+          "win_prob": 0.5,
+          "is_bye": false
+        },
+        {
+          "week": 12,
+          "opponent": "TEN",
+          "location": "H",
+          "team_nfl_score": 27.1,
+          "opponent_nfl_score": 18.1,
+          "win_prob": 0.8,
+          "is_bye": false
+        },
+        {
+          "week": 13,
+          "opponent": "CHI",
+          "location": "V",
+          "team_nfl_score": 23.5,
+          "opponent_nfl_score": 26.2,
+          "win_prob": 0.41,
+          "is_bye": false
+        },
+        {
+          "week": 14,
+          "opponent": "PIT",
+          "location": "H",
+          "team_nfl_score": 22.7,
+          "opponent_nfl_score": 20.1,
+          "win_prob": 0.59,
+          "is_bye": false
+        },
+        {
+          "week": 15,
+          "opponent": "HOU",
+          "location": "V",
+          "team_nfl_score": 19.8,
+          "opponent_nfl_score": 23.0,
+          "win_prob": 0.39,
+          "is_bye": false
+        },
+        {
+          "week": 16,
+          "opponent": "DAL",
+          "location": "V",
+          "team_nfl_score": 24.3,
+          "opponent_nfl_score": 29.2,
+          "win_prob": 0.33,
+          "is_bye": false
+        },
+        {
+          "week": 17,
+          "opponent": "WAS",
+          "location": "H",
+          "team_nfl_score": 28.6,
+          "opponent_nfl_score": 22.9,
+          "win_prob": 0.7,
+          "is_bye": false
+        },
+        {
+          "week": 18,
+          "opponent": "IND",
+          "location": "V",
+          "team_nfl_score": 23.5,
+          "opponent_nfl_score": 24.4,
+          "win_prob": 0.47,
+          "is_bye": false
+        }
+      ]
+    },
+    "KC": {
+      "season_projected_nfl_points_for": null,
+      "season_projected_nfl_points_against": null,
+      "weeks": [
+        {
+          "week": 1,
+          "opponent": "DEN",
+          "location": "H",
+          "team_nfl_score": 21.9,
+          "opponent_nfl_score": 21.4,
+          "win_prob": 0.52,
+          "is_bye": false
+        },
+        {
+          "week": 2,
+          "opponent": "IND",
+          "location": "H",
+          "team_nfl_score": 25.5,
+          "opponent_nfl_score": 20.1,
+          "win_prob": 0.69,
+          "is_bye": false
+        },
+        {
+          "week": 3,
+          "opponent": "MIA",
+          "location": "V",
+          "team_nfl_score": 27.1,
+          "opponent_nfl_score": 16.2,
+          "win_prob": 0.85,
+          "is_bye": false
+        },
+        {
+          "week": 4,
+          "opponent": "LV",
+          "location": "V",
+          "team_nfl_score": 24.9,
+          "opponent_nfl_score": 18.7,
+          "win_prob": 0.72,
+          "is_bye": false
+        },
+        {
+          "week": 5,
+          "opponent": null,
+          "location": null,
+          "team_nfl_score": 0.0,
+          "opponent_nfl_score": 0.0,
+          "win_prob": null,
+          "is_bye": true
+        },
+        {
+          "week": 6,
+          "opponent": "LAC",
+          "location": "H",
+          "team_nfl_score": 24.8,
+          "opponent_nfl_score": 22.5,
+          "win_prob": 0.58,
+          "is_bye": false
+        },
+        {
+          "week": 7,
+          "opponent": "SEA",
+          "location": "V",
+          "team_nfl_score": 19.8,
+          "opponent_nfl_score": 24.7,
+          "win_prob": 0.33,
+          "is_bye": false
+        },
+        {
+          "week": 8,
+          "opponent": "DEN",
+          "location": "V",
+          "team_nfl_score": 19.8,
+          "opponent_nfl_score": 23.6,
+          "win_prob": 0.37,
+          "is_bye": false
+        },
+        {
+          "week": 9,
+          "opponent": "NYJ",
+          "location": "H",
+          "team_nfl_score": 25.5,
+          "opponent_nfl_score": 17.4,
+          "win_prob": 0.78,
+          "is_bye": false
+        },
+        {
+          "week": 10,
+          "opponent": "ATL",
+          "location": "V",
+          "team_nfl_score": 25.6,
+          "opponent_nfl_score": 19.9,
+          "win_prob": 0.7,
+          "is_bye": false
+        },
+        {
+          "week": 11,
+          "opponent": "ARI",
+          "location": "H",
+          "team_nfl_score": 28.5,
+          "opponent_nfl_score": 16.5,
+          "win_prob": 0.88,
+          "is_bye": false
+        },
+        {
+          "week": 12,
+          "opponent": "BUF",
+          "location": "V",
+          "team_nfl_score": 25.7,
+          "opponent_nfl_score": 28.1,
+          "win_prob": 0.41,
+          "is_bye": false
+        },
+        {
+          "week": 13,
+          "opponent": "LAR",
+          "location": "V",
+          "team_nfl_score": 19.8,
+          "opponent_nfl_score": 28.8,
+          "win_prob": 0.2,
+          "is_bye": false
+        },
+        {
+          "week": 14,
+          "opponent": "CIN",
+          "location": "V",
+          "team_nfl_score": 24.2,
+          "opponent_nfl_score": 25.7,
+          "win_prob": 0.45,
+          "is_bye": false
+        },
+        {
+          "week": 15,
+          "opponent": "NE",
+          "location": "H",
+          "team_nfl_score": 24.1,
+          "opponent_nfl_score": 21.7,
+          "win_prob": 0.59,
+          "is_bye": false
+        },
+        {
+          "week": 16,
+          "opponent": "SF",
+          "location": "H",
+          "team_nfl_score": 25.5,
+          "opponent_nfl_score": 22.9,
+          "win_prob": 0.59,
+          "is_bye": false
+        },
+        {
+          "week": 17,
+          "opponent": "LAC",
+          "location": "V",
+          "team_nfl_score": 22.7,
+          "opponent_nfl_score": 24.6,
+          "win_prob": 0.43,
+          "is_bye": false
+        },
+        {
+          "week": 18,
+          "opponent": "LV",
+          "location": "H",
+          "team_nfl_score": 27.0,
+          "opponent_nfl_score": 16.6,
+          "win_prob": 0.84,
+          "is_bye": false
+        }
+      ]
+    },
+    "LAC": {
+      "season_projected_nfl_points_for": null,
+      "season_projected_nfl_points_against": null,
+      "weeks": [
+        {
+          "week": 1,
+          "opponent": "ARI",
+          "location": "H",
+          "team_nfl_score": 29.1,
+          "opponent_nfl_score": 17.2,
+          "win_prob": 0.87,
+          "is_bye": false
+        },
+        {
+          "week": 2,
+          "opponent": "LV",
+          "location": "H",
+          "team_nfl_score": 27.6,
+          "opponent_nfl_score": 17.3,
+          "win_prob": 0.84,
+          "is_bye": false
+        },
+        {
+          "week": 3,
+          "opponent": "BUF",
+          "location": "V",
+          "team_nfl_score": 26.2,
+          "opponent_nfl_score": 28.8,
+          "win_prob": 0.41,
+          "is_bye": false
+        },
+        {
+          "week": 4,
+          "opponent": "SEA",
+          "location": "V",
+          "team_nfl_score": 20.3,
+          "opponent_nfl_score": 25.4,
+          "win_prob": 0.32,
+          "is_bye": false
+        },
+        {
+          "week": 5,
+          "opponent": "DEN",
+          "location": "H",
+          "team_nfl_score": 22.4,
+          "opponent_nfl_score": 22.2,
+          "win_prob": 0.51,
+          "is_bye": false
+        },
+        {
+          "week": 6,
+          "opponent": "KC",
+          "location": "V",
+          "team_nfl_score": 22.5,
+          "opponent_nfl_score": 24.8,
+          "win_prob": 0.42,
+          "is_bye": false
+        },
+        {
+          "week": 7,
+          "opponent": null,
+          "location": null,
+          "team_nfl_score": 0.0,
+          "opponent_nfl_score": 0.0,
+          "win_prob": null,
+          "is_bye": true
+        },
+        {
+          "week": 8,
+          "opponent": "LAR",
+          "location": "V",
+          "team_nfl_score": 20.3,
+          "opponent_nfl_score": 29.5,
+          "win_prob": 0.19,
+          "is_bye": false
+        },
+        {
+          "week": 9,
+          "opponent": "HOU",
+          "location": "H",
+          "team_nfl_score": 22.4,
+          "opponent_nfl_score": 19.4,
+          "win_prob": 0.61,
+          "is_bye": false
+        },
+        {
+          "week": 10,
+          "opponent": "BAL",
+          "location": "V",
+          "team_nfl_score": 21.8,
+          "opponent_nfl_score": 25.8,
+          "win_prob": 0.36,
+          "is_bye": false
+        },
+        {
+          "week": 11,
+          "opponent": "NYJ",
+          "location": "H",
+          "team_nfl_score": 26.1,
+          "opponent_nfl_score": 18.1,
+          "win_prob": 0.77,
+          "is_bye": false
+        },
+        {
+          "week": 12,
+          "opponent": "NE",
+          "location": "H",
+          "team_nfl_score": 24.6,
+          "opponent_nfl_score": 22.4,
+          "win_prob": 0.58,
+          "is_bye": false
+        },
+        {
+          "week": 13,
+          "opponent": "TB",
+          "location": "V",
+          "team_nfl_score": 23.3,
+          "opponent_nfl_score": 23.3,
+          "win_prob": 0.5,
+          "is_bye": false
+        },
+        {
+          "week": 14,
+          "opponent": "LV",
+          "location": "V",
+          "team_nfl_score": 25.5,
+          "opponent_nfl_score": 19.4,
+          "win_prob": 0.71,
+          "is_bye": false
+        },
+        {
+          "week": 15,
+          "opponent": "SF",
+          "location": "H",
+          "team_nfl_score": 26.1,
+          "opponent_nfl_score": 23.6,
+          "win_prob": 0.59,
+          "is_bye": false
+        },
+        {
+          "week": 16,
+          "opponent": "MIA",
+          "location": "V",
+          "team_nfl_score": 27.7,
+          "opponent_nfl_score": 16.9,
+          "win_prob": 0.85,
+          "is_bye": false
+        },
+        {
+          "week": 17,
+          "opponent": "KC",
+          "location": "H",
+          "team_nfl_score": 24.6,
+          "opponent_nfl_score": 22.7,
+          "win_prob": 0.57,
+          "is_bye": false
+        },
+        {
+          "week": 18,
+          "opponent": "DEN",
+          "location": "V",
+          "team_nfl_score": 20.3,
+          "opponent_nfl_score": 24.3,
+          "win_prob": 0.36,
+          "is_bye": false
+        }
+      ]
+    },
+    "LAR": {
+      "season_projected_nfl_points_for": null,
+      "season_projected_nfl_points_against": null,
+      "weeks": [
+        {
+          "week": 1,
+          "opponent": "SF",
+          "location": "H",
+          "team_nfl_score": 29.2,
+          "opponent_nfl_score": 21.7,
+          "win_prob": 0.76,
+          "is_bye": false
+        },
+        {
+          "week": 2,
+          "opponent": "NYG",
+          "location": "H",
+          "team_nfl_score": 31.0,
+          "opponent_nfl_score": 17.7,
+          "win_prob": 0.9,
+          "is_bye": false
+        },
+        {
+          "week": 3,
+          "opponent": "DEN",
+          "location": "V",
+          "team_nfl_score": 24.5,
+          "opponent_nfl_score": 21.3,
+          "win_prob": 0.61,
+          "is_bye": false
+        },
+        {
+          "week": 4,
+          "opponent": "PHI",
+          "location": "V",
+          "team_nfl_score": 25.2,
+          "opponent_nfl_score": 21.8,
+          "win_prob": 0.62,
+          "is_bye": false
+        },
+        {
+          "week": 5,
+          "opponent": "BUF",
+          "location": "H",
+          "team_nfl_score": 32.5,
+          "opponent_nfl_score": 23.8,
+          "win_prob": 0.79,
+          "is_bye": false
+        },
+        {
+          "week": 6,
+          "opponent": "ARI",
+          "location": "H",
+          "team_nfl_score": 33.2,
+          "opponent_nfl_score": 14.3,
+          "win_prob": 0.96,
+          "is_bye": false
+        },
+        {
+          "week": 7,
+          "opponent": "LV",
+          "location": "V",
+          "team_nfl_score": 29.6,
+          "opponent_nfl_score": 16.5,
+          "win_prob": 0.9,
+          "is_bye": false
+        },
+        {
+          "week": 8,
+          "opponent": "LAC",
+          "location": "H",
+          "team_nfl_score": 29.5,
+          "opponent_nfl_score": 20.3,
+          "win_prob": 0.81,
+          "is_bye": false
+        },
+        {
+          "week": 9,
+          "opponent": "WAS",
+          "location": "V",
+          "team_nfl_score": 31.1,
+          "opponent_nfl_score": 20.5,
+          "win_prob": 0.84,
+          "is_bye": false
+        },
+        {
+          "week": 10,
+          "opponent": "ARI",
+          "location": "V",
+          "team_nfl_score": 31.1,
+          "opponent_nfl_score": 16.4,
+          "win_prob": 0.93,
+          "is_bye": false
+        },
+        {
+          "week": 11,
+          "opponent": null,
+          "location": null,
+          "team_nfl_score": 0.0,
+          "opponent_nfl_score": 0.0,
+          "win_prob": null,
+          "is_bye": true
+        },
+        {
+          "week": 12,
+          "opponent": "GB",
+          "location": "H",
+          "team_nfl_score": 29.5,
+          "opponent_nfl_score": 19.6,
+          "win_prob": 0.83,
+          "is_bye": false
+        },
+        {
+          "week": 13,
+          "opponent": "KC",
+          "location": "H",
+          "team_nfl_score": 28.8,
+          "opponent_nfl_score": 19.8,
+          "win_prob": 0.8,
+          "is_bye": false
+        },
+        {
+          "week": 14,
+          "opponent": "SF",
+          "location": "V",
+          "team_nfl_score": 28.2,
+          "opponent_nfl_score": 22.8,
+          "win_prob": 0.69,
+          "is_bye": false
+        },
+        {
+          "week": 15,
+          "opponent": "DAL",
+          "location": "H",
+          "team_nfl_score": 31.0,
+          "opponent_nfl_score": 22.7,
+          "win_prob": 0.78,
+          "is_bye": false
+        },
+        {
+          "week": 16,
+          "opponent": "SEA",
+          "location": "V",
+          "team_nfl_score": 24.5,
+          "opponent_nfl_score": 22.5,
+          "win_prob": 0.57,
+          "is_bye": false
+        },
+        {
+          "week": 17,
+          "opponent": "TB",
+          "location": "V",
+          "team_nfl_score": 27.4,
+          "opponent_nfl_score": 20.4,
+          "win_prob": 0.74,
+          "is_bye": false
+        },
+        {
+          "week": 18,
+          "opponent": "SEA",
+          "location": "H",
+          "team_nfl_score": 26.5,
+          "opponent_nfl_score": 20.4,
+          "win_prob": 0.71,
+          "is_bye": false
+        }
+      ]
+    },
+    "LV": {
+      "season_projected_nfl_points_for": null,
+      "season_projected_nfl_points_against": null,
+      "weeks": [
+        {
+          "week": 1,
+          "opponent": "MIA",
+          "location": "H",
+          "team_nfl_score": 23.8,
+          "opponent_nfl_score": 17.1,
+          "win_prob": 0.73,
+          "is_bye": false
+        },
+        {
+          "week": 2,
+          "opponent": "LAC",
+          "location": "V",
+          "team_nfl_score": 17.3,
+          "opponent_nfl_score": 27.6,
+          "win_prob": 0.16,
+          "is_bye": false
+        },
+        {
+          "week": 3,
+          "opponent": "NO",
+          "location": "V",
+          "team_nfl_score": 18.8,
+          "opponent_nfl_score": 22.8,
+          "win_prob": 0.36,
+          "is_bye": false
+        },
+        {
+          "week": 4,
+          "opponent": "KC",
+          "location": "H",
+          "team_nfl_score": 18.7,
+          "opponent_nfl_score": 24.9,
+          "win_prob": 0.28,
+          "is_bye": false
+        },
+        {
+          "week": 5,
+          "opponent": "NE",
+          "location": "V",
+          "team_nfl_score": 16.6,
+          "opponent_nfl_score": 26.7,
+          "win_prob": 0.17,
+          "is_bye": false
+        },
+        {
+          "week": 6,
+          "opponent": "BUF",
+          "location": "H",
+          "team_nfl_score": 22.4,
+          "opponent_nfl_score": 28.9,
+          "win_prob": 0.27,
+          "is_bye": false
+        },
+        {
+          "week": 7,
+          "opponent": "LAR",
+          "location": "H",
+          "team_nfl_score": 16.5,
+          "opponent_nfl_score": 29.6,
+          "win_prob": 0.1,
+          "is_bye": false
+        },
+        {
+          "week": 8,
+          "opponent": "NYJ",
+          "location": "V",
+          "team_nfl_score": 18.1,
+          "opponent_nfl_score": 22.4,
+          "win_prob": 0.35,
+          "is_bye": false
+        },
+        {
+          "week": 9,
+          "opponent": "SF",
+          "location": "V",
+          "team_nfl_score": 18.1,
+          "opponent_nfl_score": 27.9,
+          "win_prob": 0.18,
+          "is_bye": false
+        },
+        {
+          "week": 10,
+          "opponent": "SEA",
+          "location": "H",
+          "team_nfl_score": 16.5,
+          "opponent_nfl_score": 25.6,
+          "win_prob": 0.2,
+          "is_bye": false
+        },
+        {
+          "week": 11,
+          "opponent": "DEN",
+          "location": "V",
+          "team_nfl_score": 14.4,
+          "opponent_nfl_score": 26.6,
+          "win_prob": 0.12,
+          "is_bye": false
+        },
+        {
+          "week": 12,
+          "opponent": "CLE",
+          "location": "V",
+          "team_nfl_score": 16.6,
+          "opponent_nfl_score": 19.5,
+          "win_prob": 0.4,
+          "is_bye": false
+        },
+        {
+          "week": 13,
+          "opponent": null,
+          "location": null,
+          "team_nfl_score": 0.0,
+          "opponent_nfl_score": 0.0,
+          "win_prob": null,
+          "is_bye": true
+        },
+        {
+          "week": 14,
+          "opponent": "LAC",
+          "location": "H",
+          "team_nfl_score": 19.4,
+          "opponent_nfl_score": 25.5,
+          "win_prob": 0.29,
+          "is_bye": false
+        },
+        {
+          "week": 15,
+          "opponent": "DEN",
+          "location": "H",
+          "team_nfl_score": 16.5,
+          "opponent_nfl_score": 24.4,
+          "win_prob": 0.23,
+          "is_bye": false
+        },
+        {
+          "week": 16,
+          "opponent": "TEN",
+          "location": "H",
+          "team_nfl_score": 21.6,
+          "opponent_nfl_score": 18.8,
+          "win_prob": 0.6,
+          "is_bye": false
+        },
+        {
+          "week": 17,
+          "opponent": "ARI",
+          "location": "V",
+          "team_nfl_score": 21.0,
+          "opponent_nfl_score": 21.5,
+          "win_prob": 0.48,
+          "is_bye": false
+        },
+        {
+          "week": 18,
+          "opponent": "KC",
+          "location": "V",
+          "team_nfl_score": 16.6,
+          "opponent_nfl_score": 27.0,
+          "win_prob": 0.16,
+          "is_bye": false
+        }
+      ]
+    },
+    "MIA": {
+      "season_projected_nfl_points_for": null,
+      "season_projected_nfl_points_against": null,
+      "weeks": [
+        {
+          "week": 1,
+          "opponent": "LV",
+          "location": "V",
+          "team_nfl_score": 17.1,
+          "opponent_nfl_score": 23.8,
+          "win_prob": 0.27,
+          "is_bye": false
+        },
+        {
+          "week": 2,
+          "opponent": "SF",
+          "location": "V",
+          "team_nfl_score": 15.6,
+          "opponent_nfl_score": 30.2,
+          "win_prob": 0.07,
+          "is_bye": false
+        },
+        {
+          "week": 3,
+          "opponent": "KC",
+          "location": "H",
+          "team_nfl_score": 16.2,
+          "opponent_nfl_score": 27.1,
+          "win_prob": 0.15,
+          "is_bye": false
+        },
+        {
+          "week": 4,
+          "opponent": "MIN",
+          "location": "V",
+          "team_nfl_score": 15.6,
+          "opponent_nfl_score": 25.7,
+          "win_prob": 0.17,
+          "is_bye": false
+        },
+        {
+          "week": 5,
+          "opponent": "CIN",
+          "location": "H",
+          "team_nfl_score": 18.4,
+          "opponent_nfl_score": 28.8,
+          "win_prob": 0.16,
+          "is_bye": false
+        },
+        {
+          "week": 6,
+          "opponent": null,
+          "location": null,
+          "team_nfl_score": 0.0,
+          "opponent_nfl_score": 0.0,
+          "win_prob": null,
+          "is_bye": true
+        },
+        {
+          "week": 7,
+          "opponent": "NYJ",
+          "location": "V",
+          "team_nfl_score": 15.6,
+          "opponent_nfl_score": 24.6,
+          "win_prob": 0.2,
+          "is_bye": false
+        },
+        {
+          "week": 8,
+          "opponent": "NE",
+          "location": "H",
+          "team_nfl_score": 16.2,
+          "opponent_nfl_score": 26.9,
+          "win_prob": 0.15,
+          "is_bye": false
+        },
+        {
+          "week": 9,
+          "opponent": "DET",
+          "location": "H",
+          "team_nfl_score": 16.2,
+          "opponent_nfl_score": 28.7,
+          "win_prob": 0.11,
+          "is_bye": false
+        },
+        {
+          "week": 10,
+          "opponent": "IND",
+          "location": "V",
+          "team_nfl_score": 15.6,
+          "opponent_nfl_score": 27.3,
+          "win_prob": 0.13,
+          "is_bye": false
+        },
+        {
+          "week": 11,
+          "opponent": "BUF",
+          "location": "V",
+          "team_nfl_score": 17.8,
+          "opponent_nfl_score": 33.2,
+          "win_prob": 0.06,
+          "is_bye": false
+        },
+        {
+          "week": 12,
+          "opponent": "NYJ",
+          "location": "H",
+          "team_nfl_score": 17.7,
+          "opponent_nfl_score": 22.6,
+          "win_prob": 0.33,
+          "is_bye": false
+        },
+        {
+          "week": 13,
+          "opponent": "DEN",
+          "location": "V",
+          "team_nfl_score": 11.9,
+          "opponent_nfl_score": 28.8,
+          "win_prob": 0.04,
+          "is_bye": false
+        },
+        {
+          "week": 14,
+          "opponent": "CHI",
+          "location": "H",
+          "team_nfl_score": 17.7,
+          "opponent_nfl_score": 27.0,
+          "win_prob": 0.19,
+          "is_bye": false
+        },
+        {
+          "week": 15,
+          "opponent": "GB",
+          "location": "V",
+          "team_nfl_score": 14.8,
+          "opponent_nfl_score": 28.9,
+          "win_prob": 0.08,
+          "is_bye": false
+        },
+        {
+          "week": 16,
+          "opponent": "LAC",
+          "location": "H",
+          "team_nfl_score": 16.9,
+          "opponent_nfl_score": 27.7,
+          "win_prob": 0.15,
+          "is_bye": false
+        },
+        {
+          "week": 17,
+          "opponent": "BUF",
+          "location": "H",
+          "team_nfl_score": 19.9,
+          "opponent_nfl_score": 31.1,
+          "win_prob": 0.14,
+          "is_bye": false
+        },
+        {
+          "week": 18,
+          "opponent": "NE",
+          "location": "V",
+          "team_nfl_score": 14.1,
+          "opponent_nfl_score": 28.9,
+          "win_prob": 0.07,
+          "is_bye": false
+        }
+      ]
+    },
+    "MIN": {
+      "season_projected_nfl_points_for": null,
+      "season_projected_nfl_points_against": null,
+      "weeks": [
+        {
+          "week": 1,
+          "opponent": "GB",
+          "location": "H",
+          "team_nfl_score": 21.2,
+          "opponent_nfl_score": 23.2,
+          "win_prob": 0.43,
+          "is_bye": false
+        },
+        {
+          "week": 2,
+          "opponent": "CHI",
+          "location": "V",
+          "team_nfl_score": 19.9,
+          "opponent_nfl_score": 25.4,
+          "win_prob": 0.31,
+          "is_bye": false
+        },
+        {
+          "week": 3,
+          "opponent": "TB",
+          "location": "V",
+          "team_nfl_score": 19.2,
+          "opponent_nfl_score": 24.1,
+          "win_prob": 0.33,
+          "is_bye": false
+        },
+        {
+          "week": 4,
+          "opponent": "MIA",
+          "location": "H",
+          "team_nfl_score": 25.7,
+          "opponent_nfl_score": 15.6,
+          "win_prob": 0.83,
+          "is_bye": false
+        },
+        {
+          "week": 5,
+          "opponent": "NO",
+          "location": "V",
+          "team_nfl_score": 20.7,
+          "opponent_nfl_score": 21.3,
+          "win_prob": 0.48,
+          "is_bye": false
+        },
+        {
+          "week": 6,
+          "opponent": null,
+          "location": null,
+          "team_nfl_score": 0.0,
+          "opponent_nfl_score": 0.0,
+          "win_prob": null,
+          "is_bye": true
+        },
+        {
+          "week": 7,
+          "opponent": "IND",
+          "location": "H",
+          "team_nfl_score": 22.0,
+          "opponent_nfl_score": 21.6,
+          "win_prob": 0.52,
+          "is_bye": false
+        },
+        {
+          "week": 8,
+          "opponent": "DET",
+          "location": "V",
+          "team_nfl_score": 18.4,
+          "opponent_nfl_score": 27.0,
+          "win_prob": 0.21,
+          "is_bye": false
+        },
+        {
+          "week": 9,
+          "opponent": "BUF",
+          "location": "H",
+          "team_nfl_score": 24.2,
+          "opponent_nfl_score": 27.4,
+          "win_prob": 0.39,
+          "is_bye": false
+        },
+        {
+          "week": 10,
+          "opponent": "GB",
+          "location": "V",
+          "team_nfl_score": 19.1,
+          "opponent_nfl_score": 25.2,
+          "win_prob": 0.29,
+          "is_bye": false
+        },
+        {
+          "week": 11,
+          "opponent": "SF",
+          "location": "V",
+          "team_nfl_score": 20.9,
+          "opponent_nfl_score": 25.4,
+          "win_prob": 0.34,
+          "is_bye": false
+        },
+        {
+          "week": 12,
+          "opponent": "ATL",
+          "location": "H",
+          "team_nfl_score": 24.2,
+          "opponent_nfl_score": 19.3,
+          "win_prob": 0.67,
+          "is_bye": false
+        },
+        {
+          "week": 13,
+          "opponent": "CAR",
+          "location": "H",
+          "team_nfl_score": 22.0,
+          "opponent_nfl_score": 18.6,
+          "win_prob": 0.62,
+          "is_bye": false
+        },
+        {
+          "week": 14,
+          "opponent": "NE",
+          "location": "V",
+          "team_nfl_score": 18.4,
+          "opponent_nfl_score": 25.2,
+          "win_prob": 0.27,
+          "is_bye": false
+        },
+        {
+          "week": 15,
+          "opponent": "DET",
+          "location": "H",
+          "team_nfl_score": 20.5,
+          "opponent_nfl_score": 24.9,
+          "win_prob": 0.34,
+          "is_bye": false
+        },
+        {
+          "week": 16,
+          "opponent": "WAS",
+          "location": "H",
+          "team_nfl_score": 25.0,
+          "opponent_nfl_score": 22.2,
+          "win_prob": 0.6,
+          "is_bye": false
+        },
+        {
+          "week": 17,
+          "opponent": "NYJ",
+          "location": "V",
+          "team_nfl_score": 19.9,
+          "opponent_nfl_score": 20.9,
+          "win_prob": 0.46,
+          "is_bye": false
+        },
+        {
+          "week": 18,
+          "opponent": "CHI",
+          "location": "H",
+          "team_nfl_score": 22.0,
+          "opponent_nfl_score": 23.3,
+          "win_prob": 0.45,
+          "is_bye": false
+        }
+      ]
+    },
+    "NE": {
+      "season_projected_nfl_points_for": null,
+      "season_projected_nfl_points_against": null,
+      "weeks": [
+        {
+          "week": 1,
+          "opponent": "SEA",
+          "location": "V",
+          "team_nfl_score": 19.5,
+          "opponent_nfl_score": 24.7,
+          "win_prob": 0.32,
+          "is_bye": false
+        },
+        {
+          "week": 2,
+          "opponent": "PIT",
+          "location": "H",
+          "team_nfl_score": 22.3,
+          "opponent_nfl_score": 17.9,
+          "win_prob": 0.66,
+          "is_bye": false
+        },
+        {
+          "week": 3,
+          "opponent": "JAX",
+          "location": "V",
+          "team_nfl_score": 23.9,
+          "opponent_nfl_score": 24.1,
+          "win_prob": 0.49,
+          "is_bye": false
+        },
+        {
+          "week": 4,
+          "opponent": "BUF",
+          "location": "V",
+          "team_nfl_score": 25.4,
+          "opponent_nfl_score": 28.1,
+          "win_prob": 0.4,
+          "is_bye": false
+        },
+        {
+          "week": 5,
+          "opponent": "LV",
+          "location": "H",
+          "team_nfl_score": 26.7,
+          "opponent_nfl_score": 16.6,
+          "win_prob": 0.83,
+          "is_bye": false
+        },
+        {
+          "week": 6,
+          "opponent": "NYJ",
+          "location": "H",
+          "team_nfl_score": 25.2,
+          "opponent_nfl_score": 17.4,
+          "win_prob": 0.77,
+          "is_bye": false
+        },
+        {
+          "week": 7,
+          "opponent": "CHI",
+          "location": "V",
+          "team_nfl_score": 23.2,
+          "opponent_nfl_score": 23.9,
+          "win_prob": 0.47,
+          "is_bye": false
+        },
+        {
+          "week": 8,
+          "opponent": "MIA",
+          "location": "V",
+          "team_nfl_score": 26.9,
+          "opponent_nfl_score": 16.2,
+          "win_prob": 0.85,
+          "is_bye": false
+        },
+        {
+          "week": 9,
+          "opponent": "GB",
+          "location": "H",
+          "team_nfl_score": 24.5,
+          "opponent_nfl_score": 21.7,
+          "win_prob": 0.6,
+          "is_bye": false
+        },
+        {
+          "week": 10,
+          "opponent": "DET",
+          "location": "V",
+          "team_nfl_score": 22.7,
+          "opponent_nfl_score": 24.5,
+          "win_prob": 0.44,
+          "is_bye": false
+        },
+        {
+          "week": 11,
+          "opponent": null,
+          "location": null,
+          "team_nfl_score": 0.0,
+          "opponent_nfl_score": 0.0,
+          "win_prob": null,
+          "is_bye": true
+        },
+        {
+          "week": 12,
+          "opponent": "LAC",
+          "location": "V",
+          "team_nfl_score": 22.4,
+          "opponent_nfl_score": 24.6,
+          "win_prob": 0.42,
+          "is_bye": false
+        },
+        {
+          "week": 13,
+          "opponent": "BUF",
+          "location": "H",
+          "team_nfl_score": 27.4,
+          "opponent_nfl_score": 26.0,
+          "win_prob": 0.55,
+          "is_bye": false
+        },
+        {
+          "week": 14,
+          "opponent": "MIN",
+          "location": "H",
+          "team_nfl_score": 25.2,
+          "opponent_nfl_score": 18.4,
+          "win_prob": 0.73,
+          "is_bye": false
+        },
+        {
+          "week": 15,
+          "opponent": "KC",
+          "location": "V",
+          "team_nfl_score": 21.7,
+          "opponent_nfl_score": 24.1,
+          "win_prob": 0.41,
+          "is_bye": false
+        },
+        {
+          "week": 16,
+          "opponent": "NYJ",
+          "location": "V",
+          "team_nfl_score": 23.1,
+          "opponent_nfl_score": 19.4,
+          "win_prob": 0.63,
+          "is_bye": false
+        },
+        {
+          "week": 17,
+          "opponent": "DEN",
+          "location": "H",
+          "team_nfl_score": 21.5,
+          "opponent_nfl_score": 21.4,
+          "win_prob": 0.5,
+          "is_bye": false
+        },
+        {
+          "week": 18,
+          "opponent": "MIA",
+          "location": "H",
+          "team_nfl_score": 28.9,
+          "opponent_nfl_score": 14.1,
+          "win_prob": 0.93,
+          "is_bye": false
+        }
+      ]
+    },
+    "NO": {
+      "season_projected_nfl_points_for": null,
+      "season_projected_nfl_points_against": null,
+      "weeks": [
+        {
+          "week": 1,
+          "opponent": "DET",
+          "location": "V",
+          "team_nfl_score": 17.7,
+          "opponent_nfl_score": 27.8,
+          "win_prob": 0.17,
+          "is_bye": false
+        },
+        {
+          "week": 2,
+          "opponent": "BAL",
+          "location": "V",
+          "team_nfl_score": 17.0,
+          "opponent_nfl_score": 27.3,
+          "win_prob": 0.16,
+          "is_bye": false
+        },
+        {
+          "week": 3,
+          "opponent": "LV",
+          "location": "H",
+          "team_nfl_score": 22.8,
+          "opponent_nfl_score": 18.8,
+          "win_prob": 0.64,
+          "is_bye": false
+        },
+        {
+          "week": 4,
+          "opponent": "ATL",
+          "location": "H",
+          "team_nfl_score": 23.5,
+          "opponent_nfl_score": 20.1,
+          "win_prob": 0.62,
+          "is_bye": false
+        },
+        {
+          "week": 5,
+          "opponent": "MIN",
+          "location": "H",
+          "team_nfl_score": 21.3,
+          "opponent_nfl_score": 20.7,
+          "win_prob": 0.52,
+          "is_bye": false
+        },
+        {
+          "week": 6,
+          "opponent": "NYG",
+          "location": "V",
+          "team_nfl_score": 19.9,
+          "opponent_nfl_score": 24.3,
+          "win_prob": 0.35,
+          "is_bye": false
+        },
+        {
+          "week": 7,
+          "opponent": "PIT",
+          "location": "H",
+          "team_nfl_score": 17.3,
+          "opponent_nfl_score": 21.2,
+          "win_prob": 0.36,
+          "is_bye": false
+        },
+        {
+          "week": 8,
+          "opponent": null,
+          "location": null,
+          "team_nfl_score": 0.0,
+          "opponent_nfl_score": 0.0,
+          "win_prob": null,
+          "is_bye": true
+        },
+        {
+          "week": 9,
+          "opponent": "CLE",
+          "location": "H",
+          "team_nfl_score": 19.8,
+          "opponent_nfl_score": 16.7,
+          "win_prob": 0.61,
+          "is_bye": false
+        },
+        {
+          "week": 10,
+          "opponent": "CAR",
+          "location": "H",
+          "team_nfl_score": 21.3,
+          "opponent_nfl_score": 19.4,
+          "win_prob": 0.57,
+          "is_bye": false
+        },
+        {
+          "week": 11,
+          "opponent": "CHI",
+          "location": "V",
+          "team_nfl_score": 19.2,
+          "opponent_nfl_score": 26.2,
+          "win_prob": 0.26,
+          "is_bye": false
+        },
+        {
+          "week": 12,
+          "opponent": "CIN",
+          "location": "V",
+          "team_nfl_score": 19.9,
+          "opponent_nfl_score": 28.0,
+          "win_prob": 0.23,
+          "is_bye": false
+        },
+        {
+          "week": 13,
+          "opponent": "GB",
+          "location": "H",
+          "team_nfl_score": 20.5,
+          "opponent_nfl_score": 23.9,
+          "win_prob": 0.38,
+          "is_bye": false
+        },
+        {
+          "week": 14,
+          "opponent": "CAR",
+          "location": "V",
+          "team_nfl_score": 19.2,
+          "opponent_nfl_score": 21.4,
+          "win_prob": 0.42,
+          "is_bye": false
+        },
+        {
+          "week": 15,
+          "opponent": "TB",
+          "location": "V",
+          "team_nfl_score": 18.5,
+          "opponent_nfl_score": 24.8,
+          "win_prob": 0.28,
+          "is_bye": false
+        },
+        {
+          "week": 16,
+          "opponent": "ARI",
+          "location": "H",
+          "team_nfl_score": 24.2,
+          "opponent_nfl_score": 18.7,
+          "win_prob": 0.69,
+          "is_bye": false
+        },
+        {
+          "week": 17,
+          "opponent": "ATL",
+          "location": "V",
+          "team_nfl_score": 21.4,
+          "opponent_nfl_score": 22.2,
+          "win_prob": 0.47,
+          "is_bye": false
+        },
+        {
+          "week": 18,
+          "opponent": "TB",
+          "location": "H",
+          "team_nfl_score": 20.5,
+          "opponent_nfl_score": 22.7,
+          "win_prob": 0.42,
+          "is_bye": false
+        }
+      ]
+    },
+    "NYG": {
+      "season_projected_nfl_points_for": null,
+      "season_projected_nfl_points_against": null,
+      "weeks": [
+        {
+          "week": 1,
+          "opponent": "DAL",
+          "location": "H",
+          "team_nfl_score": 24.3,
+          "opponent_nfl_score": 27.1,
+          "win_prob": 0.4,
+          "is_bye": false
+        },
+        {
+          "week": 2,
+          "opponent": "LAR",
+          "location": "V",
+          "team_nfl_score": 17.7,
+          "opponent_nfl_score": 31.0,
+          "win_prob": 0.1,
+          "is_bye": false
+        },
+        {
+          "week": 3,
+          "opponent": "TEN",
+          "location": "H",
+          "team_nfl_score": 25.0,
+          "opponent_nfl_score": 18.1,
+          "win_prob": 0.74,
+          "is_bye": false
+        },
+        {
+          "week": 4,
+          "opponent": "ARI",
+          "location": "H",
+          "team_nfl_score": 26.5,
+          "opponent_nfl_score": 18.7,
+          "win_prob": 0.76,
+          "is_bye": false
+        },
+        {
+          "week": 5,
+          "opponent": "WAS",
+          "location": "V",
+          "team_nfl_score": 24.4,
+          "opponent_nfl_score": 25.0,
+          "win_prob": 0.48,
+          "is_bye": false
+        },
+        {
+          "week": 6,
+          "opponent": "NO",
+          "location": "H",
+          "team_nfl_score": 24.3,
+          "opponent_nfl_score": 19.9,
+          "win_prob": 0.65,
+          "is_bye": false
+        },
+        {
+          "week": 7,
+          "opponent": "HOU",
+          "location": "V",
+          "team_nfl_score": 17.7,
+          "opponent_nfl_score": 23.0,
+          "win_prob": 0.31,
+          "is_bye": false
+        },
+        {
+          "week": 8,
+          "opponent": null,
+          "location": null,
+          "team_nfl_score": 0.0,
+          "opponent_nfl_score": 0.0,
+          "win_prob": null,
+          "is_bye": true
+        },
+        {
+          "week": 9,
+          "opponent": "PHI",
+          "location": "V",
+          "team_nfl_score": 18.5,
+          "opponent_nfl_score": 26.2,
+          "win_prob": 0.24,
+          "is_bye": false
+        },
+        {
+          "week": 10,
+          "opponent": "WAS",
+          "location": "H",
+          "team_nfl_score": 26.5,
+          "opponent_nfl_score": 22.9,
+          "win_prob": 0.63,
+          "is_bye": false
+        },
+        {
+          "week": 11,
+          "opponent": "JAX",
+          "location": "H",
+          "team_nfl_score": 24.2,
+          "opponent_nfl_score": 24.3,
+          "win_prob": 0.5,
+          "is_bye": false
+        },
+        {
+          "week": 12,
+          "opponent": "IND",
+          "location": "V",
+          "team_nfl_score": 21.4,
+          "opponent_nfl_score": 24.4,
+          "win_prob": 0.4,
+          "is_bye": false
+        },
+        {
+          "week": 13,
+          "opponent": "SF",
+          "location": "H",
+          "team_nfl_score": 23.5,
+          "opponent_nfl_score": 25.1,
+          "win_prob": 0.44,
+          "is_bye": false
+        },
+        {
+          "week": 14,
+          "opponent": "SEA",
+          "location": "V",
+          "team_nfl_score": 17.7,
+          "opponent_nfl_score": 26.9,
+          "win_prob": 0.19,
+          "is_bye": false
+        },
+        {
+          "week": 15,
+          "opponent": "CLE",
+          "location": "H",
+          "team_nfl_score": 22.0,
+          "opponent_nfl_score": 16.7,
+          "win_prob": 0.69,
+          "is_bye": false
+        },
+        {
+          "week": 16,
+          "opponent": "DET",
+          "location": "V",
+          "team_nfl_score": 20.0,
+          "opponent_nfl_score": 27.8,
+          "win_prob": 0.23,
+          "is_bye": false
+        },
+        {
+          "week": 17,
+          "opponent": "DAL",
+          "location": "V",
+          "team_nfl_score": 22.2,
+          "opponent_nfl_score": 29.2,
+          "win_prob": 0.26,
+          "is_bye": false
+        },
+        {
+          "week": 18,
+          "opponent": "PHI",
+          "location": "H",
+          "team_nfl_score": 20.5,
+          "opponent_nfl_score": 24.1,
+          "win_prob": 0.37,
+          "is_bye": false
+        }
+      ]
+    },
+    "NYJ": {
+      "season_projected_nfl_points_for": null,
+      "season_projected_nfl_points_against": null,
+      "weeks": [
+        {
+          "week": 1,
+          "opponent": "TEN",
+          "location": "V",
+          "team_nfl_score": 20.3,
+          "opponent_nfl_score": 19.4,
+          "win_prob": 0.53,
+          "is_bye": false
+        },
+        {
+          "week": 2,
+          "opponent": "GB",
+          "location": "H",
+          "team_nfl_score": 20.2,
+          "opponent_nfl_score": 23.2,
+          "win_prob": 0.39,
+          "is_bye": false
+        },
+        {
+          "week": 3,
+          "opponent": "DET",
+          "location": "V",
+          "team_nfl_score": 17.4,
+          "opponent_nfl_score": 27.0,
+          "win_prob": 0.18,
+          "is_bye": false
+        },
+        {
+          "week": 4,
+          "opponent": "CHI",
+          "location": "V",
+          "team_nfl_score": 18.9,
+          "opponent_nfl_score": 25.4,
+          "win_prob": 0.27,
+          "is_bye": false
+        },
+        {
+          "week": 5,
+          "opponent": "CLE",
+          "location": "H",
+          "team_nfl_score": 19.5,
+          "opponent_nfl_score": 15.9,
+          "win_prob": 0.62,
+          "is_bye": false
+        },
+        {
+          "week": 6,
+          "opponent": "NE",
+          "location": "V",
+          "team_nfl_score": 17.4,
+          "opponent_nfl_score": 25.2,
+          "win_prob": 0.23,
+          "is_bye": false
+        },
+        {
+          "week": 7,
+          "opponent": "MIA",
+          "location": "H",
+          "team_nfl_score": 24.6,
+          "opponent_nfl_score": 15.6,
+          "win_prob": 0.8,
+          "is_bye": false
+        },
+        {
+          "week": 8,
+          "opponent": "LV",
+          "location": "H",
+          "team_nfl_score": 22.4,
+          "opponent_nfl_score": 18.1,
+          "win_prob": 0.65,
+          "is_bye": false
+        },
+        {
+          "week": 9,
+          "opponent": "KC",
+          "location": "V",
+          "team_nfl_score": 17.4,
+          "opponent_nfl_score": 25.5,
+          "win_prob": 0.22,
+          "is_bye": false
+        },
+        {
+          "week": 10,
+          "opponent": "BUF",
+          "location": "H",
+          "team_nfl_score": 23.1,
+          "opponent_nfl_score": 27.4,
+          "win_prob": 0.35,
+          "is_bye": false
+        },
+        {
+          "week": 11,
+          "opponent": "LAC",
+          "location": "V",
+          "team_nfl_score": 18.1,
+          "opponent_nfl_score": 26.1,
+          "win_prob": 0.23,
+          "is_bye": false
+        },
+        {
+          "week": 12,
+          "opponent": "MIA",
+          "location": "V",
+          "team_nfl_score": 22.6,
+          "opponent_nfl_score": 17.7,
+          "win_prob": 0.67,
+          "is_bye": false
+        },
+        {
+          "week": 13,
+          "opponent": null,
+          "location": null,
+          "team_nfl_score": 0.0,
+          "opponent_nfl_score": 0.0,
+          "win_prob": null,
+          "is_bye": true
+        },
+        {
+          "week": 14,
+          "opponent": "DEN",
+          "location": "H",
+          "team_nfl_score": 17.2,
+          "opponent_nfl_score": 22.9,
+          "win_prob": 0.3,
+          "is_bye": false
+        },
+        {
+          "week": 15,
+          "opponent": "ARI",
+          "location": "V",
+          "team_nfl_score": 21.8,
+          "opponent_nfl_score": 20.0,
+          "win_prob": 0.56,
+          "is_bye": false
+        },
+        {
+          "week": 16,
+          "opponent": "NE",
+          "location": "H",
+          "team_nfl_score": 19.4,
+          "opponent_nfl_score": 23.1,
+          "win_prob": 0.37,
+          "is_bye": false
+        },
+        {
+          "week": 17,
+          "opponent": "MIN",
+          "location": "H",
+          "team_nfl_score": 20.9,
+          "opponent_nfl_score": 19.9,
+          "win_prob": 0.54,
+          "is_bye": false
+        },
+        {
+          "week": 18,
+          "opponent": "BUF",
+          "location": "V",
+          "team_nfl_score": 21.1,
+          "opponent_nfl_score": 29.5,
+          "win_prob": 0.22,
+          "is_bye": false
+        }
+      ]
+    },
+    "PHI": {
+      "season_projected_nfl_points_for": null,
+      "season_projected_nfl_points_against": null,
+      "weeks": [
+        {
+          "week": 1,
+          "opponent": "WAS",
+          "location": "H",
+          "team_nfl_score": 28.4,
+          "opponent_nfl_score": 19.2,
+          "win_prob": 0.81,
+          "is_bye": false
+        },
+        {
+          "week": 2,
+          "opponent": "TEN",
+          "location": "V",
+          "team_nfl_score": 24.9,
+          "opponent_nfl_score": 16.5,
+          "win_prob": 0.78,
+          "is_bye": false
+        },
+        {
+          "week": 3,
+          "opponent": "CHI",
+          "location": "V",
+          "team_nfl_score": 23.4,
+          "opponent_nfl_score": 22.5,
+          "win_prob": 0.53,
+          "is_bye": false
+        },
+        {
+          "week": 4,
+          "opponent": "LAR",
+          "location": "H",
+          "team_nfl_score": 21.8,
+          "opponent_nfl_score": 25.2,
+          "win_prob": 0.38,
+          "is_bye": false
+        },
+        {
+          "week": 5,
+          "opponent": "JAX",
+          "location": "V",
+          "team_nfl_score": 25.2,
+          "opponent_nfl_score": 21.6,
+          "win_prob": 0.63,
+          "is_bye": false
+        },
+        {
+          "week": 6,
+          "opponent": "CAR",
+          "location": "H",
+          "team_nfl_score": 25.4,
+          "opponent_nfl_score": 15.7,
+          "win_prob": 0.82,
+          "is_bye": false
+        },
+        {
+          "week": 7,
+          "opponent": "DAL",
+          "location": "H",
+          "team_nfl_score": 26.2,
+          "opponent_nfl_score": 23.4,
+          "win_prob": 0.6,
+          "is_bye": false
+        },
+        {
+          "week": 8,
+          "opponent": "WAS",
+          "location": "V",
+          "team_nfl_score": 26.3,
+          "opponent_nfl_score": 21.3,
+          "win_prob": 0.68,
+          "is_bye": false
+        },
+        {
+          "week": 9,
+          "opponent": "NYG",
+          "location": "H",
+          "team_nfl_score": 26.2,
+          "opponent_nfl_score": 18.5,
+          "win_prob": 0.76,
+          "is_bye": false
+        },
+        {
+          "week": 10,
+          "opponent": null,
+          "location": null,
+          "team_nfl_score": 0.0,
+          "opponent_nfl_score": 0.0,
+          "win_prob": null,
+          "is_bye": true
+        },
+        {
+          "week": 11,
+          "opponent": "PIT",
+          "location": "H",
+          "team_nfl_score": 22.5,
+          "opponent_nfl_score": 16.3,
+          "win_prob": 0.71,
+          "is_bye": false
+        },
+        {
+          "week": 12,
+          "opponent": "DAL",
+          "location": "V",
+          "team_nfl_score": 24.1,
+          "opponent_nfl_score": 25.5,
+          "win_prob": 0.45,
+          "is_bye": false
+        },
+        {
+          "week": 13,
+          "opponent": "ARI",
+          "location": "V",
+          "team_nfl_score": 26.3,
+          "opponent_nfl_score": 17.1,
+          "win_prob": 0.81,
+          "is_bye": false
+        },
+        {
+          "week": 14,
+          "opponent": "IND",
+          "location": "H",
+          "team_nfl_score": 25.5,
+          "opponent_nfl_score": 18.6,
+          "win_prob": 0.74,
+          "is_bye": false
+        },
+        {
+          "week": 15,
+          "opponent": "SEA",
+          "location": "H",
+          "team_nfl_score": 21.8,
+          "opponent_nfl_score": 21.1,
+          "win_prob": 0.52,
+          "is_bye": false
+        },
+        {
+          "week": 16,
+          "opponent": "HOU",
+          "location": "H",
+          "team_nfl_score": 21.8,
+          "opponent_nfl_score": 17.1,
+          "win_prob": 0.66,
+          "is_bye": false
+        },
+        {
+          "week": 17,
+          "opponent": "SF",
+          "location": "V",
+          "team_nfl_score": 23.4,
+          "opponent_nfl_score": 23.5,
+          "win_prob": 0.5,
+          "is_bye": false
+        },
+        {
+          "week": 18,
+          "opponent": "NYG",
+          "location": "V",
+          "team_nfl_score": 24.1,
+          "opponent_nfl_score": 20.5,
+          "win_prob": 0.63,
+          "is_bye": false
+        }
+      ]
+    },
+    "PIT": {
+      "season_projected_nfl_points_for": null,
+      "season_projected_nfl_points_against": null,
+      "weeks": [
+        {
+          "week": 1,
+          "opponent": "ATL",
+          "location": "H",
+          "team_nfl_score": 23.7,
+          "opponent_nfl_score": 16.4,
+          "win_prob": 0.75,
+          "is_bye": false
+        },
+        {
+          "week": 2,
+          "opponent": "NE",
+          "location": "V",
+          "team_nfl_score": 17.9,
+          "opponent_nfl_score": 22.3,
+          "win_prob": 0.34,
+          "is_bye": false
+        },
+        {
+          "week": 3,
+          "opponent": "CIN",
+          "location": "H",
+          "team_nfl_score": 22.3,
+          "opponent_nfl_score": 22.2,
+          "win_prob": 0.5,
+          "is_bye": false
+        },
+        {
+          "week": 4,
+          "opponent": "CLE",
+          "location": "V",
+          "team_nfl_score": 17.9,
+          "opponent_nfl_score": 15.1,
+          "win_prob": 0.6,
+          "is_bye": false
+        },
+        {
+          "week": 5,
+          "opponent": "IND",
+          "location": "H",
+          "team_nfl_score": 21.5,
+          "opponent_nfl_score": 18.6,
+          "win_prob": 0.6,
+          "is_bye": false
+        },
+        {
+          "week": 6,
+          "opponent": "TB",
+          "location": "V",
+          "team_nfl_score": 18.6,
+          "opponent_nfl_score": 21.1,
+          "win_prob": 0.41,
+          "is_bye": false
+        },
+        {
+          "week": 7,
+          "opponent": "NO",
+          "location": "V",
+          "team_nfl_score": 21.2,
+          "opponent_nfl_score": 17.3,
+          "win_prob": 0.64,
+          "is_bye": false
+        },
+        {
+          "week": 8,
+          "opponent": "CLE",
+          "location": "H",
+          "team_nfl_score": 20.0,
+          "opponent_nfl_score": 13.0,
+          "win_prob": 0.74,
+          "is_bye": false
+        },
+        {
+          "week": 9,
+          "opponent": null,
+          "location": null,
+          "team_nfl_score": 0.0,
+          "opponent_nfl_score": 0.0,
+          "win_prob": null,
+          "is_bye": true
+        },
+        {
+          "week": 10,
+          "opponent": "CIN",
+          "location": "V",
+          "team_nfl_score": 20.1,
+          "opponent_nfl_score": 24.3,
+          "win_prob": 0.35,
+          "is_bye": false
+        },
+        {
+          "week": 11,
+          "opponent": "PHI",
+          "location": "V",
+          "team_nfl_score": 16.3,
+          "opponent_nfl_score": 22.5,
+          "win_prob": 0.29,
+          "is_bye": false
+        },
+        {
+          "week": 12,
+          "opponent": "DEN",
+          "location": "H",
+          "team_nfl_score": 17.7,
+          "opponent_nfl_score": 20.0,
+          "win_prob": 0.42,
+          "is_bye": false
+        },
+        {
+          "week": 13,
+          "opponent": "HOU",
+          "location": "H",
+          "team_nfl_score": 17.7,
+          "opponent_nfl_score": 17.2,
+          "win_prob": 0.52,
+          "is_bye": false
+        },
+        {
+          "week": 14,
+          "opponent": "JAX",
+          "location": "V",
+          "team_nfl_score": 20.1,
+          "opponent_nfl_score": 22.7,
+          "win_prob": 0.41,
+          "is_bye": false
+        },
+        {
+          "week": 15,
+          "opponent": "BAL",
+          "location": "H",
+          "team_nfl_score": 19.2,
+          "opponent_nfl_score": 21.6,
+          "win_prob": 0.42,
+          "is_bye": false
+        },
+        {
+          "week": 16,
+          "opponent": "CAR",
+          "location": "H",
+          "team_nfl_score": 21.5,
+          "opponent_nfl_score": 15.7,
+          "win_prob": 0.7,
+          "is_bye": false
+        },
+        {
+          "week": 17,
+          "opponent": "TEN",
+          "location": "V",
+          "team_nfl_score": 20.9,
+          "opponent_nfl_score": 16.5,
+          "win_prob": 0.65,
+          "is_bye": false
+        },
+        {
+          "week": 18,
+          "opponent": "BAL",
+          "location": "V",
+          "team_nfl_score": 17.1,
+          "opponent_nfl_score": 23.6,
+          "win_prob": 0.27,
+          "is_bye": false
+        }
+      ]
+    },
+    "SEA": {
+      "season_projected_nfl_points_for": null,
+      "season_projected_nfl_points_against": null,
+      "weeks": [
+        {
+          "week": 1,
+          "opponent": "NE",
+          "location": "H",
+          "team_nfl_score": 24.7,
+          "opponent_nfl_score": 19.5,
+          "win_prob": 0.68,
+          "is_bye": false
+        },
+        {
+          "week": 2,
+          "opponent": "ARI",
+          "location": "V",
+          "team_nfl_score": 27.0,
+          "opponent_nfl_score": 16.4,
+          "win_prob": 0.85,
+          "is_bye": false
+        },
+        {
+          "week": 3,
+          "opponent": "WAS",
+          "location": "V",
+          "team_nfl_score": 27.0,
+          "opponent_nfl_score": 20.5,
+          "win_prob": 0.72,
+          "is_bye": false
+        },
+        {
+          "week": 4,
+          "opponent": "LAC",
+          "location": "H",
+          "team_nfl_score": 25.4,
+          "opponent_nfl_score": 20.3,
+          "win_prob": 0.68,
+          "is_bye": false
+        },
+        {
+          "week": 5,
+          "opponent": "SF",
+          "location": "H",
+          "team_nfl_score": 26.2,
+          "opponent_nfl_score": 20.7,
+          "win_prob": 0.69,
+          "is_bye": false
+        },
+        {
+          "week": 6,
+          "opponent": "DEN",
+          "location": "V",
+          "team_nfl_score": 20.4,
+          "opponent_nfl_score": 21.3,
+          "win_prob": 0.47,
+          "is_bye": false
+        },
+        {
+          "week": 7,
+          "opponent": "KC",
+          "location": "H",
+          "team_nfl_score": 24.7,
+          "opponent_nfl_score": 19.8,
+          "win_prob": 0.67,
+          "is_bye": false
+        },
+        {
+          "week": 8,
+          "opponent": "CHI",
+          "location": "H",
+          "team_nfl_score": 26.2,
+          "opponent_nfl_score": 19.6,
+          "win_prob": 0.73,
+          "is_bye": false
+        },
+        {
+          "week": 9,
+          "opponent": "ARI",
+          "location": "H",
+          "team_nfl_score": 29.1,
+          "opponent_nfl_score": 14.3,
+          "win_prob": 0.93,
+          "is_bye": false
+        },
+        {
+          "week": 10,
+          "opponent": "LV",
+          "location": "V",
+          "team_nfl_score": 25.6,
+          "opponent_nfl_score": 16.5,
+          "win_prob": 0.8,
+          "is_bye": false
+        },
+        {
+          "week": 11,
+          "opponent": null,
+          "location": null,
+          "team_nfl_score": 0.0,
+          "opponent_nfl_score": 0.0,
+          "win_prob": null,
+          "is_bye": true
+        },
+        {
+          "week": 12,
+          "opponent": "SF",
+          "location": "V",
+          "team_nfl_score": 24.1,
+          "opponent_nfl_score": 22.8,
+          "win_prob": 0.55,
+          "is_bye": false
+        },
+        {
+          "week": 13,
+          "opponent": "DAL",
+          "location": "H",
+          "team_nfl_score": 26.9,
+          "opponent_nfl_score": 22.7,
+          "win_prob": 0.65,
+          "is_bye": false
+        },
+        {
+          "week": 14,
+          "opponent": "NYG",
+          "location": "H",
+          "team_nfl_score": 26.9,
+          "opponent_nfl_score": 17.7,
+          "win_prob": 0.81,
+          "is_bye": false
+        },
+        {
+          "week": 15,
+          "opponent": "PHI",
+          "location": "V",
+          "team_nfl_score": 21.1,
+          "opponent_nfl_score": 21.8,
+          "win_prob": 0.48,
+          "is_bye": false
+        },
+        {
+          "week": 16,
+          "opponent": "LAR",
+          "location": "H",
+          "team_nfl_score": 22.5,
+          "opponent_nfl_score": 24.5,
+          "win_prob": 0.43,
+          "is_bye": false
+        },
+        {
+          "week": 17,
+          "opponent": "CAR",
+          "location": "V",
+          "team_nfl_score": 24.0,
+          "opponent_nfl_score": 17.0,
+          "win_prob": 0.74,
+          "is_bye": false
+        },
+        {
+          "week": 18,
+          "opponent": "LAR",
+          "location": "V",
+          "team_nfl_score": 20.4,
+          "opponent_nfl_score": 26.5,
+          "win_prob": 0.29,
+          "is_bye": false
+        }
+      ]
+    },
+    "SF": {
+      "season_projected_nfl_points_for": null,
+      "season_projected_nfl_points_against": null,
+      "weeks": [
+        {
+          "week": 1,
+          "opponent": "LAR",
+          "location": "V",
+          "team_nfl_score": 21.7,
+          "opponent_nfl_score": 29.2,
+          "win_prob": 0.24,
+          "is_bye": false
+        },
+        {
+          "week": 2,
+          "opponent": "MIA",
+          "location": "H",
+          "team_nfl_score": 30.2,
+          "opponent_nfl_score": 15.6,
+          "win_prob": 0.93,
+          "is_bye": false
+        },
+        {
+          "week": 3,
+          "opponent": "ARI",
+          "location": "H",
+          "team_nfl_score": 29.4,
+          "opponent_nfl_score": 18.0,
+          "win_prob": 0.87,
+          "is_bye": false
+        },
+        {
+          "week": 4,
+          "opponent": "DEN",
+          "location": "H",
+          "team_nfl_score": 22.8,
+          "opponent_nfl_score": 23.0,
+          "win_prob": 0.49,
+          "is_bye": false
+        },
+        {
+          "week": 5,
+          "opponent": "SEA",
+          "location": "V",
+          "team_nfl_score": 20.7,
+          "opponent_nfl_score": 26.2,
+          "win_prob": 0.31,
+          "is_bye": false
+        },
+        {
+          "week": 6,
+          "opponent": "WAS",
+          "location": "H",
+          "team_nfl_score": 29.4,
+          "opponent_nfl_score": 22.2,
+          "win_prob": 0.75,
+          "is_bye": false
+        },
+        {
+          "week": 7,
+          "opponent": "ATL",
+          "location": "V",
+          "team_nfl_score": 26.6,
+          "opponent_nfl_score": 21.4,
+          "win_prob": 0.68,
+          "is_bye": false
+        },
+        {
+          "week": 8,
+          "opponent": null,
+          "location": null,
+          "team_nfl_score": 0.0,
+          "opponent_nfl_score": 0.0,
+          "win_prob": null,
+          "is_bye": true
+        },
+        {
+          "week": 9,
+          "opponent": "LV",
+          "location": "H",
+          "team_nfl_score": 27.9,
+          "opponent_nfl_score": 18.1,
+          "win_prob": 0.82,
+          "is_bye": false
+        },
+        {
+          "week": 10,
+          "opponent": "DAL",
+          "location": "V",
+          "team_nfl_score": 25.1,
+          "opponent_nfl_score": 28.5,
+          "win_prob": 0.38,
+          "is_bye": false
+        },
+        {
+          "week": 11,
+          "opponent": "MIN",
+          "location": "H",
+          "team_nfl_score": 25.4,
+          "opponent_nfl_score": 20.9,
+          "win_prob": 0.66,
+          "is_bye": false
+        },
+        {
+          "week": 12,
+          "opponent": "SEA",
+          "location": "H",
+          "team_nfl_score": 22.8,
+          "opponent_nfl_score": 24.1,
+          "win_prob": 0.45,
+          "is_bye": false
+        },
+        {
+          "week": 13,
+          "opponent": "NYG",
+          "location": "V",
+          "team_nfl_score": 25.1,
+          "opponent_nfl_score": 23.5,
+          "win_prob": 0.56,
+          "is_bye": false
+        },
+        {
+          "week": 14,
+          "opponent": "LAR",
+          "location": "H",
+          "team_nfl_score": 22.8,
+          "opponent_nfl_score": 28.2,
+          "win_prob": 0.31,
+          "is_bye": false
+        },
+        {
+          "week": 15,
+          "opponent": "LAC",
+          "location": "V",
+          "team_nfl_score": 23.6,
+          "opponent_nfl_score": 26.1,
+          "win_prob": 0.41,
+          "is_bye": false
+        },
+        {
+          "week": 16,
+          "opponent": "KC",
+          "location": "V",
+          "team_nfl_score": 22.9,
+          "opponent_nfl_score": 25.5,
+          "win_prob": 0.41,
+          "is_bye": false
+        },
+        {
+          "week": 17,
+          "opponent": "PHI",
+          "location": "H",
+          "team_nfl_score": 23.5,
+          "opponent_nfl_score": 23.4,
+          "win_prob": 0.5,
+          "is_bye": false
+        },
+        {
+          "week": 18,
+          "opponent": "ARI",
+          "location": "V",
+          "team_nfl_score": 27.3,
+          "opponent_nfl_score": 20.0,
+          "win_prob": 0.75,
+          "is_bye": false
+        }
+      ]
+    },
+    "TB": {
+      "season_projected_nfl_points_for": null,
+      "season_projected_nfl_points_against": null,
+      "weeks": [
+        {
+          "week": 1,
+          "opponent": "CIN",
+          "location": "V",
+          "team_nfl_score": 22.7,
+          "opponent_nfl_score": 26.5,
+          "win_prob": 0.37,
+          "is_bye": false
+        },
+        {
+          "week": 2,
+          "opponent": "CLE",
+          "location": "H",
+          "team_nfl_score": 22.6,
+          "opponent_nfl_score": 15.2,
+          "win_prob": 0.75,
+          "is_bye": false
+        },
+        {
+          "week": 3,
+          "opponent": "MIN",
+          "location": "H",
+          "team_nfl_score": 24.1,
+          "opponent_nfl_score": 19.2,
+          "win_prob": 0.67,
+          "is_bye": false
+        },
+        {
+          "week": 4,
+          "opponent": "GB",
+          "location": "H",
+          "team_nfl_score": 23.3,
+          "opponent_nfl_score": 22.5,
+          "win_prob": 0.53,
+          "is_bye": false
+        },
+        {
+          "week": 5,
+          "opponent": "DAL",
+          "location": "V",
+          "team_nfl_score": 22.7,
+          "opponent_nfl_score": 27.8,
+          "win_prob": 0.32,
+          "is_bye": false
+        },
+        {
+          "week": 6,
+          "opponent": "PIT",
+          "location": "H",
+          "team_nfl_score": 21.1,
+          "opponent_nfl_score": 18.6,
+          "win_prob": 0.59,
+          "is_bye": false
+        },
+        {
+          "week": 7,
+          "opponent": "CAR",
+          "location": "V",
+          "team_nfl_score": 22.0,
+          "opponent_nfl_score": 19.9,
+          "win_prob": 0.57,
+          "is_bye": false
+        },
+        {
+          "week": 8,
+          "opponent": "ATL",
+          "location": "H",
+          "team_nfl_score": 26.3,
+          "opponent_nfl_score": 18.6,
+          "win_prob": 0.76,
+          "is_bye": false
+        },
+        {
+          "week": 9,
+          "opponent": "CHI",
+          "location": "V",
+          "team_nfl_score": 22.0,
+          "opponent_nfl_score": 24.7,
+          "win_prob": 0.4,
+          "is_bye": false
+        },
+        {
+          "week": 10,
+          "opponent": null,
+          "location": null,
+          "team_nfl_score": 0.0,
+          "opponent_nfl_score": 0.0,
+          "win_prob": null,
+          "is_bye": true
+        },
+        {
+          "week": 11,
+          "opponent": "DET",
+          "location": "V",
+          "team_nfl_score": 20.5,
+          "opponent_nfl_score": 26.3,
+          "win_prob": 0.3,
+          "is_bye": false
+        },
+        {
+          "week": 12,
+          "opponent": "CAR",
+          "location": "H",
+          "team_nfl_score": 24.1,
+          "opponent_nfl_score": 17.9,
+          "win_prob": 0.72,
+          "is_bye": false
+        },
+        {
+          "week": 13,
+          "opponent": "LAC",
+          "location": "H",
+          "team_nfl_score": 23.3,
+          "opponent_nfl_score": 23.3,
+          "win_prob": 0.5,
+          "is_bye": false
+        },
+        {
+          "week": 14,
+          "opponent": "BAL",
+          "location": "V",
+          "team_nfl_score": 19.8,
+          "opponent_nfl_score": 25.8,
+          "win_prob": 0.29,
+          "is_bye": false
+        },
+        {
+          "week": 15,
+          "opponent": "NO",
+          "location": "H",
+          "team_nfl_score": 24.8,
+          "opponent_nfl_score": 18.5,
+          "win_prob": 0.72,
+          "is_bye": false
+        },
+        {
+          "week": 16,
+          "opponent": "ATL",
+          "location": "V",
+          "team_nfl_score": 24.2,
+          "opponent_nfl_score": 20.7,
+          "win_prob": 0.63,
+          "is_bye": false
+        },
+        {
+          "week": 17,
+          "opponent": "LAR",
+          "location": "H",
+          "team_nfl_score": 20.4,
+          "opponent_nfl_score": 27.4,
+          "win_prob": 0.26,
+          "is_bye": false
+        },
+        {
+          "week": 18,
+          "opponent": "NO",
+          "location": "V",
+          "team_nfl_score": 22.7,
+          "opponent_nfl_score": 20.5,
+          "win_prob": 0.58,
+          "is_bye": false
+        }
+      ]
+    },
+    "TEN": {
+      "season_projected_nfl_points_for": null,
+      "season_projected_nfl_points_against": null,
+      "weeks": [
+        {
+          "week": 1,
+          "opponent": "NYJ",
+          "location": "H",
+          "team_nfl_score": 19.4,
+          "opponent_nfl_score": 20.3,
+          "win_prob": 0.47,
+          "is_bye": false
+        },
+        {
+          "week": 2,
+          "opponent": "PHI",
+          "location": "H",
+          "team_nfl_score": 16.5,
+          "opponent_nfl_score": 24.9,
+          "win_prob": 0.22,
+          "is_bye": false
+        },
+        {
+          "week": 3,
+          "opponent": "NYG",
+          "location": "V",
+          "team_nfl_score": 18.1,
+          "opponent_nfl_score": 25.0,
+          "win_prob": 0.26,
+          "is_bye": false
+        },
+        {
+          "week": 4,
+          "opponent": "BAL",
+          "location": "V",
+          "team_nfl_score": 15.1,
+          "opponent_nfl_score": 28.0,
+          "win_prob": 0.1,
+          "is_bye": false
+        },
+        {
+          "week": 5,
+          "opponent": "HOU",
+          "location": "H",
+          "team_nfl_score": 15.8,
+          "opponent_nfl_score": 21.7,
+          "win_prob": 0.3,
+          "is_bye": false
+        },
+        {
+          "week": 6,
+          "opponent": "IND",
+          "location": "V",
+          "team_nfl_score": 17.4,
+          "opponent_nfl_score": 25.1,
+          "win_prob": 0.24,
+          "is_bye": false
+        },
+        {
+          "week": 7,
+          "opponent": "CLE",
+          "location": "H",
+          "team_nfl_score": 18.0,
+          "opponent_nfl_score": 17.4,
+          "win_prob": 0.52,
+          "is_bye": false
+        },
+        {
+          "week": 8,
+          "opponent": "CIN",
+          "location": "V",
+          "team_nfl_score": 18.1,
+          "opponent_nfl_score": 28.7,
+          "win_prob": 0.16,
+          "is_bye": false
+        },
+        {
+          "week": 9,
+          "opponent": null,
+          "location": null,
+          "team_nfl_score": 0.0,
+          "opponent_nfl_score": 0.0,
+          "win_prob": null,
+          "is_bye": true
+        },
+        {
+          "week": 10,
+          "opponent": "JAX",
+          "location": "H",
+          "team_nfl_score": 20.1,
+          "opponent_nfl_score": 25.0,
+          "win_prob": 0.33,
+          "is_bye": false
+        },
+        {
+          "week": 11,
+          "opponent": "DAL",
+          "location": "V",
+          "team_nfl_score": 18.1,
+          "opponent_nfl_score": 30.0,
+          "win_prob": 0.12,
+          "is_bye": false
+        },
+        {
+          "week": 12,
+          "opponent": "JAX",
+          "location": "V",
+          "team_nfl_score": 18.1,
+          "opponent_nfl_score": 27.1,
+          "win_prob": 0.2,
+          "is_bye": false
+        },
+        {
+          "week": 13,
+          "opponent": "WAS",
+          "location": "H",
+          "team_nfl_score": 22.4,
+          "opponent_nfl_score": 23.6,
+          "win_prob": 0.45,
+          "is_bye": false
+        },
+        {
+          "week": 14,
+          "opponent": "DET",
+          "location": "V",
+          "team_nfl_score": 15.9,
+          "opponent_nfl_score": 28.5,
+          "win_prob": 0.11,
+          "is_bye": false
+        },
+        {
+          "week": 15,
+          "opponent": "IND",
+          "location": "H",
+          "team_nfl_score": 19.4,
+          "opponent_nfl_score": 23.0,
+          "win_prob": 0.37,
+          "is_bye": false
+        },
+        {
+          "week": 16,
+          "opponent": "LV",
+          "location": "V",
+          "team_nfl_score": 18.8,
+          "opponent_nfl_score": 21.6,
+          "win_prob": 0.4,
+          "is_bye": false
+        },
+        {
+          "week": 17,
+          "opponent": "PIT",
+          "location": "H",
+          "team_nfl_score": 16.5,
+          "opponent_nfl_score": 20.9,
+          "win_prob": 0.35,
+          "is_bye": false
+        },
+        {
+          "week": 18,
+          "opponent": "HOU",
+          "location": "V",
+          "team_nfl_score": 13.7,
+          "opponent_nfl_score": 23.8,
+          "win_prob": 0.17,
+          "is_bye": false
+        }
+      ]
+    },
+    "WAS": {
+      "season_projected_nfl_points_for": null,
+      "season_projected_nfl_points_against": null,
+      "weeks": [
+        {
+          "week": 1,
+          "opponent": "PHI",
+          "location": "V",
+          "team_nfl_score": 19.2,
+          "opponent_nfl_score": 28.4,
+          "win_prob": 0.19,
+          "is_bye": false
+        },
+        {
+          "week": 2,
+          "opponent": "DAL",
+          "location": "V",
+          "team_nfl_score": 22.9,
+          "opponent_nfl_score": 31.5,
+          "win_prob": 0.21,
+          "is_bye": false
+        },
+        {
+          "week": 3,
+          "opponent": "SEA",
+          "location": "H",
+          "team_nfl_score": 20.5,
+          "opponent_nfl_score": 27.0,
+          "win_prob": 0.28,
+          "is_bye": false
+        },
+        {
+          "week": 4,
+          "opponent": "IND",
+          "location": "H",
+          "team_nfl_score": 23.2,
+          "opponent_nfl_score": 25.5,
+          "win_prob": 0.42,
+          "is_bye": false
+        },
+        {
+          "week": 5,
+          "opponent": "NYG",
+          "location": "H",
+          "team_nfl_score": 25.0,
+          "opponent_nfl_score": 24.4,
+          "win_prob": 0.52,
+          "is_bye": false
+        },
+        {
+          "week": 6,
+          "opponent": "SF",
+          "location": "V",
+          "team_nfl_score": 22.2,
+          "opponent_nfl_score": 29.4,
+          "win_prob": 0.25,
+          "is_bye": false
+        },
+        {
+          "week": 7,
+          "opponent": null,
+          "location": null,
+          "team_nfl_score": 0.0,
+          "opponent_nfl_score": 0.0,
+          "win_prob": null,
+          "is_bye": true
+        },
+        {
+          "week": 8,
+          "opponent": "PHI",
+          "location": "H",
+          "team_nfl_score": 21.3,
+          "opponent_nfl_score": 26.3,
+          "win_prob": 0.32,
+          "is_bye": false
+        },
+        {
+          "week": 9,
+          "opponent": "LAR",
+          "location": "H",
+          "team_nfl_score": 20.5,
+          "opponent_nfl_score": 31.1,
+          "win_prob": 0.16,
+          "is_bye": false
+        },
+        {
+          "week": 10,
+          "opponent": "NYG",
+          "location": "V",
+          "team_nfl_score": 22.9,
+          "opponent_nfl_score": 26.5,
+          "win_prob": 0.37,
+          "is_bye": false
+        },
+        {
+          "week": 11,
+          "opponent": "CIN",
+          "location": "H",
+          "team_nfl_score": 25.0,
+          "opponent_nfl_score": 28.1,
+          "win_prob": 0.39,
+          "is_bye": false
+        },
+        {
+          "week": 12,
+          "opponent": "ARI",
+          "location": "V",
+          "team_nfl_score": 25.1,
+          "opponent_nfl_score": 23.0,
+          "win_prob": 0.58,
+          "is_bye": false
+        },
+        {
+          "week": 13,
+          "opponent": "TEN",
+          "location": "V",
+          "team_nfl_score": 23.6,
+          "opponent_nfl_score": 22.4,
+          "win_prob": 0.55,
+          "is_bye": false
+        },
+        {
+          "week": 14,
+          "opponent": "HOU",
+          "location": "H",
+          "team_nfl_score": 20.6,
+          "opponent_nfl_score": 23.2,
+          "win_prob": 0.41,
+          "is_bye": false
+        },
+        {
+          "week": 15,
+          "opponent": "ATL",
+          "location": "H",
+          "team_nfl_score": 26.4,
+          "opponent_nfl_score": 22.3,
+          "win_prob": 0.65,
+          "is_bye": false
+        },
+        {
+          "week": 16,
+          "opponent": "MIN",
+          "location": "V",
+          "team_nfl_score": 22.2,
+          "opponent_nfl_score": 25.0,
+          "win_prob": 0.4,
+          "is_bye": false
+        },
+        {
+          "week": 17,
+          "opponent": "JAX",
+          "location": "V",
+          "team_nfl_score": 22.9,
+          "opponent_nfl_score": 28.6,
+          "win_prob": 0.3,
+          "is_bye": false
+        },
+        {
+          "week": 18,
+          "opponent": "DAL",
+          "location": "H",
+          "team_nfl_score": 25.0,
+          "opponent_nfl_score": 29.4,
+          "win_prob": 0.34,
+          "is_bye": false
+        }
+      ]
+    }
+  }
+}
