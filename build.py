@@ -642,6 +642,23 @@ def main() -> None:
     pdf_updated: str | None = None
     grades_parsed: dict = {}        # filled when we find the page
 
+    # --- DEBUG INSTRUMENTATION (temporary — fix/parser-debug branch) ----
+    # The post-refactor CI run reported 0 players / 0 weeks on every team
+    # page. Before tuning regexes, dump the actual extracted text so we
+    # can see what pdfplumber is handing us — separators, layout,
+    # everything. Use repr() so whitespace/non-printables are visible.
+    #
+    #   DEBUG_PAGES — page numbers to dump in full (first 30 lines each).
+    #                 2 is the canonical ARI page; 30 is where SF should
+    #                 be (it's currently being skipped — TITLE_RE isn't
+    #                 matching "San Francisco 49ers", possibly because of
+    #                 the digit prefix).
+    #   SF_TOKENS   — substrings that, if found in any page text, trigger
+    #                 a focused dump of all lines containing them, plus
+    #                 what TITLE_RE matched on that page (if anything).
+    DEBUG_PAGES = {2, 30}
+    SF_TOKENS = ("San Francisco", "49ers")
+
     with pdfplumber.open(io.BytesIO(pdf_bytes)) as pdf:
         for page_num, page in enumerate(pdf.pages, start=1):
             text = page.extract_text() or ""
@@ -649,6 +666,30 @@ def main() -> None:
                 pdf_updated = parse_pdf_updated(text)
 
             title_match = TITLE_RE.search(text)
+
+            # ---- DEBUG: full-page dump for the pinned pages -----------
+            if page_num in DEBUG_PAGES:
+                tm = title_match.group(1) if title_match else None
+                print(f"\n[debug] ===== page {page_num} =====")
+                print(f"[debug]   TITLE_RE match: {tm!r}")
+                print(f"[debug]   extract_text() length: {len(text)} chars, "
+                      f"{len(text.splitlines())} lines")
+                print(f"[debug]   first 30 lines (repr-quoted to show "
+                      f"whitespace/separators):")
+                for ln_num, line in enumerate(text.splitlines()[:30], start=1):
+                    print(f"[debug]     L{ln_num:>2}: {line!r}")
+                print(f"[debug] ===== end page {page_num} =====\n")
+
+            # ---- DEBUG: focused dump for any page containing SF -------
+            if any(tok in text for tok in SF_TOKENS):
+                tm = title_match.group(1) if title_match else None
+                print(f"\n[debug] page {page_num} contains an SF token "
+                      f"(TITLE_RE match: {tm!r})")
+                for ln_num, line in enumerate(text.splitlines(), start=1):
+                    if any(tok in line for tok in SF_TOKENS):
+                        print(f"[debug]   L{ln_num:>3}: {line!r}")
+            # --------------------------------------------------------------
+
             if title_match:
                 team_name = title_match.group(1).strip()
                 if team_name in name_to_abbr and team_name not in teams_seen:
