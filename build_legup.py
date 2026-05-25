@@ -56,11 +56,12 @@ SLUG_SCHEMA: dict[str, dict] = {
             "team":           "Team",
             "legup_rank":     "Rank",
             "legup_pos_rank": "P Rk",
+            "wk17_opponent":  None,  # not exposed for season slate
         },
     },
     "eliminator-ranks": {
         # Extra "Wk17" column = Week-17 opponent (Eliminator's
-        # championship week). We don't consume it here.
+        # championship week); we surface it per player as wk17_opponent.
         "expected_headers": [
             "Name", "Team", "Wk17", "Pos", "P Rk", "Rank", "ADP", "Rookie", "+/-", "id",
         ],
@@ -71,11 +72,12 @@ SLUG_SCHEMA: dict[str, dict] = {
             "team":           "Team",
             "legup_rank":     "Rank",
             "legup_pos_rank": "P Rk",
+            "wk17_opponent":  "Wk17",
         },
     },
     "main-event": {
         # No "id" column; the blender resolves name+pos+team. Note the
-        # position-rank header is "Pos Rk" here, not "P Rk".
+        # position-rank header is "Pos Rk" here, not "P Rk". No Wk17.
         "expected_headers": [
             "Name", "Team", "Pos", "Pos Rk", "Rank", "Rookie",
         ],
@@ -86,6 +88,7 @@ SLUG_SCHEMA: dict[str, dict] = {
             "team":           "Team",
             "legup_rank":     "Rank",
             "legup_pos_rank": "Pos Rk",
+            "wk17_opponent":  None,
         },
     },
 }
@@ -189,6 +192,7 @@ def fetch_slug(slug: str, slate: str) -> dict:
             skipped.append((name or "<no name>", team or "", pos or ""))
             continue
 
+        wk17_raw = get("wk17_opponent")
         players.append({
             "underdog_id":    ud_id,
             "player_name":    name,
@@ -196,6 +200,7 @@ def fetch_slug(slug: str, slate: str) -> dict:
             "team":           team,
             "legup_rank":     parse_int(get("legup_rank")),
             "legup_pos_rank": parse_pos_rank(get("legup_pos_rank")),
+            "wk17_opponent":  wk17_raw if wk17_raw not in ("", None) else None,
         })
 
     for entry in skipped:
@@ -219,6 +224,7 @@ def fetch_slug(slug: str, slate: str) -> dict:
             "slug":         slug,
             "slate":        slate,
             "version":      version,
+            "headers":      headers,  # raw upstream header array; audit trail
             "fetched_at":   now_iso(),
             "player_count": len(players),
         },
