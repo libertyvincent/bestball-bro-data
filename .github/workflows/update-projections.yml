@@ -27,17 +27,34 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run build.py
+      - name: Build Clay sources
         run: python build.py
 
-      - name: Stage feed outputs for publish
+      - name: Stage Clay outputs for publish
         # build.py writes projections/nfl_2026.json + sources/clay_*.json
         # into the repo working tree. Copy just those into ./build/ so
         # publish_dir excludes build.py, requirements.txt, teams/, etc.
+        # build_etr.py and build_legup.py write directly to build/sources/.
         run: |
           mkdir -p build/projections build/sources
           cp projections/nfl_2026.json build/projections/
           cp sources/clay_*.json build/sources/
+
+      - name: Build ETR sources
+        # continue-on-error so a transient ETR outage / revoked cookie
+        # doesn't block Clay + LegUp from publishing. The workflow's
+        # run status surfaces the failure; gh-pages keeps yesterday's
+        # ETR feed via keep_files: true.
+        env:
+          ETR_SESSION_COOKIE: ${{ secrets.ETR_SESSION_COOKIE }}
+        run: python build_etr.py
+        continue-on-error: true
+
+      - name: Build LegUp sources
+        # No auth; public Cloud Functions. Same continue-on-error
+        # rationale as ETR -- one source failing should not block others.
+        run: python build_legup.py
+        continue-on-error: true
 
       - name: Publish to gh-pages
         # gh-pages is shared with the sim repo's feed (_meta.json + v1/).

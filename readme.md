@@ -26,19 +26,50 @@ https://cdn.jsdelivr.net/gh/libertyvincent/bestball-bro-data@main/teams/nfl_2026
 https://raw.githubusercontent.com/libertyvincent/bestball-bro-data/main/teams/nfl_2026.json
 ```
 
+## Source feeds
+
+In addition to Clay's projections, the daily workflow publishes three sources of ranking data to `gh-pages`. All live under `sources/` on the `gh-pages` branch and are served by GitHub Pages.
+
+| File | Source | Notes |
+|---|---|---|
+| `sources/clay_2026_offense.json` | Mike Clay (ESPN PDF) | Per-player offensive projections, all positions. |
+| `sources/clay_2026_weekly_team_scoring.json` | Mike Clay (ESPN PDF) | Per-team weekly score projections + season totals. |
+| `sources/clay_2026_unit_grades.json` | Mike Clay (ESPN PDF) | Page-63 unit grades (offense/defense/total). |
+| `sources/etr_2026_season.json` | ETR (Establish The Run) | Underdog Season slate rankings, top 300. |
+| `sources/etr_2026_eliminator.json` | ETR | Underdog Best Ball Eliminator rankings. |
+| `sources/etr_2026_weekly_winners.json` | ETR | Underdog Weekly Winners rankings. |
+| `sources/etr_2026_superflex.json` | ETR | Underdog Superflex rankings. |
+| `sources/legup_2026_ud.json` | LegUp `ud-ranks` | Underdog Season slate, with Underdog UUIDs. |
+| `sources/legup_2026_eliminator.json` | LegUp `eliminator-ranks` | Eliminator slate; includes Week-17 opponent column. |
+| `sources/legup_2026_mainevent.json` | LegUp `main-event` | BBM7 Main Event ranks; no Underdog UUID — blender keys by name+pos+team. |
+
+The blender that consumes these lives in [`bestball-bro-sim`](https://github.com/libertyvincent/bestball-bro-sim); this repo's job ends at publishing.
+
+Base URL: `https://libertyvincent.github.io/bestball-bro-data/sources/<file>.json`
+
 ## Daily refresh
 
-`.github/workflows/update-projections.yml` runs every day at **11:00 UTC** (7 AM ET during DST, 6 AM ET in winter). On each run, `build.py`:
+`.github/workflows/update-projections.yml` runs every day at **11:00 UTC** (7 AM ET during DST, 6 AM ET in winter) and publishes everything to the `gh-pages` branch via `peaceiris/actions-gh-pages@v4` with `keep_files: true`. Steps:
 
-1. Downloads Clay's PDF from ESPN at the URL in `_meta.source_url`.
-2. Parses each of the 32 per-team offense tables.
-3. Normalizes ESPN's nonstandard team codes (`CLV→CLE`, `BLT→BAL`, `ARZ→ARI`, `HST→HOU`, `JAC→JAX`, `WSH→WAS`, `LA→LAR`, `SD→LAC`) so projection keys join cleanly against Underdog player data.
-4. Computes VOR (proj_total minus the position's replacement level) and assigns a tier band per position.
-5. Ranks players within each position twice: `pos_rk` by Underdog half-PPR `proj_total`, and `clay_pos_rk` by Clay's full-PPR `clay_ppr_total` (the PDF's Pts column).
-6. Writes `projections/nfl_2026.json`.
-7. Commits and pushes to `main` — **but only if the file actually changed.** No-op runs leave the repo untouched.
+1. **Build Clay sources** — `build.py` downloads Clay's PDF from ESPN, parses the 32 per-team tables, normalizes ESPN's nonstandard team codes (`CLV→CLE`, `BLT→BAL`, `ARZ→ARI`, `HST→HOU`, `JAC→JAX`, `WSH→WAS`, `LA→LAR`, `SD→LAC`), computes VOR + tier, ranks players, and writes `projections/nfl_2026.json` + the three `sources/clay_*.json` files. Build fails loudly if it parses fewer than 32 teams, fewer than 350 players, or finds any team code that doesn't resolve to one of the canonical 32 abbreviations.
+2. **Build ETR sources** — `build_etr.py` fetches the four ETR ranking pages using a WordPress session cookie (`ETR_SESSION_COOKIE` repo secret) and writes `sources/etr_2026_<slate>.json`. Auth failures exit `2`, other failures exit `1`. `continue-on-error: true` keeps the other sources publishing even if ETR breaks.
+3. **Build LegUp sources** — `build_legup.py` hits LegUp's public Cloud Functions (no auth) for `ud-ranks`, `eliminator-ranks`, and `main-event`, and writes `sources/legup_2026_<output>.json`. Each slug has a pinned `expected_headers` list; LegUp changing their schema upstream aborts the build loudly.
+4. **Publish** — `peaceiris/actions-gh-pages@v4` pushes `./build/` to `gh-pages`. `keep_files: true` means a per-source failure leaves yesterday's copy of that file on `gh-pages` intact; the rest still refresh.
 
-Failures are visible in the [Actions tab][actions]. The build fails loudly (non-zero exit) if it parses fewer than 32 teams, fewer than 350 players, or finds any team code that doesn't resolve to one of the canonical 32 abbreviations. No broken JSON is ever committed.
+Failures are visible in the [Actions tab][actions].
+
+## ETR authentication
+
+`build_etr.py` needs a WordPress session cookie set as the repo secret **`ETR_SESSION_COOKIE`**. The cookie is good for roughly one year if captured with "Remember Me" checked.
+
+**Cookie refresh procedure** (when the workflow starts failing with exit `2` and "AUTH FAIL" in the logs):
+
+1. Open https://establishtherun.com/login in a Chromium browser. Check **Remember Me**, log in.
+2. Navigate to any one of the four ranking pages used in `build_etr.py` (e.g. https://establishtherun.com/etrs-top-300-for-underdogfantasy/).
+3. Open DevTools → **Network** tab → hard-reload the page.
+4. Click the top document request → **Headers** → **Request Headers** → copy the entire `Cookie:` header value (everything after `Cookie: `, all on one line).
+5. In GitHub: **Settings → Secrets and variables → Actions → Repository secrets → `ETR_SESSION_COOKIE`** → **Update secret**, paste the new value.
+6. Trigger **Update Clay projections** manually from the Actions tab to confirm the new cookie works.
 
 ## Running build.py locally
 

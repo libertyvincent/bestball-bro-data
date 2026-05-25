@@ -1,0 +1,7 @@
+# Workflow staging output (built by CI, published to gh-pages directly)
+/build/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
