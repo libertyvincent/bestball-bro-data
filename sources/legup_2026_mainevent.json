@@ -1,0 +1,1932 @@
+{
+  "_meta": {
+    "source": "legup",
+    "slug": "main-event",
+    "slate": "nfl_2026_season",
+    "version": "1779734164587-601fec64",
+    "fetched_at": "2026-05-25T18:55:31Z",
+    "player_count": 240
+  },
+  "players": [
+    {
+      "underdog_id": null,
+      "player_name": "Ja'Marr Chase",
+      "position": "WR",
+      "team": "CIN",
+      "legup_rank": 1,
+      "legup_pos_rank": 1
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Jahmyr Gibbs",
+      "position": "RB",
+      "team": "DET",
+      "legup_rank": 2,
+      "legup_pos_rank": 1
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Bijan Robinson",
+      "position": "RB",
+      "team": "ATL",
+      "legup_rank": 3,
+      "legup_pos_rank": 2
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Justin Jefferson",
+      "position": "WR",
+      "team": "MIN",
+      "legup_rank": 4,
+      "legup_pos_rank": 2
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Amon-Ra St. Brown",
+      "position": "WR",
+      "team": "DET",
+      "legup_rank": 5,
+      "legup_pos_rank": 3
+    },
+    {
+      "underdog_id": null,
+      "player_name": "CeeDee Lamb",
+      "position": "WR",
+      "team": "DAL",
+      "legup_rank": 6,
+      "legup_pos_rank": 4
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Puka Nacua",
+      "position": "WR",
+      "team": "LAR",
+      "legup_rank": 7,
+      "legup_pos_rank": 5
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Malik Nabers",
+      "position": "WR",
+      "team": "NYG",
+      "legup_rank": 8,
+      "legup_pos_rank": 6
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Christian McCaffrey",
+      "position": "RB",
+      "team": "SF",
+      "legup_rank": 9,
+      "legup_pos_rank": 3
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Saquon Barkley",
+      "position": "RB",
+      "team": "PHI",
+      "legup_rank": 10,
+      "legup_pos_rank": 4
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Drake London",
+      "position": "WR",
+      "team": "ATL",
+      "legup_rank": 11,
+      "legup_pos_rank": 7
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Ashton Jeanty",
+      "position": "RB",
+      "team": "LV",
+      "legup_rank": 12,
+      "legup_pos_rank": 5
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Rashee Rice",
+      "position": "WR",
+      "team": "KC",
+      "legup_rank": 13,
+      "legup_pos_rank": 8
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Brock Bowers",
+      "position": "TE",
+      "team": "LV",
+      "legup_rank": 14,
+      "legup_pos_rank": 1
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Jonathan Taylor",
+      "position": "RB",
+      "team": "IND",
+      "legup_rank": 15,
+      "legup_pos_rank": 6
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Nico Collins",
+      "position": "WR",
+      "team": "HOU",
+      "legup_rank": 16,
+      "legup_pos_rank": 9
+    },
+    {
+      "underdog_id": null,
+      "player_name": "De'Von Achane",
+      "position": "RB",
+      "team": "MIA",
+      "legup_rank": 17,
+      "legup_pos_rank": 7
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Trey McBride",
+      "position": "TE",
+      "team": "ARI",
+      "legup_rank": 18,
+      "legup_pos_rank": 2
+    },
+    {
+      "underdog_id": null,
+      "player_name": "A.J. Brown",
+      "position": "WR",
+      "team": "NE",
+      "legup_rank": 19,
+      "legup_pos_rank": 10
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Bhayshul Tuten",
+      "position": "RB",
+      "team": "JAX",
+      "legup_rank": 20,
+      "legup_pos_rank": 8
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Omarion Hampton",
+      "position": "RB",
+      "team": "LAC",
+      "legup_rank": 21,
+      "legup_pos_rank": 9
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Josh Jacobs",
+      "position": "RB",
+      "team": "GB",
+      "legup_rank": 22,
+      "legup_pos_rank": 10
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Emeka Egbuka",
+      "position": "WR",
+      "team": "TB",
+      "legup_rank": 23,
+      "legup_pos_rank": 11
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Derrick Henry",
+      "position": "RB",
+      "team": "BAL",
+      "legup_rank": 24,
+      "legup_pos_rank": 11
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Brian Thomas",
+      "position": "WR",
+      "team": "JAX",
+      "legup_rank": 25,
+      "legup_pos_rank": 12
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Chase Brown",
+      "position": "RB",
+      "team": "CIN",
+      "legup_rank": 26,
+      "legup_pos_rank": 12
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Jaxon Smith-Njigba",
+      "position": "WR",
+      "team": "SEA",
+      "legup_rank": 27,
+      "legup_pos_rank": 13
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Tee Higgins",
+      "position": "WR",
+      "team": "CIN",
+      "legup_rank": 28,
+      "legup_pos_rank": 14
+    },
+    {
+      "underdog_id": null,
+      "player_name": "James Cook",
+      "position": "RB",
+      "team": "BUF",
+      "legup_rank": 29,
+      "legup_pos_rank": 13
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Tetairoa Mcmillan",
+      "position": "WR",
+      "team": "CAR",
+      "legup_rank": 30,
+      "legup_pos_rank": 15
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Luther Burden III",
+      "position": "WR",
+      "team": "CHI",
+      "legup_rank": 31,
+      "legup_pos_rank": 16
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Bucky Irving",
+      "position": "RB",
+      "team": "TB",
+      "legup_rank": 32,
+      "legup_pos_rank": 14
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Kenneth Walker",
+      "position": "RB",
+      "team": "KC",
+      "legup_rank": 33,
+      "legup_pos_rank": 15
+    },
+    {
+      "underdog_id": null,
+      "player_name": "George Kittle",
+      "position": "TE",
+      "team": "SF",
+      "legup_rank": 34,
+      "legup_pos_rank": 3
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Ladd McConkey",
+      "position": "WR",
+      "team": "LAC",
+      "legup_rank": 35,
+      "legup_pos_rank": 17
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Garrett Wilson",
+      "position": "WR",
+      "team": "NYJ",
+      "legup_rank": 36,
+      "legup_pos_rank": 18
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Kyren Williams",
+      "position": "RB",
+      "team": "LAR",
+      "legup_rank": 37,
+      "legup_pos_rank": 16
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Mike Evans",
+      "position": "WR",
+      "team": "SF",
+      "legup_rank": 38,
+      "legup_pos_rank": 19
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Davante Adams",
+      "position": "WR",
+      "team": "LAR",
+      "legup_rank": 39,
+      "legup_pos_rank": 20
+    },
+    {
+      "underdog_id": null,
+      "player_name": "TreVeyon Henderson",
+      "position": "RB",
+      "team": "NE",
+      "legup_rank": 40,
+      "legup_pos_rank": 17
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Breece Hall",
+      "position": "RB",
+      "team": "NYJ",
+      "legup_rank": 41,
+      "legup_pos_rank": 18
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Colston Loveland",
+      "position": "TE",
+      "team": "CHI",
+      "legup_rank": 42,
+      "legup_pos_rank": 4
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Cameron Skattebo",
+      "position": "RB",
+      "team": "NYG",
+      "legup_rank": 43,
+      "legup_pos_rank": 19
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Tyreek Hill",
+      "position": "WR",
+      "team": "FA",
+      "legup_rank": 44,
+      "legup_pos_rank": 21
+    },
+    {
+      "underdog_id": null,
+      "player_name": "George Pickens",
+      "position": "WR",
+      "team": "DAL",
+      "legup_rank": 45,
+      "legup_pos_rank": 22
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Marvin Harrison",
+      "position": "WR",
+      "team": "ARI",
+      "legup_rank": 46,
+      "legup_pos_rank": 23
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Josh Allen",
+      "position": "QB",
+      "team": "BUF",
+      "legup_rank": 47,
+      "legup_pos_rank": 1
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Terry McLaurin",
+      "position": "WR",
+      "team": "WAS",
+      "legup_rank": 48,
+      "legup_pos_rank": 24
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Lamar Jackson",
+      "position": "QB",
+      "team": "BAL",
+      "legup_rank": 49,
+      "legup_pos_rank": 2
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Xavier Worthy",
+      "position": "WR",
+      "team": "KC",
+      "legup_rank": 50,
+      "legup_pos_rank": 25
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Jayden Daniels",
+      "position": "QB",
+      "team": "WAS",
+      "legup_rank": 51,
+      "legup_pos_rank": 3
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Jameson Williams",
+      "position": "WR",
+      "team": "DET",
+      "legup_rank": 52,
+      "legup_pos_rank": 26
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Joe Burrow",
+      "position": "QB",
+      "team": "CIN",
+      "legup_rank": 53,
+      "legup_pos_rank": 4
+    },
+    {
+      "underdog_id": null,
+      "player_name": "DeVonta Smith",
+      "position": "WR",
+      "team": "PHI",
+      "legup_rank": 54,
+      "legup_pos_rank": 27
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Courtland Sutton",
+      "position": "WR",
+      "team": "DEN",
+      "legup_rank": 55,
+      "legup_pos_rank": 28
+    },
+    {
+      "underdog_id": null,
+      "player_name": "D'Andre Swift",
+      "position": "RB",
+      "team": "CHI",
+      "legup_rank": 56,
+      "legup_pos_rank": 20
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Chuba Hubbard",
+      "position": "RB",
+      "team": "CAR",
+      "legup_rank": 57,
+      "legup_pos_rank": 21
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Jalen Hurts",
+      "position": "QB",
+      "team": "PHI",
+      "legup_rank": 58,
+      "legup_pos_rank": 5
+    },
+    {
+      "underdog_id": null,
+      "player_name": "RJ Harvey",
+      "position": "RB",
+      "team": "DEN",
+      "legup_rank": 59,
+      "legup_pos_rank": 22
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Sam LaPorta",
+      "position": "TE",
+      "team": "DET",
+      "legup_rank": 60,
+      "legup_pos_rank": 5
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Zay Flowers",
+      "position": "WR",
+      "team": "BAL",
+      "legup_rank": 61,
+      "legup_pos_rank": 29
+    },
+    {
+      "underdog_id": null,
+      "player_name": "DJ Moore",
+      "position": "WR",
+      "team": "BUF",
+      "legup_rank": 62,
+      "legup_pos_rank": 30
+    },
+    {
+      "underdog_id": null,
+      "player_name": "DK Metcalf",
+      "position": "WR",
+      "team": "PIT",
+      "legup_rank": 63,
+      "legup_pos_rank": 31
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Tyler Warren",
+      "position": "TE",
+      "team": "IND",
+      "legup_rank": 64,
+      "legup_pos_rank": 6
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Jaylen Waddle",
+      "position": "WR",
+      "team": "DEN",
+      "legup_rank": 65,
+      "legup_pos_rank": 32
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Patrick Mahomes",
+      "position": "QB",
+      "team": "KC",
+      "legup_rank": 66,
+      "legup_pos_rank": 6
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Tony Pollard",
+      "position": "RB",
+      "team": "TEN",
+      "legup_rank": 67,
+      "legup_pos_rank": 23
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Calvin Ridley",
+      "position": "WR",
+      "team": "TEN",
+      "legup_rank": 68,
+      "legup_pos_rank": 33
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Rome Odunze",
+      "position": "WR",
+      "team": "CHI",
+      "legup_rank": 69,
+      "legup_pos_rank": 34
+    },
+    {
+      "underdog_id": null,
+      "player_name": "David Montgomery",
+      "position": "RB",
+      "team": "HOU",
+      "legup_rank": 70,
+      "legup_pos_rank": 24
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Ricky Pearsall",
+      "position": "WR",
+      "team": "SF",
+      "legup_rank": 71,
+      "legup_pos_rank": 35
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Chris Olave",
+      "position": "WR",
+      "team": "NO",
+      "legup_rank": 72,
+      "legup_pos_rank": 36
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Drake Maye",
+      "position": "QB",
+      "team": "NE",
+      "legup_rank": 73,
+      "legup_pos_rank": 7
+    },
+    {
+      "underdog_id": null,
+      "player_name": "T.J. Hockenson",
+      "position": "TE",
+      "team": "MIN",
+      "legup_rank": 74,
+      "legup_pos_rank": 7
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Travis Kelce",
+      "position": "TE",
+      "team": "KC",
+      "legup_rank": 75,
+      "legup_pos_rank": 8
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Isiah Pacheco",
+      "position": "RB",
+      "team": "DET",
+      "legup_rank": 76,
+      "legup_pos_rank": 25
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Travis Hunter",
+      "position": "WR",
+      "team": "JAX",
+      "legup_rank": 77,
+      "legup_pos_rank": 37
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Jerry Jeudy",
+      "position": "WR",
+      "team": "CLE",
+      "legup_rank": 78,
+      "legup_pos_rank": 38
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Tucker Kraft",
+      "position": "TE",
+      "team": "GB",
+      "legup_rank": 79,
+      "legup_pos_rank": 9
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Josh Downs",
+      "position": "WR",
+      "team": "IND",
+      "legup_rank": 80,
+      "legup_pos_rank": 39
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Jaylen Warren",
+      "position": "RB",
+      "team": "PIT",
+      "legup_rank": 81,
+      "legup_pos_rank": 26
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Evan Engram",
+      "position": "TE",
+      "team": "DEN",
+      "legup_rank": 82,
+      "legup_pos_rank": 10
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Jacory Croskey-Merritt",
+      "position": "RB",
+      "team": "WAS",
+      "legup_rank": 83,
+      "legup_pos_rank": 27
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Aaron Jones",
+      "position": "RB",
+      "team": "MIN",
+      "legup_rank": 84,
+      "legup_pos_rank": 28
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Mark Andrews",
+      "position": "TE",
+      "team": "BAL",
+      "legup_rank": 85,
+      "legup_pos_rank": 11
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Jakobi Meyers",
+      "position": "WR",
+      "team": "JAX",
+      "legup_rank": 86,
+      "legup_pos_rank": 40
+    },
+    {
+      "underdog_id": null,
+      "player_name": "David Njoku",
+      "position": "TE",
+      "team": "LAC",
+      "legup_rank": 87,
+      "legup_pos_rank": 12
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Jordan Addison",
+      "position": "WR",
+      "team": "MIN",
+      "legup_rank": 88,
+      "legup_pos_rank": 41
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Deebo Samuel",
+      "position": "WR",
+      "team": "FA",
+      "legup_rank": 89,
+      "legup_pos_rank": 42
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Dak Prescott",
+      "position": "QB",
+      "team": "DAL",
+      "legup_rank": 90,
+      "legup_pos_rank": 8
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Tyrone Tracy",
+      "position": "RB",
+      "team": "NYG",
+      "legup_rank": 91,
+      "legup_pos_rank": 29
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Zach Charbonnet",
+      "position": "RB",
+      "team": "SEA",
+      "legup_rank": 92,
+      "legup_pos_rank": 30
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Caleb Williams",
+      "position": "QB",
+      "team": "CHI",
+      "legup_rank": 93,
+      "legup_pos_rank": 9
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Stefon Diggs",
+      "position": "WR",
+      "team": "FA",
+      "legup_rank": 94,
+      "legup_pos_rank": 43
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Jake Ferguson",
+      "position": "TE",
+      "team": "DAL",
+      "legup_rank": 95,
+      "legup_pos_rank": 13
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Alec Pierce",
+      "position": "WR",
+      "team": "IND",
+      "legup_rank": 96,
+      "legup_pos_rank": 44
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Bo Nix",
+      "position": "QB",
+      "team": "DEN",
+      "legup_rank": 97,
+      "legup_pos_rank": 10
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Travis Etienne",
+      "position": "RB",
+      "team": "NO",
+      "legup_rank": 98,
+      "legup_pos_rank": 31
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Matthew Golden",
+      "position": "WR",
+      "team": "GB",
+      "legup_rank": 99,
+      "legup_pos_rank": 45
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Quinshon Judkins",
+      "position": "RB",
+      "team": "CLE",
+      "legup_rank": 100,
+      "legup_pos_rank": 32
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Michael Pittman",
+      "position": "WR",
+      "team": "PIT",
+      "legup_rank": 101,
+      "legup_pos_rank": 46
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Jordan Mason",
+      "position": "RB",
+      "team": "MIN",
+      "legup_rank": 102,
+      "legup_pos_rank": 33
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Kyler Murray",
+      "position": "QB",
+      "team": "MIN",
+      "legup_rank": 103,
+      "legup_pos_rank": 11
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Christian Watson",
+      "position": "WR",
+      "team": "GB",
+      "legup_rank": 104,
+      "legup_pos_rank": 47
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Khalil Shakir",
+      "position": "WR",
+      "team": "BUF",
+      "legup_rank": 105,
+      "legup_pos_rank": 48
+    },
+    {
+      "underdog_id": null,
+      "player_name": "J.K. Dobbins",
+      "position": "RB",
+      "team": "DEN",
+      "legup_rank": 106,
+      "legup_pos_rank": 34
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Dalton Kincaid",
+      "position": "TE",
+      "team": "BUF",
+      "legup_rank": 107,
+      "legup_pos_rank": 14
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Keon Coleman",
+      "position": "WR",
+      "team": "BUF",
+      "legup_rank": 108,
+      "legup_pos_rank": 49
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Brock Purdy",
+      "position": "QB",
+      "team": "SF",
+      "legup_rank": 109,
+      "legup_pos_rank": 12
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Justin Herbert",
+      "position": "QB",
+      "team": "LAC",
+      "legup_rank": 110,
+      "legup_pos_rank": 13
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Michael Wilson",
+      "position": "WR",
+      "team": "ARI",
+      "legup_rank": 111,
+      "legup_pos_rank": 50
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Parker Washington",
+      "position": "WR",
+      "team": "JAX",
+      "legup_rank": 112,
+      "legup_pos_rank": 51
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Javonte Williams",
+      "position": "RB",
+      "team": "DAL",
+      "legup_rank": 113,
+      "legup_pos_rank": 35
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Jauan Jennings",
+      "position": "WR",
+      "team": "MIN",
+      "legup_rank": 114,
+      "legup_pos_rank": 52
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Kyle Pitts",
+      "position": "TE",
+      "team": "ATL",
+      "legup_rank": 115,
+      "legup_pos_rank": 15
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Jayden Higgins",
+      "position": "WR",
+      "team": "HOU",
+      "legup_rank": 116,
+      "legup_pos_rank": 53
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Jayden Reed",
+      "position": "WR",
+      "team": "GB",
+      "legup_rank": 117,
+      "legup_pos_rank": 54
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Baker Mayfield",
+      "position": "QB",
+      "team": "TB",
+      "legup_rank": 118,
+      "legup_pos_rank": 14
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Cooper Kupp",
+      "position": "WR",
+      "team": "SEA",
+      "legup_rank": 119,
+      "legup_pos_rank": 55
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Chris Godwin",
+      "position": "WR",
+      "team": "TB",
+      "legup_rank": 120,
+      "legup_pos_rank": 56
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Dylan Sampson",
+      "position": "RB",
+      "team": "CLE",
+      "legup_rank": 121,
+      "legup_pos_rank": 36
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Braelon Allen",
+      "position": "RB",
+      "team": "NYJ",
+      "legup_rank": 122,
+      "legup_pos_rank": 37
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Trevor Lawrence",
+      "position": "QB",
+      "team": "JAX",
+      "legup_rank": 123,
+      "legup_pos_rank": 15
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Rashid Shaheed",
+      "position": "WR",
+      "team": "SEA",
+      "legup_rank": 124,
+      "legup_pos_rank": 57
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Jared Goff",
+      "position": "QB",
+      "team": "DET",
+      "legup_rank": 125,
+      "legup_pos_rank": 16
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Dallas Goedert",
+      "position": "TE",
+      "team": "PHI",
+      "legup_rank": 126,
+      "legup_pos_rank": 16
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Rhamondre Stevenson",
+      "position": "RB",
+      "team": "NE",
+      "legup_rank": 127,
+      "legup_pos_rank": 38
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Keaton Mitchell",
+      "position": "RB",
+      "team": "LAC",
+      "legup_rank": 128,
+      "legup_pos_rank": 39
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Hunter Henry",
+      "position": "TE",
+      "team": "NE",
+      "legup_rank": 129,
+      "legup_pos_rank": 17
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Keenan Allen",
+      "position": "WR",
+      "team": "FA",
+      "legup_rank": 130,
+      "legup_pos_rank": 58
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Jordan Love",
+      "position": "QB",
+      "team": "GB",
+      "legup_rank": 131,
+      "legup_pos_rank": 17
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Jo'quavious Marks",
+      "position": "RB",
+      "team": "HOU",
+      "legup_rank": 132,
+      "legup_pos_rank": 40
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Brenton Strange",
+      "position": "TE",
+      "team": "JAX",
+      "legup_rank": 133,
+      "legup_pos_rank": 18
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Chigoziem Okonkwo",
+      "position": "TE",
+      "team": "WAS",
+      "legup_rank": 134,
+      "legup_pos_rank": 19
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Alvin Kamara",
+      "position": "RB",
+      "team": "NO",
+      "legup_rank": 135,
+      "legup_pos_rank": 41
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Justin Fields",
+      "position": "QB",
+      "team": "KC",
+      "legup_rank": 136,
+      "legup_pos_rank": 18
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Isaiah Likely",
+      "position": "TE",
+      "team": "NYG",
+      "legup_rank": 137,
+      "legup_pos_rank": 20
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Brian Robinson",
+      "position": "RB",
+      "team": "ATL",
+      "legup_rank": 138,
+      "legup_pos_rank": 42
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Rachaad White",
+      "position": "RB",
+      "team": "WAS",
+      "legup_rank": 139,
+      "legup_pos_rank": 43
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Harold Fannin",
+      "position": "TE",
+      "team": "CLE",
+      "legup_rank": 140,
+      "legup_pos_rank": 21
+    },
+    {
+      "underdog_id": null,
+      "player_name": "C.J. Stroud",
+      "position": "QB",
+      "team": "HOU",
+      "legup_rank": 141,
+      "legup_pos_rank": 19
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Matthew Stafford",
+      "position": "QB",
+      "team": "LAR",
+      "legup_rank": 142,
+      "legup_pos_rank": 20
+    },
+    {
+      "underdog_id": null,
+      "player_name": "J.J. McCarthy",
+      "position": "QB",
+      "team": "MIN",
+      "legup_rank": 143,
+      "legup_pos_rank": 21
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Tank Dell",
+      "position": "WR",
+      "team": "HOU",
+      "legup_rank": 144,
+      "legup_pos_rank": 59
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Cade Otton",
+      "position": "TE",
+      "team": "TB",
+      "legup_rank": 145,
+      "legup_pos_rank": 22
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Troy Franklin",
+      "position": "WR",
+      "team": "DEN",
+      "legup_rank": 146,
+      "legup_pos_rank": 60
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Darnell Mooney",
+      "position": "WR",
+      "team": "NYG",
+      "legup_rank": 147,
+      "legup_pos_rank": 61
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Wan'Dale Robinson",
+      "position": "WR",
+      "team": "TEN",
+      "legup_rank": 148,
+      "legup_pos_rank": 62
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Jalen Coker",
+      "position": "WR",
+      "team": "CAR",
+      "legup_rank": 149,
+      "legup_pos_rank": 63
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Mike Gesicki",
+      "position": "TE",
+      "team": "CIN",
+      "legup_rank": 150,
+      "legup_pos_rank": 23
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Tyjae Spears",
+      "position": "RB",
+      "team": "TEN",
+      "legup_rank": 151,
+      "legup_pos_rank": 44
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Chris Rodriguez",
+      "position": "RB",
+      "team": "JAX",
+      "legup_rank": 152,
+      "legup_pos_rank": 45
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Christian Kirk",
+      "position": "WR",
+      "team": "SF",
+      "legup_rank": 153,
+      "legup_pos_rank": 64
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Rico Dowdle",
+      "position": "RB",
+      "team": "PIT",
+      "legup_rank": 154,
+      "legup_pos_rank": 46
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Marvin Mims",
+      "position": "WR",
+      "team": "DEN",
+      "legup_rank": 155,
+      "legup_pos_rank": 65
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Romeo Doubs",
+      "position": "WR",
+      "team": "NE",
+      "legup_rank": 156,
+      "legup_pos_rank": 66
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Isaac TeSlaa",
+      "position": "WR",
+      "team": "DET",
+      "legup_rank": 157,
+      "legup_pos_rank": 67
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Pat Freiermuth",
+      "position": "TE",
+      "team": "PIT",
+      "legup_rank": 158,
+      "legup_pos_rank": 24
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Tyler Allgeier",
+      "position": "RB",
+      "team": "ARI",
+      "legup_rank": 159,
+      "legup_pos_rank": 47
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Devaughn Vele",
+      "position": "WR",
+      "team": "NO",
+      "legup_rank": 160,
+      "legup_pos_rank": 68
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Tre Tucker",
+      "position": "WR",
+      "team": "LV",
+      "legup_rank": 161,
+      "legup_pos_rank": 69
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Anthony Richardson",
+      "position": "QB",
+      "team": "IND",
+      "legup_rank": 162,
+      "legup_pos_rank": 22
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Rashod Bateman",
+      "position": "WR",
+      "team": "BAL",
+      "legup_rank": 163,
+      "legup_pos_rank": 70
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Theo Johnson",
+      "position": "TE",
+      "team": "NYG",
+      "legup_rank": 164,
+      "legup_pos_rank": 25
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Sam Darnold",
+      "position": "QB",
+      "team": "SEA",
+      "legup_rank": 165,
+      "legup_pos_rank": 23
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Dontayvion Wicks",
+      "position": "WR",
+      "team": "PHI",
+      "legup_rank": 166,
+      "legup_pos_rank": 71
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Jaxson Dart",
+      "position": "QB",
+      "team": "NYG",
+      "legup_rank": 167,
+      "legup_pos_rank": 24
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Blake Corum",
+      "position": "RB",
+      "team": "LAR",
+      "legup_rank": 168,
+      "legup_pos_rank": 48
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Pat Bryant",
+      "position": "WR",
+      "team": "DEN",
+      "legup_rank": 169,
+      "legup_pos_rank": 72
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Elijah Arroyo",
+      "position": "TE",
+      "team": "SEA",
+      "legup_rank": 170,
+      "legup_pos_rank": 26
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Dalton Schultz",
+      "position": "TE",
+      "team": "HOU",
+      "legup_rank": 171,
+      "legup_pos_rank": 27
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Mason Taylor",
+      "position": "TE",
+      "team": "NYJ",
+      "legup_rank": 172,
+      "legup_pos_rank": 28
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Michael Penix Jr.",
+      "position": "QB",
+      "team": "ATL",
+      "legup_rank": 173,
+      "legup_pos_rank": 25
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Juwan Johnson",
+      "position": "TE",
+      "team": "NO",
+      "legup_rank": 174,
+      "legup_pos_rank": 29
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Malik Washington",
+      "position": "WR",
+      "team": "MIA",
+      "legup_rank": 175,
+      "legup_pos_rank": 73
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Jonnu Smith",
+      "position": "TE",
+      "team": "FA",
+      "legup_rank": 176,
+      "legup_pos_rank": 30
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Kyle Monangai",
+      "position": "RB",
+      "team": "CHI",
+      "legup_rank": 177,
+      "legup_pos_rank": 49
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Cedric Tillman",
+      "position": "WR",
+      "team": "CLE",
+      "legup_rank": 178,
+      "legup_pos_rank": 74
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Adonai Mitchell",
+      "position": "WR",
+      "team": "NYJ",
+      "legup_rank": 179,
+      "legup_pos_rank": 75
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Tory Horton",
+      "position": "WR",
+      "team": "SEA",
+      "legup_rank": 180,
+      "legup_pos_rank": 76
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Ja'Tavion Sanders",
+      "position": "TE",
+      "team": "CAR",
+      "legup_rank": 181,
+      "legup_pos_rank": 31
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Tre Harris",
+      "position": "WR",
+      "team": "LAC",
+      "legup_rank": 182,
+      "legup_pos_rank": 77
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Brandon Aiyuk",
+      "position": "WR",
+      "team": "FA",
+      "legup_rank": 183,
+      "legup_pos_rank": 78
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Gunnar Helm",
+      "position": "TE",
+      "team": "TEN",
+      "legup_rank": 184,
+      "legup_pos_rank": 32
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Michael Mayer",
+      "position": "TE",
+      "team": "LV",
+      "legup_rank": 185,
+      "legup_pos_rank": 33
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Colby Parkinson",
+      "position": "TE",
+      "team": "LAR",
+      "legup_rank": 186,
+      "legup_pos_rank": 34
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Demario Douglas",
+      "position": "WR",
+      "team": "NE",
+      "legup_rank": 187,
+      "legup_pos_rank": 79
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Joshua Palmer",
+      "position": "WR",
+      "team": "BUF",
+      "legup_rank": 188,
+      "legup_pos_rank": 80
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Hollywood Brown",
+      "position": "WR",
+      "team": "PHI",
+      "legup_rank": 189,
+      "legup_pos_rank": 81
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Sean Tucker",
+      "position": "RB",
+      "team": "TB",
+      "legup_rank": 190,
+      "legup_pos_rank": 50
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Darnell Washington",
+      "position": "TE",
+      "team": "PIT",
+      "legup_rank": 191,
+      "legup_pos_rank": 35
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Tyler Higbee",
+      "position": "TE",
+      "team": "LAR",
+      "legup_rank": 192,
+      "legup_pos_rank": 36
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Quentin Johnston",
+      "position": "WR",
+      "team": "LAC",
+      "legup_rank": 193,
+      "legup_pos_rank": 82
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Terrance Ferguson",
+      "position": "TE",
+      "team": "LAR",
+      "legup_rank": 194,
+      "legup_pos_rank": 37
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Greg Dulcich",
+      "position": "TE",
+      "team": "MIA",
+      "legup_rank": 195,
+      "legup_pos_rank": 38
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Oronde Gadsden",
+      "position": "TE",
+      "team": "LAC",
+      "legup_rank": 196,
+      "legup_pos_rank": 39
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Jack Bech",
+      "position": "WR",
+      "team": "LV",
+      "legup_rank": 197,
+      "legup_pos_rank": 83
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Jaylin Noel",
+      "position": "WR",
+      "team": "HOU",
+      "legup_rank": 198,
+      "legup_pos_rank": 84
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Tyquan Thornton",
+      "position": "WR",
+      "team": "KC",
+      "legup_rank": 199,
+      "legup_pos_rank": 85
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Noah Fant",
+      "position": "TE",
+      "team": "NO",
+      "legup_rank": 200,
+      "legup_pos_rank": 40
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Kenneth Gainwell",
+      "position": "RB",
+      "team": "TB",
+      "legup_rank": 201,
+      "legup_pos_rank": 51
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Malik Willis",
+      "position": "QB",
+      "team": "MIA",
+      "legup_rank": 202,
+      "legup_pos_rank": 26
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Gardner Minshew",
+      "position": "QB",
+      "team": "ARI",
+      "legup_rank": 203,
+      "legup_pos_rank": 27
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Jonathon Brooks",
+      "position": "RB",
+      "team": "CAR",
+      "legup_rank": 204,
+      "legup_pos_rank": 52
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Jameis Winston",
+      "position": "QB",
+      "team": "NYG",
+      "legup_rank": 205,
+      "legup_pos_rank": 28
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Mason Rudolph",
+      "position": "QB",
+      "team": "PIT",
+      "legup_rank": 206,
+      "legup_pos_rank": 29
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Jacoby Brissett",
+      "position": "QB",
+      "team": "ARI",
+      "legup_rank": 207,
+      "legup_pos_rank": 30
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Mac Jones",
+      "position": "QB",
+      "team": "SF",
+      "legup_rank": 208,
+      "legup_pos_rank": 31
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Jake Tonges",
+      "position": "TE",
+      "team": "SF",
+      "legup_rank": 209,
+      "legup_pos_rank": 41
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Kyle Williams",
+      "position": "WR",
+      "team": "NE",
+      "legup_rank": 210,
+      "legup_pos_rank": 86
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Geno Smith",
+      "position": "QB",
+      "team": "NYJ",
+      "legup_rank": 211,
+      "legup_pos_rank": 32
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Kirk Cousins",
+      "position": "QB",
+      "team": "LV",
+      "legup_rank": 212,
+      "legup_pos_rank": 33
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Xavier Legette",
+      "position": "WR",
+      "team": "CAR",
+      "legup_rank": 213,
+      "legup_pos_rank": 87
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Davis Mills",
+      "position": "QB",
+      "team": "HOU",
+      "legup_rank": 214,
+      "legup_pos_rank": 34
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Tua Tagovailoa",
+      "position": "QB",
+      "team": "ATL",
+      "legup_rank": 215,
+      "legup_pos_rank": 35
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Cam Ward",
+      "position": "QB",
+      "team": "TEN",
+      "legup_rank": 216,
+      "legup_pos_rank": 36
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Dont'e Thornton",
+      "position": "WR",
+      "team": "LV",
+      "legup_rank": 217,
+      "legup_pos_rank": 88
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Jalen Nailor",
+      "position": "WR",
+      "team": "LV",
+      "legup_rank": 218,
+      "legup_pos_rank": 89
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Cole Kmet",
+      "position": "TE",
+      "team": "CHI",
+      "legup_rank": 219,
+      "legup_pos_rank": 42
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Bryce Young",
+      "position": "QB",
+      "team": "CAR",
+      "legup_rank": 220,
+      "legup_pos_rank": 37
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Charlie Kolar",
+      "position": "TE",
+      "team": "LAC",
+      "legup_rank": 221,
+      "legup_pos_rank": 43
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Jalen Royals",
+      "position": "WR",
+      "team": "KC",
+      "legup_rank": 222,
+      "legup_pos_rank": 90
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Jaylin Lane",
+      "position": "WR",
+      "team": "WAS",
+      "legup_rank": 223,
+      "legup_pos_rank": 91
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Savion Williams",
+      "position": "WR",
+      "team": "GB",
+      "legup_rank": 224,
+      "legup_pos_rank": 92
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Tez Johnson",
+      "position": "WR",
+      "team": "TB",
+      "legup_rank": 225,
+      "legup_pos_rank": 93
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Tommy Tremble",
+      "position": "TE",
+      "team": "CAR",
+      "legup_rank": 226,
+      "legup_pos_rank": 44
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Elic Ayomanor",
+      "position": "WR",
+      "team": "TEN",
+      "legup_rank": 227,
+      "legup_pos_rank": 94
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Darius Slayton",
+      "position": "WR",
+      "team": "NYG",
+      "legup_rank": 228,
+      "legup_pos_rank": 95
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Davis Allen",
+      "position": "TE",
+      "team": "LAR",
+      "legup_rank": 229,
+      "legup_pos_rank": 45
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Dawson Knox",
+      "position": "TE",
+      "team": "BUF",
+      "legup_rank": 230,
+      "legup_pos_rank": 46
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Luke Musgrave",
+      "position": "TE",
+      "team": "GB",
+      "legup_rank": 231,
+      "legup_pos_rank": 47
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Xavier Hutchinson",
+      "position": "WR",
+      "team": "HOU",
+      "legup_rank": 232,
+      "legup_pos_rank": 96
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Ashton Dulin",
+      "position": "WR",
+      "team": "IND",
+      "legup_rank": 233,
+      "legup_pos_rank": 97
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Noah Gray",
+      "position": "TE",
+      "team": "KC",
+      "legup_rank": 234,
+      "legup_pos_rank": 48
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Tyler Shough",
+      "position": "QB",
+      "team": "NO",
+      "legup_rank": 235,
+      "legup_pos_rank": 38
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Daniel Jones",
+      "position": "QB",
+      "team": "IND",
+      "legup_rank": 236,
+      "legup_pos_rank": 39
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Tai Felton",
+      "position": "WR",
+      "team": "MIN",
+      "legup_rank": 237,
+      "legup_pos_rank": 98
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Mack Hollins",
+      "position": "WR",
+      "team": "NE",
+      "legup_rank": 238,
+      "legup_pos_rank": 99
+    },
+    {
+      "underdog_id": null,
+      "player_name": "Kayshon Boutte",
+      "position": "WR",
+      "team": "NE",
+      "legup_rank": 239,
+      "legup_pos_rank": 100
+    },
+    {
+      "underdog_id": null,
+      "player_name": "KaVontae Turpin",
+      "position": "WR",
+      "team": "DAL",
+      "legup_rank": 240,
+      "legup_pos_rank": 101
+    }
+  ]
+}
