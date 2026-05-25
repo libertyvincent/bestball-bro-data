@@ -175,7 +175,7 @@ def load_team_keys():
 
 # --- PDF parsing --------------------------------------------------------
 # Match a per-team page title (e.g. "2026 Cleveland Browns Projections").
-TITLE_RE = re.compile(r"2026\s+([A-Za-z][A-Za-z'\.\s]+?)\s+Projections\b")
+TITLE_RE = re.compile(r"2026\s+([A-Za-z][A-Za-z0-9'\.\s]+?)\s+Projections\b")
 
 # Match an offense row line on a per-team page:
 #   <POS> <player name (multi-word)> <16 numeric stats>
@@ -184,30 +184,38 @@ TITLE_RE = re.compile(r"2026\s+([A-Za-z][A-Za-z'\.\s]+?)\s+Projections\b")
 # (III). The 16 trailing integers are the stat columns in fixed order:
 #   Gm | Pass(Att Comp Yds TD INT Sk) | Rush(Att Yds TD)
 #      | Rec(Tgt Rec Yd TD) | Pts | Rk
+# No end anchor: pdfplumber concatenates the offense, defense, and
+# weekly-score rows into a single line per row, so anything after the
+# 16th stat is harmlessly ignored.
 OFFENSE_ROW_RE = re.compile(
     r"^(?P<pos>QB|RB|WR|TE)\s+"
     r"(?P<name>[A-Za-z][A-Za-z'\.\-\s]+?)"
-    r"\s+(?P<stats>\d+(?:\s+\d+){15})\s*$"
+    r"\s+(?P<stats>\d+(?:\s+\d+){15})(?!\d)"
 )
 
-# Match a weekly-score-projections row on a per-team page:
-#   <wk> <opp_team_code> <V|H> <tm_score> <opp_score> <win_prob>%
-# Bye-week rows omit the opp/loc/scores/prob (or render as blanks); we
-# detect them with the bye variant below.
+# Weekly-score-projection rows live at the END of each concatenated line
+# (offense + defense + weekly trail, all merged by pdfplumber). We use
+# re.search with end-of-line anchoring and a leading (?:^|\s) so we
+# don't false-positive on numbers buried in the offense/defense stats.
+#
+# Three line shapes:
+#   1. Standard week:  "... 1 LAC V 17.2 29.1 13%"
+#   2. Bye week:       "... 14 0.0 0.0"
+#   3. Season total:   "... Total 306 465 21%"
 WEEKLY_SCORE_RE = re.compile(
-    r"^(?P<wk>\d{1,2})\s+"
-    r"(?P<opp>[A-Z]{2,3})\s+"
+    r"(?:^|\s)(?P<wk>\d{1,2})\s+"
+    r"@?(?P<opp>[A-Z]{2,3})\s+"
     r"(?P<loc>[VH])\s+"
     r"(?P<tm_score>\d+(?:\.\d+)?)\s+"
     r"(?P<opp_score>\d+(?:\.\d+)?)\s+"
     r"(?P<win_prob>\d{1,3})%\s*$"
 )
-# Bye-week row: <wk> [BYE label] 0(.0)? 0(.0)? — never matches a bare
-# integer alone, so page-footer page numbers can't false-positive into
-# a fake bye. Spec says bye renders with blank opp/loc and zero scores;
-# we require the zeros to appear so we only consume real bye rows.
 WEEKLY_BYE_RE = re.compile(
-    r"^(?P<wk>\d{1,2})\s+(?:BYE\s+)?0(?:\.0+)?\s+0(?:\.0+)?\s*$",
+    r"(?:^|\s)(?P<wk>\d{1,2})\s+0(?:\.0+)?\s+0(?:\.0+)?\s*$"
+)
+WEEKLY_TOTAL_RE = re.compile(
+    r"(?:^|\s)Total\s+(?P<tm_total>\d+)\s+(?P<opp_total>\d+)\s+"
+    r"(?P<win_pct>\d{1,3})%\s*$",
     re.I,
 )
 
@@ -322,28 +330,24 @@ def parse_weekly_scores(text: str, abbrs: set) -> list:
     opponent/location/win_prob and 0.0 scores."""
     weeks: dict[int, dict] = {}
     for line in text.splitlines():
-        line = line.strip()
-        m = WEEKLY_SCORE_RE.match(line)
+        line = line.rstrip()
+        m = WEEKLY_SCORE_RE.search(line)
         if m:
             wk = int(m.group("wk"))
-            if not 1 <= wk <= 18 or wk in weeks:
-                continue
-            opp = normalize_team(m.group("opp"))
-            if opp not in abbrs:
-                # Stray match (e.g. an unrelated table row that happens
-                # to fit the shape) — skip rather than corrupt the table.
-                continue
-            weeks[wk] = {
-                "week":               wk,
-                "opponent":           opp,
-                "location":           m.group("loc"),
-                "team_nfl_score":     float(m.group("tm_score")),
-                "opponent_nfl_score": float(m.group("opp_score")),
-                "win_prob":           int(m.group("win_prob")) / 100.0,
-                "is_bye":             False,
-            }
-            continue
-        m = WEEKLY_BYE_RE.match(line)
+            if 1 <= wk <= 18 and wk not in weeks:
+                opp = normalize_team(m.group("opp"))
+                if opp in abbrs:
+                    weeks[wk] = {
+                        "week":               wk,
+                        "opponent":           opp,
+                        "location":           m.group("loc"),
+                        "team_nfl_score":     float(m.group("tm_score")),
+                        "opponent_nfl_score": float(m.group("opp_score")),
+                        "win_prob":           int(m.group("win_prob")) / 100.0,
+                        "is_bye":             False,
+                    }
+                    continue
+        m = WEEKLY_BYE_RE.search(line)
         if m:
             wk = int(m.group("wk"))
             if 1 <= wk <= 18 and wk not in weeks:
