@@ -3,7 +3,7 @@
     "source": "legup",
     "slug": "ud-ranks",
     "slate": "nfl_2026_season",
-    "version": "1779840932236-f44f1185",
+    "version": "1779912615813-b2432437",
     "headers": [
       "Name",
       "Team",
@@ -15,7 +15,7 @@
       "+/-",
       "id"
     ],
-    "fetched_at": "2026-05-27T14:25:18Z",
+    "fetched_at": "2026-05-28T14:39:21Z",
     "player_count": 230
   },
   "players": [
@@ -335,12 +335,21 @@
       "wk17_opponent": null
     },
     {
+      "underdog_id": "01714e65-49e3-4185-8e4a-6a7ae051d5bf",
+      "player_name": "Josh Jacobs",
+      "position": "RB",
+      "team": "GB",
+      "legup_rank": 36,
+      "legup_pos_rank": 17,
+      "wk17_opponent": null
+    },
+    {
       "underdog_id": "03e908d2-14b1-49ed-a6e6-56e41a5e9988",
       "player_name": "Kyren Williams",
       "position": "RB",
       "team": "LAR",
-      "legup_rank": 36,
-      "legup_pos_rank": 17,
+      "legup_rank": 37,
+      "legup_pos_rank": 18,
       "wk17_opponent": null
     },
     {
@@ -348,7 +357,7 @@
       "player_name": "Ladd McConkey",
       "position": "WR",
       "team": "LAC",
-      "legup_rank": 37,
+      "legup_rank": 38,
       "legup_pos_rank": 18,
       "wk17_opponent": null
     },
@@ -357,7 +366,7 @@
       "player_name": "DeVonta Smith",
       "position": "WR",
       "team": "PHI",
-      "legup_rank": 38,
+      "legup_rank": 39,
       "legup_pos_rank": 19,
       "wk17_opponent": null
     },
@@ -366,7 +375,7 @@
       "player_name": "Josh Allen",
       "position": "QB",
       "team": "BUF",
-      "legup_rank": 39,
+      "legup_rank": 40,
       "legup_pos_rank": 1,
       "wk17_opponent": null
     },
@@ -375,17 +384,8 @@
       "player_name": "Mike Evans",
       "position": "WR",
       "team": "SF",
-      "legup_rank": 40,
-      "legup_pos_rank": 20,
-      "wk17_opponent": null
-    },
-    {
-      "underdog_id": "01714e65-49e3-4185-8e4a-6a7ae051d5bf",
-      "player_name": "Josh Jacobs",
-      "position": "RB",
-      "team": "GB",
       "legup_rank": 41,
-      "legup_pos_rank": 18,
+      "legup_pos_rank": 20,
       "wk17_opponent": null
     },
     {
