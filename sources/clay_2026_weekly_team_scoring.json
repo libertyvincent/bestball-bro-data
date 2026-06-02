@@ -3,8 +3,8 @@
     "source_id": "mike_clay_weekly_team_scoring",
     "source_name": "Mike Clay - ESPN 2026 NFL Projection Guide (weekly team scoring)",
     "source_url": "https://g.espncdn.com/s/ffldraftkit/26/NFLDK2026_CS_ClayProjections2026.pdf",
-    "pdf_updated": "2026-05-19",
-    "fetched_at": "2026-06-01T16:35:34Z",
+    "pdf_updated": "2026-06-01",
+    "fetched_at": "2026-06-02T14:50:12Z",
     "format": "per_team_weekly_score_projections",
     "scoring_unit": "nfl_game_points",
     "scoring_description": "These are projected NFL game scoring (touchdowns + field goals + safeties + 2-pt conversions), not fantasy points. Use as a relative per-week multiplier vs the team's season average to derive opponent-adjustment factors for fantasy projections.",
@@ -47,7 +47,7 @@
           "opponent": "NYG",
           "location": "V",
           "team_nfl_score": 18.7,
-          "opponent_nfl_score": 26.5,
+          "opponent_nfl_score": 26.4,
           "win_prob": 0.24,
           "is_bye": false
         },
@@ -1322,8 +1322,8 @@
           "opponent": "NYG",
           "location": "V",
           "team_nfl_score": 16.7,
-          "opponent_nfl_score": 22.0,
-          "win_prob": 0.31,
+          "opponent_nfl_score": 21.9,
+          "win_prob": 0.32,
           "is_bye": false
         },
         {
@@ -1364,7 +1364,7 @@
           "opponent": "NYG",
           "location": "V",
           "team_nfl_score": 27.1,
-          "opponent_nfl_score": 24.3,
+          "opponent_nfl_score": 24.2,
           "win_prob": 0.6,
           "is_bye": false
         },
@@ -1508,7 +1508,7 @@
           "opponent": "NYG",
           "location": "H",
           "team_nfl_score": 29.2,
-          "opponent_nfl_score": 22.2,
+          "opponent_nfl_score": 22.1,
           "win_prob": 0.74,
           "is_bye": false
         },
@@ -1835,7 +1835,7 @@
           "opponent": "NYG",
           "location": "H",
           "team_nfl_score": 27.8,
-          "opponent_nfl_score": 20.0,
+          "opponent_nfl_score": 19.9,
           "win_prob": 0.77,
           "is_bye": false
         },
@@ -2303,8 +2303,8 @@
           "opponent": "NYG",
           "location": "H",
           "team_nfl_score": 24.4,
-          "opponent_nfl_score": 21.4,
-          "win_prob": 0.6,
+          "opponent_nfl_score": 21.3,
+          "win_prob": 0.61,
           "is_bye": false
         },
         {
@@ -2886,7 +2886,7 @@
           "location": "H",
           "team_nfl_score": 31.0,
           "opponent_nfl_score": 17.7,
-          "win_prob": 0.9,
+          "win_prob": 0.91,
           "is_bye": false
         },
         {
@@ -3761,7 +3761,7 @@
           "opponent": "NYG",
           "location": "V",
           "team_nfl_score": 19.9,
-          "opponent_nfl_score": 24.3,
+          "opponent_nfl_score": 24.2,
           "win_prob": 0.35,
           "is_bye": false
         },
@@ -3883,7 +3883,7 @@
           "week": 1,
           "opponent": "DAL",
           "location": "H",
-          "team_nfl_score": 24.3,
+          "team_nfl_score": 24.2,
           "opponent_nfl_score": 27.1,
           "win_prob": 0.4,
           "is_bye": false
@@ -3894,23 +3894,23 @@
           "location": "V",
           "team_nfl_score": 17.7,
           "opponent_nfl_score": 31.0,
-          "win_prob": 0.1,
+          "win_prob": 0.09,
           "is_bye": false
         },
         {
           "week": 3,
           "opponent": "TEN",
           "location": "H",
-          "team_nfl_score": 25.0,
+          "team_nfl_score": 24.9,
           "opponent_nfl_score": 18.1,
-          "win_prob": 0.74,
+          "win_prob": 0.73,
           "is_bye": false
         },
         {
           "week": 4,
           "opponent": "ARI",
           "location": "H",
-          "team_nfl_score": 26.5,
+          "team_nfl_score": 26.4,
           "opponent_nfl_score": 18.7,
           "win_prob": 0.76,
           "is_bye": false
@@ -3919,7 +3919,7 @@
           "week": 5,
           "opponent": "WAS",
           "location": "V",
-          "team_nfl_score": 24.4,
+          "team_nfl_score": 24.3,
           "opponent_nfl_score": 25.0,
           "win_prob": 0.48,
           "is_bye": false
@@ -3928,7 +3928,7 @@
           "week": 6,
           "opponent": "NO",
           "location": "H",
-          "team_nfl_score": 24.3,
+          "team_nfl_score": 24.2,
           "opponent_nfl_score": 19.9,
           "win_prob": 0.65,
           "is_bye": false
@@ -3955,18 +3955,18 @@
           "week": 9,
           "opponent": "PHI",
           "location": "V",
-          "team_nfl_score": 18.5,
+          "team_nfl_score": 18.4,
           "opponent_nfl_score": 26.2,
-          "win_prob": 0.24,
+          "win_prob": 0.23,
           "is_bye": false
         },
         {
           "week": 10,
           "opponent": "WAS",
           "location": "H",
-          "team_nfl_score": 26.5,
+          "team_nfl_score": 26.4,
           "opponent_nfl_score": 22.9,
-          "win_prob": 0.63,
+          "win_prob": 0.62,
           "is_bye": false
         },
         {
@@ -3982,16 +3982,16 @@
           "week": 12,
           "opponent": "IND",
           "location": "V",
-          "team_nfl_score": 21.4,
+          "team_nfl_score": 21.3,
           "opponent_nfl_score": 24.4,
-          "win_prob": 0.4,
+          "win_prob": 0.39,
           "is_bye": false
         },
         {
           "week": 13,
           "opponent": "SF",
           "location": "H",
-          "team_nfl_score": 23.5,
+          "team_nfl_score": 23.4,
           "opponent_nfl_score": 25.1,
           "win_prob": 0.44,
           "is_bye": false
@@ -4000,7 +4000,7 @@
           "week": 14,
           "opponent": "SEA",
           "location": "V",
-          "team_nfl_score": 17.7,
+          "team_nfl_score": 17.6,
           "opponent_nfl_score": 26.9,
           "win_prob": 0.19,
           "is_bye": false
@@ -4009,16 +4009,16 @@
           "week": 15,
           "opponent": "CLE",
           "location": "H",
-          "team_nfl_score": 22.0,
+          "team_nfl_score": 21.9,
           "opponent_nfl_score": 16.7,
-          "win_prob": 0.69,
+          "win_prob": 0.68,
           "is_bye": false
         },
         {
           "week": 16,
           "opponent": "DET",
           "location": "V",
-          "team_nfl_score": 20.0,
+          "team_nfl_score": 19.9,
           "opponent_nfl_score": 27.8,
           "win_prob": 0.23,
           "is_bye": false
@@ -4027,7 +4027,7 @@
           "week": 17,
           "opponent": "DAL",
           "location": "V",
-          "team_nfl_score": 22.2,
+          "team_nfl_score": 22.1,
           "opponent_nfl_score": 29.2,
           "win_prob": 0.26,
           "is_bye": false
@@ -4292,8 +4292,8 @@
           "opponent": "NYG",
           "location": "H",
           "team_nfl_score": 26.2,
-          "opponent_nfl_score": 18.5,
-          "win_prob": 0.76,
+          "opponent_nfl_score": 18.4,
+          "win_prob": 0.77,
           "is_bye": false
         },
         {
@@ -4673,7 +4673,7 @@
           "opponent": "NYG",
           "location": "H",
           "team_nfl_score": 26.9,
-          "opponent_nfl_score": 17.7,
+          "opponent_nfl_score": 17.6,
           "win_prob": 0.81,
           "is_bye": false
         },
@@ -4832,7 +4832,7 @@
           "opponent": "NYG",
           "location": "V",
           "team_nfl_score": 25.1,
-          "opponent_nfl_score": 23.5,
+          "opponent_nfl_score": 23.4,
           "win_prob": 0.56,
           "is_bye": false
         },
@@ -5078,8 +5078,8 @@
           "opponent": "NYG",
           "location": "V",
           "team_nfl_score": 18.1,
-          "opponent_nfl_score": 25.0,
-          "win_prob": 0.26,
+          "opponent_nfl_score": 24.9,
+          "win_prob": 0.27,
           "is_bye": false
         },
         {
@@ -5264,7 +5264,7 @@
           "opponent": "NYG",
           "location": "H",
           "team_nfl_score": 25.0,
-          "opponent_nfl_score": 24.4,
+          "opponent_nfl_score": 24.3,
           "win_prob": 0.52,
           "is_bye": false
         },
@@ -5309,8 +5309,8 @@
           "opponent": "NYG",
           "location": "V",
           "team_nfl_score": 22.9,
-          "opponent_nfl_score": 26.5,
-          "win_prob": 0.37,
+          "opponent_nfl_score": 26.4,
+          "win_prob": 0.38,
           "is_bye": false
         },
         {

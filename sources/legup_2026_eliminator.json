@@ -3,7 +3,7 @@
     "source": "legup",
     "slug": "eliminator-ranks",
     "slate": "nfl_2026_eliminator",
-    "version": "1780155794502-2ce45449",
+    "version": "1780338911664-71b20e3b",
     "headers": [
       "Name",
       "Team",
@@ -16,7 +16,7 @@
       "+/-",
       "id"
     ],
-    "fetched_at": "2026-06-01T16:35:39Z",
+    "fetched_at": "2026-06-02T14:50:18Z",
     "player_count": 240
   },
   "players": [
