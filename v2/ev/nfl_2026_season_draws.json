@@ -602,5 +602,35 @@
     "682dc86b-6b08-4733-96e9-b5fc852043ff": "WR",
     "9a32dd2e-70c2-4179-9efd-abf7dddb250f": "WR"
   },
-  "generated_at": "2026-06-05T07:10:25Z"
+  "lineup_spec": {
+    "slate_id": "nfl_2026_season",
+    "slots": [
+      {
+        "pos": "QB",
+        "n": 1,
+        "eligible": "QB"
+      },
+      {
+        "pos": "RB",
+        "n": 2,
+        "eligible": "RB"
+      },
+      {
+        "pos": "WR",
+        "n": 3,
+        "eligible": "WR"
+      },
+      {
+        "pos": "TE",
+        "n": 1,
+        "eligible": "TE"
+      },
+      {
+        "pos": "FLEX",
+        "n": 1,
+        "eligible": ["RB", "WR", "TE"]
+      }
+    ]
+  },
+  "generated_at": "2026-06-06T03:59:21Z"
 }
