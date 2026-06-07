@@ -2,7 +2,7 @@
   "_meta": {
     "source": "etr",
     "slate": "nfl_2026_season",
-    "fetched_at": "2026-06-06T12:04:38Z",
+    "fetched_at": "2026-06-07T12:18:46Z",
     "etr_updated_at": null,
     "page_url": "https://establishtherun.com/etrs-top-300-for-underdogfantasy/",
     "player_count": 300
@@ -230,27 +230,14 @@
       "ownership_pct": 99.99
     },
     {
-      "underdog_id": "3ab31e43-ec23-46c5-b59d-b3850ad1ae3a",
-      "player_name": null,
-      "position": "RB",
-      "team": "MIA",
-      "etr_rank": 18,
-      "etr_pos_rank": null,
-      "adp": 15.1,
-      "adp_diff": -2.9,
-      "pos_rank_adp": "RB08",
-      "pos_rank_diff": -3,
-      "ownership_pct": 99.99
-    },
-    {
       "underdog_id": "bcd9dd40-142a-4f3c-b47e-654117d32658",
       "player_name": null,
       "position": "WR",
       "team": "HOU",
-      "etr_rank": 19,
+      "etr_rank": 18,
       "etr_pos_rank": null,
       "adp": 23.4,
-      "adp_diff": 4.4,
+      "adp_diff": 5.4,
       "pos_rank_adp": "WR09",
       "pos_rank_diff": 1,
       "ownership_pct": 99.99
@@ -260,12 +247,12 @@
       "player_name": null,
       "position": "RB",
       "team": "LAC",
-      "etr_rank": 20,
+      "etr_rank": 19,
       "etr_pos_rank": null,
       "adp": 15.8,
-      "adp_diff": -4.2,
+      "adp_diff": -3.2,
       "pos_rank_adp": "RB09",
-      "pos_rank_diff": -3,
+      "pos_rank_diff": -2,
       "ownership_pct": 99.99
     },
     {
@@ -273,12 +260,25 @@
       "player_name": null,
       "position": "WR",
       "team": "DAL",
-      "etr_rank": 21,
+      "etr_rank": 20,
       "etr_pos_rank": null,
       "adp": 23.9,
-      "adp_diff": 2.9,
+      "adp_diff": 3.9,
       "pos_rank_adp": "WR10",
       "pos_rank_diff": 1,
+      "ownership_pct": 99.99
+    },
+    {
+      "underdog_id": "3ab31e43-ec23-46c5-b59d-b3850ad1ae3a",
+      "player_name": null,
+      "position": "RB",
+      "team": "MIA",
+      "etr_rank": 21,
+      "etr_pos_rank": null,
+      "adp": 15.1,
+      "adp_diff": -5.9,
+      "pos_rank_adp": "RB08",
+      "pos_rank_diff": -4,
       "ownership_pct": 99.99
     },
     {
@@ -1582,14 +1582,27 @@
       "ownership_pct": 99.99
     },
     {
+      "underdog_id": "d2297be4-c288-4bc4-aad9-fd8e02646776",
+      "player_name": null,
+      "position": "QB",
+      "team": "MIA",
+      "etr_rank": 122,
+      "etr_pos_rank": null,
+      "adp": 130.7,
+      "adp_diff": 8.7,
+      "pos_rank_adp": "QB21",
+      "pos_rank_diff": 1,
+      "ownership_pct": 99.99
+    },
+    {
       "underdog_id": "d83ad27b-1a9b-49ac-984e-49453f424c9f",
       "player_name": null,
       "position": "RB",
       "team": "TB",
-      "etr_rank": 122,
+      "etr_rank": 123,
       "etr_pos_rank": null,
       "adp": 106.6,
-      "adp_diff": -15.4,
+      "adp_diff": -16.4,
       "pos_rank_adp": "RB36",
       "pos_rank_diff": -2,
       "ownership_pct": 99.99
@@ -1599,10 +1612,10 @@
       "player_name": null,
       "position": "TE",
       "team": "DAL",
-      "etr_rank": 123,
+      "etr_rank": 124,
       "etr_pos_rank": null,
       "adp": 126.7,
-      "adp_diff": 3.7,
+      "adp_diff": 2.7,
       "pos_rank_adp": "TE11",
       "pos_rank_diff": -3,
       "ownership_pct": 99.99
@@ -1612,10 +1625,10 @@
       "player_name": null,
       "position": "RB",
       "team": "NYG",
-      "etr_rank": 124,
+      "etr_rank": 125,
       "etr_pos_rank": null,
       "adp": 130.5,
-      "adp_diff": 6.5,
+      "adp_diff": 5.5,
       "pos_rank_adp": "RB43",
       "pos_rank_diff": 4,
       "ownership_pct": 99.99
@@ -1625,10 +1638,10 @@
       "player_name": null,
       "position": "WR",
       "team": "CAR",
-      "etr_rank": 125,
+      "etr_rank": 126,
       "etr_pos_rank": null,
       "adp": 134.6,
-      "adp_diff": 9.6,
+      "adp_diff": 8.6,
       "pos_rank_adp": "WR56",
       "pos_rank_diff": 3,
       "ownership_pct": 99.99
@@ -1638,25 +1651,12 @@
       "player_name": null,
       "position": "RB",
       "team": "MIN",
-      "etr_rank": 126,
-      "etr_pos_rank": null,
-      "adp": 124.5,
-      "adp_diff": -1.5,
-      "pos_rank_adp": "RB42",
-      "pos_rank_diff": 2,
-      "ownership_pct": 99.99
-    },
-    {
-      "underdog_id": "e08333f4-72da-4d6b-8a4a-7258093eda3c",
-      "player_name": null,
-      "position": "QB",
-      "team": "HOU",
       "etr_rank": 127,
       "etr_pos_rank": null,
-      "adp": 142.1,
-      "adp_diff": 15.1,
-      "pos_rank_adp": "QB24",
-      "pos_rank_diff": 4,
+      "adp": 124.5,
+      "adp_diff": -2.5,
+      "pos_rank_adp": "RB42",
+      "pos_rank_diff": 2,
       "ownership_pct": 99.99
     },
     {
@@ -1673,16 +1673,16 @@
       "ownership_pct": 99.99
     },
     {
-      "underdog_id": "d2297be4-c288-4bc4-aad9-fd8e02646776",
+      "underdog_id": "e08333f4-72da-4d6b-8a4a-7258093eda3c",
       "player_name": null,
       "position": "QB",
-      "team": "MIA",
+      "team": "HOU",
       "etr_rank": 129,
       "etr_pos_rank": null,
-      "adp": 130.7,
-      "adp_diff": 1.7,
-      "pos_rank_adp": "QB21",
-      "pos_rank_diff": 0,
+      "adp": 142.1,
+      "adp_diff": 13.1,
+      "pos_rank_adp": "QB24",
+      "pos_rank_diff": 3,
       "ownership_pct": 99.99
     },
     {
@@ -3142,17 +3142,17 @@
       "ownership_pct": 2.05
     },
     {
-      "underdog_id": "3cc10408-1eb5-42d7-ba02-acb14de1d788",
+      "underdog_id": "32bdcf83-11aa-4fef-857a-88419965dbc2",
       "player_name": null,
-      "position": "RB",
-      "team": "MIA",
+      "position": "WR",
+      "team": "LV",
       "etr_rank": 242,
       "etr_pos_rank": null,
-      "adp": 215.8,
-      "adp_diff": -26.2,
-      "pos_rank_adp": "RB77",
-      "pos_rank_diff": 4,
-      "ownership_pct": 2.6
+      "adp": 214.8,
+      "adp_diff": -27.2,
+      "pos_rank_adp": "WR97",
+      "pos_rank_diff": -6,
+      "ownership_pct": 13.34
     },
     {
       "underdog_id": "d11c4534-5691-488e-910d-7707c6c12e44",
@@ -3168,17 +3168,17 @@
       "ownership_pct": 99.07
     },
     {
-      "underdog_id": "32bdcf83-11aa-4fef-857a-88419965dbc2",
+      "underdog_id": "3cc10408-1eb5-42d7-ba02-acb14de1d788",
       "player_name": null,
-      "position": "WR",
-      "team": "LV",
+      "position": "RB",
+      "team": "MIA",
       "etr_rank": 244,
       "etr_pos_rank": null,
-      "adp": 214.8,
-      "adp_diff": -29.2,
-      "pos_rank_adp": "WR97",
-      "pos_rank_diff": -6,
-      "ownership_pct": 13.34
+      "adp": 215.8,
+      "adp_diff": -28.2,
+      "pos_rank_adp": "RB77",
+      "pos_rank_diff": 4,
+      "ownership_pct": 2.6
     },
     {
       "underdog_id": "5df1a513-165c-4a68-8430-397522553e27",
