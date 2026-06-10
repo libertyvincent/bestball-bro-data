@@ -1,49 +1,49 @@
 {
   "season": 2026,
-  "generated_at": "2026-06-09T06:48:47Z",
+  "generated_at": "2026-06-10T06:46:44Z",
   "slates": {
     "nfl_2026_season": {
       "underdog_slate_id": "a9c04e81-1ace-4b16-a31d-4c725a47f16f",
       "v2_path": "v2/projections/nfl_2026_season.json",
-      "v2_sha256": "ed83344e57c5bbefce70d424abe5be67c7b3010128c715b087a554eaacb1405f",
-      "v2_generated_at": "2026-06-09T06:48:47Z",
+      "v2_sha256": "c3394ba49a3cbeab5710e5e93a9105e52ab1f7363529d885d8b24400a23512db",
+      "v2_generated_at": "2026-06-10T06:46:44Z",
       "v2_draws_path": "v2/ev/nfl_2026_season_draws.bin",
-      "v2_draws_sha256": "21ee8185ffa5270fe9198ac7b877c2fd0aec0b651d8f663f323bc82a8b829df6",
+      "v2_draws_sha256": "faaed909c8f91bf12b879de68bee41d58567dcd936801f4b7e6ad26f0138fe4e",
       "v2_draws_sidecar_path": "v2/ev/nfl_2026_season_draws.json",
-      "v2_draws_sidecar_sha256": "1875e513aafaa0afe225c57dede70ad0dc2bdae0018039c296e4464759c65ed2",
-      "v2_draws_generated_at": "2026-06-09T06:50:06Z",
+      "v2_draws_sidecar_sha256": "7b70323d99bebe9261a34ad98fd96f0ec5f163f8a98fb64f03d5eef90b1782d0",
+      "v2_draws_generated_at": "2026-06-10T06:48:01Z",
       "tournaments": {
         "puppy2": {
           "underdog_tournament_id": "e9f88543-f815-4db2-a076-1271fb35160c",
           "title": "The Puppy 2",
           "curves_path": "v2/ev/puppy2_curves.json",
-          "curves_sha256": "82fffeaadaab086e76d227698e99658ac00777a419396c4c7d4cfbcc24067dfa"
+          "curves_sha256": "d05c8ab45bcc5e41de9ef729dcf3c1036d94dad22f4165ffc07d64719b25a635"
         },
         "dachshund": {
           "underdog_tournament_id": "1f35c88b-e5c4-4b8c-b42a-db74f55d7a18",
           "title": "The Dachshund",
           "curves_path": "v2/ev/dachshund_curves.json",
-          "curves_sha256": "27cdb65a181f00f2b4d52d0be3651d4e8903c9d6db59898569b8b9c8c4c793fe"
+          "curves_sha256": "f38dbaf3b2315b89b8b31dfd03f42efc005dcd70120a50bb0004ed454512b609"
         }
       }
     },
     "nfl_2026_eliminator": {
       "underdog_slate_id": "0ee05b31-f904-4e6e-985b-42f290e3aa3a",
       "v2_path": "v2/projections/nfl_2026_eliminator.json",
-      "v2_sha256": "9736dc99b667b2988c692878ec8b84942155ce71f0c3dc818b7ab125be1d7f24",
-      "v2_generated_at": "2026-06-09T06:48:47Z"
+      "v2_sha256": "d0a111988ed5dcfb2b0ab5651b085b4efcd1ff6f95204f105ce7787e54ab8065",
+      "v2_generated_at": "2026-06-10T06:46:44Z"
     },
     "nfl_2026_weekly_winners": {
       "underdog_slate_id": "d9fd5f58-393f-400c-a010-3bf79b822b48",
       "v2_path": "v2/projections/nfl_2026_weekly_winners.json",
-      "v2_sha256": "a489e4b0696c4f688a58c271e95b3b9b1ac36ec8296efbe2563e5addf94d7c55",
-      "v2_generated_at": "2026-06-09T06:48:47Z"
+      "v2_sha256": "b11e1c454b48a1dc08a734fa2a0d490b0c39d2a92be0ff3736c8ff75948f4391",
+      "v2_generated_at": "2026-06-10T06:46:44Z"
     },
     "nfl_2026_superflex": {
       "underdog_slate_id": "11300882-a76f-4e12-8a5e-1a6b4c513794",
       "v2_path": "v2/projections/nfl_2026_superflex.json",
-      "v2_sha256": "79ab3fd4425d50df874463874b2c91f9a38be9d00a74f9a8f9efe46596dc4c52",
-      "v2_generated_at": "2026-06-09T06:48:47Z"
+      "v2_sha256": "4e03b26d0f20bee47e14de06a0d4fd04f88a85faba0fc4f736e4f9c8f9889037",
+      "v2_generated_at": "2026-06-10T06:46:44Z"
     }
   }
 }
