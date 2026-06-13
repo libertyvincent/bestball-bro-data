@@ -12,16 +12,31 @@ Dated files accumulate — **never overwrite**. Future exports add
 
 | file | what |
 |---|---|
-| `boards_2026-06-10.json` | stripped corpus (51 drafts, 8 reference payloads) |
-| `../../scripts/strip_field_export.py` | the privacy strip that produced it |
-| `../../scripts/validate_field_corpus.py` | integrity check (recomputes headline stats) |
+| `boards_2026-06-13.json` | **current** stripped corpus (61 drafts; superset re-scrape of 06-10) |
+| `boards_2026-06-10.json` | prior snapshot (51 drafts) — kept for provenance; **never overwritten** |
+| `../../scripts/strip_field_export.py` | the privacy strip that produced both |
+| `../../scripts/validate_field_corpus.py` | integrity check (recomputes headline stats; assertions pinned to 06-10) |
 
-## Provenance
+## Provenance (snapshots accumulate; newest first)
 
 - **Source:** passive `udbb-scraper` capture (fetch/XHR interception) of Vincent's
   **completed-draft history** walk on Underdog — not an active/live feed.
-- **Scraper:** `0.4.0-ww-harvester`, export schema **v3**.
-- **Exported:** `2026-06-10T06:21:26Z`. **`draft_at` range:** 2026-04-27 → 2026-06-10.
+
+**`boards_2026-06-13.json` — current (superset re-scrape).**
+- **Scraper:** `0.4.0-ww-harvester`, export schema **v3**. **Exported:**
+  `2026-06-13T18:49:32Z`. **`draft_at` range:** 2026-04-21 → 2026-06-13.
+- **Coverage:** **61 drafts** (+10 over 06-10) — a full re-scrape that **subsumes**
+  the 06-10 and 06-12 exports, the increment being recent Season-slate drafts
+  (Puppy 2 etc.). Slate split (by `slate_id`): **39 Season** (`a9c04e81`, 38
+  completed + 1 incomplete) / 16 Weekly Winners (`d9fd5f58`) / 4 + 1 + 1 others.
+- **Dedup-on-combine:** because 06-13 is a strict superset, the combined Season
+  set `06-10 ∪ 06-13` deduped by `draft_id` = **38 distinct completed Season
+  drafts** (06-10's 33 ⊆ 06-13's 38; 0 only-in-06-10). Naive concatenation would
+  double-count; always dedup by `draft_id`.
+
+**`boards_2026-06-10.json` — prior snapshot.**
+- **Scraper:** `0.4.0-ww-harvester`, schema **v3**. **Exported:**
+  `2026-06-10T06:21:26Z`. **`draft_at` range:** 2026-04-27 → 2026-06-10.
 - **Coverage:** 51 drafts — 50 × 216-pick boards + 1 × 240 (a Superflex board).
   Slate split: **16 Weekly Winners / 33 Season / 1 Frenchie Eliminator / 1 Field
   General (Superflex)**.
@@ -61,18 +76,25 @@ with `pick_order`, slate/tournament ids, timestamps) is kept byte-faithful.
   matching the sim's documented `player_match` fantasy-position convention.
   Consumers computing position counts must apply the same remap.
 
-## Headline numbers (opponent-only; see the validator)
+## Headline numbers (opponent-only; **as of 06-13**, deduped combined Season)
 
-- **Pick-vs-ADP residual σ by round** (216-boards): R1 ≈ 2.33, R6 ≈ 5.18,
-  R12 ≈ 10.1, plateau ≈ 10 after R12. **≈ 2–3× chalkier than the parametric
-  harness assumption.**
-  - **Slate-split structure (important):** the pooled R12 ≈ 10 *blends two
-    genuinely different rooms* — **Season ≈ 8.5** vs **Weekly Winners ≈ 12.8**.
-    The pooled plateau is a count-weighted average, not a single-room value.
+Refreshed on the fatter 06-13 corpus (38 distinct completed Season drafts =
+the deduped `06-10 ∪ 06-13` union; n = 418 complete opponent rosters). Close to
+06-10 but not identical — more boards. (The validator's pinned assertions still
+target 06-10's exact counts, so it reports the count/split/R12 pins as "FAIL"
+against 06-13 by design; the construction/share/σ-shape checks pass.)
+
+- **Pick-vs-ADP residual σ by round** (216-boards): R1 ≈ 2.23, R6 ≈ 5.12,
+  R12 (pooled) ≈ 9.82, plateau ≈ 9.6 after R12. **≈ 2–3× chalkier than the
+  parametric harness assumption.**
+  - **Slate-split structure (important):** the pooled R12 *blends two genuinely
+    different rooms* — **Season ≈ 8.27** vs **Weekly Winners ≈ 12.87**. The
+    pooled plateau is a count-weighted average, not a single-room value.
     **Consumers refitting the harness σ should prefer the slate-specific
     values**, not the pooled curve.
-- **Season opponent construction** (complete 18-pick rosters, n = 363):
-  QB 2.58 / RB 5.40 / WR 7.31 / TE 2.71. **TE≥4 ≈ 3.9%; TE≥4 & RB≤4 ≈ 1.1%.**
+- **Season opponent construction** (complete 18-pick rosters, n = 418):
+  QB 2.58 / RB 5.41 / WR 7.31 / TE 2.71. **TE≥4 ≈ 3.8%; TE≥4 & RB≤4 ≈ 1.2%.**
+  (06-10 deltas: means ~0; TE≥4 −0.07pp; TE≥4&RB≤4 +0.1pp.)
 
 ## June-snapshot caveat (read before this becomes load-bearing)
 
@@ -86,9 +108,15 @@ first-look calibration, not ground truth.
 ## Reproduce / validate
 
 ```sh
-python scripts/strip_field_export.py <raw_export.json> sources/field/boards_2026-06-10.json
-python scripts/validate_field_corpus.py sources/field/boards_2026-06-10.json   # expect 14/14
+# new dated snapshot (do NOT overwrite an existing boards_<date>.json):
+python scripts/strip_field_export.py <raw_export.json> sources/field/boards_2026-06-13.json
+python scripts/validate_field_corpus.py sources/field/boards_2026-06-10.json   # 14/14 (pins target 06-10)
+python scripts/validate_field_corpus.py sources/field/boards_2026-06-13.json   # 10/14 — see note
 ```
 The validator recomputes the headline stats from the stripped file and asserts
 they reproduce the analysis of the raw export (tolerances: means ±0.02, σ ±0.1,
-shares ±0.3pp) — proof the strip preserved analytical content.
+shares ±0.3pp) — proof the strip preserved analytical content. **Its pass-count
+assertions are pinned to the 06-10 snapshot** (draft count == 51, exact slate
+split, R12 ≈ 10.1), so on the larger 06-13 file those four pins report "FAIL" by
+design; the substantive checks (owner-uniqueness, σ shape, construction means,
+TE shares) pass. Re-pin the assertions only if 06-13 becomes the reference.
