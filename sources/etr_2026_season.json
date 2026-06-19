@@ -2,7 +2,7 @@
   "_meta": {
     "source": "etr",
     "slate": "nfl_2026_season",
-    "fetched_at": "2026-06-18T14:08:13Z",
+    "fetched_at": "2026-06-19T13:59:55Z",
     "etr_updated_at": null,
     "page_url": "https://establishtherun.com/etrs-top-300-for-underdogfantasy/",
     "player_count": 300
@@ -1852,7 +1852,7 @@
       "adp_diff": 14.2,
       "pos_rank_adp": "TE20",
       "pos_rank_diff": 3,
-      "ownership_pct": 99.79
+      "ownership_pct": 99.78
     },
     {
       "underdog_id": "aa36686a-7005-49d2-8db8-2ccbe6e483e0",
@@ -1865,7 +1865,7 @@
       "adp_diff": 7.2,
       "pos_rank_adp": "TE18",
       "pos_rank_diff": 0,
-      "ownership_pct": 99.7
+      "ownership_pct": 99.69
     },
     {
       "underdog_id": "1a2115d5-cf2b-40f2-a512-e4d3fadc60e7",
@@ -1969,7 +1969,7 @@
       "adp_diff": 3.4,
       "pos_rank_adp": "WR63",
       "pos_rank_diff": 1,
-      "ownership_pct": 99.38
+      "ownership_pct": 99.39
     },
     {
       "underdog_id": "4d3349f4-94a4-4d53-bdcb-8d754c37a315",
@@ -2008,7 +2008,7 @@
       "adp_diff": -7,
       "pos_rank_adp": "TE17",
       "pos_rank_diff": -4,
-      "ownership_pct": 99.62
+      "ownership_pct": 99.63
     },
     {
       "underdog_id": "52947412-4003-4b6b-9660-5a2aa4ca1bd7",
@@ -2021,7 +2021,7 @@
       "adp_diff": 27.4,
       "pos_rank_adp": "WR73",
       "pos_rank_diff": 10,
-      "ownership_pct": 98.73
+      "ownership_pct": 98.74
     },
     {
       "underdog_id": "4efc8624-dc36-4242-b1cb-0cc6d3862174",
@@ -2086,7 +2086,7 @@
       "adp_diff": 20.9,
       "pos_rank_adp": "WR72",
       "pos_rank_diff": 7,
-      "ownership_pct": 98.54
+      "ownership_pct": 98.55
     },
     {
       "underdog_id": "7d7766b7-6c5c-4a3f-9d89-adda8940df3d",
@@ -2112,7 +2112,7 @@
       "adp_diff": 2.3,
       "pos_rank_adp": "WR66",
       "pos_rank_diff": -1,
-      "ownership_pct": 96.29
+      "ownership_pct": 96.38
     },
     {
       "underdog_id": "392cac47-00b2-4189-b006-58ebc14b23bf",
@@ -2151,7 +2151,7 @@
       "adp_diff": 6.7,
       "pos_rank_adp": "WR70",
       "pos_rank_diff": 1,
-      "ownership_pct": 99.46
+      "ownership_pct": 99.45
     },
     {
       "underdog_id": "dbe588a1-cdaf-458e-a0b4-daa450f19bbf",
@@ -2164,7 +2164,7 @@
       "adp_diff": 39.5,
       "pos_rank_adp": "WR82",
       "pos_rank_diff": 12,
-      "ownership_pct": 58.88
+      "ownership_pct": 59.12
     },
     {
       "underdog_id": "268e4c6c-716d-467c-856a-1297e1c743cf",
@@ -2177,7 +2177,7 @@
       "adp_diff": 18.7,
       "pos_rank_adp": "TE26",
       "pos_rank_diff": 3,
-      "ownership_pct": 97.61
+      "ownership_pct": 97.62
     },
     {
       "underdog_id": "e77fc2ba-9f10-418d-8133-14b993d3f59e",
@@ -2190,7 +2190,7 @@
       "adp_diff": -16,
       "pos_rank_adp": "RB47",
       "pos_rank_diff": -2,
-      "ownership_pct": 99.89
+      "ownership_pct": 99.88
     },
     {
       "underdog_id": "9fd3effd-2d57-43d1-9da9-118e0aa3689b",
@@ -2216,7 +2216,7 @@
       "adp_diff": 22.4,
       "pos_rank_adp": "TE28",
       "pos_rank_diff": 3,
-      "ownership_pct": 93.09
+      "ownership_pct": 93.13
     },
     {
       "underdog_id": "3a013faa-4c46-49e8-bc5d-54d3a9803c1e",
@@ -2229,7 +2229,7 @@
       "adp_diff": 2.6,
       "pos_rank_adp": "RB53",
       "pos_rank_diff": 3,
-      "ownership_pct": 89.13
+      "ownership_pct": 89.4
     },
     {
       "underdog_id": "9e0fd3fb-73c5-4f37-b250-1b768168bbf1",
@@ -2242,7 +2242,7 @@
       "adp_diff": -10.2,
       "pos_rank_adp": "WR65",
       "pos_rank_diff": -6,
-      "ownership_pct": 98.22
+      "ownership_pct": 98.26
     },
     {
       "underdog_id": "9ad5fbe4-e29b-4c36-a7cb-9309acf60abe",
@@ -2268,7 +2268,7 @@
       "adp_diff": 0.2,
       "pos_rank_adp": "QB28",
       "pos_rank_diff": 1,
-      "ownership_pct": 95.94
+      "ownership_pct": 96.03
     },
     {
       "underdog_id": "05a6881d-5311-49a0-be02-83b85e831b2b",
@@ -2294,7 +2294,7 @@
       "adp_diff": 9,
       "pos_rank_adp": "RB56",
       "pos_rank_diff": 3,
-      "ownership_pct": 96.22
+      "ownership_pct": 96.27
     },
     {
       "underdog_id": "d53f8a01-f0d6-441b-b85a-d69b2095642d",
@@ -2307,7 +2307,7 @@
       "adp_diff": -5.7,
       "pos_rank_adp": "WR69",
       "pos_rank_diff": -3,
-      "ownership_pct": 98.58
+      "ownership_pct": 98.6
     },
     {
       "underdog_id": "da4bbb87-fe7f-4d65-9cbe-c3085d2cbfc1",
@@ -2346,7 +2346,7 @@
       "adp_diff": -2,
       "pos_rank_adp": "TE25",
       "pos_rank_diff": -1,
-      "ownership_pct": 98.74
+      "ownership_pct": 98.75
     },
     {
       "underdog_id": "578083fd-28b7-4f25-9ab5-76dac063ab44",
@@ -2359,7 +2359,7 @@
       "adp_diff": 30.7,
       "pos_rank_adp": "WR87",
       "pos_rank_diff": 13,
-      "ownership_pct": 69.51
+      "ownership_pct": 68.68
     },
     {
       "underdog_id": "625be843-9bf8-4602-9029-a88e52b084bd",
@@ -2372,7 +2372,7 @@
       "adp_diff": 21.2,
       "pos_rank_adp": "TE30",
       "pos_rank_diff": 3,
-      "ownership_pct": 70.26
+      "ownership_pct": 70.42
     },
     {
       "underdog_id": "2367117b-16b7-45a4-970d-9ed4cf3f7e38",
@@ -2385,7 +2385,7 @@
       "adp_diff": 17.9,
       "pos_rank_adp": "RB60",
       "pos_rank_diff": 5,
-      "ownership_pct": 78.29
+      "ownership_pct": 78.38
     },
     {
       "underdog_id": "6b6c0fe5-926b-4c07-869e-932beca840ba",
@@ -2398,7 +2398,7 @@
       "adp_diff": 5.4,
       "pos_rank_adp": "WR77",
       "pos_rank_diff": 2,
-      "ownership_pct": 67.11
+      "ownership_pct": 67.89
     },
     {
       "underdog_id": "2b915546-701a-43ba-83b8-14b637feaff5",
@@ -2411,7 +2411,7 @@
       "adp_diff": 3,
       "pos_rank_adp": "WR75",
       "pos_rank_diff": -1,
-      "ownership_pct": 91.93
+      "ownership_pct": 92.08
     },
     {
       "underdog_id": "d580ee61-2ae9-4765-8065-85a4dc403af3",
@@ -2424,7 +2424,7 @@
       "adp_diff": 21.3,
       "pos_rank_adp": "TE32",
       "pos_rank_diff": 4,
-      "ownership_pct": 57.39
+      "ownership_pct": 57.53
     },
     {
       "underdog_id": "892fedf8-412c-4307-bab0-2a04c33b1642",
@@ -2437,7 +2437,7 @@
       "adp_diff": -2.2,
       "pos_rank_adp": "RB55",
       "pos_rank_diff": -1,
-      "ownership_pct": 99.05
+      "ownership_pct": 99.02
     },
     {
       "underdog_id": "77b3cf07-cf9b-4068-832f-4f787e7e7259",
@@ -2450,7 +2450,7 @@
       "adp_diff": -19.5,
       "pos_rank_adp": "WR68",
       "pos_rank_diff": -9,
-      "ownership_pct": 98.66
+      "ownership_pct": 98.68
     },
     {
       "underdog_id": "96e67ed5-d19b-461e-bd32-6ab1bb7a7697",
@@ -2463,7 +2463,7 @@
       "adp_diff": 26.2,
       "pos_rank_adp": "RB72",
       "pos_rank_diff": 15,
-      "ownership_pct": 6.3
+      "ownership_pct": 6.39
     },
     {
       "underdog_id": "6d395b73-b5be-494d-83e5-7b8b73bda0b8",
@@ -2476,7 +2476,7 @@
       "adp_diff": 3.3,
       "pos_rank_adp": "WR79",
       "pos_rank_diff": 1,
-      "ownership_pct": 98.3
+      "ownership_pct": 98.19
     },
     {
       "underdog_id": "97ac300b-1153-4a8d-ac58-47f85d74cd51",
@@ -2489,7 +2489,7 @@
       "adp_diff": 19.4,
       "pos_rank_adp": "WR85",
       "pos_rank_diff": 6,
-      "ownership_pct": 31.2
+      "ownership_pct": 31.65
     },
     {
       "underdog_id": "3e027734-95ef-495e-bb49-43caf28f632d",
@@ -2502,7 +2502,7 @@
       "adp_diff": 5.3,
       "pos_rank_adp": "RB59",
       "pos_rank_diff": 1,
-      "ownership_pct": 91.63
+      "ownership_pct": 91.55
     },
     {
       "underdog_id": "eb6be1fa-c875-4300-87e2-7809671a5a00",
@@ -2541,7 +2541,7 @@
       "adp_diff": 18.9,
       "pos_rank_adp": "TE34",
       "pos_rank_diff": 5,
-      "ownership_pct": 20.31
+      "ownership_pct": 20.35
     },
     {
       "underdog_id": "ad69fd40-04a0-42d9-b8bc-b01b02910d5d",
@@ -2554,7 +2554,7 @@
       "adp_diff": 18.1,
       "pos_rank_adp": "RB68",
       "pos_rank_diff": 8,
-      "ownership_pct": 18.85
+      "ownership_pct": 18.88
     },
     {
       "underdog_id": "76ded0dc-a456-4503-a04d-a4fb41aafbc8",
@@ -2567,7 +2567,7 @@
       "adp_diff": -16.3,
       "pos_rank_adp": "WR71",
       "pos_rank_diff": -9,
-      "ownership_pct": 85.82
+      "ownership_pct": 86.17
     },
     {
       "underdog_id": "16f0ce34-5e49-42fe-ab4f-02127a203252",
@@ -2580,7 +2580,7 @@
       "adp_diff": 14,
       "pos_rank_adp": "WR90",
       "pos_rank_diff": 9,
-      "ownership_pct": 70.58
+      "ownership_pct": 69.69
     },
     {
       "underdog_id": "c90c934c-9d10-4836-a138-d8ce1e2198d2",
@@ -2593,7 +2593,7 @@
       "adp_diff": 3.4,
       "pos_rank_adp": "RB61",
       "pos_rank_diff": 0,
-      "ownership_pct": 79.75
+      "ownership_pct": 79.69
     },
     {
       "underdog_id": "0c387d43-416a-4895-932c-6ffdf97ff68a",
@@ -2606,7 +2606,7 @@
       "adp_diff": 14.1,
       "pos_rank_adp": "WR94",
       "pos_rank_diff": 12,
-      "ownership_pct": 18.25
+      "ownership_pct": 18.29
     },
     {
       "underdog_id": "5c1416ec-0b1b-47d6-ad15-6dc75e170caf",
@@ -2619,7 +2619,7 @@
       "adp_diff": 9.4,
       "pos_rank_adp": "RB63",
       "pos_rank_diff": 1,
-      "ownership_pct": 36.07
+      "ownership_pct": 36.39
     },
     {
       "underdog_id": "58ef4b7e-c240-4470-8313-46a066fd93b9",
@@ -2632,7 +2632,7 @@
       "adp_diff": -12.6,
       "pos_rank_adp": "RB57",
       "pos_rank_diff": -6,
-      "ownership_pct": 98.49
+      "ownership_pct": 98.42
     },
     {
       "underdog_id": "27ddd6aa-fac1-4c95-9d5d-31d471606308",
@@ -2645,7 +2645,7 @@
       "adp_diff": 12.8,
       "pos_rank_adp": "RB78",
       "pos_rank_diff": 14,
-      "ownership_pct": 2.66
+      "ownership_pct": 2.65
     },
     {
       "underdog_id": "13b2a45b-e31a-4bfd-b88d-a23adef97432",
@@ -2658,7 +2658,7 @@
       "adp_diff": 7.7,
       "pos_rank_adp": "WR87",
       "pos_rank_diff": 4,
-      "ownership_pct": 13.68
+      "ownership_pct": 14.35
     },
     {
       "underdog_id": "2b4755db-65b8-4ebb-a6ac-dcc87d34c16b",
@@ -2671,7 +2671,7 @@
       "adp_diff": 9,
       "pos_rank_adp": "RB67",
       "pos_rank_diff": 2,
-      "ownership_pct": 40.19
+      "ownership_pct": 39.66
     },
     {
       "underdog_id": "0c7ec0aa-bc36-49d5-a402-0cb26a244803",
@@ -2697,7 +2697,7 @@
       "adp_diff": 8.9,
       "pos_rank_adp": "WR112",
       "pos_rank_diff": 28,
-      "ownership_pct": 1.66
+      "ownership_pct": 1.65
     },
     {
       "underdog_id": "5d017d0c-0864-4cec-93d0-e5c68c76fca2",
@@ -2710,7 +2710,7 @@
       "adp_diff": 7.3,
       "pos_rank_adp": "WR102",
       "pos_rank_diff": 17,
-      "ownership_pct": 8.09
+      "ownership_pct": 8.11
     },
     {
       "underdog_id": "fd58ddcc-8f81-4922-bbbf-3d3fe82e687b",
@@ -2723,7 +2723,7 @@
       "adp_diff": 6.7,
       "pos_rank_adp": "RB76",
       "pos_rank_diff": 10,
-      "ownership_pct": 4.49
+      "ownership_pct": 4.47
     },
     {
       "underdog_id": "ee61b327-de07-483b-b872-eb251e6c2613",
@@ -2736,7 +2736,7 @@
       "adp_diff": 5.4,
       "pos_rank_adp": "WR103",
       "pos_rank_diff": 17,
-      "ownership_pct": 4.37
+      "ownership_pct": 4.44
     },
     {
       "underdog_id": "5a5bfcaa-e87c-4ace-8f2c-5c494dd7950e",
@@ -2749,7 +2749,7 @@
       "adp_diff": -14,
       "pos_rank_adp": "RB58",
       "pos_rank_diff": -9,
-      "ownership_pct": 95.47
+      "ownership_pct": 95.32
     },
     {
       "underdog_id": "2a6806b0-2be1-47bc-9adc-84f7348bdf22",
@@ -2762,7 +2762,7 @@
       "adp_diff": 3.8,
       "pos_rank_adp": "WR107",
       "pos_rank_diff": 20,
-      "ownership_pct": 3.57
+      "ownership_pct": 3.54
     },
     {
       "underdog_id": "df9c6e16-ff33-446a-8c7c-7635a409155d",
@@ -2775,7 +2775,7 @@
       "adp_diff": 1.9,
       "pos_rank_adp": "WR98",
       "pos_rank_diff": 10,
-      "ownership_pct": 7.88
+      "ownership_pct": 8.02
     },
     {
       "underdog_id": "6ad094f1-6730-4225-872e-60def37f1efd",
@@ -2788,7 +2788,7 @@
       "adp_diff": 0.5,
       "pos_rank_adp": "TE35",
       "pos_rank_diff": 4,
-      "ownership_pct": 11.48
+      "ownership_pct": 11.63
     },
     {
       "underdog_id": "d8e5727e-53e4-4983-80a8-d9348f58c050",
@@ -2801,7 +2801,7 @@
       "adp_diff": -6.9,
       "pos_rank_adp": "RB62",
       "pos_rank_diff": -6,
-      "ownership_pct": 31.73
+      "ownership_pct": 32.47
     },
     {
       "underdog_id": "ae3a35f7-dd56-4915-9dd6-d4b94c9e3b2e",
@@ -2814,7 +2814,7 @@
       "adp_diff": -0.2,
       "pos_rank_adp": "RB78",
       "pos_rank_diff": 9,
-      "ownership_pct": 3.42
+      "ownership_pct": 3.39
     },
     {
       "underdog_id": "4e8e072d-6099-489b-a97f-a1e75f2cf1ab",
@@ -2840,7 +2840,7 @@
       "adp_diff": -2,
       "pos_rank_adp": "WR128",
       "pos_rank_diff": 39,
-      "ownership_pct": 0.95
+      "ownership_pct": 0.94
     },
     {
       "underdog_id": "42b49068-33a3-4f43-9e66-005433044a40",
@@ -2853,7 +2853,7 @@
       "adp_diff": -3.7,
       "pos_rank_adp": "TE37",
       "pos_rank_diff": 4,
-      "ownership_pct": 6.28
+      "ownership_pct": 6.35
     },
     {
       "underdog_id": "02dccdb4-7ecd-4ee5-9fd8-1531213ce3c6",
@@ -2866,7 +2866,7 @@
       "adp_diff": -4.4,
       "pos_rank_adp": "RB73",
       "pos_rank_diff": 3,
-      "ownership_pct": 11.67
+      "ownership_pct": 11.49
     },
     {
       "underdog_id": "bade36dc-92a4-4fa5-8238-c737fbceaeb4",
@@ -2879,7 +2879,7 @@
       "adp_diff": -33.6,
       "pos_rank_adp": "TE27",
       "pos_rank_diff": -7,
-      "ownership_pct": 61.12
+      "ownership_pct": 62.1
     },
     {
       "underdog_id": "e1ab7ce2-99e4-4b80-ba12-c0d88f14a73b",
@@ -2905,7 +2905,7 @@
       "adp_diff": -9.9,
       "pos_rank_adp": "RB66",
       "pos_rank_diff": -5,
-      "ownership_pct": 26.68
+      "ownership_pct": 26.74
     },
     {
       "underdog_id": "de7bde14-cf9f-4b06-98f4-8c52c41bf649",
@@ -2918,7 +2918,7 @@
       "adp_diff": -17.6,
       "pos_rank_adp": "TE31",
       "pos_rank_diff": -4,
-      "ownership_pct": 83.8
+      "ownership_pct": 83.32
     },
     {
       "underdog_id": "8228dbe3-e9fb-422b-b2ed-499162f15ef0",
@@ -2931,7 +2931,7 @@
       "adp_diff": -10.6,
       "pos_rank_adp": "WR95",
       "pos_rank_diff": 4,
-      "ownership_pct": 35.33
+      "ownership_pct": 34.86
     },
     {
       "underdog_id": "9a32dd2e-70c2-4179-9efd-abf7dddb250f",
@@ -2957,7 +2957,7 @@
       "adp_diff": -14.9,
       "pos_rank_adp": "WR91",
       "pos_rank_diff": -2,
-      "ownership_pct": 46.53
+      "ownership_pct": 46.25
     },
     {
       "underdog_id": "9431a971-42d8-4e26-9957-06ad738b37f9",
@@ -2970,7 +2970,7 @@
       "adp_diff": -12.1,
       "pos_rank_adp": "WR112",
       "pos_rank_diff": 18,
-      "ownership_pct": 0.97
+      "ownership_pct": 0.98
     },
     {
       "underdog_id": "ad50c6db-b65f-462d-a607-ea75895ed062",
@@ -3009,7 +3009,7 @@
       "adp_diff": -16.3,
       "pos_rank_adp": "WR96",
       "pos_rank_diff": -1,
-      "ownership_pct": 13.85
+      "ownership_pct": 13.88
     },
     {
       "underdog_id": "9c0a23d8-b2c0-4b5f-b348-70cd1e1d6669",
@@ -3022,7 +3022,7 @@
       "adp_diff": -20.1,
       "pos_rank_adp": "WR89",
       "pos_rank_diff": -9,
-      "ownership_pct": 40
+      "ownership_pct": 39.95
     },
     {
       "underdog_id": "2555530d-7eab-464c-94f3-15444cc81b0d",
@@ -3035,7 +3035,7 @@
       "adp_diff": -17.3,
       "pos_rank_adp": "WR105",
       "pos_rank_diff": 6,
-      "ownership_pct": 6.96
+      "ownership_pct": 6.87
     },
     {
       "underdog_id": "f78d35e4-b166-4fc2-8d37-90fe6c95d790",
@@ -3048,7 +3048,7 @@
       "adp_diff": -23.5,
       "pos_rank_adp": "WR86",
       "pos_rank_diff": -14,
-      "ownership_pct": 81.89
+      "ownership_pct": 80.98
     },
     {
       "underdog_id": "3f6dd9e5-b0ac-46bc-bbc5-c6ce3f046a19",
@@ -3061,7 +3061,7 @@
       "adp_diff": -20.9,
       "pos_rank_adp": "RB68",
       "pos_rank_diff": -4,
-      "ownership_pct": 86.25
+      "ownership_pct": 84.47
     },
     {
       "underdog_id": "bcf68759-6db5-45da-b6d9-859dc7a3ba4e",
@@ -3074,7 +3074,7 @@
       "adp_diff": -33.2,
       "pos_rank_adp": "WR81",
       "pos_rank_diff": -20,
-      "ownership_pct": 86.91
+      "ownership_pct": 86.63
     },
     {
       "underdog_id": "0fd06655-ece8-4168-a588-f8fd5cb4410b",
@@ -3087,7 +3087,7 @@
       "adp_diff": -21.2,
       "pos_rank_adp": "TE42",
       "pos_rank_diff": 6,
-      "ownership_pct": 1.55
+      "ownership_pct": 1.57
     },
     {
       "underdog_id": "a494d7c8-4c78-4055-9609-5ca71960b260",
@@ -3100,7 +3100,7 @@
       "adp_diff": -24.3,
       "pos_rank_adp": "TE33",
       "pos_rank_diff": -4,
-      "ownership_pct": 9.53
+      "ownership_pct": 9.93
     },
     {
       "underdog_id": "4a119663-b322-43a7-bfd3-19662f4e21b2",
@@ -3113,7 +3113,7 @@
       "adp_diff": -24.6,
       "pos_rank_adp": "RB70",
       "pos_rank_diff": -3,
-      "ownership_pct": 35.8
+      "ownership_pct": 35.32
     },
     {
       "underdog_id": "9ff86d7b-4419-4124-b7f7-45e95948cd07",
@@ -3126,7 +3126,7 @@
       "adp_diff": -47.1,
       "pos_rank_adp": "WR78",
       "pos_rank_diff": -24,
-      "ownership_pct": 86.18
+      "ownership_pct": 86.4
     },
     {
       "underdog_id": "7b05e870-e29a-4cdd-acaa-db7e3dc8e716",
@@ -3139,7 +3139,7 @@
       "adp_diff": -25.4,
       "pos_rank_adp": "TE39",
       "pos_rank_diff": 1,
-      "ownership_pct": 4.23
+      "ownership_pct": 4.24
     },
     {
       "underdog_id": "d11c4534-5691-488e-910d-7707c6c12e44",
@@ -3152,7 +3152,7 @@
       "adp_diff": -62,
       "pos_rank_adp": "QB29",
       "pos_rank_diff": 0,
-      "ownership_pct": 99.02
+      "ownership_pct": 99.01
     },
     {
       "underdog_id": "5a937ca2-cb10-46cd-b7df-6d03e7a121b4",
@@ -3165,7 +3165,7 @@
       "adp_diff": -27.1,
       "pos_rank_adp": "TE45",
       "pos_rank_diff": 6,
-      "ownership_pct": 2.05
+      "ownership_pct": 2.03
     },
     {
       "underdog_id": "3cc10408-1eb5-42d7-ba02-acb14de1d788",
@@ -3178,7 +3178,7 @@
       "adp_diff": -28.3,
       "pos_rank_adp": "RB76",
       "pos_rank_diff": 2,
-      "ownership_pct": 2.94
+      "ownership_pct": 2.96
     },
     {
       "underdog_id": "7de4a983-b3ce-4aa2-8332-608b39f1a4ab",
@@ -3243,7 +3243,7 @@
       "adp_diff": -33.6,
       "pos_rank_adp": "TE38",
       "pos_rank_diff": -3,
-      "ownership_pct": 7.87
+      "ownership_pct": 7.85
     },
     {
       "underdog_id": "5df1a513-165c-4a68-8430-397522553e27",
@@ -3256,7 +3256,7 @@
       "adp_diff": -51.9,
       "pos_rank_adp": "WR80",
       "pos_rank_diff": -25,
-      "ownership_pct": 72.33
+      "ownership_pct": 72.73
     },
     {
       "underdog_id": "8771bebe-123d-47eb-8226-57f585e4202c",
@@ -3269,7 +3269,7 @@
       "adp_diff": -35.5,
       "pos_rank_adp": "WR104",
       "pos_rank_diff": -2,
-      "ownership_pct": 6.54
+      "ownership_pct": 6.53
     },
     {
       "underdog_id": "fa3e4ba2-240b-47b4-a67c-6890f336991b",
@@ -3282,7 +3282,7 @@
       "adp_diff": -41.2,
       "pos_rank_adp": "RB65",
       "pos_rank_diff": -11,
-      "ownership_pct": 16.95
+      "ownership_pct": 17.7
     },
     {
       "underdog_id": "290c697a-95db-494a-9728-a1c3f90d4395",
@@ -3295,7 +3295,7 @@
       "adp_diff": -55.7,
       "pos_rank_adp": "TE29",
       "pos_rank_diff": -13,
-      "ownership_pct": 92.92
+      "ownership_pct": 92.81
     },
     {
       "underdog_id": "ca8c5014-bf51-4571-a462-800ceb464974",
@@ -3321,7 +3321,7 @@
       "adp_diff": -66.7,
       "pos_rank_adp": "WR76",
       "pos_rank_diff": -31,
-      "ownership_pct": 81.91
+      "ownership_pct": 82.31
     },
     {
       "underdog_id": "a2a2da64-8443-4c7d-a1ce-835f30eca698",
@@ -3334,7 +3334,7 @@
       "adp_diff": -49.4,
       "pos_rank_adp": "WR83",
       "pos_rank_diff": -25,
-      "ownership_pct": 55.33
+      "ownership_pct": 55.61
     },
     {
       "underdog_id": "ce461ae0-18b8-4c69-a198-2432c70bd0ea",
@@ -3347,7 +3347,7 @@
       "adp_diff": -46.4,
       "pos_rank_adp": "RB64",
       "pos_rank_diff": -13,
-      "ownership_pct": 7.15
+      "ownership_pct": 8.21
     },
     {
       "underdog_id": "1862183c-6a0a-4cf9-b4ae-071c39cab7d1",
@@ -3360,7 +3360,7 @@
       "adp_diff": -44.3,
       "pos_rank_adp": "WR93",
       "pos_rank_diff": -16,
-      "ownership_pct": 20.04
+      "ownership_pct": 20.16
     },
     {
       "underdog_id": "05501245-ba7a-4aaa-893b-f4478a2921fd",
@@ -3373,7 +3373,7 @@
       "adp_diff": -43.1,
       "pos_rank_adp": "WR112",
       "pos_rank_diff": 2,
-      "ownership_pct": 0.89
+      "ownership_pct": 0.9
     },
     {
       "underdog_id": "d880f724-0897-4914-969b-af6a01eb4ac7",
@@ -3386,7 +3386,7 @@
       "adp_diff": -44.2,
       "pos_rank_adp": "WR107",
       "pos_rank_diff": -4,
-      "ownership_pct": 6.77
+      "ownership_pct": 6.65
     },
     {
       "underdog_id": "903044f4-028a-4930-b027-80a8564afd17",
@@ -3399,7 +3399,7 @@
       "adp_diff": -45.3,
       "pos_rank_adp": "TE40",
       "pos_rank_diff": -4,
-      "ownership_pct": 7.96
+      "ownership_pct": 7.84
     },
     {
       "underdog_id": "6f9a391e-7cce-49ac-aaa4-4e593c7dcd4a",
@@ -3412,7 +3412,7 @@
       "adp_diff": -46.3,
       "pos_rank_adp": "WR105",
       "pos_rank_diff": -7,
-      "ownership_pct": 1.97
+      "ownership_pct": 2.01
     },
     {
       "underdog_id": "2cb27cb4-b51e-4a38-8423-6d72866efedb",
@@ -3438,7 +3438,7 @@
       "adp_diff": -65.4,
       "pos_rank_adp": "QB30",
       "pos_rank_diff": 0,
-      "ownership_pct": 94.27
+      "ownership_pct": 94.06
     },
     {
       "underdog_id": "748b1bde-0acf-4e4d-bc1d-a634c3188c20",
@@ -3451,7 +3451,7 @@
       "adp_diff": -50.3,
       "pos_rank_adp": "WR96",
       "pos_rank_diff": -18,
-      "ownership_pct": 16.9
+      "ownership_pct": 16.85
     },
     {
       "underdog_id": "2fc9683e-305e-4f34-b1d9-33a6b3c711f1",
@@ -3490,7 +3490,7 @@
       "adp_diff": -52.2,
       "pos_rank_adp": "RB78",
       "pos_rank_diff": -2,
-      "ownership_pct": 1.04
+      "ownership_pct": 1.08
     },
     {
       "underdog_id": "a45bcf8f-c281-4efb-9114-62e078297bb8",
@@ -3503,7 +3503,7 @@
       "adp_diff": -53.1,
       "pos_rank_adp": "RB82",
       "pos_rank_diff": 1,
-      "ownership_pct": 0.64
+      "ownership_pct": 0.66
     },
     {
       "underdog_id": "32bdcf83-11aa-4fef-857a-88419965dbc2",
@@ -3516,7 +3516,7 @@
       "adp_diff": -54.8,
       "pos_rank_adp": "WR100",
       "pos_rank_diff": -15,
-      "ownership_pct": 12.93
+      "ownership_pct": 12.85
     },
     {
       "underdog_id": "e7ceb8ee-3f04-41d2-ade4-c91891883414",
@@ -3529,7 +3529,7 @@
       "adp_diff": -61.7,
       "pos_rank_adp": "WR84",
       "pos_rank_diff": -32,
-      "ownership_pct": 44.67
+      "ownership_pct": 44.9
     },
     {
       "underdog_id": "45ba2a55-8a6d-4885-adcd-1136ca801fc7",
@@ -3555,7 +3555,7 @@
       "adp_diff": -57,
       "pos_rank_adp": "RB84",
       "pos_rank_diff": 2,
-      "ownership_pct": 0.33
+      "ownership_pct": 0.34
     },
     {
       "underdog_id": "016f6b17-5612-436b-adf1-c717873cb230",
@@ -3568,7 +3568,7 @@
       "adp_diff": -59.1,
       "pos_rank_adp": "RB71",
       "pos_rank_diff": -12,
-      "ownership_pct": 28.22
+      "ownership_pct": 27.81
     },
     {
       "underdog_id": "b2f0b4fc-2bbb-424e-a07f-a2d4b9e15e34",
@@ -3594,7 +3594,7 @@
       "adp_diff": -60.1,
       "pos_rank_adp": "WR112",
       "pos_rank_diff": -5,
-      "ownership_pct": 2.68
+      "ownership_pct": 2.64
     },
     {
       "underdog_id": "81bb7937-f269-4ae1-a713-aba675d04c04",
@@ -3607,7 +3607,7 @@
       "adp_diff": -61,
       "pos_rank_adp": "WR128",
       "pos_rank_diff": 10,
-      "ownership_pct": 0.92
+      "ownership_pct": 0.91
     },
     {
       "underdog_id": "6dd8c89b-1f3e-4d7e-8826-a69ebd7e69fc",
@@ -3659,7 +3659,7 @@
       "adp_diff": -65.1,
       "pos_rank_adp": "TE45",
       "pos_rank_diff": -1,
-      "ownership_pct": 0.75
+      "ownership_pct": 0.77
     },
     {
       "underdog_id": "ab75c90d-2519-4458-97b1-ad47c41e582e",
@@ -3672,7 +3672,7 @@
       "adp_diff": -66,
       "pos_rank_adp": "TE50",
       "pos_rank_diff": 3,
-      "ownership_pct": 0.24
+      "ownership_pct": 0.25
     },
     {
       "underdog_id": "41af4ab9-6754-4e81-81d7-b8cdec562d23",
@@ -3698,7 +3698,7 @@
       "adp_diff": -68.1,
       "pos_rank_adp": "WR112",
       "pos_rank_diff": -9,
-      "ownership_pct": 2.62
+      "ownership_pct": 2.58
     },
     {
       "underdog_id": "6204f71e-c037-4b12-96ec-412f3cee7bf1",
@@ -3711,7 +3711,7 @@
       "adp_diff": -69,
       "pos_rank_adp": "TE50",
       "pos_rank_diff": 1,
-      "ownership_pct": 0.18
+      "ownership_pct": 0.19
     },
     {
       "underdog_id": "ca616ab1-5d70-4c8b-be61-0e064e31521f",
@@ -3724,7 +3724,7 @@
       "adp_diff": -71,
       "pos_rank_adp": "WR99",
       "pos_rank_diff": -23,
-      "ownership_pct": 20.93
+      "ownership_pct": 20.69
     },
     {
       "underdog_id": "e64c7835-a044-4748-9840-2cd5ae669189",
@@ -3737,7 +3737,7 @@
       "adp_diff": -71.8,
       "pos_rank_adp": "WR100",
       "pos_rank_diff": -23,
-      "ownership_pct": 5.32
+      "ownership_pct": 5.44
     },
     {
       "underdog_id": "711a0f82-0569-4f0e-8bdb-a17f504946da",
@@ -3750,7 +3750,7 @@
       "adp_diff": -72,
       "pos_rank_adp": "WR128",
       "pos_rank_diff": 4,
-      "ownership_pct": 0.69
+      "ownership_pct": 0.68
     },
     {
       "underdog_id": "2b871099-7200-47fb-9150-5be9a139721c",
@@ -3763,7 +3763,7 @@
       "adp_diff": -73,
       "pos_rank_adp": "WR128",
       "pos_rank_diff": 3,
-      "ownership_pct": 0.94
+      "ownership_pct": 0.93
     },
     {
       "underdog_id": "87e7baef-4eb4-46ca-aac1-4df33d0f0ce5",
@@ -3776,7 +3776,7 @@
       "adp_diff": -76.5,
       "pos_rank_adp": "WR92",
       "pos_rank_diff": -34,
-      "ownership_pct": 38.77
+      "ownership_pct": 38.45
     },
     {
       "underdog_id": "e03cb605-2517-40e5-bf89-67edad87ad80",
@@ -3815,7 +3815,7 @@
       "adp_diff": -77.1,
       "pos_rank_adp": "WR112",
       "pos_rank_diff": -16,
-      "ownership_pct": 0.76
+      "ownership_pct": 0.77
     },
     {
       "underdog_id": "647debe3-1f5b-41a9-bb4b-2814a7b24faf",
@@ -3828,7 +3828,7 @@
       "adp_diff": -78.4,
       "pos_rank_adp": "RB73",
       "pos_rank_diff": -14,
-      "ownership_pct": 5.49
+      "ownership_pct": 5.47
     },
     {
       "underdog_id": "f09f8ce4-e384-4263-9781-3445671e00bd",
@@ -3867,7 +3867,7 @@
       "adp_diff": -81,
       "pos_rank_adp": "RB84",
       "pos_rank_diff": -4,
-      "ownership_pct": 0.18
+      "ownership_pct": 0.19
     },
     {
       "underdog_id": "284da6e8-d46c-4274-9b40-3c7ceabaa441",
@@ -3880,7 +3880,7 @@
       "adp_diff": -82.1,
       "pos_rank_adp": "TE45",
       "pos_rank_diff": -6,
-      "ownership_pct": 2.09
+      "ownership_pct": 2.06
     },
     {
       "underdog_id": "3cc305e4-6114-4008-b96f-4bf57eab5cf5",
@@ -3906,7 +3906,7 @@
       "adp_diff": -84.4,
       "pos_rank_adp": "RB73",
       "pos_rank_diff": -16,
-      "ownership_pct": 2.76
+      "ownership_pct": 2.82
     }
   ]
 }
