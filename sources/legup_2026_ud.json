@@ -3,7 +3,7 @@
     "source": "legup",
     "slug": "ud-ranks",
     "slate": "nfl_2026_season",
-    "version": "1782407902586-6f58a20a",
+    "version": "1782758677199-26af2f38",
     "headers": [
       "Name",
       "Team",
@@ -15,7 +15,7 @@
       "+/-",
       "id"
     ],
-    "fetched_at": "2026-06-29T14:44:53Z",
+    "fetched_at": "2026-06-30T13:08:32Z",
     "player_count": 230
   },
   "players": [
@@ -2072,21 +2072,21 @@
       "wk17_opponent": null
     },
     {
-      "underdog_id": "6d395b73-b5be-494d-83e5-7b8b73bda0b8",
-      "player_name": "Brandon Aiyuk",
-      "position": "WR",
-      "team": "FA",
-      "legup_rank": 229,
-      "legup_pos_rank": 95,
-      "wk17_opponent": null
-    },
-    {
       "underdog_id": "42b49068-33a3-4f43-9e66-005433044a40",
       "player_name": "Michael Mayer",
       "position": "TE",
       "team": "LV",
-      "legup_rank": 230,
+      "legup_rank": 229,
       "legup_pos_rank": 36,
+      "wk17_opponent": null
+    },
+    {
+      "underdog_id": "f78d35e4-b166-4fc2-8d37-90fe6c95d790",
+      "player_name": "Chris Bell",
+      "position": "WR",
+      "team": "MIA",
+      "legup_rank": 230,
+      "legup_pos_rank": 95,
       "wk17_opponent": null
     }
   ]
