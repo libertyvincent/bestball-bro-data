@@ -3,7 +3,7 @@
     "source": "legup",
     "slug": "ud-ranks",
     "slate": "nfl_2026_season",
-    "version": "1783124793766-c0636502",
+    "version": "1783191638841-537de12a",
     "headers": [
       "Name",
       "Team",
@@ -15,7 +15,7 @@
       "+/-",
       "id"
     ],
-    "fetched_at": "2026-07-04T12:03:57Z",
+    "fetched_at": "2026-07-05T12:12:37Z",
     "player_count": 230
   },
   "players": [
@@ -1595,19 +1595,19 @@
       "wk17_opponent": null
     },
     {
-      "underdog_id": "d53f8a01-f0d6-441b-b85a-d69b2095642d",
-      "player_name": "Tre' Harris",
+      "underdog_id": "392cac47-00b2-4189-b006-58ebc14b23bf",
+      "player_name": "Jerry Jeudy",
       "position": "WR",
-      "team": "LAC",
+      "team": "CLE",
       "legup_rank": 176,
       "legup_pos_rank": 70,
       "wk17_opponent": null
     },
     {
-      "underdog_id": "392cac47-00b2-4189-b006-58ebc14b23bf",
-      "player_name": "Jerry Jeudy",
+      "underdog_id": "d53f8a01-f0d6-441b-b85a-d69b2095642d",
+      "player_name": "Tre' Harris",
       "position": "WR",
-      "team": "CLE",
+      "team": "LAC",
       "legup_rank": 177,
       "legup_pos_rank": 71,
       "wk17_opponent": null
@@ -1667,20 +1667,11 @@
       "wk17_opponent": null
     },
     {
-      "underdog_id": "290c697a-95db-494a-9728-a1c3f90d4395",
-      "player_name": "Eli Stowers",
-      "position": "TE",
-      "team": "PHI",
-      "legup_rank": 184,
-      "legup_pos_rank": 28,
-      "wk17_opponent": null
-    },
-    {
       "underdog_id": "6b6c0fe5-926b-4c07-869e-932beca840ba",
       "player_name": "Adonai Mitchell",
       "position": "WR",
       "team": "NYJ",
-      "legup_rank": 185,
+      "legup_rank": 184,
       "legup_pos_rank": 76,
       "wk17_opponent": null
     },
@@ -1689,7 +1680,7 @@
       "player_name": "Tank Dell",
       "position": "WR",
       "team": "HOU",
-      "legup_rank": 186,
+      "legup_rank": 185,
       "legup_pos_rank": 77,
       "wk17_opponent": null
     },
@@ -1698,8 +1689,8 @@
       "player_name": "Pat Freiermuth",
       "position": "TE",
       "team": "PIT",
-      "legup_rank": 187,
-      "legup_pos_rank": 29,
+      "legup_rank": 186,
+      "legup_pos_rank": 28,
       "wk17_opponent": null
     },
     {
@@ -1707,7 +1698,7 @@
       "player_name": "Sean Tucker",
       "position": "RB",
       "team": "TB",
-      "legup_rank": 188,
+      "legup_rank": 187,
       "legup_pos_rank": 54,
       "wk17_opponent": null
     },
@@ -1716,7 +1707,7 @@
       "player_name": "Zachariah Branch",
       "position": "WR",
       "team": "ATL",
-      "legup_rank": 189,
+      "legup_rank": 188,
       "legup_pos_rank": 78,
       "wk17_opponent": null
     },
@@ -1725,7 +1716,7 @@
       "player_name": "Chris Brazzell",
       "position": "WR",
       "team": "CAR",
-      "legup_rank": 190,
+      "legup_rank": 189,
       "legup_pos_rank": 79,
       "wk17_opponent": null
     },
@@ -1734,7 +1725,7 @@
       "player_name": "Alvin Kamara",
       "position": "RB",
       "team": "NO",
-      "legup_rank": 191,
+      "legup_rank": 190,
       "legup_pos_rank": 55,
       "wk17_opponent": null
     },
@@ -1743,7 +1734,7 @@
       "player_name": "Jacoby Brissett",
       "position": "QB",
       "team": "ARI",
-      "legup_rank": 192,
+      "legup_rank": 191,
       "legup_pos_rank": 29,
       "wk17_opponent": null
     },
@@ -1752,8 +1743,8 @@
       "player_name": "Mike Gesicki",
       "position": "TE",
       "team": "CIN",
-      "legup_rank": 193,
-      "legup_pos_rank": 30,
+      "legup_rank": 192,
+      "legup_pos_rank": 29,
       "wk17_opponent": null
     },
     {
@@ -1761,6 +1752,15 @@
       "player_name": "Geno Smith",
       "position": "QB",
       "team": "NYJ",
+      "legup_rank": 193,
+      "legup_pos_rank": 30,
+      "wk17_opponent": null
+    },
+    {
+      "underdog_id": "290c697a-95db-494a-9728-a1c3f90d4395",
+      "player_name": "Eli Stowers",
+      "position": "TE",
+      "team": "PHI",
       "legup_rank": 194,
       "legup_pos_rank": 30,
       "wk17_opponent": null
