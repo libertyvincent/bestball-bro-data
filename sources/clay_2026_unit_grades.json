@@ -3,8 +3,8 @@
     "source_id": "mike_clay_unit_grades",
     "source_name": "Mike Clay - ESPN 2026 NFL Projection Guide (unit grades)",
     "source_url": "https://g.espncdn.com/s/ffldraftkit/26/NFLDK2026_CS_ClayProjections2026.pdf",
-    "pdf_updated": "2026-07-07",
-    "fetched_at": "2026-07-09T13:45:56Z",
+    "pdf_updated": "2026-07-09",
+    "fetched_at": "2026-07-10T13:09:13Z",
     "format": "per_team_unit_grades",
     "scale": "1_to_10_integer_higher_is_better",
     "defensive_group_labels": {
@@ -36,7 +36,7 @@
         "offense_grade": 4.6,
         "offense_rank": 31,
         "defense_grade": 2.5,
-        "defense_rank": 29,
+        "defense_rank": 28,
         "overall_grade": 2.1,
         "overall_rank": 31
       },
@@ -116,7 +116,7 @@
       "aggregate": {
         "offense_grade": 6.0,
         "offense_rank": 6,
-        "defense_grade": 3.7,
+        "defense_grade": 3.6,
         "defense_rank": 2,
         "overall_grade": 2.4,
         "overall_rank": 29
@@ -144,7 +144,7 @@
         "offense_grade": 5.1,
         "offense_rank": 26,
         "defense_grade": 2.5,
-        "defense_rank": 28,
+        "defense_rank": 26,
         "overall_grade": 2.6,
         "overall_rank": 17
       },
@@ -358,7 +358,7 @@
       },
       "aggregate": {
         "offense_grade": 5.6,
-        "offense_rank": 17,
+        "offense_rank": 16,
         "defense_grade": 2.6,
         "defense_rank": 24,
         "overall_grade": 3.0,
@@ -522,7 +522,7 @@
         "offense_grade": 4.9,
         "offense_rank": 29,
         "defense_grade": 2.5,
-        "defense_rank": 27,
+        "defense_rank": 29,
         "overall_grade": 2.4,
         "overall_rank": 26
       },
@@ -725,7 +725,7 @@
         "rb": 5,
         "wr": 6,
         "te": 5,
-        "ol": 6
+        "ol": 5
       },
       "defense": {
         "di": 7,
@@ -738,7 +738,7 @@
         "offense_grade": 5.6,
         "offense_rank": 18,
         "defense_grade": 2.5,
-        "defense_rank": 26,
+        "defense_rank": 27,
         "overall_grade": 3.1,
         "overall_rank": 2
       },
@@ -805,7 +805,7 @@
         "qb": 6,
         "rb": 5,
         "wr": 6,
-        "te": 5,
+        "te": 4,
         "ol": 7
       },
       "defense": {
@@ -817,7 +817,7 @@
       },
       "aggregate": {
         "offense_grade": 5.6,
-        "offense_rank": 16,
+        "offense_rank": 17,
         "defense_grade": 3.0,
         "defense_rank": 16,
         "overall_grade": 2.6,
