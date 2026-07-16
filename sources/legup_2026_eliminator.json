@@ -3,7 +3,7 @@
     "source": "legup",
     "slug": "eliminator-ranks",
     "slate": "nfl_2026_eliminator",
-    "version": "1784040087726-13b38bd6",
+    "version": "1784154024612-5220e671",
     "headers": [
       "Name",
       "Team",
@@ -16,7 +16,7 @@
       "+/-",
       "id"
     ],
-    "fetched_at": "2026-07-15T12:11:20Z",
+    "fetched_at": "2026-07-16T12:17:56Z",
     "player_count": 240
   },
   "players": [
@@ -1011,13 +1011,13 @@
       "wk17_opponent": "LAC"
     },
     {
-      "underdog_id": "40113514-44f6-4537-8049-db595aa4de16",
-      "player_name": "Jacory Croskey-Merritt",
-      "position": "RB",
-      "team": "WAS",
+      "underdog_id": "8c11fe48-e991-4989-9c04-29d855dd1c12",
+      "player_name": "Ricky Pearsall",
+      "position": "WR",
+      "team": "SF",
       "legup_rank": 111,
-      "legup_pos_rank": 37,
-      "wk17_opponent": "JAX"
+      "legup_pos_rank": 47,
+      "wk17_opponent": "PHI"
     },
     {
       "underdog_id": "975266aa-225e-4cd0-960d-1c682a9f9392",
@@ -1025,17 +1025,17 @@
       "position": "WR",
       "team": "BUF",
       "legup_rank": 112,
-      "legup_pos_rank": 47,
+      "legup_pos_rank": 48,
       "wk17_opponent": "MIA"
     },
     {
-      "underdog_id": "8c11fe48-e991-4989-9c04-29d855dd1c12",
-      "player_name": "Ricky Pearsall",
-      "position": "WR",
-      "team": "SF",
+      "underdog_id": "40113514-44f6-4537-8049-db595aa4de16",
+      "player_name": "Jacory Croskey-Merritt",
+      "position": "RB",
+      "team": "WAS",
       "legup_rank": 113,
-      "legup_pos_rank": 48,
-      "wk17_opponent": "PHI"
+      "legup_pos_rank": 37,
+      "wk17_opponent": "JAX"
     },
     {
       "underdog_id": "86a8deb1-4cbc-414c-84c3-1be254a1d947",
@@ -1254,22 +1254,22 @@
       "wk17_opponent": "KC"
     },
     {
-      "underdog_id": "9b3c147d-3b00-43af-952c-466120819bea",
-      "player_name": "Jauan Jennings",
-      "position": "WR",
-      "team": "MIN",
-      "legup_rank": 138,
-      "legup_pos_rank": 54,
-      "wk17_opponent": "NYJ"
-    },
-    {
       "underdog_id": "0eb0f658-53e7-4483-8110-77cf541287c7",
       "player_name": "Dalton Schultz",
       "position": "TE",
       "team": "HOU",
-      "legup_rank": 139,
+      "legup_rank": 138,
       "legup_pos_rank": 21,
       "wk17_opponent": "GB"
+    },
+    {
+      "underdog_id": "9b3c147d-3b00-43af-952c-466120819bea",
+      "player_name": "Jauan Jennings",
+      "position": "WR",
+      "team": "MIN",
+      "legup_rank": 139,
+      "legup_pos_rank": 54,
+      "wk17_opponent": "NYJ"
     },
     {
       "underdog_id": "7946e99a-63ed-4ad2-815b-1f7579608d7f",
@@ -1380,22 +1380,22 @@
       "wk17_opponent": "PIT"
     },
     {
-      "underdog_id": "25d0e152-4288-4eb5-b1fb-fde3983736be",
-      "player_name": "Adonai Mitchell",
-      "position": "WR",
-      "team": "NYJ",
-      "legup_rank": 152,
-      "legup_pos_rank": 58,
-      "wk17_opponent": "MIN"
-    },
-    {
       "underdog_id": "cd0094ea-6319-4763-9734-7b0017fab28a",
       "player_name": "Dylan Sampson",
       "position": "RB",
       "team": "CLE",
-      "legup_rank": 153,
+      "legup_rank": 152,
       "legup_pos_rank": 45,
       "wk17_opponent": "IND"
+    },
+    {
+      "underdog_id": "25d0e152-4288-4eb5-b1fb-fde3983736be",
+      "player_name": "Adonai Mitchell",
+      "position": "WR",
+      "team": "NYJ",
+      "legup_rank": 153,
+      "legup_pos_rank": 58,
+      "wk17_opponent": "MIN"
     },
     {
       "underdog_id": "1ceb5179-2203-4155-ab99-8accaa52deed",
@@ -1506,22 +1506,22 @@
       "wk17_opponent": "BAL"
     },
     {
-      "underdog_id": "43cb35f5-f527-4e36-afd9-c4c4d9392d7f",
-      "player_name": "MarShawn Lloyd",
-      "position": "RB",
-      "team": "GB",
-      "legup_rank": 166,
-      "legup_pos_rank": 50,
-      "wk17_opponent": "HOU"
-    },
-    {
       "underdog_id": "9b233c01-026a-451c-8a71-6207bd5acaf4",
       "player_name": "Aaron Rodgers",
       "position": "QB",
       "team": "PIT",
-      "legup_rank": 167,
+      "legup_rank": 166,
       "legup_pos_rank": 26,
       "wk17_opponent": "TEN"
+    },
+    {
+      "underdog_id": "43cb35f5-f527-4e36-afd9-c4c4d9392d7f",
+      "player_name": "MarShawn Lloyd",
+      "position": "RB",
+      "team": "GB",
+      "legup_rank": 167,
+      "legup_pos_rank": 50,
+      "wk17_opponent": "HOU"
     },
     {
       "underdog_id": "dacaef0f-262f-4e8e-b227-c41297a630eb",
