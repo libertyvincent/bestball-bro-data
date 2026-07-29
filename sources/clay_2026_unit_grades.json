@@ -3,8 +3,8 @@
     "source_id": "mike_clay_unit_grades",
     "source_name": "Mike Clay - ESPN 2026 NFL Projection Guide (unit grades)",
     "source_url": "https://g.espncdn.com/s/ffldraftkit/26/NFLDK2026_CS_ClayProjections2026.pdf",
-    "pdf_updated": "2026-07-25",
-    "fetched_at": "2026-07-28T12:51:05Z",
+    "pdf_updated": "2026-07-28",
+    "fetched_at": "2026-07-29T12:57:55Z",
     "format": "per_team_unit_grades",
     "scale": "1_to_10_integer_higher_is_better",
     "defensive_group_labels": {
@@ -60,7 +60,7 @@
         "s": 7
       },
       "aggregate": {
-        "offense_grade": 5.0,
+        "offense_grade": 5.1,
         "offense_rank": 26,
         "defense_grade": 2.6,
         "defense_rank": 24,
@@ -173,7 +173,7 @@
         "defense_grade": 3.1,
         "defense_rank": 15,
         "overall_grade": 2.6,
-        "overall_rank": 12
+        "overall_rank": 13
       },
       "projected_wins": 9.3,
       "projected_wins_rank": null,
@@ -325,7 +325,7 @@
       "defense": {
         "di": 5,
         "ed": 5,
-        "lb": 6,
+        "lb": 5,
         "cb": 5,
         "s": 7
       },
@@ -443,7 +443,7 @@
         "defense_grade": 3.3,
         "defense_rank": 7,
         "overall_grade": 2.6,
-        "overall_rank": 13
+        "overall_rank": 14
       },
       "projected_wins": 9.9,
       "projected_wins_rank": null,
@@ -568,7 +568,7 @@
       "defense": {
         "di": 6,
         "ed": 5,
-        "lb": 5,
+        "lb": 6,
         "cb": 5,
         "s": 4
       },
@@ -821,7 +821,7 @@
         "defense_grade": 3.0,
         "defense_rank": 16,
         "overall_grade": 2.6,
-        "overall_rank": 14
+        "overall_rank": 12
       },
       "projected_wins": 9.0,
       "projected_wins_rank": null,
@@ -838,7 +838,7 @@
       "defense": {
         "di": 5,
         "ed": 5,
-        "lb": 6,
+        "lb": 5,
         "cb": 5,
         "s": 4
       },
