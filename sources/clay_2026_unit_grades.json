@@ -3,8 +3,8 @@
     "source_id": "mike_clay_unit_grades",
     "source_name": "Mike Clay - ESPN 2026 NFL Projection Guide (unit grades)",
     "source_url": "https://g.espncdn.com/s/ffldraftkit/26/NFLDK2026_CS_ClayProjections2026.pdf",
-    "pdf_updated": "2026-07-29",
-    "fetched_at": "2026-07-30T12:26:40Z",
+    "pdf_updated": "2026-07-30",
+    "fetched_at": "2026-07-31T12:53:05Z",
     "format": "per_team_unit_grades",
     "scale": "1_to_10_integer_higher_is_better",
     "defensive_group_labels": {
@@ -90,7 +90,7 @@
         "offense_grade": 6.4,
         "offense_rank": 2,
         "defense_grade": 3.4,
-        "defense_rank": 5,
+        "defense_rank": 4,
         "overall_grade": 3.0,
         "overall_rank": 3
       },
@@ -142,7 +142,7 @@
       },
       "aggregate": {
         "offense_grade": 4.9,
-        "offense_rank": 30,
+        "offense_rank": 29,
         "defense_grade": 2.4,
         "defense_rank": 30,
         "overall_grade": 2.5,
@@ -360,7 +360,7 @@
         "offense_grade": 5.6,
         "offense_rank": 16,
         "defense_grade": 2.6,
-        "defense_rank": 23,
+        "defense_rank": 22,
         "overall_grade": 3.0,
         "overall_rank": 4
       },
@@ -683,8 +683,8 @@
       "aggregate": {
         "offense_grade": 5.4,
         "offense_rank": 19,
-        "defense_grade": 2.7,
-        "defense_rank": 22,
+        "defense_grade": 2.6,
+        "defense_rank": 23,
         "overall_grade": 2.7,
         "overall_rank": 10
       },
@@ -777,7 +777,7 @@
       "offense": {
         "qb": 7,
         "rb": 7,
-        "wr": 6,
+        "wr": 5,
         "te": 7,
         "ol": 7
       },
@@ -792,7 +792,7 @@
         "offense_grade": 6.0,
         "offense_rank": 8,
         "defense_grade": 3.4,
-        "defense_rank": 4,
+        "defense_rank": 5,
         "overall_grade": 2.6,
         "overall_rank": 17
       },
@@ -844,7 +844,7 @@
       },
       "aggregate": {
         "offense_grade": 4.9,
-        "offense_rank": 29,
+        "offense_rank": 30,
         "defense_grade": 2.5,
         "defense_rank": 29,
         "overall_grade": 2.4,

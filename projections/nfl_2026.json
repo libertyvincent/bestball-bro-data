@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "version": "2026-07-30",
-    "generated_at": "2026-07-30T12:26:40.212302+00:00",
+    "version": "2026-07-31",
+    "generated_at": "2026-07-31T12:53:05.530793+00:00",
     "season": 2026,
     "sport": "NFL",
     "scoring": "underdog_half_ppr",
@@ -23,7 +23,7 @@
       "rec_yd": 0.1,
       "rec_td": 6.0
     },
-    "player_count": 459
+    "player_count": 458
   },
   "players": {
     "Josh Allen|BUF|QB": {
@@ -331,15 +331,15 @@
       "team": "DAL",
       "pos": "QB",
       "games": 17,
-      "proj_total": 303.5,
+      "proj_total": 303.4,
       "proj_ppg": 17.85,
-      "vor": 103.5,
+      "vor": 103.4,
       "tier": 2,
       "pos_rk": 12,
       "clay_pos_rk": 13,
       "clay_ppr_total": 287,
       "components": {
-        "pass_yd": 4123,
+        "pass_yd": 4120,
         "pass_td": 30,
         "pass_int": 12,
         "rush_att": 51,
@@ -464,7 +464,7 @@
       "clay_pos_rk": 18,
       "clay_ppr_total": 265,
       "components": {
-        "pass_yd": 3827,
+        "pass_yd": 3828,
         "pass_td": 25,
         "pass_int": 12,
         "rush_att": 54,
@@ -1151,6 +1151,31 @@
         "rec_td": 0
       }
     },
+    "Sam Howell|DAL|QB": {
+      "name": "Sam Howell",
+      "team": "DAL",
+      "pos": "QB",
+      "games": 17,
+      "proj_total": 9.5,
+      "proj_ppg": 0.56,
+      "vor": -190.5,
+      "tier": 9,
+      "pos_rk": 54,
+      "clay_pos_rk": 46,
+      "clay_ppr_total": 10,
+      "components": {
+        "pass_yd": 145,
+        "pass_td": 1,
+        "pass_int": 1,
+        "rush_att": 1,
+        "rush_yd": 7,
+        "rush_td": 0,
+        "targets": 0,
+        "rec": 0,
+        "rec_yd": 0,
+        "rec_td": 0
+      }
+    },
     "Ty Simpson|LAR|QB": {
       "name": "Ty Simpson",
       "team": "LAR",
@@ -1160,8 +1185,8 @@
       "proj_ppg": 0.55,
       "vor": -190.7,
       "tier": 9,
-      "pos_rk": 58,
-      "clay_pos_rk": 46,
+      "pos_rk": 59,
+      "clay_pos_rk": 47,
       "clay_ppr_total": 10,
       "components": {
         "pass_yd": 146,
@@ -1186,7 +1211,7 @@
       "vor": -189.0,
       "tier": 9,
       "pos_rk": 39,
-      "clay_pos_rk": 47,
+      "clay_pos_rk": 48,
       "clay_ppr_total": 9,
       "components": {
         "pass_yd": 160,
@@ -1211,7 +1236,7 @@
       "vor": -189.4,
       "tier": 9,
       "pos_rk": 41,
-      "clay_pos_rk": 48,
+      "clay_pos_rk": 49,
       "clay_ppr_total": 9,
       "components": {
         "pass_yd": 154,
@@ -1236,7 +1261,7 @@
       "vor": -189.5,
       "tier": 9,
       "pos_rk": 44,
-      "clay_pos_rk": 49,
+      "clay_pos_rk": 50,
       "clay_ppr_total": 9,
       "components": {
         "pass_yd": 153,
@@ -1261,7 +1286,7 @@
       "vor": -190.1,
       "tier": 9,
       "pos_rk": 47,
-      "clay_pos_rk": 50,
+      "clay_pos_rk": 51,
       "clay_ppr_total": 9,
       "components": {
         "pass_yd": 154,
@@ -1286,7 +1311,7 @@
       "vor": -190.2,
       "tier": 9,
       "pos_rk": 49,
-      "clay_pos_rk": 51,
+      "clay_pos_rk": 52,
       "clay_ppr_total": 9,
       "components": {
         "pass_yd": 158,
@@ -1311,7 +1336,7 @@
       "vor": -190.2,
       "tier": 9,
       "pos_rk": 50,
-      "clay_pos_rk": 52,
+      "clay_pos_rk": 53,
       "clay_ppr_total": 9,
       "components": {
         "pass_yd": 163,
@@ -1336,7 +1361,7 @@
       "vor": -190.4,
       "tier": 9,
       "pos_rk": 52,
-      "clay_pos_rk": 53,
+      "clay_pos_rk": 54,
       "clay_ppr_total": 9,
       "components": {
         "pass_yd": 136,
@@ -1361,7 +1386,7 @@
       "vor": -190.4,
       "tier": 9,
       "pos_rk": 53,
-      "clay_pos_rk": 54,
+      "clay_pos_rk": 55,
       "clay_ppr_total": 9,
       "components": {
         "pass_yd": 147,
@@ -1385,8 +1410,8 @@
       "proj_ppg": 0.56,
       "vor": -190.5,
       "tier": 9,
-      "pos_rk": 54,
-      "clay_pos_rk": 55,
+      "pos_rk": 55,
+      "clay_pos_rk": 56,
       "clay_ppr_total": 9,
       "components": {
         "pass_yd": 151,
@@ -1410,8 +1435,8 @@
       "proj_ppg": 0.54,
       "vor": -190.9,
       "tier": 9,
-      "pos_rk": 60,
-      "clay_pos_rk": 56,
+      "pos_rk": 61,
+      "clay_pos_rk": 57,
       "clay_ppr_total": 9,
       "components": {
         "pass_yd": 129,
@@ -1419,31 +1444,6 @@
         "pass_int": 1,
         "rush_att": 2,
         "rush_yd": 9,
-        "rush_td": 0,
-        "targets": 0,
-        "rec": 0,
-        "rec_yd": 0,
-        "rec_td": 0
-      }
-    },
-    "Sam Howell|DAL|QB": {
-      "name": "Sam Howell",
-      "team": "DAL",
-      "pos": "QB",
-      "games": 17,
-      "proj_total": 9.1,
-      "proj_ppg": 0.54,
-      "vor": -190.9,
-      "tier": 9,
-      "pos_rk": 61,
-      "clay_pos_rk": 57,
-      "clay_ppr_total": 9,
-      "components": {
-        "pass_yd": 140,
-        "pass_td": 1,
-        "pass_int": 1,
-        "rush_att": 1,
-        "rush_yd": 5,
         "rush_td": 0,
         "targets": 0,
         "rec": 0,
@@ -1485,7 +1485,7 @@
       "proj_ppg": 0.55,
       "vor": -190.6,
       "tier": 9,
-      "pos_rk": 56,
+      "pos_rk": 57,
       "clay_pos_rk": 59,
       "clay_ppr_total": 8,
       "components": {
@@ -1510,7 +1510,7 @@
       "proj_ppg": 0.55,
       "vor": -190.6,
       "tier": 9,
-      "pos_rk": 57,
+      "pos_rk": 58,
       "clay_pos_rk": 60,
       "clay_ppr_total": 8,
       "components": {
@@ -1535,7 +1535,7 @@
       "proj_ppg": 0.54,
       "vor": -190.8,
       "tier": 9,
-      "pos_rk": 59,
+      "pos_rk": 60,
       "clay_pos_rk": 61,
       "clay_ppr_total": 8,
       "components": {
@@ -1610,7 +1610,7 @@
       "proj_ppg": 0.56,
       "vor": -190.5,
       "tier": 9,
-      "pos_rk": 55,
+      "pos_rk": 56,
       "clay_pos_rk": 64,
       "clay_ppr_total": 7,
       "components": {
@@ -1706,9 +1706,9 @@
       "team": "SF",
       "pos": "RB",
       "games": 17,
-      "proj_total": 314.0,
-      "proj_ppg": 18.47,
-      "vor": 204.0,
+      "proj_total": 313.9,
+      "proj_ppg": 18.46,
+      "vor": 203.9,
       "tier": 1,
       "pos_rk": 2,
       "clay_pos_rk": 3,
@@ -1722,7 +1722,7 @@
         "rush_td": 10,
         "targets": 100,
         "rec": 80,
-        "rec_yd": 691,
+        "rec_yd": 690,
         "rec_td": 5
       }
     },
@@ -1981,13 +1981,13 @@
       "team": "KC",
       "pos": "RB",
       "games": 17,
-      "proj_total": 250.9,
-      "proj_ppg": 14.76,
-      "vor": 140.9,
+      "proj_total": 250.8,
+      "proj_ppg": 14.75,
+      "vor": 140.8,
       "tier": 2,
       "pos_rk": 12,
       "clay_pos_rk": 14,
-      "clay_ppr_total": 272,
+      "clay_ppr_total": 273,
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
@@ -1997,7 +1997,7 @@
         "rush_td": 9,
         "targets": 60,
         "rec": 48,
-        "rec_yd": 376,
+        "rec_yd": 375,
         "rec_td": 2
       }
     },
@@ -2051,53 +2051,53 @@
         "rec_td": 2
       }
     },
-    "Cam Skattebo|NYG|RB": {
-      "name": "Cam Skattebo",
-      "team": "NYG",
-      "pos": "RB",
-      "games": 17,
-      "proj_total": 221.6,
-      "proj_ppg": 13.04,
-      "vor": 111.6,
-      "tier": 3,
-      "pos_rk": 18,
-      "clay_pos_rk": 17,
-      "clay_ppr_total": 245,
-      "components": {
-        "pass_yd": 0,
-        "pass_td": 0,
-        "pass_int": 0,
-        "rush_att": 254,
-        "rush_yd": 1066,
-        "rush_td": 7,
-        "targets": 61,
-        "rec": 49,
-        "rec_yd": 365,
-        "rec_td": 2
-      }
-    },
     "Travis Etienne|NO|RB": {
       "name": "Travis Etienne",
       "team": "NO",
       "pos": "RB",
       "games": 17,
-      "proj_total": 222.1,
-      "proj_ppg": 13.06,
-      "vor": 112.1,
+      "proj_total": 220.1,
+      "proj_ppg": 12.95,
+      "vor": 110.1,
       "tier": 3,
       "pos_rk": 17,
-      "clay_pos_rk": 18,
-      "clay_ppr_total": 244,
+      "clay_pos_rk": 17,
+      "clay_ppr_total": 242,
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
         "pass_int": 0,
-        "rush_att": 262,
-        "rush_yd": 1139,
+        "rush_att": 258,
+        "rush_yd": 1120,
         "rush_td": 6,
         "targets": 60,
         "rec": 45,
-        "rec_yd": 377,
+        "rec_yd": 376,
+        "rec_td": 2
+      }
+    },
+    "Cam Skattebo|NYG|RB": {
+      "name": "Cam Skattebo",
+      "team": "NYG",
+      "pos": "RB",
+      "games": 17,
+      "proj_total": 219.7,
+      "proj_ppg": 12.92,
+      "vor": 109.7,
+      "tier": 3,
+      "pos_rk": 18,
+      "clay_pos_rk": 18,
+      "clay_ppr_total": 242,
+      "components": {
+        "pass_yd": 0,
+        "pass_td": 0,
+        "pass_int": 0,
+        "rush_att": 249,
+        "rush_yd": 1047,
+        "rush_td": 7,
+        "targets": 61,
+        "rec": 49,
+        "rec_yd": 365,
         "rec_td": 2
       }
     },
@@ -2151,31 +2151,6 @@
         "rec_td": 1
       }
     },
-    "Bucky Irving|TB|RB": {
-      "name": "Bucky Irving",
-      "team": "TB",
-      "pos": "RB",
-      "games": 17,
-      "proj_total": 198.9,
-      "proj_ppg": 11.7,
-      "vor": 88.9,
-      "tier": 3,
-      "pos_rk": 21,
-      "clay_pos_rk": 21,
-      "clay_ppr_total": 213,
-      "components": {
-        "pass_yd": 0,
-        "pass_td": 0,
-        "pass_int": 0,
-        "rush_att": 253,
-        "rush_yd": 1029,
-        "rush_td": 6,
-        "targets": 45,
-        "rec": 37,
-        "rec_yd": 295,
-        "rec_td": 2
-      }
-    },
     "D'Andre Swift|CHI|RB": {
       "name": "D'Andre Swift",
       "team": "CHI",
@@ -2185,8 +2160,8 @@
       "proj_ppg": 11.5,
       "vor": 85.5,
       "tier": 3,
-      "pos_rk": 22,
-      "clay_pos_rk": 22,
+      "pos_rk": 21,
+      "clay_pos_rk": 21,
       "clay_ppr_total": 212,
       "components": {
         "pass_yd": 0,
@@ -2210,8 +2185,8 @@
       "proj_ppg": 11.23,
       "vor": 80.9,
       "tier": 3,
-      "pos_rk": 23,
-      "clay_pos_rk": 23,
+      "pos_rk": 22,
+      "clay_pos_rk": 22,
       "clay_ppr_total": 208,
       "components": {
         "pass_yd": 0,
@@ -2223,6 +2198,31 @@
         "targets": 52,
         "rec": 43,
         "rec_yd": 300,
+        "rec_td": 2
+      }
+    },
+    "Bucky Irving|TB|RB": {
+      "name": "Bucky Irving",
+      "team": "TB",
+      "pos": "RB",
+      "games": 17,
+      "proj_total": 189.3,
+      "proj_ppg": 11.14,
+      "vor": 79.3,
+      "tier": 4,
+      "pos_rk": 23,
+      "clay_pos_rk": 23,
+      "clay_ppr_total": 208,
+      "components": {
+        "pass_yd": 0,
+        "pass_td": 0,
+        "pass_int": 0,
+        "rush_att": 244,
+        "rush_yd": 994,
+        "rush_td": 5,
+        "targets": 45,
+        "rec": 37,
+        "rec_yd": 294,
         "rec_td": 2
       }
     },
@@ -2431,24 +2431,49 @@
       "team": "CAR",
       "pos": "RB",
       "games": 17,
-      "proj_total": 159.9,
-      "proj_ppg": 9.41,
-      "vor": 49.9,
+      "proj_total": 158.5,
+      "proj_ppg": 9.32,
+      "vor": 48.5,
       "tier": 4,
-      "pos_rk": 33,
+      "pos_rk": 34,
       "clay_pos_rk": 32,
-      "clay_ppr_total": 184,
+      "clay_ppr_total": 183,
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
         "pass_int": 0,
-        "rush_att": 197,
-        "rush_yd": 792,
+        "rush_att": 193,
+        "rush_yd": 776,
         "rush_td": 4,
         "targets": 52,
         "rec": 41,
-        "rec_yd": 302,
+        "rec_yd": 304,
         "rec_td": 1
+      }
+    },
+    "Kenneth Gainwell|TB|RB": {
+      "name": "Kenneth Gainwell",
+      "team": "TB",
+      "pos": "RB",
+      "games": 17,
+      "proj_total": 154.4,
+      "proj_ppg": 9.08,
+      "vor": 44.4,
+      "tier": 4,
+      "pos_rk": 35,
+      "clay_pos_rk": 33,
+      "clay_ppr_total": 178,
+      "components": {
+        "pass_yd": 0,
+        "pass_td": 0,
+        "pass_int": 0,
+        "rush_att": 118,
+        "rush_yd": 522,
+        "rush_td": 5,
+        "targets": 64,
+        "rec": 52,
+        "rec_yd": 342,
+        "rec_td": 2
       }
     },
     "Kyle Monangai|CHI|RB": {
@@ -2460,8 +2485,8 @@
       "proj_ppg": 9.36,
       "vor": 49.1,
       "tier": 4,
-      "pos_rk": 34,
-      "clay_pos_rk": 33,
+      "pos_rk": 33,
+      "clay_pos_rk": 34,
       "clay_ppr_total": 176,
       "components": {
         "pass_yd": 0,
@@ -2485,8 +2510,8 @@
       "proj_ppg": 8.91,
       "vor": 41.5,
       "tier": 4,
-      "pos_rk": 36,
-      "clay_pos_rk": 34,
+      "pos_rk": 37,
+      "clay_pos_rk": 35,
       "clay_ppr_total": 174,
       "components": {
         "pass_yd": 0,
@@ -2498,31 +2523,6 @@
         "targets": 52,
         "rec": 47,
         "rec_yd": 293,
-        "rec_td": 2
-      }
-    },
-    "Kenneth Gainwell|TB|RB": {
-      "name": "Kenneth Gainwell",
-      "team": "TB",
-      "pos": "RB",
-      "games": 17,
-      "proj_total": 144.7,
-      "proj_ppg": 8.51,
-      "vor": 34.7,
-      "tier": 4,
-      "pos_rk": 38,
-      "clay_pos_rk": 35,
-      "clay_ppr_total": 173,
-      "components": {
-        "pass_yd": 0,
-        "pass_td": 0,
-        "pass_int": 0,
-        "rush_att": 109,
-        "rush_yd": 484,
-        "rush_td": 4,
-        "targets": 64,
-        "rec": 52,
-        "rec_yd": 343,
         "rec_td": 2
       }
     },
@@ -2560,7 +2560,7 @@
       "proj_ppg": 8.6,
       "vor": 36.2,
       "tier": 4,
-      "pos_rk": 37,
+      "pos_rk": 38,
       "clay_pos_rk": 37,
       "clay_ppr_total": 167,
       "components": {
@@ -2576,6 +2576,31 @@
         "rec_td": 3
       }
     },
+    "Jonathon Brooks|CAR|RB": {
+      "name": "Jonathon Brooks",
+      "team": "CAR",
+      "pos": "RB",
+      "games": 17,
+      "proj_total": 145.7,
+      "proj_ppg": 8.57,
+      "vor": 35.7,
+      "tier": 4,
+      "pos_rk": 39,
+      "clay_pos_rk": 38,
+      "clay_ppr_total": 163,
+      "components": {
+        "pass_yd": 0,
+        "pass_td": 0,
+        "pass_int": 0,
+        "rush_att": 177,
+        "rush_yd": 742,
+        "rush_td": 4,
+        "targets": 42,
+        "rec": 33,
+        "rec_yd": 250,
+        "rec_td": 1
+      }
+    },
     "Blake Corum|LAR|RB": {
       "name": "Blake Corum",
       "team": "LAR",
@@ -2585,8 +2610,8 @@
       "proj_ppg": 8.94,
       "vor": 42.0,
       "tier": 4,
-      "pos_rk": 35,
-      "clay_pos_rk": 38,
+      "pos_rk": 36,
+      "clay_pos_rk": 39,
       "clay_ppr_total": 159,
       "components": {
         "pass_yd": 0,
@@ -2610,8 +2635,8 @@
       "proj_ppg": 8.34,
       "vor": 31.8,
       "tier": 4,
-      "pos_rk": 39,
-      "clay_pos_rk": 39,
+      "pos_rk": 40,
+      "clay_pos_rk": 40,
       "clay_ppr_total": 151,
       "components": {
         "pass_yd": 0,
@@ -2636,7 +2661,7 @@
       "vor": 19.4,
       "tier": 5,
       "pos_rk": 41,
-      "clay_pos_rk": 40,
+      "clay_pos_rk": 41,
       "clay_ppr_total": 149,
       "components": {
         "pass_yd": 0,
@@ -2649,31 +2674,6 @@
         "rec": 50,
         "rec_yd": 333,
         "rec_td": 2
-      }
-    },
-    "Jonathon Brooks|CAR|RB": {
-      "name": "Jonathon Brooks",
-      "team": "CAR",
-      "pos": "RB",
-      "games": 17,
-      "proj_total": 132.9,
-      "proj_ppg": 7.82,
-      "vor": 22.9,
-      "tier": 5,
-      "pos_rk": 40,
-      "clay_pos_rk": 41,
-      "clay_ppr_total": 145,
-      "components": {
-        "pass_yd": 0,
-        "pass_td": 0,
-        "pass_int": 0,
-        "rush_att": 160,
-        "rush_yd": 673,
-        "rush_td": 4,
-        "targets": 37,
-        "rec": 28,
-        "rec_yd": 216,
-        "rec_td": 1
       }
     },
     "Zach Charbonnet|SEA|RB": {
@@ -2756,23 +2756,23 @@
       "team": "NO",
       "pos": "RB",
       "games": 17,
-      "proj_total": 107.0,
-      "proj_ppg": 6.29,
-      "vor": -3.0,
+      "proj_total": 108.7,
+      "proj_ppg": 6.39,
+      "vor": -1.3,
       "tier": 5,
       "pos_rk": 46,
       "clay_pos_rk": 45,
-      "clay_ppr_total": 125,
+      "clay_ppr_total": 127,
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
         "pass_int": 0,
-        "rush_att": 120,
-        "rush_yd": 482,
+        "rush_att": 125,
+        "rush_yd": 500,
         "rush_td": 2,
         "targets": 44,
         "rec": 35,
-        "rec_yd": 233,
+        "rec_yd": 232,
         "rec_td": 1
       }
     },
@@ -2981,9 +2981,9 @@
       "team": "NYJ",
       "pos": "RB",
       "games": 17,
-      "proj_total": 68.2,
-      "proj_ppg": 4.01,
-      "vor": -41.8,
+      "proj_total": 68.3,
+      "proj_ppg": 4.02,
+      "vor": -41.7,
       "tier": 5,
       "pos_rk": 54,
       "clay_pos_rk": 54,
@@ -2997,7 +2997,7 @@
         "rush_td": 3,
         "targets": 16,
         "rec": 13,
-        "rec_yd": 89,
+        "rec_yd": 90,
         "rec_td": 0
       }
     },
@@ -3131,11 +3131,11 @@
       "team": "SF",
       "pos": "RB",
       "games": 17,
-      "proj_total": 56.4,
-      "proj_ppg": 3.32,
-      "vor": -53.6,
+      "proj_total": 56.3,
+      "proj_ppg": 3.31,
+      "vor": -53.7,
       "tier": 6,
-      "pos_rk": 60,
+      "pos_rk": 61,
       "clay_pos_rk": 60,
       "clay_ppr_total": 64,
       "components": {
@@ -3147,7 +3147,7 @@
         "rush_td": 2,
         "targets": 11,
         "rec": 8,
-        "rec_yd": 64,
+        "rec_yd": 63,
         "rec_td": 0
       }
     },
@@ -3160,7 +3160,7 @@
       "proj_ppg": 3.31,
       "vor": -53.7,
       "tier": 6,
-      "pos_rk": 61,
+      "pos_rk": 60,
       "clay_pos_rk": 61,
       "clay_ppr_total": 63,
       "components": {
@@ -3281,13 +3281,13 @@
       "team": "SF",
       "pos": "RB",
       "games": 17,
-      "proj_total": 34.8,
-      "proj_ppg": 2.05,
-      "vor": -75.2,
+      "proj_total": 34.7,
+      "proj_ppg": 2.04,
+      "vor": -75.3,
       "tier": 6,
       "pos_rk": 70,
       "clay_pos_rk": 66,
-      "clay_ppr_total": 46,
+      "clay_ppr_total": 45,
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
@@ -3297,7 +3297,7 @@
         "rush_td": 0,
         "targets": 26,
         "rec": 21,
-        "rec_yd": 164,
+        "rec_yd": 163,
         "rec_td": 1
       }
     },
@@ -3576,31 +3576,6 @@
         "rec_td": 0
       }
     },
-    "Trevor Etienne|CAR|RB": {
-      "name": "Trevor Etienne",
-      "team": "CAR",
-      "pos": "RB",
-      "games": 17,
-      "proj_total": 26.4,
-      "proj_ppg": 1.55,
-      "vor": -83.6,
-      "tier": 6,
-      "pos_rk": 78,
-      "clay_pos_rk": 78,
-      "clay_ppr_total": 32,
-      "components": {
-        "pass_yd": 0,
-        "pass_td": 0,
-        "pass_int": 0,
-        "rush_att": 25,
-        "rush_yd": 105,
-        "rush_td": 1,
-        "targets": 10,
-        "rec": 8,
-        "rec_yd": 59,
-        "rec_td": 0
-      }
-    },
     "Will Shipley|PHI|RB": {
       "name": "Will Shipley",
       "team": "PHI",
@@ -3611,7 +3586,7 @@
       "vor": -92.2,
       "tier": 7,
       "pos_rk": 83,
-      "clay_pos_rk": 79,
+      "clay_pos_rk": 78,
       "clay_ppr_total": 28,
       "components": {
         "pass_yd": 0,
@@ -3635,8 +3610,8 @@
       "proj_ppg": 1.35,
       "vor": -87.0,
       "tier": 6,
-      "pos_rk": 79,
-      "clay_pos_rk": 80,
+      "pos_rk": 78,
+      "clay_pos_rk": 79,
       "clay_ppr_total": 25,
       "components": {
         "pass_yd": 0,
@@ -3661,7 +3636,7 @@
       "vor": -93.7,
       "tier": 7,
       "pos_rk": 84,
-      "clay_pos_rk": 81,
+      "clay_pos_rk": 80,
       "clay_ppr_total": 25,
       "components": {
         "pass_yd": 0,
@@ -3685,8 +3660,8 @@
       "proj_ppg": 1.32,
       "vor": -87.6,
       "tier": 6,
-      "pos_rk": 80,
-      "clay_pos_rk": 82,
+      "pos_rk": 79,
+      "clay_pos_rk": 81,
       "clay_ppr_total": 24,
       "components": {
         "pass_yd": 0,
@@ -3698,6 +3673,31 @@
         "targets": 6,
         "rec": 5,
         "rec_yd": 29,
+        "rec_td": 0
+      }
+    },
+    "Devin Singletary|NYG|RB": {
+      "name": "Devin Singletary",
+      "team": "NYG",
+      "pos": "RB",
+      "games": 17,
+      "proj_total": 19.5,
+      "proj_ppg": 1.15,
+      "vor": -90.5,
+      "tier": 7,
+      "pos_rk": 80,
+      "clay_pos_rk": 82,
+      "clay_ppr_total": 20,
+      "components": {
+        "pass_yd": 0,
+        "pass_td": 0,
+        "pass_int": 0,
+        "rush_att": 22,
+        "rush_yd": 89,
+        "rush_td": 1,
+        "targets": 5,
+        "rec": 4,
+        "rec_yd": 26,
         "rec_td": 0
       }
     },
@@ -3776,28 +3776,28 @@
         "rec_td": 0
       }
     },
-    "Devin Singletary|NYG|RB": {
-      "name": "Devin Singletary",
-      "team": "NYG",
+    "Trevor Etienne|CAR|RB": {
+      "name": "Trevor Etienne",
+      "team": "CAR",
       "pos": "RB",
       "games": 17,
-      "proj_total": 11.7,
-      "proj_ppg": 0.69,
-      "vor": -98.3,
+      "proj_total": 10.2,
+      "proj_ppg": 0.6,
+      "vor": -99.8,
       "tier": 7,
-      "pos_rk": 86,
+      "pos_rk": 87,
       "clay_pos_rk": 86,
       "clay_ppr_total": 17,
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
         "pass_int": 0,
-        "rush_att": 18,
-        "rush_yd": 71,
+        "rush_att": 12,
+        "rush_yd": 52,
         "rush_td": 0,
         "targets": 5,
         "rec": 4,
-        "rec_yd": 26,
+        "rec_yd": 30,
         "rec_td": 0
       }
     },
@@ -3810,7 +3810,7 @@
       "proj_ppg": 0.63,
       "vor": -99.3,
       "tier": 7,
-      "pos_rk": 87,
+      "pos_rk": 86,
       "clay_pos_rk": 87,
       "clay_ppr_total": 16,
       "components": {
@@ -4431,13 +4431,13 @@
       "team": "LAR",
       "pos": "WR",
       "games": 17,
-      "proj_total": 297.0,
-      "proj_ppg": 17.47,
-      "vor": 197.0,
+      "proj_total": 297.1,
+      "proj_ppg": 17.48,
+      "vor": 197.1,
       "tier": 1,
       "pos_rk": 1,
       "clay_pos_rk": 1,
-      "clay_ppr_total": 356,
+      "clay_ppr_total": 357,
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
@@ -4447,7 +4447,7 @@
         "rush_td": 1,
         "targets": 174,
         "rec": 123,
-        "rec_yd": 1589,
+        "rec_yd": 1590,
         "rec_td": 10
       }
     },
@@ -4531,9 +4531,9 @@
       "team": "DAL",
       "pos": "WR",
       "games": 17,
-      "proj_total": 245.1,
+      "proj_total": 245.2,
       "proj_ppg": 14.42,
-      "vor": 145.1,
+      "vor": 145.2,
       "tier": 2,
       "pos_rk": 5,
       "clay_pos_rk": 5,
@@ -4547,7 +4547,7 @@
         "rush_td": 0,
         "targets": 158,
         "rec": 104,
-        "rec_yd": 1378,
+        "rec_yd": 1379,
         "rec_td": 9
       }
     },
@@ -4581,9 +4581,9 @@
       "team": "KC",
       "pos": "WR",
       "games": 17,
-      "proj_total": 225.6,
-      "proj_ppg": 13.27,
-      "vor": 125.6,
+      "proj_total": 225.5,
+      "proj_ppg": 13.26,
+      "vor": 125.5,
       "tier": 2,
       "pos_rk": 7,
       "clay_pos_rk": 7,
@@ -4597,7 +4597,7 @@
         "rush_td": 1,
         "targets": 136,
         "rec": 96,
-        "rec_yd": 1133,
+        "rec_yd": 1132,
         "rec_td": 9
       }
     },
@@ -4626,31 +4626,6 @@
         "rec_td": 7
       }
     },
-    "Garrett Wilson|NYJ|WR": {
-      "name": "Garrett Wilson",
-      "team": "NYJ",
-      "pos": "WR",
-      "games": 17,
-      "proj_total": 203.8,
-      "proj_ppg": 11.99,
-      "vor": 103.8,
-      "tier": 2,
-      "pos_rk": 11,
-      "clay_pos_rk": 9,
-      "clay_ppr_total": 257,
-      "components": {
-        "pass_yd": 0,
-        "pass_td": 0,
-        "pass_int": 0,
-        "rush_att": 2,
-        "rush_yd": 11,
-        "rush_td": 0,
-        "targets": 154,
-        "rec": 103,
-        "rec_yd": 1212,
-        "rec_td": 5
-      }
-    },
     "Nico Collins|HOU|WR": {
       "name": "Nico Collins",
       "team": "HOU",
@@ -4661,7 +4636,7 @@
       "vor": 107.3,
       "tier": 2,
       "pos_rk": 9,
-      "clay_pos_rk": 10,
+      "clay_pos_rk": 9,
       "clay_ppr_total": 249,
       "components": {
         "pass_yd": 0,
@@ -4686,7 +4661,7 @@
       "vor": 106.5,
       "tier": 2,
       "pos_rk": 10,
-      "clay_pos_rk": 11,
+      "clay_pos_rk": 10,
       "clay_ppr_total": 248,
       "components": {
         "pass_yd": 0,
@@ -4701,6 +4676,31 @@
         "rec_td": 7
       }
     },
+    "Garrett Wilson|NYJ|WR": {
+      "name": "Garrett Wilson",
+      "team": "NYJ",
+      "pos": "WR",
+      "games": 17,
+      "proj_total": 197.5,
+      "proj_ppg": 11.62,
+      "vor": 97.5,
+      "tier": 2,
+      "pos_rk": 15,
+      "clay_pos_rk": 11,
+      "clay_ppr_total": 248,
+      "components": {
+        "pass_yd": 0,
+        "pass_td": 0,
+        "pass_int": 0,
+        "rush_att": 2,
+        "rush_yd": 11,
+        "rush_td": 0,
+        "targets": 149,
+        "rec": 100,
+        "rec_yd": 1164,
+        "rec_td": 5
+      }
+    },
     "Chris Olave|NO|WR": {
       "name": "Chris Olave",
       "team": "NO",
@@ -4710,7 +4710,7 @@
       "proj_ppg": 11.61,
       "vor": 97.3,
       "tier": 2,
-      "pos_rk": 15,
+      "pos_rk": 16,
       "clay_pos_rk": 12,
       "clay_ppr_total": 245,
       "components": {
@@ -4726,6 +4726,31 @@
         "rec_td": 6
       }
     },
+    "Tetairoa McMillan|CAR|WR": {
+      "name": "Tetairoa McMillan",
+      "team": "CAR",
+      "pos": "WR",
+      "games": 17,
+      "proj_total": 197.5,
+      "proj_ppg": 11.62,
+      "vor": 97.5,
+      "tier": 2,
+      "pos_rk": 14,
+      "clay_pos_rk": 13,
+      "clay_ppr_total": 240,
+      "components": {
+        "pass_yd": 0,
+        "pass_td": 0,
+        "pass_int": 0,
+        "rush_att": 0,
+        "rush_yd": 0,
+        "rush_td": 0,
+        "targets": 141,
+        "rec": 83,
+        "rec_yd": 1200,
+        "rec_td": 6
+      }
+    },
     "Zay Flowers|BAL|WR": {
       "name": "Zay Flowers",
       "team": "BAL",
@@ -4735,8 +4760,8 @@
       "proj_ppg": 11.76,
       "vor": 100.0,
       "tier": 2,
-      "pos_rk": 13,
-      "clay_pos_rk": 13,
+      "pos_rk": 12,
+      "clay_pos_rk": 14,
       "clay_ppr_total": 239,
       "components": {
         "pass_yd": 0,
@@ -4756,12 +4781,12 @@
       "team": "DAL",
       "pos": "WR",
       "games": 17,
-      "proj_total": 199.3,
-      "proj_ppg": 11.72,
-      "vor": 99.3,
+      "proj_total": 199.4,
+      "proj_ppg": 11.73,
+      "vor": 99.4,
       "tier": 2,
-      "pos_rk": 14,
-      "clay_pos_rk": 14,
+      "pos_rk": 13,
+      "clay_pos_rk": 15,
       "clay_ppr_total": 239,
       "components": {
         "pass_yd": 0,
@@ -4772,33 +4797,8 @@
         "rush_td": 0,
         "targets": 124,
         "rec": 80,
-        "rec_yd": 1113,
+        "rec_yd": 1114,
         "rec_td": 8
-      }
-    },
-    "Tetairoa McMillan|CAR|WR": {
-      "name": "Tetairoa McMillan",
-      "team": "CAR",
-      "pos": "WR",
-      "games": 17,
-      "proj_total": 196.9,
-      "proj_ppg": 11.58,
-      "vor": 96.9,
-      "tier": 2,
-      "pos_rk": 16,
-      "clay_pos_rk": 15,
-      "clay_ppr_total": 239,
-      "components": {
-        "pass_yd": 0,
-        "pass_td": 0,
-        "pass_int": 0,
-        "rush_att": 0,
-        "rush_yd": 0,
-        "rush_td": 0,
-        "targets": 141,
-        "rec": 83,
-        "rec_yd": 1194,
-        "rec_td": 6
       }
     },
     "DeVonta Smith|PHI|WR": {
@@ -4835,7 +4835,7 @@
       "proj_ppg": 11.86,
       "vor": 101.6,
       "tier": 2,
-      "pos_rk": 12,
+      "pos_rk": 11,
       "clay_pos_rk": 17,
       "clay_ppr_total": 233,
       "components": {
@@ -4856,9 +4856,9 @@
       "team": "NYG",
       "pos": "WR",
       "games": 16,
-      "proj_total": 191.5,
+      "proj_total": 191.6,
       "proj_ppg": 11.97,
-      "vor": 91.5,
+      "vor": 91.6,
       "tier": 2,
       "pos_rk": 18,
       "clay_pos_rk": 18,
@@ -4872,7 +4872,7 @@
         "rush_td": 0,
         "targets": 129,
         "rec": 81,
-        "rec_yd": 1068,
+        "rec_yd": 1069,
         "rec_td": 7
       }
     },
@@ -4881,9 +4881,9 @@
       "team": "TB",
       "pos": "WR",
       "games": 17,
-      "proj_total": 191.1,
+      "proj_total": 191.0,
       "proj_ppg": 11.24,
-      "vor": 91.1,
+      "vor": 91.0,
       "tier": 2,
       "pos_rk": 19,
       "clay_pos_rk": 19,
@@ -4897,7 +4897,7 @@
         "rush_td": 0,
         "targets": 128,
         "rec": 70,
-        "rec_yd": 1129,
+        "rec_yd": 1128,
         "rec_td": 7
       }
     },
@@ -4956,9 +4956,9 @@
       "team": "WAS",
       "pos": "WR",
       "games": 17,
-      "proj_total": 179.7,
-      "proj_ppg": 10.57,
-      "vor": 79.7,
+      "proj_total": 179.6,
+      "proj_ppg": 10.56,
+      "vor": 79.6,
       "tier": 3,
       "pos_rk": 23,
       "clay_pos_rk": 22,
@@ -4972,7 +4972,7 @@
         "rush_td": 0,
         "targets": 119,
         "rec": 80,
-        "rec_yd": 1037,
+        "rec_yd": 1036,
         "rec_td": 6
       }
     },
@@ -5356,9 +5356,9 @@
       "team": "SF",
       "pos": "WR",
       "games": 17,
-      "proj_total": 155.1,
-      "proj_ppg": 9.12,
-      "vor": 55.1,
+      "proj_total": 154.9,
+      "proj_ppg": 9.11,
+      "vor": 54.9,
       "tier": 3,
       "pos_rk": 35,
       "clay_pos_rk": 38,
@@ -5372,7 +5372,7 @@
         "rush_td": 0,
         "targets": 101,
         "rec": 57,
-        "rec_yd": 906,
+        "rec_yd": 904,
         "rec_td": 6
       }
     },
@@ -5410,7 +5410,7 @@
       "proj_ppg": 8.21,
       "vor": 39.6,
       "tier": 4,
-      "pos_rk": 45,
+      "pos_rk": 44,
       "clay_pos_rk": 40,
       "clay_ppr_total": 177,
       "components": {
@@ -5460,7 +5460,7 @@
       "proj_ppg": 7.96,
       "vor": 35.4,
       "tier": 4,
-      "pos_rk": 49,
+      "pos_rk": 48,
       "clay_pos_rk": 42,
       "clay_ppr_total": 174,
       "components": {
@@ -5481,10 +5481,10 @@
       "team": "KC",
       "pos": "WR",
       "games": 17,
-      "proj_total": 149.9,
-      "proj_ppg": 8.82,
-      "vor": 49.9,
-      "tier": 4,
+      "proj_total": 150.4,
+      "proj_ppg": 8.85,
+      "vor": 50.4,
+      "tier": 3,
       "pos_rk": 39,
       "clay_pos_rk": 43,
       "clay_ppr_total": 173,
@@ -5496,7 +5496,7 @@
         "rush_yd": 76,
         "rush_td": 1,
         "targets": 92,
-        "rec": 55,
+        "rec": 56,
         "rec_yd": 788,
         "rec_td": 5
       }
@@ -5535,7 +5535,7 @@
       "proj_ppg": 7.92,
       "vor": 34.6,
       "tier": 4,
-      "pos_rk": 51,
+      "pos_rk": 50,
       "clay_pos_rk": 45,
       "clay_ppr_total": 173,
       "components": {
@@ -5551,31 +5551,6 @@
         "rec_td": 3
       }
     },
-    "Romeo Doubs|NE|WR": {
-      "name": "Romeo Doubs",
-      "team": "NE",
-      "pos": "WR",
-      "games": 17,
-      "proj_total": 142.3,
-      "proj_ppg": 8.37,
-      "vor": 42.3,
-      "tier": 4,
-      "pos_rk": 43,
-      "clay_pos_rk": 46,
-      "clay_ppr_total": 171,
-      "components": {
-        "pass_yd": 0,
-        "pass_td": 0,
-        "pass_int": 0,
-        "rush_att": 0,
-        "rush_yd": 0,
-        "rush_td": 0,
-        "targets": 88,
-        "rec": 60,
-        "rec_yd": 763,
-        "rec_td": 6
-      }
-    },
     "Khalil Shakir|BUF|WR": {
       "name": "Khalil Shakir",
       "team": "BUF",
@@ -5585,8 +5560,8 @@
       "proj_ppg": 8.04,
       "vor": 36.7,
       "tier": 4,
-      "pos_rk": 47,
-      "clay_pos_rk": 47,
+      "pos_rk": 46,
+      "clay_pos_rk": 46,
       "clay_ppr_total": 171,
       "components": {
         "pass_yd": 0,
@@ -5610,8 +5585,8 @@
       "proj_ppg": 7.94,
       "vor": 34.9,
       "tier": 4,
-      "pos_rk": 50,
-      "clay_pos_rk": 48,
+      "pos_rk": 49,
+      "clay_pos_rk": 47,
       "clay_ppr_total": 171,
       "components": {
         "pass_yd": 0,
@@ -5635,8 +5610,8 @@
       "proj_ppg": 8.14,
       "vor": 38.4,
       "tier": 4,
-      "pos_rk": 46,
-      "clay_pos_rk": 49,
+      "pos_rk": 45,
+      "clay_pos_rk": 48,
       "clay_ppr_total": 170,
       "components": {
         "pass_yd": 0,
@@ -5660,8 +5635,8 @@
       "proj_ppg": 8.29,
       "vor": 41.0,
       "tier": 4,
-      "pos_rk": 44,
-      "clay_pos_rk": 50,
+      "pos_rk": 43,
+      "clay_pos_rk": 49,
       "clay_ppr_total": 165,
       "components": {
         "pass_yd": 0,
@@ -5676,31 +5651,6 @@
         "rec_td": 6
       }
     },
-    "Ricky Pearsall|SF|WR": {
-      "name": "Ricky Pearsall",
-      "team": "SF",
-      "pos": "WR",
-      "games": 17,
-      "proj_total": 136.6,
-      "proj_ppg": 8.04,
-      "vor": 36.6,
-      "tier": 4,
-      "pos_rk": 48,
-      "clay_pos_rk": 51,
-      "clay_ppr_total": 165,
-      "components": {
-        "pass_yd": 0,
-        "pass_td": 0,
-        "pass_int": 0,
-        "rush_att": 4,
-        "rush_yd": 24,
-        "rush_td": 0,
-        "targets": 90,
-        "rec": 58,
-        "rec_yd": 812,
-        "rec_td": 4
-      }
-    },
     "KC Concepcion|CLE|WR": {
       "name": "KC Concepcion",
       "team": "CLE",
@@ -5710,8 +5660,8 @@
       "proj_ppg": 7.59,
       "vor": 29.1,
       "tier": 4,
-      "pos_rk": 53,
-      "clay_pos_rk": 52,
+      "pos_rk": 52,
+      "clay_pos_rk": 50,
       "clay_ppr_total": 162,
       "components": {
         "pass_yd": 0,
@@ -5726,17 +5676,42 @@
         "rec_td": 3
       }
     },
+    "Romeo Doubs|NE|WR": {
+      "name": "Romeo Doubs",
+      "team": "NE",
+      "pos": "WR",
+      "games": 17,
+      "proj_total": 135.4,
+      "proj_ppg": 7.96,
+      "vor": 35.4,
+      "tier": 4,
+      "pos_rk": 47,
+      "clay_pos_rk": 51,
+      "clay_ppr_total": 160,
+      "components": {
+        "pass_yd": 0,
+        "pass_td": 0,
+        "pass_int": 0,
+        "rush_att": 0,
+        "rush_yd": 0,
+        "rush_td": 0,
+        "targets": 83,
+        "rec": 56,
+        "rec_yd": 714,
+        "rec_td": 6
+      }
+    },
     "Chris Godwin|TB|WR": {
       "name": "Chris Godwin",
       "team": "TB",
       "pos": "WR",
       "games": 17,
-      "proj_total": 130.2,
-      "proj_ppg": 7.66,
-      "vor": 30.2,
+      "proj_total": 130.1,
+      "proj_ppg": 7.65,
+      "vor": 30.1,
       "tier": 4,
-      "pos_rk": 52,
-      "clay_pos_rk": 53,
+      "pos_rk": 51,
+      "clay_pos_rk": 52,
       "clay_ppr_total": 158,
       "components": {
         "pass_yd": 0,
@@ -5747,7 +5722,7 @@
         "rush_td": 0,
         "targets": 91,
         "rec": 60,
-        "rec_yd": 702,
+        "rec_yd": 701,
         "rec_td": 5
       }
     },
@@ -5756,12 +5731,12 @@
       "team": "CAR",
       "pos": "WR",
       "games": 17,
-      "proj_total": 117.9,
-      "proj_ppg": 6.94,
-      "vor": 17.9,
+      "proj_total": 118.3,
+      "proj_ppg": 6.96,
+      "vor": 18.3,
       "tier": 4,
-      "pos_rk": 56,
-      "clay_pos_rk": 54,
+      "pos_rk": 55,
+      "clay_pos_rk": 53,
       "clay_ppr_total": 149,
       "components": {
         "pass_yd": 0,
@@ -5772,7 +5747,7 @@
         "rush_td": 0,
         "targets": 89,
         "rec": 61,
-        "rec_yd": 694,
+        "rec_yd": 698,
         "rec_td": 3
       }
     },
@@ -5785,8 +5760,8 @@
       "proj_ppg": 7.2,
       "vor": 22.4,
       "tier": 4,
-      "pos_rk": 54,
-      "clay_pos_rk": 55,
+      "pos_rk": 53,
+      "clay_pos_rk": 54,
       "clay_ppr_total": 144,
       "components": {
         "pass_yd": 0,
@@ -5810,8 +5785,8 @@
       "proj_ppg": 6.99,
       "vor": 18.9,
       "tier": 4,
-      "pos_rk": 55,
-      "clay_pos_rk": 56,
+      "pos_rk": 54,
+      "clay_pos_rk": 55,
       "clay_ppr_total": 144,
       "components": {
         "pass_yd": 0,
@@ -5835,8 +5810,8 @@
       "proj_ppg": 6.6,
       "vor": 12.2,
       "tier": 4,
-      "pos_rk": 59,
-      "clay_pos_rk": 57,
+      "pos_rk": 58,
+      "clay_pos_rk": 56,
       "clay_ppr_total": 141,
       "components": {
         "pass_yd": 0,
@@ -5860,8 +5835,8 @@
       "proj_ppg": 6.73,
       "vor": 14.4,
       "tier": 4,
-      "pos_rk": 57,
-      "clay_pos_rk": 58,
+      "pos_rk": 56,
+      "clay_pos_rk": 57,
       "clay_ppr_total": 138,
       "components": {
         "pass_yd": 0,
@@ -5885,8 +5860,8 @@
       "proj_ppg": 6.67,
       "vor": 13.4,
       "tier": 4,
-      "pos_rk": 58,
-      "clay_pos_rk": 59,
+      "pos_rk": 57,
+      "clay_pos_rk": 58,
       "clay_ppr_total": 138,
       "components": {
         "pass_yd": 0,
@@ -5899,6 +5874,31 @@
         "rec": 48,
         "rec_yd": 656,
         "rec_td": 3
+      }
+    },
+    "De'Zhaun Stribling|SF|WR": {
+      "name": "De'Zhaun Stribling",
+      "team": "SF",
+      "pos": "WR",
+      "games": 17,
+      "proj_total": 111.3,
+      "proj_ppg": 6.55,
+      "vor": 11.3,
+      "tier": 4,
+      "pos_rk": 59,
+      "clay_pos_rk": 59,
+      "clay_ppr_total": 133,
+      "components": {
+        "pass_yd": 0,
+        "pass_td": 0,
+        "pass_int": 0,
+        "rush_att": 0,
+        "rush_yd": 0,
+        "rush_td": 0,
+        "targets": 70,
+        "rec": 43,
+        "rec_yd": 658,
+        "rec_td": 4
       }
     },
     "Jalen McMillan|TB|WR": {
@@ -5960,7 +5960,7 @@
       "proj_ppg": 6.01,
       "vor": 2.1,
       "tier": 5,
-      "pos_rk": 63,
+      "pos_rk": 64,
       "clay_pos_rk": 62,
       "clay_ppr_total": 127,
       "components": {
@@ -5976,6 +5976,31 @@
         "rec_td": 3
       }
     },
+    "Adonai Mitchell|NYJ|WR": {
+      "name": "Adonai Mitchell",
+      "team": "NYJ",
+      "pos": "WR",
+      "games": 17,
+      "proj_total": 107.2,
+      "proj_ppg": 6.31,
+      "vor": 7.2,
+      "tier": 5,
+      "pos_rk": 62,
+      "clay_pos_rk": 63,
+      "clay_ppr_total": 125,
+      "components": {
+        "pass_yd": 0,
+        "pass_td": 0,
+        "pass_int": 0,
+        "rush_att": 2,
+        "rush_yd": 11,
+        "rush_td": 0,
+        "targets": 74,
+        "rec": 42,
+        "rec_yd": 611,
+        "rec_td": 4
+      }
+    },
     "Jalen Nailor|LV|WR": {
       "name": "Jalen Nailor",
       "team": "LV",
@@ -5985,8 +6010,8 @@
       "proj_ppg": 5.98,
       "vor": 1.7,
       "tier": 5,
-      "pos_rk": 64,
-      "clay_pos_rk": 63,
+      "pos_rk": 65,
+      "clay_pos_rk": 64,
       "clay_ppr_total": 124,
       "components": {
         "pass_yd": 0,
@@ -6010,8 +6035,8 @@
       "proj_ppg": 6.15,
       "vor": 4.5,
       "tier": 5,
-      "pos_rk": 62,
-      "clay_pos_rk": 64,
+      "pos_rk": 63,
+      "clay_pos_rk": 65,
       "clay_ppr_total": 123,
       "components": {
         "pass_yd": 0,
@@ -6026,28 +6051,28 @@
         "rec_td": 4
       }
     },
-    "Adonai Mitchell|NYJ|WR": {
-      "name": "Adonai Mitchell",
-      "team": "NYJ",
+    "Ricky Pearsall|SF|WR": {
+      "name": "Ricky Pearsall",
+      "team": "SF",
       "pos": "WR",
       "games": 17,
-      "proj_total": 95.0,
-      "proj_ppg": 5.59,
-      "vor": -5.0,
+      "proj_total": 96.8,
+      "proj_ppg": 5.69,
+      "vor": -3.2,
       "tier": 5,
-      "pos_rk": 65,
-      "clay_pos_rk": 65,
+      "pos_rk": 66,
+      "clay_pos_rk": 66,
       "clay_ppr_total": 116,
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
         "pass_int": 0,
-        "rush_att": 2,
-        "rush_yd": 11,
+        "rush_att": 4,
+        "rush_yd": 24,
         "rush_td": 0,
-        "targets": 69,
-        "rec": 39,
-        "rec_yd": 564,
+        "targets": 64,
+        "rec": 41,
+        "rec_yd": 559,
         "rec_td": 3
       }
     },
@@ -6056,12 +6081,12 @@
       "team": "WAS",
       "pos": "WR",
       "games": 17,
-      "proj_total": 92.7,
-      "proj_ppg": 5.45,
-      "vor": -7.3,
+      "proj_total": 92.1,
+      "proj_ppg": 5.42,
+      "vor": -7.9,
       "tier": 5,
-      "pos_rk": 66,
-      "clay_pos_rk": 66,
+      "pos_rk": 67,
+      "clay_pos_rk": 67,
       "clay_ppr_total": 115,
       "components": {
         "pass_yd": 0,
@@ -6071,8 +6096,8 @@
         "rush_yd": 22,
         "rush_td": 0,
         "targets": 62,
-        "rec": 41,
-        "rec_yd": 520,
+        "rec": 40,
+        "rec_yd": 519,
         "rec_td": 3
       }
     },
@@ -6085,8 +6110,8 @@
       "proj_ppg": 5.27,
       "vor": -10.4,
       "tier": 5,
-      "pos_rk": 68,
-      "clay_pos_rk": 67,
+      "pos_rk": 70,
+      "clay_pos_rk": 68,
       "clay_ppr_total": 115,
       "components": {
         "pass_yd": 0,
@@ -6101,6 +6126,31 @@
         "rec_td": 3
       }
     },
+    "Xavier Legette|CAR|WR": {
+      "name": "Xavier Legette",
+      "team": "CAR",
+      "pos": "WR",
+      "games": 17,
+      "proj_total": 90.1,
+      "proj_ppg": 5.3,
+      "vor": -9.9,
+      "tier": 5,
+      "pos_rk": 68,
+      "clay_pos_rk": 69,
+      "clay_ppr_total": 112,
+      "components": {
+        "pass_yd": 0,
+        "pass_td": 0,
+        "pass_int": 0,
+        "rush_att": 2,
+        "rush_yd": 11,
+        "rush_td": 0,
+        "targets": 73,
+        "rec": 42,
+        "rec_yd": 500,
+        "rec_td": 3
+      }
+    },
     "Travis Hunter|JAX|WR": {
       "name": "Travis Hunter",
       "team": "JAX",
@@ -6110,8 +6160,8 @@
       "proj_ppg": 5.28,
       "vor": -10.3,
       "tier": 5,
-      "pos_rk": 67,
-      "clay_pos_rk": 68,
+      "pos_rk": 69,
+      "clay_pos_rk": 70,
       "clay_ppr_total": 112,
       "components": {
         "pass_yd": 0,
@@ -6135,8 +6185,8 @@
       "proj_ppg": 4.91,
       "vor": -16.6,
       "tier": 5,
-      "pos_rk": 72,
-      "clay_pos_rk": 69,
+      "pos_rk": 74,
+      "clay_pos_rk": 71,
       "clay_ppr_total": 106,
       "components": {
         "pass_yd": 0,
@@ -6160,8 +6210,8 @@
       "proj_ppg": 5.16,
       "vor": -12.3,
       "tier": 5,
-      "pos_rk": 69,
-      "clay_pos_rk": 70,
+      "pos_rk": 71,
+      "clay_pos_rk": 72,
       "clay_ppr_total": 105,
       "components": {
         "pass_yd": 0,
@@ -6185,8 +6235,8 @@
       "proj_ppg": 5.12,
       "vor": -13.0,
       "tier": 5,
-      "pos_rk": 70,
-      "clay_pos_rk": 71,
+      "pos_rk": 72,
+      "clay_pos_rk": 73,
       "clay_ppr_total": 105,
       "components": {
         "pass_yd": 0,
@@ -6210,8 +6260,8 @@
       "proj_ppg": 4.95,
       "vor": -15.8,
       "tier": 5,
-      "pos_rk": 71,
-      "clay_pos_rk": 72,
+      "pos_rk": 73,
+      "clay_pos_rk": 74,
       "clay_ppr_total": 102,
       "components": {
         "pass_yd": 0,
@@ -6235,8 +6285,8 @@
       "proj_ppg": 4.59,
       "vor": -21.9,
       "tier": 5,
-      "pos_rk": 73,
-      "clay_pos_rk": 73,
+      "pos_rk": 75,
+      "clay_pos_rk": 75,
       "clay_ppr_total": 101,
       "components": {
         "pass_yd": 0,
@@ -6260,8 +6310,8 @@
       "proj_ppg": 4.34,
       "vor": -26.2,
       "tier": 5,
-      "pos_rk": 76,
-      "clay_pos_rk": 74,
+      "pos_rk": 78,
+      "clay_pos_rk": 76,
       "clay_ppr_total": 92,
       "components": {
         "pass_yd": 0,
@@ -6276,6 +6326,31 @@
         "rec_td": 2
       }
     },
+    "Ryan Flournoy|DAL|WR": {
+      "name": "Ryan Flournoy",
+      "team": "DAL",
+      "pos": "WR",
+      "games": 17,
+      "proj_total": 74.6,
+      "proj_ppg": 4.39,
+      "vor": -25.4,
+      "tier": 5,
+      "pos_rk": 76,
+      "clay_pos_rk": 77,
+      "clay_ppr_total": 90,
+      "components": {
+        "pass_yd": 0,
+        "pass_td": 0,
+        "pass_int": 0,
+        "rush_att": 2,
+        "rush_yd": 12,
+        "rush_td": 0,
+        "targets": 51,
+        "rec": 34,
+        "rec_yd": 384,
+        "rec_td": 3
+      }
+    },
     "Jalen Tolbert|MIA|WR": {
       "name": "Jalen Tolbert",
       "team": "MIA",
@@ -6285,8 +6360,8 @@
       "proj_ppg": 4.34,
       "vor": -26.3,
       "tier": 5,
-      "pos_rk": 77,
-      "clay_pos_rk": 75,
+      "pos_rk": 79,
+      "clay_pos_rk": 78,
       "clay_ppr_total": 90,
       "components": {
         "pass_yd": 0,
@@ -6310,8 +6385,8 @@
       "proj_ppg": 4.14,
       "vor": -29.7,
       "tier": 5,
-      "pos_rk": 81,
-      "clay_pos_rk": 76,
+      "pos_rk": 82,
+      "clay_pos_rk": 79,
       "clay_ppr_total": 90,
       "components": {
         "pass_yd": 0,
@@ -6326,31 +6401,6 @@
         "rec_td": 2
       }
     },
-    "Ryan Flournoy|DAL|WR": {
-      "name": "Ryan Flournoy",
-      "team": "DAL",
-      "pos": "WR",
-      "games": 17,
-      "proj_total": 74.5,
-      "proj_ppg": 4.38,
-      "vor": -25.5,
-      "tier": 5,
-      "pos_rk": 74,
-      "clay_pos_rk": 77,
-      "clay_ppr_total": 89,
-      "components": {
-        "pass_yd": 0,
-        "pass_td": 0,
-        "pass_int": 0,
-        "rush_att": 2,
-        "rush_yd": 12,
-        "rush_td": 0,
-        "targets": 51,
-        "rec": 34,
-        "rec_yd": 383,
-        "rec_td": 3
-      }
-    },
     "Chris Bell|MIA|WR": {
       "name": "Chris Bell",
       "team": "MIA",
@@ -6360,8 +6410,8 @@
       "proj_ppg": 4.35,
       "vor": -26.1,
       "tier": 5,
-      "pos_rk": 75,
-      "clay_pos_rk": 78,
+      "pos_rk": 77,
+      "clay_pos_rk": 80,
       "clay_ppr_total": 89,
       "components": {
         "pass_yd": 0,
@@ -6381,12 +6431,12 @@
       "team": "WAS",
       "pos": "WR",
       "games": 17,
-      "proj_total": 72.3,
+      "proj_total": 72.2,
       "proj_ppg": 4.25,
-      "vor": -27.7,
+      "vor": -27.8,
       "tier": 5,
-      "pos_rk": 78,
-      "clay_pos_rk": 79,
+      "pos_rk": 80,
+      "clay_pos_rk": 81,
       "clay_ppr_total": 85,
       "components": {
         "pass_yd": 0,
@@ -6397,7 +6447,7 @@
         "rush_td": 0,
         "targets": 46,
         "rec": 30,
-        "rec_yd": 393,
+        "rec_yd": 392,
         "rec_td": 3
       }
     },
@@ -6410,8 +6460,8 @@
       "proj_ppg": 4.08,
       "vor": -30.7,
       "tier": 5,
-      "pos_rk": 82,
-      "clay_pos_rk": 80,
+      "pos_rk": 83,
+      "clay_pos_rk": 82,
       "clay_ppr_total": 84,
       "components": {
         "pass_yd": 0,
@@ -6435,8 +6485,8 @@
       "proj_ppg": 3.72,
       "vor": -36.7,
       "tier": 5,
-      "pos_rk": 87,
-      "clay_pos_rk": 81,
+      "pos_rk": 88,
+      "clay_pos_rk": 83,
       "clay_ppr_total": 83,
       "components": {
         "pass_yd": 0,
@@ -6451,31 +6501,6 @@
         "rec_td": 1
       }
     },
-    "De'Zhaun Stribling|SF|WR": {
-      "name": "De'Zhaun Stribling",
-      "team": "SF",
-      "pos": "WR",
-      "games": 17,
-      "proj_total": 71.5,
-      "proj_ppg": 4.21,
-      "vor": -28.5,
-      "tier": 5,
-      "pos_rk": 79,
-      "clay_pos_rk": 82,
-      "clay_ppr_total": 82,
-      "components": {
-        "pass_yd": 0,
-        "pass_td": 0,
-        "pass_int": 0,
-        "rush_att": 0,
-        "rush_yd": 0,
-        "rush_td": 0,
-        "targets": 43,
-        "rec": 27,
-        "rec_yd": 400,
-        "rec_td": 3
-      }
-    },
     "Ja'Kobi Lane|BAL|WR": {
       "name": "Ja'Kobi Lane",
       "team": "BAL",
@@ -6485,8 +6510,8 @@
       "proj_ppg": 4.14,
       "vor": -29.7,
       "tier": 5,
-      "pos_rk": 80,
-      "clay_pos_rk": 83,
+      "pos_rk": 81,
+      "clay_pos_rk": 84,
       "clay_ppr_total": 82,
       "components": {
         "pass_yd": 0,
@@ -6510,8 +6535,8 @@
       "proj_ppg": 3.85,
       "vor": -34.6,
       "tier": 5,
-      "pos_rk": 85,
-      "clay_pos_rk": 84,
+      "pos_rk": 86,
+      "clay_pos_rk": 85,
       "clay_ppr_total": 81,
       "components": {
         "pass_yd": 0,
@@ -6535,8 +6560,8 @@
       "proj_ppg": 4.01,
       "vor": -31.9,
       "tier": 5,
-      "pos_rk": 83,
-      "clay_pos_rk": 85,
+      "pos_rk": 84,
+      "clay_pos_rk": 86,
       "clay_ppr_total": 80,
       "components": {
         "pass_yd": 0,
@@ -6551,6 +6576,31 @@
         "rec_td": 2
       }
     },
+    "Kayshon Boutte|NE|WR": {
+      "name": "Kayshon Boutte",
+      "team": "NE",
+      "pos": "WR",
+      "games": 17,
+      "proj_total": 62.1,
+      "proj_ppg": 3.65,
+      "vor": -37.9,
+      "tier": 5,
+      "pos_rk": 90,
+      "clay_pos_rk": 87,
+      "clay_ppr_total": 78,
+      "components": {
+        "pass_yd": 0,
+        "pass_td": 0,
+        "pass_int": 0,
+        "rush_att": 0,
+        "rush_yd": 0,
+        "rush_td": 0,
+        "targets": 42,
+        "rec": 27,
+        "rec_yd": 366,
+        "rec_td": 2
+      }
+    },
     "Tyquan Thornton|KC|WR": {
       "name": "Tyquan Thornton",
       "team": "KC",
@@ -6560,8 +6610,8 @@
       "proj_ppg": 3.88,
       "vor": -34.1,
       "tier": 5,
-      "pos_rk": 84,
-      "clay_pos_rk": 86,
+      "pos_rk": 85,
+      "clay_pos_rk": 88,
       "clay_ppr_total": 77,
       "components": {
         "pass_yd": 0,
@@ -6585,8 +6635,8 @@
       "proj_ppg": 3.78,
       "vor": -35.7,
       "tier": 5,
-      "pos_rk": 86,
-      "clay_pos_rk": 87,
+      "pos_rk": 87,
+      "clay_pos_rk": 89,
       "clay_ppr_total": 77,
       "components": {
         "pass_yd": 0,
@@ -6610,8 +6660,8 @@
       "proj_ppg": 3.59,
       "vor": -39.0,
       "tier": 5,
-      "pos_rk": 89,
-      "clay_pos_rk": 88,
+      "pos_rk": 91,
+      "clay_pos_rk": 90,
       "clay_ppr_total": 76,
       "components": {
         "pass_yd": 0,
@@ -6635,8 +6685,8 @@
       "proj_ppg": 3.66,
       "vor": -37.7,
       "tier": 5,
-      "pos_rk": 88,
-      "clay_pos_rk": 89,
+      "pos_rk": 89,
+      "clay_pos_rk": 91,
       "clay_ppr_total": 75,
       "components": {
         "pass_yd": 0,
@@ -6660,8 +6710,8 @@
       "proj_ppg": 3.54,
       "vor": -39.8,
       "tier": 5,
-      "pos_rk": 90,
-      "clay_pos_rk": 90,
+      "pos_rk": 92,
+      "clay_pos_rk": 92,
       "clay_ppr_total": 73,
       "components": {
         "pass_yd": 0,
@@ -6685,8 +6735,8 @@
       "proj_ppg": 3.41,
       "vor": -42.0,
       "tier": 5,
-      "pos_rk": 91,
-      "clay_pos_rk": 91,
+      "pos_rk": 93,
+      "clay_pos_rk": 93,
       "clay_ppr_total": 73,
       "components": {
         "pass_yd": 0,
@@ -6701,31 +6751,6 @@
         "rec_td": 2
       }
     },
-    "Xavier Legette|CAR|WR": {
-      "name": "Xavier Legette",
-      "team": "CAR",
-      "pos": "WR",
-      "games": 17,
-      "proj_total": 57.5,
-      "proj_ppg": 3.38,
-      "vor": -42.5,
-      "tier": 5,
-      "pos_rk": 92,
-      "clay_pos_rk": 92,
-      "clay_ppr_total": 71,
-      "components": {
-        "pass_yd": 0,
-        "pass_td": 0,
-        "pass_int": 0,
-        "rush_att": 2,
-        "rush_yd": 11,
-        "rush_td": 0,
-        "targets": 47,
-        "rec": 27,
-        "rec_yd": 309,
-        "rec_td": 2
-      }
-    },
     "Savion Williams|GB|WR": {
       "name": "Savion Williams",
       "team": "GB",
@@ -6736,7 +6761,7 @@
       "vor": -44.2,
       "tier": 5,
       "pos_rk": 94,
-      "clay_pos_rk": 93,
+      "clay_pos_rk": 94,
       "clay_ppr_total": 70,
       "components": {
         "pass_yd": 0,
@@ -6761,7 +6786,7 @@
       "vor": -44.3,
       "tier": 5,
       "pos_rk": 95,
-      "clay_pos_rk": 94,
+      "clay_pos_rk": 95,
       "clay_ppr_total": 70,
       "components": {
         "pass_yd": 0,
@@ -6773,31 +6798,6 @@
         "targets": 34,
         "rec": 24,
         "rec_yd": 272,
-        "rec_td": 2
-      }
-    },
-    "Kayshon Boutte|NE|WR": {
-      "name": "Kayshon Boutte",
-      "team": "NE",
-      "pos": "WR",
-      "games": 17,
-      "proj_total": 55.9,
-      "proj_ppg": 3.29,
-      "vor": -44.1,
-      "tier": 5,
-      "pos_rk": 93,
-      "clay_pos_rk": 95,
-      "clay_ppr_total": 68,
-      "components": {
-        "pass_yd": 0,
-        "pass_td": 0,
-        "pass_int": 0,
-        "rush_att": 0,
-        "rush_yd": 0,
-        "rush_td": 0,
-        "targets": 36,
-        "rec": 24,
-        "rec_yd": 319,
         "rec_td": 2
       }
     },
@@ -6906,9 +6906,9 @@
       "team": "WAS",
       "pos": "WR",
       "games": 17,
-      "proj_total": 51.5,
-      "proj_ppg": 3.03,
-      "vor": -48.5,
+      "proj_total": 51.4,
+      "proj_ppg": 3.02,
+      "vor": -48.6,
       "tier": 5,
       "pos_rk": 102,
       "clay_pos_rk": 100,
@@ -6922,18 +6922,18 @@
         "rush_td": 0,
         "targets": 36,
         "rec": 23,
-        "rec_yd": 280,
+        "rec_yd": 279,
         "rec_td": 2
       }
     },
-    "Chris Brazzell II|CAR|WR": {
-      "name": "Chris Brazzell II",
-      "team": "CAR",
+    "DeMario Douglas|NE|WR": {
+      "name": "DeMario Douglas",
+      "team": "NE",
       "pos": "WR",
       "games": 17,
-      "proj_total": 52.3,
-      "proj_ppg": 3.08,
-      "vor": -47.7,
+      "proj_total": 52.7,
+      "proj_ppg": 3.1,
+      "vor": -47.3,
       "tier": 5,
       "pos_rk": 100,
       "clay_pos_rk": 101,
@@ -6942,12 +6942,12 @@
         "pass_yd": 0,
         "pass_td": 0,
         "pass_int": 0,
-        "rush_att": 0,
-        "rush_yd": 0,
+        "rush_att": 4,
+        "rush_yd": 21,
         "rush_td": 0,
-        "targets": 37,
+        "targets": 31,
         "rec": 23,
-        "rec_yd": 288,
+        "rec_yd": 271,
         "rec_td": 2
       }
     },
@@ -6976,31 +6976,6 @@
         "rec_td": 2
       }
     },
-    "DeMario Douglas|NE|WR": {
-      "name": "DeMario Douglas",
-      "team": "NE",
-      "pos": "WR",
-      "games": 17,
-      "proj_total": 46.7,
-      "proj_ppg": 2.75,
-      "vor": -53.3,
-      "tier": 6,
-      "pos_rk": 106,
-      "clay_pos_rk": 103,
-      "clay_ppr_total": 61,
-      "components": {
-        "pass_yd": 0,
-        "pass_td": 0,
-        "pass_int": 0,
-        "rush_att": 4,
-        "rush_yd": 21,
-        "rush_td": 0,
-        "targets": 31,
-        "rec": 23,
-        "rec_yd": 271,
-        "rec_td": 1
-      }
-    },
     "Nick Westbrook-Ikhine|IND|WR": {
       "name": "Nick Westbrook-Ikhine",
       "team": "IND",
@@ -7011,7 +6986,7 @@
       "vor": -50.0,
       "tier": 5,
       "pos_rk": 104,
-      "clay_pos_rk": 104,
+      "clay_pos_rk": 103,
       "clay_ppr_total": 60,
       "components": {
         "pass_yd": 0,
@@ -7036,7 +7011,7 @@
       "vor": -51.9,
       "tier": 6,
       "pos_rk": 105,
-      "clay_pos_rk": 105,
+      "clay_pos_rk": 104,
       "clay_ppr_total": 60,
       "components": {
         "pass_yd": 0,
@@ -7061,7 +7036,7 @@
       "vor": -48.5,
       "tier": 5,
       "pos_rk": 101,
-      "clay_pos_rk": 106,
+      "clay_pos_rk": 105,
       "clay_ppr_total": 59,
       "components": {
         "pass_yd": 0,
@@ -7085,8 +7060,8 @@
       "proj_ppg": 2.56,
       "vor": -56.5,
       "tier": 6,
-      "pos_rk": 109,
-      "clay_pos_rk": 107,
+      "pos_rk": 108,
+      "clay_pos_rk": 106,
       "clay_ppr_total": 56,
       "components": {
         "pass_yd": 0,
@@ -7110,8 +7085,8 @@
       "proj_ppg": 2.37,
       "vor": -59.7,
       "tier": 6,
-      "pos_rk": 114,
-      "clay_pos_rk": 108,
+      "pos_rk": 111,
+      "clay_pos_rk": 107,
       "clay_ppr_total": 53,
       "components": {
         "pass_yd": 0,
@@ -7135,8 +7110,8 @@
       "proj_ppg": 2.56,
       "vor": -56.4,
       "tier": 6,
-      "pos_rk": 108,
-      "clay_pos_rk": 109,
+      "pos_rk": 107,
+      "clay_pos_rk": 108,
       "clay_ppr_total": 52,
       "components": {
         "pass_yd": 0,
@@ -7160,8 +7135,8 @@
       "proj_ppg": 2.64,
       "vor": -55.2,
       "tier": 6,
-      "pos_rk": 107,
-      "clay_pos_rk": 110,
+      "pos_rk": 106,
+      "clay_pos_rk": 109,
       "clay_ppr_total": 51,
       "components": {
         "pass_yd": 0,
@@ -7185,8 +7160,8 @@
       "proj_ppg": 2.54,
       "vor": -56.8,
       "tier": 6,
-      "pos_rk": 110,
-      "clay_pos_rk": 111,
+      "pos_rk": 109,
+      "clay_pos_rk": 110,
       "clay_ppr_total": 51,
       "components": {
         "pass_yd": 0,
@@ -7210,8 +7185,8 @@
       "proj_ppg": 2.44,
       "vor": -58.6,
       "tier": 6,
-      "pos_rk": 112,
-      "clay_pos_rk": 112,
+      "pos_rk": 110,
+      "clay_pos_rk": 111,
       "clay_ppr_total": 50,
       "components": {
         "pass_yd": 0,
@@ -7231,12 +7206,12 @@
       "team": "SF",
       "pos": "WR",
       "games": 17,
-      "proj_total": 43.2,
-      "proj_ppg": 2.54,
-      "vor": -56.8,
+      "proj_total": 37.2,
+      "proj_ppg": 2.19,
+      "vor": -62.8,
       "tier": 6,
-      "pos_rk": 111,
-      "clay_pos_rk": 113,
+      "pos_rk": 112,
+      "clay_pos_rk": 112,
       "clay_ppr_total": 48,
       "components": {
         "pass_yd": 0,
@@ -7248,7 +7223,7 @@
         "targets": 28,
         "rec": 17,
         "rec_yd": 227,
-        "rec_td": 2
+        "rec_td": 1
       }
     },
     "Kalif Raymond|CHI|WR": {
@@ -7260,8 +7235,8 @@
       "proj_ppg": 2.17,
       "vor": -63.1,
       "tier": 6,
-      "pos_rk": 115,
-      "clay_pos_rk": 114,
+      "pos_rk": 113,
+      "clay_pos_rk": 113,
       "clay_ppr_total": 48,
       "components": {
         "pass_yd": 0,
@@ -7276,31 +7251,6 @@
         "rec_td": 1
       }
     },
-    "Jalen Royals|KC|WR": {
-      "name": "Jalen Royals",
-      "team": "KC",
-      "pos": "WR",
-      "games": 17,
-      "proj_total": 40.4,
-      "proj_ppg": 2.38,
-      "vor": -59.6,
-      "tier": 6,
-      "pos_rk": 113,
-      "clay_pos_rk": 115,
-      "clay_ppr_total": 46,
-      "components": {
-        "pass_yd": 0,
-        "pass_td": 0,
-        "pass_int": 0,
-        "rush_att": 0,
-        "rush_yd": 0,
-        "rush_td": 0,
-        "targets": 27,
-        "rec": 17,
-        "rec_yd": 199,
-        "rec_td": 2
-      }
-    },
     "Josh Palmer|BUF|WR": {
       "name": "Josh Palmer",
       "team": "BUF",
@@ -7310,8 +7260,8 @@
       "proj_ppg": 2.06,
       "vor": -65.0,
       "tier": 6,
-      "pos_rk": 116,
-      "clay_pos_rk": 116,
+      "pos_rk": 114,
+      "clay_pos_rk": 114,
       "clay_ppr_total": 45,
       "components": {
         "pass_yd": 0,
@@ -7331,13 +7281,13 @@
       "team": "WAS",
       "pos": "WR",
       "games": 17,
-      "proj_total": 34.2,
-      "proj_ppg": 2.01,
-      "vor": -65.8,
+      "proj_total": 34.6,
+      "proj_ppg": 2.04,
+      "vor": -65.4,
       "tier": 6,
-      "pos_rk": 118,
-      "clay_pos_rk": 117,
-      "clay_ppr_total": 43,
+      "pos_rk": 115,
+      "clay_pos_rk": 115,
+      "clay_ppr_total": 45,
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
@@ -7347,7 +7297,32 @@
         "rush_td": 0,
         "targets": 26,
         "rec": 17,
-        "rec_yd": 197,
+        "rec_yd": 201,
+        "rec_td": 1
+      }
+    },
+    "Cyrus Allen|KC|WR": {
+      "name": "Cyrus Allen",
+      "team": "KC",
+      "pos": "WR",
+      "games": 17,
+      "proj_total": 34.3,
+      "proj_ppg": 2.02,
+      "vor": -65.7,
+      "tier": 6,
+      "pos_rk": 117,
+      "clay_pos_rk": 116,
+      "clay_ppr_total": 44,
+      "components": {
+        "pass_yd": 0,
+        "pass_td": 0,
+        "pass_int": 0,
+        "rush_att": 0,
+        "rush_yd": 0,
+        "rush_td": 0,
+        "targets": 27,
+        "rec": 16,
+        "rec_yd": 203,
         "rec_td": 1
       }
     },
@@ -7360,8 +7335,8 @@
       "proj_ppg": 2.0,
       "vor": -66.0,
       "tier": 6,
-      "pos_rk": 119,
-      "clay_pos_rk": 118,
+      "pos_rk": 118,
+      "clay_pos_rk": 117,
       "clay_ppr_total": 43,
       "components": {
         "pass_yd": 0,
@@ -7385,8 +7360,8 @@
       "proj_ppg": 2.02,
       "vor": -65.6,
       "tier": 6,
-      "pos_rk": 117,
-      "clay_pos_rk": 119,
+      "pos_rk": 116,
+      "clay_pos_rk": 118,
       "clay_ppr_total": 42,
       "components": {
         "pass_yd": 0,
@@ -7410,8 +7385,8 @@
       "proj_ppg": 1.88,
       "vor": -68.1,
       "tier": 6,
-      "pos_rk": 120,
-      "clay_pos_rk": 120,
+      "pos_rk": 119,
+      "clay_pos_rk": 119,
       "clay_ppr_total": 42,
       "components": {
         "pass_yd": 0,
@@ -7435,8 +7410,8 @@
       "proj_ppg": 1.61,
       "vor": -72.6,
       "tier": 6,
-      "pos_rk": 127,
-      "clay_pos_rk": 121,
+      "pos_rk": 126,
+      "clay_pos_rk": 120,
       "clay_ppr_total": 36,
       "components": {
         "pass_yd": 0,
@@ -7460,8 +7435,8 @@
       "proj_ppg": 1.71,
       "vor": -71.0,
       "tier": 6,
-      "pos_rk": 121,
-      "clay_pos_rk": 122,
+      "pos_rk": 120,
+      "clay_pos_rk": 121,
       "clay_ppr_total": 35,
       "components": {
         "pass_yd": 0,
@@ -7485,8 +7460,8 @@
       "proj_ppg": 1.68,
       "vor": -71.4,
       "tier": 6,
-      "pos_rk": 123,
-      "clay_pos_rk": 123,
+      "pos_rk": 122,
+      "clay_pos_rk": 122,
       "clay_ppr_total": 35,
       "components": {
         "pass_yd": 0,
@@ -7510,8 +7485,8 @@
       "proj_ppg": 1.67,
       "vor": -71.6,
       "tier": 6,
-      "pos_rk": 124,
-      "clay_pos_rk": 124,
+      "pos_rk": 123,
+      "clay_pos_rk": 123,
       "clay_ppr_total": 34,
       "components": {
         "pass_yd": 0,
@@ -7535,8 +7510,8 @@
       "proj_ppg": 1.66,
       "vor": -71.7,
       "tier": 6,
-      "pos_rk": 125,
-      "clay_pos_rk": 125,
+      "pos_rk": 124,
+      "clay_pos_rk": 124,
       "clay_ppr_total": 34,
       "components": {
         "pass_yd": 0,
@@ -7560,8 +7535,8 @@
       "proj_ppg": 1.69,
       "vor": -71.2,
       "tier": 6,
-      "pos_rk": 122,
-      "clay_pos_rk": 126,
+      "pos_rk": 121,
+      "clay_pos_rk": 125,
       "clay_ppr_total": 32,
       "components": {
         "pass_yd": 0,
@@ -7585,8 +7560,8 @@
       "proj_ppg": 1.6,
       "vor": -72.8,
       "tier": 6,
-      "pos_rk": 128,
-      "clay_pos_rk": 127,
+      "pos_rk": 127,
+      "clay_pos_rk": 126,
       "clay_ppr_total": 32,
       "components": {
         "pass_yd": 0,
@@ -7610,8 +7585,8 @@
       "proj_ppg": 1.64,
       "vor": -72.1,
       "tier": 6,
-      "pos_rk": 126,
-      "clay_pos_rk": 128,
+      "pos_rk": 125,
+      "clay_pos_rk": 127,
       "clay_ppr_total": 30,
       "components": {
         "pass_yd": 0,
@@ -7635,8 +7610,8 @@
       "proj_ppg": 1.55,
       "vor": -73.6,
       "tier": 6,
-      "pos_rk": 129,
-      "clay_pos_rk": 129,
+      "pos_rk": 128,
+      "clay_pos_rk": 128,
       "clay_ppr_total": 30,
       "components": {
         "pass_yd": 0,
@@ -7660,8 +7635,8 @@
       "proj_ppg": 1.39,
       "vor": -76.3,
       "tier": 6,
-      "pos_rk": 132,
-      "clay_pos_rk": 130,
+      "pos_rk": 131,
+      "clay_pos_rk": 129,
       "clay_ppr_total": 29,
       "components": {
         "pass_yd": 0,
@@ -7685,8 +7660,8 @@
       "proj_ppg": 1.42,
       "vor": -75.8,
       "tier": 6,
-      "pos_rk": 131,
-      "clay_pos_rk": 131,
+      "pos_rk": 130,
+      "clay_pos_rk": 130,
       "clay_ppr_total": 28,
       "components": {
         "pass_yd": 0,
@@ -7710,8 +7685,8 @@
       "proj_ppg": 1.42,
       "vor": -75.8,
       "tier": 6,
-      "pos_rk": 130,
-      "clay_pos_rk": 132,
+      "pos_rk": 129,
+      "clay_pos_rk": 131,
       "clay_ppr_total": 27,
       "components": {
         "pass_yd": 0,
@@ -7735,8 +7710,8 @@
       "proj_ppg": 1.36,
       "vor": -76.9,
       "tier": 6,
-      "pos_rk": 133,
-      "clay_pos_rk": 133,
+      "pos_rk": 132,
+      "clay_pos_rk": 132,
       "clay_ppr_total": 27,
       "components": {
         "pass_yd": 0,
@@ -7760,8 +7735,8 @@
       "proj_ppg": 1.19,
       "vor": -79.7,
       "tier": 6,
-      "pos_rk": 134,
-      "clay_pos_rk": 134,
+      "pos_rk": 133,
+      "clay_pos_rk": 133,
       "clay_ppr_total": 23,
       "components": {
         "pass_yd": 0,
@@ -7785,8 +7760,8 @@
       "proj_ppg": 1.15,
       "vor": -80.4,
       "tier": 6,
-      "pos_rk": 135,
-      "clay_pos_rk": 135,
+      "pos_rk": 134,
+      "clay_pos_rk": 134,
       "clay_ppr_total": 22,
       "components": {
         "pass_yd": 0,
@@ -7801,29 +7776,29 @@
         "rec_td": 1
       }
     },
-    "Xavier Smith|LAR|WR": {
-      "name": "Xavier Smith",
-      "team": "LAR",
+    "Jimmy Horn Jr.|CAR|WR": {
+      "name": "Jimmy Horn Jr.",
+      "team": "CAR",
       "pos": "WR",
       "games": 17,
-      "proj_total": 18.4,
-      "proj_ppg": 1.08,
-      "vor": -81.6,
-      "tier": 6,
-      "pos_rk": 136,
-      "clay_pos_rk": 136,
-      "clay_ppr_total": 22,
+      "proj_total": 14.9,
+      "proj_ppg": 0.88,
+      "vor": -85.1,
+      "tier": 7,
+      "pos_rk": 137,
+      "clay_pos_rk": 135,
+      "clay_ppr_total": 21,
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
         "pass_int": 0,
-        "rush_att": 0,
-        "rush_yd": 0,
+        "rush_att": 6,
+        "rush_yd": 37,
         "rush_td": 0,
-        "targets": 11,
+        "targets": 10,
         "rec": 7,
-        "rec_yd": 89,
-        "rec_td": 1
+        "rec_yd": 77,
+        "rec_td": 0
       }
     },
     "Mitchell Tinsley|CIN|WR": {
@@ -7835,8 +7810,8 @@
       "proj_ppg": 1.05,
       "vor": -82.1,
       "tier": 6,
-      "pos_rk": 137,
-      "clay_pos_rk": 137,
+      "pos_rk": 135,
+      "clay_pos_rk": 136,
       "clay_ppr_total": 20,
       "components": {
         "pass_yd": 0,
@@ -7860,8 +7835,8 @@
       "proj_ppg": 0.71,
       "vor": -87.9,
       "tier": 7,
-      "pos_rk": 139,
-      "clay_pos_rk": 138,
+      "pos_rk": 138,
+      "clay_pos_rk": 137,
       "clay_ppr_total": 19,
       "components": {
         "pass_yd": 0,
@@ -7876,6 +7851,31 @@
         "rec_td": 0
       }
     },
+    "Jalen Royals|KC|WR": {
+      "name": "Jalen Royals",
+      "team": "KC",
+      "pos": "WR",
+      "games": 17,
+      "proj_total": 17.3,
+      "proj_ppg": 1.02,
+      "vor": -82.7,
+      "tier": 6,
+      "pos_rk": 136,
+      "clay_pos_rk": 138,
+      "clay_ppr_total": 18,
+      "components": {
+        "pass_yd": 0,
+        "pass_td": 0,
+        "pass_int": 0,
+        "rush_att": 0,
+        "rush_yd": 0,
+        "rush_td": 0,
+        "targets": 11,
+        "rec": 7,
+        "rec_yd": 78,
+        "rec_td": 1
+      }
+    },
     "Anthony Gould|IND|WR": {
       "name": "Anthony Gould",
       "team": "IND",
@@ -7885,7 +7885,7 @@
       "proj_ppg": 0.64,
       "vor": -89.1,
       "tier": 7,
-      "pos_rk": 140,
+      "pos_rk": 139,
       "clay_pos_rk": 139,
       "clay_ppr_total": 18,
       "components": {
@@ -7901,31 +7901,6 @@
         "rec_td": 0
       }
     },
-    "Cyrus Allen|KC|WR": {
-      "name": "Cyrus Allen",
-      "team": "KC",
-      "pos": "WR",
-      "games": 17,
-      "proj_total": 17.0,
-      "proj_ppg": 1.0,
-      "vor": -83.0,
-      "tier": 6,
-      "pos_rk": 138,
-      "clay_pos_rk": 140,
-      "clay_ppr_total": 17,
-      "components": {
-        "pass_yd": 0,
-        "pass_td": 0,
-        "pass_int": 0,
-        "rush_att": 0,
-        "rush_yd": 0,
-        "rush_td": 0,
-        "targets": 11,
-        "rec": 6,
-        "rec_yd": 80,
-        "rec_td": 1
-      }
-    },
     "Malik Benson|LV|WR": {
       "name": "Malik Benson",
       "team": "LV",
@@ -7935,8 +7910,8 @@
       "proj_ppg": 0.64,
       "vor": -89.1,
       "tier": 7,
-      "pos_rk": 141,
-      "clay_pos_rk": 141,
+      "pos_rk": 140,
+      "clay_pos_rk": 140,
       "clay_ppr_total": 16,
       "components": {
         "pass_yd": 0,
@@ -7960,8 +7935,8 @@
       "proj_ppg": 0.62,
       "vor": -89.4,
       "tier": 7,
-      "pos_rk": 142,
-      "clay_pos_rk": 142,
+      "pos_rk": 141,
+      "clay_pos_rk": 141,
       "clay_ppr_total": 16,
       "components": {
         "pass_yd": 0,
@@ -7985,8 +7960,8 @@
       "proj_ppg": 0.49,
       "vor": -91.6,
       "tier": 7,
-      "pos_rk": 143,
-      "clay_pos_rk": 143,
+      "pos_rk": 142,
+      "clay_pos_rk": 142,
       "clay_ppr_total": 16,
       "components": {
         "pass_yd": 0,
@@ -8010,8 +7985,8 @@
       "proj_ppg": 0.41,
       "vor": -93.1,
       "tier": 7,
-      "pos_rk": 148,
-      "clay_pos_rk": 144,
+      "pos_rk": 147,
+      "clay_pos_rk": 143,
       "clay_ppr_total": 14,
       "components": {
         "pass_yd": 0,
@@ -8035,8 +8010,8 @@
       "proj_ppg": 0.46,
       "vor": -92.1,
       "tier": 7,
-      "pos_rk": 144,
-      "clay_pos_rk": 145,
+      "pos_rk": 143,
+      "clay_pos_rk": 144,
       "clay_ppr_total": 12,
       "components": {
         "pass_yd": 0,
@@ -8060,8 +8035,8 @@
       "proj_ppg": 0.45,
       "vor": -92.4,
       "tier": 7,
-      "pos_rk": 145,
-      "clay_pos_rk": 146,
+      "pos_rk": 144,
+      "clay_pos_rk": 145,
       "clay_ppr_total": 12,
       "components": {
         "pass_yd": 0,
@@ -8085,8 +8060,8 @@
       "proj_ppg": 0.38,
       "vor": -93.6,
       "tier": 7,
-      "pos_rk": 149,
-      "clay_pos_rk": 147,
+      "pos_rk": 148,
+      "clay_pos_rk": 146,
       "clay_ppr_total": 12,
       "components": {
         "pass_yd": 0,
@@ -8101,6 +8076,31 @@
         "rec_td": 0
       }
     },
+    "Xavier Smith|LAR|WR": {
+      "name": "Xavier Smith",
+      "team": "LAR",
+      "pos": "WR",
+      "games": 17,
+      "proj_total": 6.4,
+      "proj_ppg": 0.38,
+      "vor": -93.6,
+      "tier": 7,
+      "pos_rk": 149,
+      "clay_pos_rk": 147,
+      "clay_ppr_total": 12,
+      "components": {
+        "pass_yd": 0,
+        "pass_td": 0,
+        "pass_int": 0,
+        "rush_att": 0,
+        "rush_yd": 0,
+        "rush_td": 0,
+        "targets": 6,
+        "rec": 4,
+        "rec_yd": 44,
+        "rec_td": 0
+      }
+    },
     "Tyrell Shavers|BUF|WR": {
       "name": "Tyrell Shavers",
       "team": "BUF",
@@ -8110,7 +8110,7 @@
       "proj_ppg": 0.65,
       "vor": -92.8,
       "tier": 7,
-      "pos_rk": 146,
+      "pos_rk": 145,
       "clay_pos_rk": 148,
       "clay_ppr_total": 11,
       "components": {
@@ -8135,7 +8135,7 @@
       "proj_ppg": 0.35,
       "vor": -94.1,
       "tier": 7,
-      "pos_rk": 151,
+      "pos_rk": 150,
       "clay_pos_rk": 149,
       "clay_ppr_total": 10,
       "components": {
@@ -8160,8 +8160,33 @@
       "proj_ppg": 0.34,
       "vor": -94.2,
       "tier": 7,
-      "pos_rk": 152,
+      "pos_rk": 151,
       "clay_pos_rk": 150,
+      "clay_ppr_total": 10,
+      "components": {
+        "pass_yd": 0,
+        "pass_td": 0,
+        "pass_int": 0,
+        "rush_att": 0,
+        "rush_yd": 0,
+        "rush_td": 0,
+        "targets": 6,
+        "rec": 3,
+        "rec_yd": 43,
+        "rec_td": 0
+      }
+    },
+    "CJ Daniels|LAR|WR": {
+      "name": "CJ Daniels",
+      "team": "LAR",
+      "pos": "WR",
+      "games": 17,
+      "proj_total": 5.8,
+      "proj_ppg": 0.34,
+      "vor": -94.2,
+      "tier": 7,
+      "pos_rk": 152,
+      "clay_pos_rk": 151,
       "clay_ppr_total": 10,
       "components": {
         "pass_yd": 0,
@@ -8181,12 +8206,12 @@
       "team": "NO",
       "pos": "WR",
       "games": 17,
-      "proj_total": 5.4,
+      "proj_total": 5.5,
       "proj_ppg": 0.32,
-      "vor": -94.6,
+      "vor": -94.5,
       "tier": 7,
-      "pos_rk": 158,
-      "clay_pos_rk": 151,
+      "pos_rk": 157,
+      "clay_pos_rk": 152,
       "clay_ppr_total": 10,
       "components": {
         "pass_yd": 0,
@@ -8197,7 +8222,7 @@
         "rush_td": 0,
         "targets": 5,
         "rec": 3,
-        "rec_yd": 39,
+        "rec_yd": 40,
         "rec_td": 0
       }
     },
@@ -8210,8 +8235,8 @@
       "proj_ppg": 0.41,
       "vor": -93.0,
       "tier": 7,
-      "pos_rk": 147,
-      "clay_pos_rk": 152,
+      "pos_rk": 146,
+      "clay_pos_rk": 153,
       "clay_ppr_total": 9,
       "components": {
         "pass_yd": 0,
@@ -8223,31 +8248,6 @@
         "targets": 3,
         "rec": 2,
         "rec_yd": 16,
-        "rec_td": 0
-      }
-    },
-    "David Moore|CAR|WR": {
-      "name": "David Moore",
-      "team": "CAR",
-      "pos": "WR",
-      "games": 17,
-      "proj_total": 6.3,
-      "proj_ppg": 0.37,
-      "vor": -93.7,
-      "tier": 7,
-      "pos_rk": 150,
-      "clay_pos_rk": 153,
-      "clay_ppr_total": 9,
-      "components": {
-        "pass_yd": 0,
-        "pass_td": 0,
-        "pass_int": 0,
-        "rush_att": 2,
-        "rush_yd": 11,
-        "rush_td": 0,
-        "targets": 5,
-        "rec": 3,
-        "rec_yd": 37,
         "rec_td": 0
       }
     },
@@ -8310,7 +8310,7 @@
       "proj_ppg": 0.3,
       "vor": -94.9,
       "tier": 7,
-      "pos_rk": 160,
+      "pos_rk": 161,
       "clay_pos_rk": 156,
       "clay_ppr_total": 9,
       "components": {
@@ -8385,7 +8385,7 @@
       "proj_ppg": 0.32,
       "vor": -94.6,
       "tier": 7,
-      "pos_rk": 157,
+      "pos_rk": 158,
       "clay_pos_rk": 159,
       "clay_ppr_total": 8,
       "components": {
@@ -8426,6 +8426,31 @@
         "rec_td": 0
       }
     },
+    "Brycen Tremayne|CAR|WR": {
+      "name": "Brycen Tremayne",
+      "team": "CAR",
+      "pos": "WR",
+      "games": 17,
+      "proj_total": 5.2,
+      "proj_ppg": 0.31,
+      "vor": -94.8,
+      "tier": 7,
+      "pos_rk": 160,
+      "clay_pos_rk": 161,
+      "clay_ppr_total": 8,
+      "components": {
+        "pass_yd": 0,
+        "pass_td": 0,
+        "pass_int": 0,
+        "rush_att": 0,
+        "rush_yd": 0,
+        "rush_td": 0,
+        "targets": 5,
+        "rec": 3,
+        "rec_yd": 37,
+        "rec_td": 0
+      }
+    },
     "Kaden Wetjen|PIT|WR": {
       "name": "Kaden Wetjen",
       "team": "PIT",
@@ -8435,8 +8460,8 @@
       "proj_ppg": 0.24,
       "vor": -95.9,
       "tier": 8,
-      "pos_rk": 162,
-      "clay_pos_rk": 161,
+      "pos_rk": 163,
+      "clay_pos_rk": 162,
       "clay_ppr_total": 8,
       "components": {
         "pass_yd": 0,
@@ -8460,8 +8485,8 @@
       "proj_ppg": 0.28,
       "vor": -95.2,
       "tier": 8,
-      "pos_rk": 161,
-      "clay_pos_rk": 162,
+      "pos_rk": 162,
+      "clay_pos_rk": 163,
       "clay_ppr_total": 7,
       "components": {
         "pass_yd": 0,
@@ -8486,7 +8511,7 @@
       "vor": -97.6,
       "tier": 8,
       "pos_rk": 164,
-      "clay_pos_rk": 163,
+      "clay_pos_rk": 164,
       "clay_ppr_total": 4,
       "components": {
         "pass_yd": 0,
@@ -8511,7 +8536,7 @@
       "vor": -98.8,
       "tier": 8,
       "pos_rk": 165,
-      "clay_pos_rk": 164,
+      "clay_pos_rk": 165,
       "clay_ppr_total": 4,
       "components": {
         "pass_yd": 0,
@@ -8519,31 +8544,6 @@
         "pass_int": 0,
         "rush_att": 2,
         "rush_yd": 12,
-        "rush_td": 0,
-        "targets": 0,
-        "rec": 0,
-        "rec_yd": 0,
-        "rec_td": 0
-      }
-    },
-    "Jimmy Horn Jr.|CAR|WR": {
-      "name": "Jimmy Horn Jr.",
-      "team": "CAR",
-      "pos": "WR",
-      "games": 17,
-      "proj_total": 2.5,
-      "proj_ppg": 0.15,
-      "vor": -97.5,
-      "tier": 8,
-      "pos_rk": 163,
-      "clay_pos_rk": 165,
-      "clay_ppr_total": 3,
-      "components": {
-        "pass_yd": 0,
-        "pass_td": 0,
-        "pass_int": 0,
-        "rush_att": 4,
-        "rush_yd": 25,
         "rush_td": 0,
         "targets": 0,
         "rec": 0,
@@ -8610,7 +8610,7 @@
       "proj_ppg": 0.0,
       "vor": -100.0,
       "tier": 8,
-      "pos_rk": 171,
+      "pos_rk": 170,
       "clay_pos_rk": 168,
       "clay_ppr_total": 2,
       "components": {
@@ -8635,7 +8635,7 @@
       "proj_ppg": 0.0,
       "vor": -100.0,
       "tier": 8,
-      "pos_rk": 179,
+      "pos_rk": 178,
       "clay_pos_rk": 169,
       "clay_ppr_total": 2,
       "components": {
@@ -8660,7 +8660,7 @@
       "proj_ppg": 0.0,
       "vor": -100.0,
       "tier": 8,
-      "pos_rk": 183,
+      "pos_rk": 182,
       "clay_pos_rk": 170,
       "clay_ppr_total": 2,
       "components": {
@@ -8685,7 +8685,7 @@
       "proj_ppg": 0.0,
       "vor": -100.0,
       "tier": 8,
-      "pos_rk": 184,
+      "pos_rk": 183,
       "clay_pos_rk": 171,
       "clay_ppr_total": 2,
       "components": {
@@ -8735,7 +8735,7 @@
       "proj_ppg": 0.0,
       "vor": -100.0,
       "tier": 8,
-      "pos_rk": 172,
+      "pos_rk": 171,
       "clay_pos_rk": 173,
       "clay_ppr_total": 1,
       "components": {
@@ -8760,7 +8760,7 @@
       "proj_ppg": 0.0,
       "vor": -100.0,
       "tier": 8,
-      "pos_rk": 173,
+      "pos_rk": 172,
       "clay_pos_rk": 174,
       "clay_ppr_total": 1,
       "components": {
@@ -8785,7 +8785,7 @@
       "proj_ppg": 0.0,
       "vor": -100.0,
       "tier": 8,
-      "pos_rk": 177,
+      "pos_rk": 176,
       "clay_pos_rk": 175,
       "clay_ppr_total": 1,
       "components": {
@@ -8810,7 +8810,7 @@
       "proj_ppg": 0.0,
       "vor": -100.0,
       "tier": 8,
-      "pos_rk": 181,
+      "pos_rk": 180,
       "clay_pos_rk": 176,
       "clay_ppr_total": 1,
       "components": {
@@ -8835,7 +8835,7 @@
       "proj_ppg": 0.0,
       "vor": -100.0,
       "tier": 8,
-      "pos_rk": 182,
+      "pos_rk": 181,
       "clay_pos_rk": 177,
       "clay_ppr_total": 1,
       "components": {
@@ -8860,7 +8860,7 @@
       "proj_ppg": 0.0,
       "vor": -100.0,
       "tier": 8,
-      "pos_rk": 185,
+      "pos_rk": 184,
       "clay_pos_rk": 178,
       "clay_ppr_total": 1,
       "components": {
@@ -8901,31 +8901,6 @@
         "rec_td": 0
       }
     },
-    "Brycen Tremayne|CAR|WR": {
-      "name": "Brycen Tremayne",
-      "team": "CAR",
-      "pos": "WR",
-      "games": 17,
-      "proj_total": 0.0,
-      "proj_ppg": 0.0,
-      "vor": -100.0,
-      "tier": 8,
-      "pos_rk": 170,
-      "clay_pos_rk": 180,
-      "clay_ppr_total": 0,
-      "components": {
-        "pass_yd": 0,
-        "pass_td": 0,
-        "pass_int": 0,
-        "rush_att": 0,
-        "rush_yd": 0,
-        "rush_td": 0,
-        "targets": 0,
-        "rec": 0,
-        "rec_yd": 0,
-        "rec_td": 0
-      }
-    },
     "Michael Bandy|DEN|WR": {
       "name": "Michael Bandy",
       "team": "DEN",
@@ -8935,8 +8910,8 @@
       "proj_ppg": 0.0,
       "vor": -100.0,
       "tier": 8,
-      "pos_rk": 174,
-      "clay_pos_rk": 181,
+      "pos_rk": 173,
+      "clay_pos_rk": 180,
       "clay_ppr_total": 0,
       "components": {
         "pass_yd": 0,
@@ -8960,8 +8935,8 @@
       "proj_ppg": 0.0,
       "vor": -100.0,
       "tier": 8,
-      "pos_rk": 175,
-      "clay_pos_rk": 182,
+      "pos_rk": 174,
+      "clay_pos_rk": 181,
       "clay_ppr_total": 0,
       "components": {
         "pass_yd": 0,
@@ -8985,8 +8960,8 @@
       "proj_ppg": 0.0,
       "vor": -100.0,
       "tier": 8,
-      "pos_rk": 176,
-      "clay_pos_rk": 183,
+      "pos_rk": 175,
+      "clay_pos_rk": 182,
       "clay_ppr_total": 0,
       "components": {
         "pass_yd": 0,
@@ -9010,8 +8985,8 @@
       "proj_ppg": 0.0,
       "vor": -100.0,
       "tier": 8,
-      "pos_rk": 178,
-      "clay_pos_rk": 184,
+      "pos_rk": 177,
+      "clay_pos_rk": 183,
       "clay_ppr_total": 0,
       "components": {
         "pass_yd": 0,
@@ -9035,8 +9010,8 @@
       "proj_ppg": 0.0,
       "vor": -100.0,
       "tier": 8,
-      "pos_rk": 180,
-      "clay_pos_rk": 185,
+      "pos_rk": 179,
+      "clay_pos_rk": 184,
       "clay_ppr_total": 0,
       "components": {
         "pass_yd": 0,
@@ -9060,8 +9035,8 @@
       "proj_ppg": 0.0,
       "vor": -100.0,
       "tier": 8,
-      "pos_rk": 186,
-      "clay_pos_rk": 186,
+      "pos_rk": 185,
+      "clay_pos_rk": 185,
       "clay_ppr_total": 0,
       "components": {
         "pass_yd": 0,
@@ -9181,9 +9156,9 @@
       "team": "SF",
       "pos": "TE",
       "games": 15,
-      "proj_total": 154.0,
-      "proj_ppg": 10.27,
-      "vor": 69.0,
+      "proj_total": 153.9,
+      "proj_ppg": 10.26,
+      "vor": 68.9,
       "tier": 2,
       "pos_rk": 5,
       "clay_pos_rk": 5,
@@ -9197,7 +9172,7 @@
         "rush_td": 0,
         "targets": 93,
         "rec": 74,
-        "rec_yd": 810,
+        "rec_yd": 809,
         "rec_td": 6
       }
     },
@@ -9531,11 +9506,11 @@
       "team": "NO",
       "pos": "TE",
       "games": 17,
-      "proj_total": 113.2,
-      "proj_ppg": 6.66,
-      "vor": 28.2,
+      "proj_total": 113.7,
+      "proj_ppg": 6.69,
+      "vor": 28.7,
       "tier": 3,
-      "pos_rk": 20,
+      "pos_rk": 19,
       "clay_pos_rk": 19,
       "clay_ppr_total": 143,
       "components": {
@@ -9546,7 +9521,7 @@
         "rush_yd": 0,
         "rush_td": 0,
         "targets": 88,
-        "rec": 63,
+        "rec": 64,
         "rec_yd": 637,
         "rec_td": 3
       }
@@ -9560,7 +9535,7 @@
       "proj_ppg": 6.66,
       "vor": 28.3,
       "tier": 3,
-      "pos_rk": 19,
+      "pos_rk": 20,
       "clay_pos_rk": 20,
       "clay_ppr_total": 142,
       "components": {
@@ -9681,13 +9656,13 @@
       "team": "WAS",
       "pos": "TE",
       "games": 17,
-      "proj_total": 93.7,
+      "proj_total": 93.6,
       "proj_ppg": 5.51,
-      "vor": 8.7,
+      "vor": 8.6,
       "tier": 4,
       "pos_rk": 26,
       "clay_pos_rk": 25,
-      "clay_ppr_total": 122,
+      "clay_ppr_total": 121,
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
@@ -9697,7 +9672,7 @@
         "rush_td": 0,
         "targets": 72,
         "rec": 53,
-        "rec_yd": 552,
+        "rec_yd": 551,
         "rec_td": 2
       }
     },
@@ -9881,13 +9856,13 @@
       "team": "CAR",
       "pos": "TE",
       "games": 17,
-      "proj_total": 59.7,
-      "proj_ppg": 3.51,
-      "vor": -25.3,
+      "proj_total": 59.9,
+      "proj_ppg": 3.52,
+      "vor": -25.1,
       "tier": 5,
       "pos_rk": 34,
       "clay_pos_rk": 33,
-      "clay_ppr_total": 77,
+      "clay_ppr_total": 78,
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
@@ -9897,7 +9872,7 @@
         "rush_td": 0,
         "targets": 47,
         "rec": 35,
-        "rec_yd": 302,
+        "rec_yd": 304,
         "rec_td": 2
       }
     },
@@ -10031,9 +10006,9 @@
       "team": "CAR",
       "pos": "TE",
       "games": 17,
-      "proj_total": 50.1,
+      "proj_total": 50.2,
       "proj_ppg": 2.95,
-      "vor": -34.9,
+      "vor": -34.8,
       "tier": 5,
       "pos_rk": 40,
       "clay_pos_rk": 39,
@@ -10047,7 +10022,7 @@
         "rush_td": 0,
         "targets": 37,
         "rec": 26,
-        "rec_yd": 251,
+        "rec_yd": 252,
         "rec_td": 2
       }
     },
@@ -10106,9 +10081,9 @@
       "team": "NYJ",
       "pos": "TE",
       "games": 17,
-      "proj_total": 43.1,
+      "proj_total": 43.2,
       "proj_ppg": 2.54,
-      "vor": -41.9,
+      "vor": -41.8,
       "tier": 6,
       "pos_rk": 43,
       "clay_pos_rk": 42,
@@ -10122,7 +10097,7 @@
         "rush_td": 0,
         "targets": 37,
         "rec": 28,
-        "rec_yd": 231,
+        "rec_yd": 232,
         "rec_td": 1
       }
     },
@@ -10426,6 +10401,31 @@
         "rec_td": 1
       }
     },
+    "Mitchell Evans|CAR|TE": {
+      "name": "Mitchell Evans",
+      "team": "CAR",
+      "pos": "TE",
+      "games": 17,
+      "proj_total": 27.9,
+      "proj_ppg": 1.64,
+      "vor": -57.1,
+      "tier": 6,
+      "pos_rk": 55,
+      "clay_pos_rk": 55,
+      "clay_ppr_total": 35,
+      "components": {
+        "pass_yd": 0,
+        "pass_td": 0,
+        "pass_int": 0,
+        "rush_att": 0,
+        "rush_yd": 0,
+        "rush_td": 0,
+        "targets": 21,
+        "rec": 15,
+        "rec_yd": 144,
+        "rec_td": 1
+      }
+    },
     "Cade Stover|HOU|TE": {
       "name": "Cade Stover",
       "team": "HOU",
@@ -10435,8 +10435,8 @@
       "proj_ppg": 1.64,
       "vor": -57.1,
       "tier": 6,
-      "pos_rk": 55,
-      "clay_pos_rk": 55,
+      "pos_rk": 56,
+      "clay_pos_rk": 56,
       "clay_ppr_total": 35,
       "components": {
         "pass_yd": 0,
@@ -10451,31 +10451,6 @@
         "rec_td": 1
       }
     },
-    "Mitchell Evans|CAR|TE": {
-      "name": "Mitchell Evans",
-      "team": "CAR",
-      "pos": "TE",
-      "games": 17,
-      "proj_total": 27.8,
-      "proj_ppg": 1.64,
-      "vor": -57.2,
-      "tier": 6,
-      "pos_rk": 56,
-      "clay_pos_rk": 56,
-      "clay_ppr_total": 35,
-      "components": {
-        "pass_yd": 0,
-        "pass_td": 0,
-        "pass_int": 0,
-        "rush_att": 0,
-        "rush_yd": 0,
-        "rush_td": 0,
-        "targets": 21,
-        "rec": 15,
-        "rec_yd": 143,
-        "rec_td": 1
-      }
-    },
     "John Bates|WAS|TE": {
       "name": "John Bates",
       "team": "WAS",
@@ -10487,7 +10462,7 @@
       "tier": 6,
       "pos_rk": 57,
       "clay_pos_rk": 57,
-      "clay_ppr_total": 35,
+      "clay_ppr_total": 34,
       "components": {
         "pass_yd": 0,
         "pass_td": 0,
@@ -11201,6 +11176,31 @@
         "rec_td": 0
       }
     },
+    "Ko Kieft|TB|TE": {
+      "name": "Ko Kieft",
+      "team": "TB",
+      "pos": "TE",
+      "games": 17,
+      "proj_total": 5.6,
+      "proj_ppg": 0.33,
+      "vor": -79.4,
+      "tier": 8,
+      "pos_rk": 87,
+      "clay_pos_rk": 86,
+      "clay_ppr_total": 9,
+      "components": {
+        "pass_yd": 0,
+        "pass_td": 0,
+        "pass_int": 0,
+        "rush_att": 0,
+        "rush_yd": 0,
+        "rush_td": 0,
+        "targets": 5,
+        "rec": 4,
+        "rec_yd": 36,
+        "rec_td": 0
+      }
+    },
     "Andrew Ogletree|IND|TE": {
       "name": "Andrew Ogletree",
       "team": "IND",
@@ -11210,8 +11210,8 @@
       "proj_ppg": 0.32,
       "vor": -79.5,
       "tier": 8,
-      "pos_rk": 87,
-      "clay_pos_rk": 86,
+      "pos_rk": 88,
+      "clay_pos_rk": 87,
       "clay_ppr_total": 9,
       "components": {
         "pass_yd": 0,
@@ -11229,31 +11229,6 @@
     "Sam Roush|CHI|TE": {
       "name": "Sam Roush",
       "team": "CHI",
-      "pos": "TE",
-      "games": 17,
-      "proj_total": 5.4,
-      "proj_ppg": 0.32,
-      "vor": -79.6,
-      "tier": 8,
-      "pos_rk": 89,
-      "clay_pos_rk": 87,
-      "clay_ppr_total": 9,
-      "components": {
-        "pass_yd": 0,
-        "pass_td": 0,
-        "pass_int": 0,
-        "rush_att": 0,
-        "rush_yd": 0,
-        "rush_td": 0,
-        "targets": 5,
-        "rec": 4,
-        "rec_yd": 34,
-        "rec_td": 0
-      }
-    },
-    "Ko Kieft|TB|TE": {
-      "name": "Ko Kieft",
-      "team": "TB",
       "pos": "TE",
       "games": 17,
       "proj_total": 5.4,
@@ -11385,7 +11360,7 @@
       "proj_ppg": 0.32,
       "vor": -79.6,
       "tier": 8,
-      "pos_rk": 88,
+      "pos_rk": 89,
       "clay_pos_rk": 93,
       "clay_ppr_total": 8,
       "components": {
