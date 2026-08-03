@@ -3,8 +3,8 @@
     "source_id": "mike_clay_unit_grades",
     "source_name": "Mike Clay - ESPN 2026 NFL Projection Guide (unit grades)",
     "source_url": "https://g.espncdn.com/s/ffldraftkit/26/NFLDK2026_CS_ClayProjections2026.pdf",
-    "pdf_updated": "2026-07-31",
-    "fetched_at": "2026-08-02T11:58:23Z",
+    "pdf_updated": "2026-08-02",
+    "fetched_at": "2026-08-03T13:36:53Z",
     "format": "per_team_unit_grades",
     "scale": "1_to_10_integer_higher_is_better",
     "defensive_group_labels": {
@@ -776,7 +776,7 @@
     "SF": {
       "offense": {
         "qb": 7,
-        "rb": 8,
+        "rb": 7,
         "wr": 6,
         "te": 7,
         "ol": 7

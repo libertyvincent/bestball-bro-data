@@ -3,7 +3,7 @@
     "source": "legup",
     "slug": "ud-ranks",
     "slate": "nfl_2026_season",
-    "version": "1785622004054-058dc609",
+    "version": "1785677512294-14a278f1",
     "headers": [
       "Name",
       "Team",
@@ -15,7 +15,7 @@
       "+/-",
       "id"
     ],
-    "fetched_at": "2026-08-02T11:58:33Z",
+    "fetched_at": "2026-08-03T13:36:58Z",
     "player_count": 230
   },
   "players": [
