@@ -3,7 +3,7 @@
     "source": "legup",
     "slug": "eliminator-ranks",
     "slate": "nfl_2026_eliminator",
-    "version": "1785821005275-99970d23",
+    "version": "1785891761043-a72155bf",
     "headers": [
       "Name",
       "Team",
@@ -16,7 +16,7 @@
       "+/-",
       "id"
     ],
-    "fetched_at": "2026-08-04T12:57:17Z",
+    "fetched_at": "2026-08-05T12:49:34Z",
     "player_count": 240
   },
   "players": [
@@ -336,40 +336,40 @@
       "wk17_opponent": "SF"
     },
     {
-      "underdog_id": "3bf449b8-d39d-46f0-9e4b-4d548418ff31",
-      "player_name": "Kyren Williams",
-      "position": "RB",
-      "team": "LAR",
-      "legup_rank": 36,
-      "legup_pos_rank": 17,
-      "wk17_opponent": "TB"
-    },
-    {
       "underdog_id": "64e01664-95a1-486e-b84e-ad5162944c59",
       "player_name": "Jaylen Waddle",
       "position": "WR",
       "team": "DEN",
-      "legup_rank": 37,
+      "legup_rank": 36,
       "legup_pos_rank": 17,
       "wk17_opponent": "NE"
     },
     {
-      "underdog_id": "7d87b82a-b43e-48d0-97f0-a48cff87f5dd",
-      "player_name": "Mike Evans",
-      "position": "WR",
-      "team": "SF",
-      "legup_rank": 38,
-      "legup_pos_rank": 18,
-      "wk17_opponent": "PHI"
+      "underdog_id": "3bf449b8-d39d-46f0-9e4b-4d548418ff31",
+      "player_name": "Kyren Williams",
+      "position": "RB",
+      "team": "LAR",
+      "legup_rank": 37,
+      "legup_pos_rank": 17,
+      "wk17_opponent": "TB"
     },
     {
       "underdog_id": "f000f8db-d4da-4502-8951-1258d6b682f5",
       "player_name": "Ladd McConkey",
       "position": "WR",
       "team": "LAC",
+      "legup_rank": 38,
+      "legup_pos_rank": 18,
+      "wk17_opponent": "KC"
+    },
+    {
+      "underdog_id": "7d87b82a-b43e-48d0-97f0-a48cff87f5dd",
+      "player_name": "Mike Evans",
+      "position": "WR",
+      "team": "SF",
       "legup_rank": 39,
       "legup_pos_rank": 19,
-      "wk17_opponent": "KC"
+      "wk17_opponent": "PHI"
     },
     {
       "underdog_id": "36b534b4-4f1d-4c1a-bdfc-e82e95347986",
@@ -408,11 +408,20 @@
       "wk17_opponent": "SEA"
     },
     {
+      "underdog_id": "a2f60645-28df-4f57-b738-9da8cf43fdc7",
+      "player_name": "Lamar Jackson",
+      "position": "QB",
+      "team": "BAL",
+      "legup_rank": 44,
+      "legup_pos_rank": 2,
+      "wk17_opponent": "CIN"
+    },
+    {
       "underdog_id": "d0d06f56-9651-46bb-928f-fb82a911641f",
       "player_name": "Davante Adams",
       "position": "WR",
       "team": "LAR",
-      "legup_rank": 44,
+      "legup_rank": 45,
       "legup_pos_rank": 23,
       "wk17_opponent": "TB"
     },
@@ -421,18 +430,9 @@
       "player_name": "Cam Skattebo",
       "position": "RB",
       "team": "NYG",
-      "legup_rank": 45,
+      "legup_rank": 46,
       "legup_pos_rank": 18,
       "wk17_opponent": "DAL"
-    },
-    {
-      "underdog_id": "a2f60645-28df-4f57-b738-9da8cf43fdc7",
-      "player_name": "Lamar Jackson",
-      "position": "QB",
-      "team": "BAL",
-      "legup_rank": 46,
-      "legup_pos_rank": 2,
-      "wk17_opponent": "CIN"
     },
     {
       "underdog_id": "bbeafe00-6459-488c-a8ff-0f9a71b70761",
@@ -453,20 +453,11 @@
       "wk17_opponent": "WAS"
     },
     {
-      "underdog_id": "3028a392-f3e2-4dd7-bf6e-8174e4442be4",
-      "player_name": "Drake Maye",
-      "position": "QB",
-      "team": "NE",
-      "legup_rank": 49,
-      "legup_pos_rank": 3,
-      "wk17_opponent": "DEN"
-    },
-    {
       "underdog_id": "65c53014-8752-441d-8761-0a1920322642",
       "player_name": "TreVeyon Henderson",
       "position": "RB",
       "team": "NE",
-      "legup_rank": 50,
+      "legup_rank": 49,
       "legup_pos_rank": 20,
       "wk17_opponent": "DEN"
     },
@@ -475,9 +466,18 @@
       "player_name": "David Montgomery",
       "position": "RB",
       "team": "HOU",
-      "legup_rank": 51,
+      "legup_rank": 50,
       "legup_pos_rank": 21,
       "wk17_opponent": "GB"
+    },
+    {
+      "underdog_id": "3028a392-f3e2-4dd7-bf6e-8174e4442be4",
+      "player_name": "Drake Maye",
+      "position": "QB",
+      "team": "NE",
+      "legup_rank": 51,
+      "legup_pos_rank": 3,
+      "wk17_opponent": "DEN"
     },
     {
       "underdog_id": "db428950-8c25-4d03-b8b3-2000cbc45d75",
@@ -570,8 +570,8 @@
       "wk17_opponent": "TEN"
     },
     {
-      "underdog_id": "2c83c20f-ed75-41ef-9e0b-6f83b92f80a1",
-      "player_name": "Brian Thomas",
+      "underdog_id": "d007f079-8773-4dcd-aac2-66d16c1bd9cd",
+      "player_name": "Parker Washington",
       "position": "WR",
       "team": "JAX",
       "legup_rank": 62,
@@ -579,8 +579,8 @@
       "wk17_opponent": "WAS"
     },
     {
-      "underdog_id": "d007f079-8773-4dcd-aac2-66d16c1bd9cd",
-      "player_name": "Parker Washington",
+      "underdog_id": "2c83c20f-ed75-41ef-9e0b-6f83b92f80a1",
+      "player_name": "Brian Thomas",
       "position": "WR",
       "team": "JAX",
       "legup_rank": 63,
@@ -705,38 +705,29 @@
       "wk17_opponent": "CLE"
     },
     {
-      "underdog_id": "19a380f6-7ffb-41ad-8e56-bc551b68084c",
-      "player_name": "Chuba Hubbard",
-      "position": "RB",
-      "team": "CAR",
-      "legup_rank": 77,
-      "legup_pos_rank": 28,
-      "wk17_opponent": "SEA"
-    },
-    {
       "underdog_id": "219bea8c-9f8a-4c1a-bcea-02b51725e7d9",
       "player_name": "Quentin Johnston",
       "position": "WR",
       "team": "LAC",
-      "legup_rank": 78,
+      "legup_rank": 77,
       "legup_pos_rank": 36,
       "wk17_opponent": "KC"
     },
     {
-      "underdog_id": "bb8c8dc3-c1d6-47c5-bdfa-778eb9acf416",
-      "player_name": "Brock Purdy",
-      "position": "QB",
-      "team": "SF",
-      "legup_rank": 79,
-      "legup_pos_rank": 11,
-      "wk17_opponent": "PHI"
+      "underdog_id": "19a380f6-7ffb-41ad-8e56-bc551b68084c",
+      "player_name": "Chuba Hubbard",
+      "position": "RB",
+      "team": "CAR",
+      "legup_rank": 78,
+      "legup_pos_rank": 28,
+      "wk17_opponent": "SEA"
     },
     {
       "underdog_id": "4dbe4aaf-189d-44c5-836a-e739e9dc7181",
       "player_name": "Jordan Addison",
       "position": "WR",
       "team": "MIN",
-      "legup_rank": 80,
+      "legup_rank": 79,
       "legup_pos_rank": 37,
       "wk17_opponent": "NYJ"
     },
@@ -745,27 +736,36 @@
       "player_name": "Rico Dowdle",
       "position": "RB",
       "team": "PIT",
-      "legup_rank": 81,
+      "legup_rank": 80,
       "legup_pos_rank": 29,
       "wk17_opponent": "TEN"
     },
     {
-      "underdog_id": "9ff6c4bd-582c-410a-8ce8-aaf8fd37b4e6",
-      "player_name": "Patrick Mahomes",
+      "underdog_id": "bb8c8dc3-c1d6-47c5-bdfa-778eb9acf416",
+      "player_name": "Brock Purdy",
       "position": "QB",
-      "team": "KC",
-      "legup_rank": 82,
-      "legup_pos_rank": 12,
-      "wk17_opponent": "LAC"
+      "team": "SF",
+      "legup_rank": 81,
+      "legup_pos_rank": 11,
+      "wk17_opponent": "PHI"
     },
     {
       "underdog_id": "9d75e0fb-7e7f-4eb2-9faf-e97f788f7262",
       "player_name": "Chris Godwin",
       "position": "WR",
       "team": "TB",
-      "legup_rank": 83,
+      "legup_rank": 82,
       "legup_pos_rank": 38,
       "wk17_opponent": "LAR"
+    },
+    {
+      "underdog_id": "9ff6c4bd-582c-410a-8ce8-aaf8fd37b4e6",
+      "player_name": "Patrick Mahomes",
+      "position": "QB",
+      "team": "KC",
+      "legup_rank": 83,
+      "legup_pos_rank": 12,
+      "wk17_opponent": "LAC"
     },
     {
       "underdog_id": "5f5f5bcb-35e9-467c-97ef-8783f88e72a2",
@@ -804,13 +804,13 @@
       "wk17_opponent": "NE"
     },
     {
-      "underdog_id": "7575b726-3499-409f-9246-db26e51de8b6",
-      "player_name": "Courtland Sutton",
-      "position": "WR",
-      "team": "DEN",
+      "underdog_id": "c631839c-e81a-4784-bba7-f935706986eb",
+      "player_name": "Blake Corum",
+      "position": "RB",
+      "team": "LAR",
       "legup_rank": 88,
-      "legup_pos_rank": 39,
-      "wk17_opponent": "NE"
+      "legup_pos_rank": 32,
+      "wk17_opponent": "TB"
     },
     {
       "underdog_id": "ae712c36-6c83-4347-84a3-5527e6d28a53",
@@ -831,13 +831,13 @@
       "wk17_opponent": "HOU"
     },
     {
-      "underdog_id": "c631839c-e81a-4784-bba7-f935706986eb",
-      "player_name": "Blake Corum",
-      "position": "RB",
-      "team": "LAR",
+      "underdog_id": "7575b726-3499-409f-9246-db26e51de8b6",
+      "player_name": "Courtland Sutton",
+      "position": "WR",
+      "team": "DEN",
       "legup_rank": 91,
-      "legup_pos_rank": 32,
-      "wk17_opponent": "TB"
+      "legup_pos_rank": 39,
+      "wk17_opponent": "NE"
     },
     {
       "underdog_id": "cd9e8b1b-9c7a-42cc-aea1-b56e7a76dad8",
@@ -876,12 +876,21 @@
       "wk17_opponent": "NE"
     },
     {
+      "underdog_id": "1e306c7b-0b71-45f0-8dba-6af5ea88ffd5",
+      "player_name": "Jared Goff",
+      "position": "QB",
+      "team": "DET",
+      "legup_rank": 96,
+      "legup_pos_rank": 15,
+      "wk17_opponent": "CHI"
+    },
+    {
       "underdog_id": "3f0609d2-2f38-45e3-bd30-aef9b022b03d",
       "player_name": "Kyler Murray",
       "position": "QB",
       "team": "MIN",
-      "legup_rank": 96,
-      "legup_pos_rank": 15,
+      "legup_rank": 97,
+      "legup_pos_rank": 16,
       "wk17_opponent": "NYJ"
     },
     {
@@ -889,34 +898,16 @@
       "player_name": "Alec Pierce",
       "position": "WR",
       "team": "IND",
-      "legup_rank": 97,
+      "legup_rank": 98,
       "legup_pos_rank": 42,
       "wk17_opponent": "CLE"
-    },
-    {
-      "underdog_id": "1e306c7b-0b71-45f0-8dba-6af5ea88ffd5",
-      "player_name": "Jared Goff",
-      "position": "QB",
-      "team": "DET",
-      "legup_rank": 98,
-      "legup_pos_rank": 16,
-      "wk17_opponent": "CHI"
-    },
-    {
-      "underdog_id": "88e3138b-7b57-4df2-9b48-dd695a540ece",
-      "player_name": "Jordan Love",
-      "position": "QB",
-      "team": "GB",
-      "legup_rank": 99,
-      "legup_pos_rank": 17,
-      "wk17_opponent": "HOU"
     },
     {
       "underdog_id": "45b540b8-659b-473e-a06a-e341ed7020bc",
       "player_name": "Kyle Monangai",
       "position": "RB",
       "team": "CHI",
-      "legup_rank": 100,
+      "legup_rank": 99,
       "legup_pos_rank": 34,
       "wk17_opponent": "DET"
     },
@@ -925,9 +916,18 @@
       "player_name": "Michael Pittman Jr.",
       "position": "WR",
       "team": "PIT",
-      "legup_rank": 101,
+      "legup_rank": 100,
       "legup_pos_rank": 43,
       "wk17_opponent": "TEN"
+    },
+    {
+      "underdog_id": "88e3138b-7b57-4df2-9b48-dd695a540ece",
+      "player_name": "Jordan Love",
+      "position": "QB",
+      "team": "GB",
+      "legup_rank": 101,
+      "legup_pos_rank": 17,
+      "wk17_opponent": "HOU"
     },
     {
       "underdog_id": "c12dc6e9-e127-4d52-addf-fce80018e190",
@@ -1128,30 +1128,39 @@
       "wk17_opponent": "CAR"
     },
     {
-      "underdog_id": "514f0aa3-1feb-4e4c-88b3-d8153224015a",
-      "player_name": "Chig Okonkwo",
-      "position": "TE",
-      "team": "WAS",
-      "legup_rank": 124,
-      "legup_pos_rank": 14,
-      "wk17_opponent": "JAX"
-    },
-    {
       "underdog_id": "cfe2ed37-cbf7-4899-8bc7-96da8d993ed7",
       "player_name": "George Kittle",
       "position": "TE",
       "team": "SF",
+      "legup_rank": 124,
+      "legup_pos_rank": 14,
+      "wk17_opponent": "PHI"
+    },
+    {
+      "underdog_id": "514f0aa3-1feb-4e4c-88b3-d8153224015a",
+      "player_name": "Chig Okonkwo",
+      "position": "TE",
+      "team": "WAS",
       "legup_rank": 125,
       "legup_pos_rank": 15,
-      "wk17_opponent": "PHI"
+      "wk17_opponent": "JAX"
+    },
+    {
+      "underdog_id": "8779322f-2cf3-43bc-9978-75e95b66f8d8",
+      "player_name": "Keaton Mitchell",
+      "position": "RB",
+      "team": "LAC",
+      "legup_rank": 126,
+      "legup_pos_rank": 41,
+      "wk17_opponent": "KC"
     },
     {
       "underdog_id": "e2cd0fbe-c0d2-4f0d-8412-8a5608e67f5e",
       "player_name": "Woody Marks",
       "position": "RB",
       "team": "HOU",
-      "legup_rank": 126,
-      "legup_pos_rank": 41,
+      "legup_rank": 127,
+      "legup_pos_rank": 42,
       "wk17_opponent": "GB"
     },
     {
@@ -1159,7 +1168,7 @@
       "player_name": "Sam Darnold",
       "position": "QB",
       "team": "SEA",
-      "legup_rank": 127,
+      "legup_rank": 128,
       "legup_pos_rank": 21,
       "wk17_opponent": "CAR"
     },
@@ -1168,7 +1177,7 @@
       "player_name": "Jalen Coker",
       "position": "WR",
       "team": "CAR",
-      "legup_rank": 128,
+      "legup_rank": 129,
       "legup_pos_rank": 51,
       "wk17_opponent": "SEA"
     },
@@ -1177,7 +1186,7 @@
       "player_name": "Malik Willis",
       "position": "QB",
       "team": "MIA",
-      "legup_rank": 129,
+      "legup_rank": 130,
       "legup_pos_rank": 22,
       "wk17_opponent": "BUF"
     },
@@ -1186,7 +1195,7 @@
       "player_name": "Hunter Henry",
       "position": "TE",
       "team": "NE",
-      "legup_rank": 130,
+      "legup_rank": 131,
       "legup_pos_rank": 16,
       "wk17_opponent": "DEN"
     },
@@ -1195,7 +1204,7 @@
       "player_name": "Juwan Johnson",
       "position": "TE",
       "team": "NO",
-      "legup_rank": 131,
+      "legup_rank": 132,
       "legup_pos_rank": 17,
       "wk17_opponent": "ATL"
     },
@@ -1204,7 +1213,7 @@
       "player_name": "Stefon Diggs",
       "position": "WR",
       "team": "FA",
-      "legup_rank": 132,
+      "legup_rank": 133,
       "legup_pos_rank": 52,
       "wk17_opponent": null
     },
@@ -1213,7 +1222,7 @@
       "player_name": "Jayden Higgins",
       "position": "WR",
       "team": "HOU",
-      "legup_rank": 133,
+      "legup_rank": 134,
       "legup_pos_rank": 53,
       "wk17_opponent": "GB"
     },
@@ -1222,18 +1231,9 @@
       "player_name": "Isaiah Likely",
       "position": "TE",
       "team": "NYG",
-      "legup_rank": 134,
+      "legup_rank": 135,
       "legup_pos_rank": 18,
       "wk17_opponent": "DAL"
-    },
-    {
-      "underdog_id": "e951864b-20b2-4fb0-9814-c1ede4b66a05",
-      "player_name": "Brenton Strange",
-      "position": "TE",
-      "team": "JAX",
-      "legup_rank": 135,
-      "legup_pos_rank": 19,
-      "wk17_opponent": "WAS"
     },
     {
       "underdog_id": "4aec5380-5186-43e0-b6e9-3355c37fca2a",
@@ -1245,22 +1245,22 @@
       "wk17_opponent": "WAS"
     },
     {
+      "underdog_id": "e951864b-20b2-4fb0-9814-c1ede4b66a05",
+      "player_name": "Brenton Strange",
+      "position": "TE",
+      "team": "JAX",
+      "legup_rank": 137,
+      "legup_pos_rank": 19,
+      "wk17_opponent": "WAS"
+    },
+    {
       "underdog_id": "56f9b3a3-dc96-44fd-ad04-2f01abd7737f",
       "player_name": "Tyler Shough",
       "position": "QB",
       "team": "NO",
-      "legup_rank": 137,
+      "legup_rank": 138,
       "legup_pos_rank": 23,
       "wk17_opponent": "ATL"
-    },
-    {
-      "underdog_id": "7946e99a-63ed-4ad2-815b-1f7579608d7f",
-      "player_name": "Tre Tucker",
-      "position": "WR",
-      "team": "LV",
-      "legup_rank": 138,
-      "legup_pos_rank": 55,
-      "wk17_opponent": "ARI"
     },
     {
       "underdog_id": "0eb0f658-53e7-4483-8110-77cf541287c7",
@@ -1272,22 +1272,22 @@
       "wk17_opponent": "GB"
     },
     {
+      "underdog_id": "7946e99a-63ed-4ad2-815b-1f7579608d7f",
+      "player_name": "Tre Tucker",
+      "position": "WR",
+      "team": "LV",
+      "legup_rank": 140,
+      "legup_pos_rank": 55,
+      "wk17_opponent": "ARI"
+    },
+    {
       "underdog_id": "9b3c147d-3b00-43af-952c-466120819bea",
       "player_name": "Jauan Jennings",
       "position": "WR",
       "team": "MIN",
-      "legup_rank": 140,
+      "legup_rank": 141,
       "legup_pos_rank": 56,
       "wk17_opponent": "NYJ"
-    },
-    {
-      "underdog_id": "26af8990-df47-4af0-bc07-2317f9f11cd7",
-      "player_name": "AJ Barner",
-      "position": "TE",
-      "team": "SEA",
-      "legup_rank": 141,
-      "legup_pos_rank": 21,
-      "wk17_opponent": "CAR"
     },
     {
       "underdog_id": "e76a7c70-7dc8-4dfa-b71a-aead9e29a324",
@@ -1295,16 +1295,25 @@
       "position": "TE",
       "team": "MIN",
       "legup_rank": 142,
-      "legup_pos_rank": 22,
+      "legup_pos_rank": 21,
       "wk17_opponent": "NYJ"
+    },
+    {
+      "underdog_id": "26af8990-df47-4af0-bc07-2317f9f11cd7",
+      "player_name": "AJ Barner",
+      "position": "TE",
+      "team": "SEA",
+      "legup_rank": 143,
+      "legup_pos_rank": 22,
+      "wk17_opponent": "CAR"
     },
     {
       "underdog_id": "597a8a5e-9d45-4247-bbae-087805220965",
       "player_name": "Tyrone Tracy",
       "position": "RB",
       "team": "NYG",
-      "legup_rank": 143,
-      "legup_pos_rank": 42,
+      "legup_rank": 144,
+      "legup_pos_rank": 43,
       "wk17_opponent": "DAL"
     },
     {
@@ -1312,7 +1321,7 @@
       "player_name": "Bryce Young",
       "position": "QB",
       "team": "CAR",
-      "legup_rank": 144,
+      "legup_rank": 145,
       "legup_pos_rank": 24,
       "wk17_opponent": "SEA"
     },
@@ -1321,18 +1330,9 @@
       "player_name": "Oronde Gadsden",
       "position": "TE",
       "team": "LAC",
-      "legup_rank": 145,
+      "legup_rank": 146,
       "legup_pos_rank": 23,
       "wk17_opponent": "KC"
-    },
-    {
-      "underdog_id": "05afef14-f54d-4593-85db-9cd1d21bdd28",
-      "player_name": "Jerry Jeudy",
-      "position": "WR",
-      "team": "CLE",
-      "legup_rank": 146,
-      "legup_pos_rank": 57,
-      "wk17_opponent": "IND"
     },
     {
       "underdog_id": "49f6be94-c801-4594-86f5-9831f6ea823e",
@@ -1344,13 +1344,13 @@
       "wk17_opponent": "PIT"
     },
     {
-      "underdog_id": "368b6587-acf1-43e2-b920-c4f2f2d9e489",
-      "player_name": "Cam Ward",
-      "position": "QB",
-      "team": "TEN",
+      "underdog_id": "05afef14-f54d-4593-85db-9cd1d21bdd28",
+      "player_name": "Jerry Jeudy",
+      "position": "WR",
+      "team": "CLE",
       "legup_rank": 148,
-      "legup_pos_rank": 25,
-      "wk17_opponent": "PIT"
+      "legup_pos_rank": 57,
+      "wk17_opponent": "IND"
     },
     {
       "underdog_id": "c44807cc-8d8a-4585-8dfb-97b643f02028",
@@ -1362,13 +1362,13 @@
       "wk17_opponent": "BUF"
     },
     {
-      "underdog_id": "367b4fa7-eb19-42c5-9702-7aee0e5b0699",
-      "player_name": "Tyler Allgeier",
-      "position": "RB",
-      "team": "ARI",
+      "underdog_id": "368b6587-acf1-43e2-b920-c4f2f2d9e489",
+      "player_name": "Cam Ward",
+      "position": "QB",
+      "team": "TEN",
       "legup_rank": 150,
-      "legup_pos_rank": 43,
-      "wk17_opponent": "LV"
+      "legup_pos_rank": 25,
+      "wk17_opponent": "PIT"
     },
     {
       "underdog_id": "1ceb5179-2203-4155-ab99-8accaa52deed",
@@ -1380,22 +1380,22 @@
       "wk17_opponent": "PIT"
     },
     {
+      "underdog_id": "367b4fa7-eb19-42c5-9702-7aee0e5b0699",
+      "player_name": "Tyler Allgeier",
+      "position": "RB",
+      "team": "ARI",
+      "legup_rank": 152,
+      "legup_pos_rank": 44,
+      "wk17_opponent": "LV"
+    },
+    {
       "underdog_id": "25d0e152-4288-4eb5-b1fb-fde3983736be",
       "player_name": "Adonai Mitchell",
       "position": "WR",
       "team": "NYJ",
-      "legup_rank": 152,
+      "legup_rank": 153,
       "legup_pos_rank": 59,
       "wk17_opponent": "MIN"
-    },
-    {
-      "underdog_id": "8779322f-2cf3-43bc-9978-75e95b66f8d8",
-      "player_name": "Keaton Mitchell",
-      "position": "RB",
-      "team": "LAC",
-      "legup_rank": 153,
-      "legup_pos_rank": 44,
-      "wk17_opponent": "KC"
     },
     {
       "underdog_id": "384985e6-f8a5-46ae-836c-e146935964f0",
@@ -1452,22 +1452,22 @@
       "wk17_opponent": "ATL"
     },
     {
-      "underdog_id": "5e6250a0-7751-4db7-a713-8cffdd255bdc",
-      "player_name": "Dontayvion Wicks",
-      "position": "WR",
-      "team": "PHI",
-      "legup_rank": 160,
-      "legup_pos_rank": 61,
-      "wk17_opponent": "SF"
-    },
-    {
       "underdog_id": "43cb35f5-f527-4e36-afd9-c4c4d9392d7f",
       "player_name": "MarShawn Lloyd",
       "position": "RB",
       "team": "GB",
-      "legup_rank": 161,
+      "legup_rank": 160,
       "legup_pos_rank": 48,
       "wk17_opponent": "HOU"
+    },
+    {
+      "underdog_id": "5e6250a0-7751-4db7-a713-8cffdd255bdc",
+      "player_name": "Dontayvion Wicks",
+      "position": "WR",
+      "team": "PHI",
+      "legup_rank": 161,
+      "legup_pos_rank": 61,
+      "wk17_opponent": "SF"
     },
     {
       "underdog_id": "2185a11d-7a06-4d1f-96df-db2c7d3ee94a",
@@ -1488,13 +1488,13 @@
       "wk17_opponent": "KC"
     },
     {
-      "underdog_id": "dc845c7e-64dc-43a4-9e5e-0c5782b7cb8d",
-      "player_name": "Mike Gesicki",
-      "position": "TE",
-      "team": "CIN",
+      "underdog_id": "68c41341-b331-4ee1-9268-87a0ae8e4300",
+      "player_name": "Keenan Allen",
+      "position": "WR",
+      "team": "FA",
       "legup_rank": 164,
-      "legup_pos_rank": 29,
-      "wk17_opponent": "BAL"
+      "legup_pos_rank": 63,
+      "wk17_opponent": null
     },
     {
       "underdog_id": "ff77f9a0-cda9-4d3c-8ba7-053c88490244",
@@ -1506,31 +1506,31 @@
       "wk17_opponent": "NO"
     },
     {
-      "underdog_id": "68c41341-b331-4ee1-9268-87a0ae8e4300",
-      "player_name": "Keenan Allen",
-      "position": "WR",
-      "team": "FA",
+      "underdog_id": "dc845c7e-64dc-43a4-9e5e-0c5782b7cb8d",
+      "player_name": "Mike Gesicki",
+      "position": "TE",
+      "team": "CIN",
       "legup_rank": 166,
-      "legup_pos_rank": 63,
-      "wk17_opponent": null
-    },
-    {
-      "underdog_id": "9b233c01-026a-451c-8a71-6207bd5acaf4",
-      "player_name": "Aaron Rodgers",
-      "position": "QB",
-      "team": "PIT",
-      "legup_rank": 167,
-      "legup_pos_rank": 26,
-      "wk17_opponent": "TEN"
+      "legup_pos_rank": 29,
+      "wk17_opponent": "BAL"
     },
     {
       "underdog_id": "dacaef0f-262f-4e8e-b227-c41297a630eb",
       "player_name": "Tank Dell",
       "position": "WR",
       "team": "HOU",
-      "legup_rank": 168,
+      "legup_rank": 167,
       "legup_pos_rank": 64,
       "wk17_opponent": "GB"
+    },
+    {
+      "underdog_id": "9b233c01-026a-451c-8a71-6207bd5acaf4",
+      "player_name": "Aaron Rodgers",
+      "position": "QB",
+      "team": "PIT",
+      "legup_rank": 168,
+      "legup_pos_rank": 26,
+      "wk17_opponent": "TEN"
     },
     {
       "underdog_id": "a707d1c4-8dd5-43b1-94ca-52ae363bf450",
@@ -1623,11 +1623,20 @@
       "wk17_opponent": "KC"
     },
     {
+      "underdog_id": "1f89c9b4-d4f6-4687-9869-b7e893ae7013",
+      "player_name": "Charlie Kolar",
+      "position": "TE",
+      "team": "LAC",
+      "legup_rank": 179,
+      "legup_pos_rank": 33,
+      "wk17_opponent": "KC"
+    },
+    {
       "underdog_id": "e7e11c47-6c34-4a87-8473-a1a65fab479b",
       "player_name": "Rashod Bateman",
       "position": "WR",
       "team": "BAL",
-      "legup_rank": 179,
+      "legup_rank": 180,
       "legup_pos_rank": 69,
       "wk17_opponent": "CIN"
     },
@@ -1636,7 +1645,7 @@
       "player_name": "Zach Charbonnet",
       "position": "RB",
       "team": "SEA",
-      "legup_rank": 180,
+      "legup_rank": 181,
       "legup_pos_rank": 52,
       "wk17_opponent": "CAR"
     },
@@ -1645,18 +1654,9 @@
       "player_name": "Troy Franklin",
       "position": "WR",
       "team": "DEN",
-      "legup_rank": 181,
+      "legup_rank": 182,
       "legup_pos_rank": 70,
       "wk17_opponent": "NE"
-    },
-    {
-      "underdog_id": "02655cd6-1f13-48d4-9082-1c04dc084476",
-      "player_name": "Darnell Washington",
-      "position": "TE",
-      "team": "PIT",
-      "legup_rank": 182,
-      "legup_pos_rank": 33,
-      "wk17_opponent": "TEN"
     },
     {
       "underdog_id": "d0a9f485-d99e-437b-a4a6-f6a08d1867ac",
@@ -1668,22 +1668,22 @@
       "wk17_opponent": "SF"
     },
     {
+      "underdog_id": "02655cd6-1f13-48d4-9082-1c04dc084476",
+      "player_name": "Darnell Washington",
+      "position": "TE",
+      "team": "PIT",
+      "legup_rank": 184,
+      "legup_pos_rank": 34,
+      "wk17_opponent": "TEN"
+    },
+    {
       "underdog_id": "19cf5624-b28a-4fdf-8d20-c211e656ac14",
       "player_name": "Darnell Mooney",
       "position": "WR",
       "team": "NYG",
-      "legup_rank": 184,
+      "legup_rank": 185,
       "legup_pos_rank": 71,
       "wk17_opponent": "DAL"
-    },
-    {
-      "underdog_id": "48de0c25-f300-4dd9-be1e-055449358e80",
-      "player_name": "Michael Mayer",
-      "position": "TE",
-      "team": "LV",
-      "legup_rank": 185,
-      "legup_pos_rank": 34,
-      "wk17_opponent": "ARI"
     },
     {
       "underdog_id": "bedf84a5-b9e3-40f9-9f37-28b479694bf6",
@@ -1695,13 +1695,13 @@
       "wk17_opponent": "ATL"
     },
     {
-      "underdog_id": "1f89c9b4-d4f6-4687-9869-b7e893ae7013",
-      "player_name": "Charlie Kolar",
+      "underdog_id": "48de0c25-f300-4dd9-be1e-055449358e80",
+      "player_name": "Michael Mayer",
       "position": "TE",
-      "team": "LAC",
+      "team": "LV",
       "legup_rank": 187,
       "legup_pos_rank": 35,
-      "wk17_opponent": "KC"
+      "wk17_opponent": "ARI"
     },
     {
       "underdog_id": "886931d6-7ad7-421a-96a2-fcf6e14bbb62",
@@ -1740,20 +1740,47 @@
       "wk17_opponent": "CHI"
     },
     {
+      "underdog_id": "a4335746-b029-4e13-a78f-5d0420b473b1",
+      "player_name": "Tyreek Hill",
+      "position": "WR",
+      "team": "FA",
+      "legup_rank": 192,
+      "legup_pos_rank": 74,
+      "wk17_opponent": null
+    },
+    {
       "underdog_id": "12e6fad4-a6e0-41dd-8499-5acfb1332867",
       "player_name": "Kayshon Boutte",
       "position": "WR",
       "team": "NE",
-      "legup_rank": 192,
-      "legup_pos_rank": 74,
+      "legup_rank": 193,
+      "legup_pos_rank": 75,
       "wk17_opponent": "DEN"
+    },
+    {
+      "underdog_id": "7ae2de85-8923-4273-9f2a-b32c803be242",
+      "player_name": "Darius Slayton",
+      "position": "WR",
+      "team": "NYG",
+      "legup_rank": 194,
+      "legup_pos_rank": 76,
+      "wk17_opponent": "DAL"
+    },
+    {
+      "underdog_id": "0f352fcd-dff4-48a9-8318-894941ba8046",
+      "player_name": "LeQuint Allen",
+      "position": "RB",
+      "team": "JAC",
+      "legup_rank": 195,
+      "legup_pos_rank": 57,
+      "wk17_opponent": null
     },
     {
       "underdog_id": "99c77d6b-abe5-47f9-8f0c-3e3162878173",
       "player_name": "Theo Johnson",
       "position": "TE",
       "team": "NYG",
-      "legup_rank": 193,
+      "legup_rank": 196,
       "legup_pos_rank": 36,
       "wk17_opponent": "DAL"
     },
@@ -1762,45 +1789,18 @@
       "player_name": "Xavier Legette",
       "position": "WR",
       "team": "CAR",
-      "legup_rank": 194,
-      "legup_pos_rank": 75,
-      "wk17_opponent": "SEA"
-    },
-    {
-      "underdog_id": "7ae2de85-8923-4273-9f2a-b32c803be242",
-      "player_name": "Darius Slayton",
-      "position": "WR",
-      "team": "NYG",
-      "legup_rank": 195,
-      "legup_pos_rank": 76,
-      "wk17_opponent": "DAL"
-    },
-    {
-      "underdog_id": "a4335746-b029-4e13-a78f-5d0420b473b1",
-      "player_name": "Tyreek Hill",
-      "position": "WR",
-      "team": "FA",
-      "legup_rank": 196,
+      "legup_rank": 197,
       "legup_pos_rank": 77,
-      "wk17_opponent": null
+      "wk17_opponent": "SEA"
     },
     {
       "underdog_id": "6c526ef1-f905-491f-9edc-9f38bad356c4",
       "player_name": "Erick All",
       "position": "TE",
       "team": "CIN",
-      "legup_rank": 197,
+      "legup_rank": 198,
       "legup_pos_rank": 37,
       "wk17_opponent": "BAL"
-    },
-    {
-      "underdog_id": "0f352fcd-dff4-48a9-8318-894941ba8046",
-      "player_name": "LeQuint Allen",
-      "position": "RB",
-      "team": "JAC",
-      "legup_rank": 198,
-      "legup_pos_rank": 57,
-      "wk17_opponent": null
     },
     {
       "underdog_id": "7167e3ff-650b-4a30-84d0-1907bb03748d",
@@ -1839,30 +1839,12 @@
       "wk17_opponent": "BAL"
     },
     {
-      "underdog_id": "e90c0f0d-cad1-4280-8f44-c5b9df72dc2f",
-      "player_name": "Dawson Knox",
-      "position": "TE",
-      "team": "BUF",
-      "legup_rank": 203,
-      "legup_pos_rank": 38,
-      "wk17_opponent": "MIA"
-    },
-    {
-      "underdog_id": "1c2b253c-00f5-496d-8349-c30f3d991878",
-      "player_name": "Jahan Dotson",
-      "position": "WR",
-      "team": "ATL",
-      "legup_rank": 204,
-      "legup_pos_rank": 81,
-      "wk17_opponent": "NO"
-    },
-    {
       "underdog_id": "2c579a50-effd-4380-bbde-488f7c015c3c",
       "player_name": "Jake Tonges",
       "position": "TE",
       "team": "SF",
-      "legup_rank": 205,
-      "legup_pos_rank": 39,
+      "legup_rank": 203,
+      "legup_pos_rank": 38,
       "wk17_opponent": "PHI"
     },
     {
@@ -1870,43 +1852,43 @@
       "player_name": "Ray Davis",
       "position": "RB",
       "team": "BUF",
-      "legup_rank": 206,
+      "legup_rank": 204,
       "legup_pos_rank": 59,
       "wk17_opponent": "MIA"
     },
     {
-      "underdog_id": "361c09f1-d8bc-40d1-ae6a-981323866761",
-      "player_name": "Emari Demercado",
+      "underdog_id": "dc9419eb-9ad8-4a08-b735-e22881e75d99",
+      "player_name": "Najee Harris",
       "position": "RB",
-      "team": "KC",
-      "legup_rank": 207,
+      "team": "FA",
+      "legup_rank": 205,
       "legup_pos_rank": 60,
-      "wk17_opponent": "LAC"
-    },
-    {
-      "underdog_id": "d157f842-d8c2-41f3-adb3-712534d20c7e",
-      "player_name": "Geno Smith",
-      "position": "QB",
-      "team": "NYJ",
-      "legup_rank": 208,
-      "legup_pos_rank": 28,
-      "wk17_opponent": "MIN"
+      "wk17_opponent": null
     },
     {
       "underdog_id": "d6153a61-79ca-4d40-a982-e93242d83ce6",
       "player_name": "Ja'Tavion Sanders",
       "position": "TE",
       "team": "CAR",
-      "legup_rank": 209,
-      "legup_pos_rank": 40,
+      "legup_rank": 206,
+      "legup_pos_rank": 39,
       "wk17_opponent": "SEA"
+    },
+    {
+      "underdog_id": "e90c0f0d-cad1-4280-8f44-c5b9df72dc2f",
+      "player_name": "Dawson Knox",
+      "position": "TE",
+      "team": "BUF",
+      "legup_rank": 207,
+      "legup_pos_rank": 40,
+      "wk17_opponent": "MIA"
     },
     {
       "underdog_id": "8b711ba2-e7d4-44c6-bb69-fa68f7c2f7b3",
       "player_name": "Mason Taylor",
       "position": "TE",
       "team": "NYJ",
-      "legup_rank": 210,
+      "legup_rank": 208,
       "legup_pos_rank": 41,
       "wk17_opponent": "MIN"
     },
@@ -1915,18 +1897,36 @@
       "player_name": "Elijah Arroyo",
       "position": "TE",
       "team": "SEA",
-      "legup_rank": 211,
+      "legup_rank": 209,
       "legup_pos_rank": 42,
       "wk17_opponent": "CAR"
     },
     {
-      "underdog_id": "dc9419eb-9ad8-4a08-b735-e22881e75d99",
-      "player_name": "Najee Harris",
+      "underdog_id": "1c2b253c-00f5-496d-8349-c30f3d991878",
+      "player_name": "Jahan Dotson",
+      "position": "WR",
+      "team": "ATL",
+      "legup_rank": 210,
+      "legup_pos_rank": 81,
+      "wk17_opponent": "NO"
+    },
+    {
+      "underdog_id": "361c09f1-d8bc-40d1-ae6a-981323866761",
+      "player_name": "Emari Demercado",
       "position": "RB",
-      "team": "FA",
-      "legup_rank": 212,
+      "team": "KC",
+      "legup_rank": 211,
       "legup_pos_rank": 61,
-      "wk17_opponent": null
+      "wk17_opponent": "LAC"
+    },
+    {
+      "underdog_id": "d157f842-d8c2-41f3-adb3-712534d20c7e",
+      "player_name": "Geno Smith",
+      "position": "QB",
+      "team": "NYJ",
+      "legup_rank": 212,
+      "legup_pos_rank": 28,
+      "wk17_opponent": "MIN"
     },
     {
       "underdog_id": "2113353a-6b19-480e-b1ed-7bf968fff98d",
@@ -2172,13 +2172,13 @@
       "wk17_opponent": "NYG"
     },
     {
-      "underdog_id": "b55df80b-ad2f-4625-9711-9c885b8b968b",
-      "player_name": "Joshua Palmer",
+      "underdog_id": "973807e4-3793-4dbc-8e12-c6ede2803b22",
+      "player_name": "Isaiah Bond",
       "position": "WR",
-      "team": "BUF",
+      "team": "CLE",
       "legup_rank": 240,
       "legup_pos_rank": 93,
-      "wk17_opponent": "MIA"
+      "wk17_opponent": "IND"
     }
   ]
 }
