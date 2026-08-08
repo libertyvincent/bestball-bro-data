@@ -4,7 +4,7 @@
     "source_name": "Mike Clay - ESPN 2026 NFL Projection Guide (weekly team scoring)",
     "source_url": "https://g.espncdn.com/s/ffldraftkit/26/NFLDK2026_CS_ClayProjections2026.pdf",
     "pdf_updated": "2026-08-02",
-    "fetched_at": "2026-08-07T11:41:29Z",
+    "fetched_at": "2026-08-08T11:23:15Z",
     "format": "per_team_weekly_score_projections",
     "scoring_unit": "nfl_game_points",
     "scoring_description": "These are projected NFL game scoring (touchdowns + field goals + safeties + 2-pt conversions), not fantasy points. Use as a relative per-week multiplier vs the team's season average to derive opponent-adjustment factors for fantasy projections.",
