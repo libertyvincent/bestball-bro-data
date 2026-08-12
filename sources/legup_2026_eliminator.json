@@ -3,7 +3,7 @@
     "source": "legup",
     "slug": "eliminator-ranks",
     "slate": "nfl_2026_eliminator",
-    "version": "1786416372446-c9d1f414",
+    "version": "1786464029457-d4dffd7d",
     "headers": [
       "Name",
       "Team",
@@ -16,7 +16,7 @@
       "+/-",
       "id"
     ],
-    "fetched_at": "2026-08-11T11:40:23Z",
+    "fetched_at": "2026-08-12T11:42:35Z",
     "player_count": 240
   },
   "players": [
@@ -1092,40 +1092,40 @@
       "wk17_opponent": "CIN"
     },
     {
-      "underdog_id": "f43e5c27-403d-4843-b467-f7b1a7eb84ab",
-      "player_name": "Deebo Samuel",
-      "position": "WR",
-      "team": "SF",
-      "legup_rank": 120,
-      "legup_pos_rank": 49,
-      "wk17_opponent": "PHI"
-    },
-    {
       "underdog_id": "652b2dff-d8e1-4d3a-9a45-7d43288c4944",
       "player_name": "Dallas Goedert",
       "position": "TE",
       "team": "PHI",
-      "legup_rank": 121,
+      "legup_rank": 120,
       "legup_pos_rank": 13,
       "wk17_opponent": "SF"
     },
     {
-      "underdog_id": "3ee950bf-2f56-4706-838a-fb41361b9eb6",
-      "player_name": "Matthew Golden",
+      "underdog_id": "f43e5c27-403d-4843-b467-f7b1a7eb84ab",
+      "player_name": "Deebo Samuel",
       "position": "WR",
-      "team": "GB",
-      "legup_rank": 122,
-      "legup_pos_rank": 50,
-      "wk17_opponent": "HOU"
+      "team": "SF",
+      "legup_rank": 121,
+      "legup_pos_rank": 49,
+      "wk17_opponent": "PHI"
     },
     {
       "underdog_id": "96c76488-1ada-4938-803a-edfddd4963e4",
       "player_name": "C.J. Stroud",
       "position": "QB",
       "team": "HOU",
-      "legup_rank": 123,
+      "legup_rank": 122,
       "legup_pos_rank": 20,
       "wk17_opponent": "GB"
+    },
+    {
+      "underdog_id": "3ee950bf-2f56-4706-838a-fb41361b9eb6",
+      "player_name": "Matthew Golden",
+      "position": "WR",
+      "team": "GB",
+      "legup_rank": 123,
+      "legup_pos_rank": 50,
+      "wk17_opponent": "HOU"
     },
     {
       "underdog_id": "e2cd0fbe-c0d2-4f0d-8412-8a5608e67f5e",
@@ -1245,21 +1245,21 @@
       "wk17_opponent": "LV"
     },
     {
-      "underdog_id": "e951864b-20b2-4fb0-9814-c1ede4b66a05",
-      "player_name": "Brenton Strange",
-      "position": "TE",
-      "team": "JAX",
-      "legup_rank": 137,
-      "legup_pos_rank": 19,
-      "wk17_opponent": "WAS"
-    },
-    {
       "underdog_id": "4aec5380-5186-43e0-b6e9-3355c37fca2a",
       "player_name": "Travis Hunter",
       "position": "WR",
       "team": "JAX",
-      "legup_rank": 138,
+      "legup_rank": 137,
       "legup_pos_rank": 54,
+      "wk17_opponent": "WAS"
+    },
+    {
+      "underdog_id": "e951864b-20b2-4fb0-9814-c1ede4b66a05",
+      "player_name": "Brenton Strange",
+      "position": "TE",
+      "team": "JAX",
+      "legup_rank": 138,
+      "legup_pos_rank": 19,
       "wk17_opponent": "WAS"
     },
     {
