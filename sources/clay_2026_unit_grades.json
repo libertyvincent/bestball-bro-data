@@ -3,8 +3,8 @@
     "source_id": "mike_clay_unit_grades",
     "source_name": "Mike Clay - ESPN 2026 NFL Projection Guide (unit grades)",
     "source_url": "https://g.espncdn.com/s/ffldraftkit/26/NFLDK2026_CS_ClayProjections2026.pdf",
-    "pdf_updated": "2026-08-16",
-    "fetched_at": "2026-08-17T11:20:25Z",
+    "pdf_updated": "2026-08-17",
+    "fetched_at": "2026-08-18T11:20:38Z",
     "format": "per_team_unit_grades",
     "scale": "1_to_10_integer_higher_is_better",
     "defensive_group_labels": {
@@ -40,7 +40,7 @@
         "overall_grade": 2.1,
         "overall_rank": 31
       },
-      "projected_wins": 3.6,
+      "projected_wins": 3.5,
       "projected_wins_rank": null,
       "strength_of_schedule_rank": 32
     },
@@ -69,7 +69,7 @@
       },
       "projected_wins": 5.7,
       "projected_wins_rank": null,
-      "strength_of_schedule_rank": 7
+      "strength_of_schedule_rank": 8
     },
     "BAL": {
       "offense": {
@@ -94,7 +94,7 @@
         "overall_grade": 3.0,
         "overall_rank": 4
       },
-      "projected_wins": 11.5,
+      "projected_wins": 11.6,
       "projected_wins_rank": null,
       "strength_of_schedule_rank": 5
     },
@@ -119,7 +119,7 @@
         "defense_grade": 3.7,
         "defense_rank": 2,
         "overall_grade": 2.4,
-        "overall_rank": 27
+        "overall_rank": 26
       },
       "projected_wins": 10.0,
       "projected_wins_rank": null,
@@ -173,7 +173,7 @@
         "defense_grade": 3.1,
         "defense_rank": 15,
         "overall_grade": 2.5,
-        "overall_rank": 18
+        "overall_rank": 20
       },
       "projected_wins": 9.3,
       "projected_wins_rank": null,
@@ -202,7 +202,7 @@
         "overall_grade": 2.4,
         "overall_rank": 25
       },
-      "projected_wins": 10.7,
+      "projected_wins": 10.3,
       "projected_wins_rank": null,
       "strength_of_schedule_rank": 2
     },
@@ -249,16 +249,16 @@
         "s": 6
       },
       "aggregate": {
-        "offense_grade": 6.0,
-        "offense_rank": 9,
+        "offense_grade": 5.9,
+        "offense_rank": 10,
         "defense_grade": 3.4,
         "defense_rank": 6,
         "overall_grade": 2.6,
         "overall_rank": 15
       },
-      "projected_wins": 10.1,
+      "projected_wins": 10.5,
       "projected_wins_rank": null,
-      "strength_of_schedule_rank": 22
+      "strength_of_schedule_rank": 23
     },
     "DEN": {
       "offense": {
@@ -277,15 +277,15 @@
       },
       "aggregate": {
         "offense_grade": 5.9,
-        "offense_rank": 10,
+        "offense_rank": 9,
         "defense_grade": 3.2,
         "defense_rank": 11,
         "overall_grade": 2.8,
         "overall_rank": 9
       },
-      "projected_wins": 10.9,
+      "projected_wins": 11.0,
       "projected_wins_rank": null,
-      "strength_of_schedule_rank": 14
+      "strength_of_schedule_rank": 17
     },
     "DET": {
       "offense": {
@@ -339,7 +339,7 @@
       },
       "projected_wins": 9.5,
       "projected_wins_rank": null,
-      "strength_of_schedule_rank": 14
+      "strength_of_schedule_rank": 16
     },
     "HOU": {
       "offense": {
@@ -366,7 +366,7 @@
       },
       "projected_wins": 9.5,
       "projected_wins_rank": null,
-      "strength_of_schedule_rank": 18
+      "strength_of_schedule_rank": 17
     },
     "IND": {
       "offense": {
@@ -391,7 +391,7 @@
         "overall_grade": 2.5,
         "overall_rank": 24
       },
-      "projected_wins": 8.5,
+      "projected_wins": 8.1,
       "projected_wins_rank": null,
       "strength_of_schedule_rank": 6
     },
@@ -418,9 +418,9 @@
         "overall_grade": 2.5,
         "overall_rank": 22
       },
-      "projected_wins": 8.5,
+      "projected_wins": 8.6,
       "projected_wins_rank": null,
-      "strength_of_schedule_rank": 13
+      "strength_of_schedule_rank": 12
     },
     "KC": {
       "offense": {
@@ -445,9 +445,9 @@
         "overall_grade": 2.6,
         "overall_rank": 13
       },
-      "projected_wins": 9.9,
+      "projected_wins": 10.0,
       "projected_wins_rank": null,
-      "strength_of_schedule_rank": 23
+      "strength_of_schedule_rank": 22
     },
     "LAC": {
       "offense": {
@@ -474,7 +474,7 @@
       },
       "projected_wins": 9.5,
       "projected_wins_rank": null,
-      "strength_of_schedule_rank": 29
+      "strength_of_schedule_rank": 28
     },
     "LAR": {
       "offense": {
@@ -499,9 +499,9 @@
         "overall_grade": 3.2,
         "overall_rank": 1
       },
-      "projected_wins": 13.3,
+      "projected_wins": 13.2,
       "projected_wins_rank": null,
-      "strength_of_schedule_rank": 30
+      "strength_of_schedule_rank": 31
     },
     "LV": {
       "offense": {
@@ -524,9 +524,9 @@
         "defense_grade": 2.5,
         "defense_rank": 28,
         "overall_grade": 2.4,
-        "overall_rank": 26
+        "overall_rank": 27
       },
-      "projected_wins": 5.1,
+      "projected_wins": 4.7,
       "projected_wins_rank": null,
       "strength_of_schedule_rank": 25
     },
@@ -553,9 +553,9 @@
         "overall_grade": 1.9,
         "overall_rank": 32
       },
-      "projected_wins": 2.4,
+      "projected_wins": 2.5,
       "projected_wins_rank": null,
-      "strength_of_schedule_rank": 31
+      "strength_of_schedule_rank": 30
     },
     "MIN": {
       "offense": {
@@ -580,7 +580,7 @@
         "overall_grade": 2.5,
         "overall_rank": 21
       },
-      "projected_wins": 7.6,
+      "projected_wins": 7.5,
       "projected_wins_rank": null,
       "strength_of_schedule_rank": 10
     },
@@ -595,7 +595,7 @@
       "defense": {
         "di": 6,
         "ed": 5,
-        "lb": 6,
+        "lb": 5,
         "cb": 7,
         "s": 7
       },
@@ -627,16 +627,16 @@
         "s": 6
       },
       "aggregate": {
-        "offense_grade": 5.2,
+        "offense_grade": 5.1,
         "offense_rank": 25,
         "defense_grade": 2.6,
         "defense_rank": 25,
         "overall_grade": 2.5,
         "overall_rank": 17
       },
-      "projected_wins": 7.2,
+      "projected_wins": 7.7,
       "projected_wins_rank": null,
-      "strength_of_schedule_rank": 3
+      "strength_of_schedule_rank": 2
     },
     "NYG": {
       "offense": {
@@ -659,11 +659,11 @@
         "defense_grade": 2.8,
         "defense_rank": 21,
         "overall_grade": 2.5,
-        "overall_rank": 19
+        "overall_rank": 18
       },
       "projected_wins": 7.2,
       "projected_wins_rank": null,
-      "strength_of_schedule_rank": 25
+      "strength_of_schedule_rank": 27
     },
     "NYJ": {
       "offense": {
@@ -717,7 +717,7 @@
       },
       "projected_wins": 11.0,
       "projected_wins_rank": null,
-      "strength_of_schedule_rank": 12
+      "strength_of_schedule_rank": 15
     },
     "PIT": {
       "offense": {
@@ -742,9 +742,9 @@
         "overall_grade": 3.1,
         "overall_rank": 3
       },
-      "projected_wins": 8.6,
+      "projected_wins": 8.7,
       "projected_wins_rank": null,
-      "strength_of_schedule_rank": 11
+      "strength_of_schedule_rank": 9
     },
     "SEA": {
       "offense": {
@@ -771,7 +771,7 @@
       },
       "projected_wins": 11.2,
       "projected_wins_rank": null,
-      "strength_of_schedule_rank": 28
+      "strength_of_schedule_rank": 29
     },
     "SF": {
       "offense": {
@@ -794,7 +794,7 @@
         "defense_grade": 3.4,
         "defense_rank": 4,
         "overall_grade": 2.5,
-        "overall_rank": 20
+        "overall_rank": 19
       },
       "projected_wins": 9.5,
       "projected_wins_rank": null,
@@ -825,7 +825,7 @@
       },
       "projected_wins": 9.0,
       "projected_wins_rank": null,
-      "strength_of_schedule_rank": 9
+      "strength_of_schedule_rank": 11
     },
     "TEN": {
       "offense": {
@@ -852,7 +852,7 @@
       },
       "projected_wins": 4.8,
       "projected_wins_rank": null,
-      "strength_of_schedule_rank": 14
+      "strength_of_schedule_rank": 13
     },
     "WAS": {
       "offense": {
@@ -877,9 +877,9 @@
         "overall_grade": 2.3,
         "overall_rank": 30
       },
-      "projected_wins": 6.4,
+      "projected_wins": 6.5,
       "projected_wins_rank": null,
-      "strength_of_schedule_rank": 27
+      "strength_of_schedule_rank": 25
     }
   }
 }
