@@ -3,8 +3,8 @@
     "source_id": "mike_clay_unit_grades",
     "source_name": "Mike Clay - ESPN 2026 NFL Projection Guide (unit grades)",
     "source_url": "https://g.espncdn.com/s/ffldraftkit/26/NFLDK2026_CS_ClayProjections2026.pdf",
-    "pdf_updated": "2026-08-17",
-    "fetched_at": "2026-08-18T11:20:38Z",
+    "pdf_updated": "2026-08-18",
+    "fetched_at": "2026-08-19T11:20:19Z",
     "format": "per_team_unit_grades",
     "scale": "1_to_10_integer_higher_is_better",
     "defensive_group_labels": {
@@ -372,7 +372,7 @@
       "offense": {
         "qb": 5,
         "rb": 8,
-        "wr": 5,
+        "wr": 6,
         "te": 7,
         "ol": 6
       },
@@ -385,8 +385,8 @@
       },
       "aggregate": {
         "offense_grade": 5.3,
-        "offense_rank": 23,
-        "defense_grade": 2.8,
+        "offense_rank": 21,
+        "defense_grade": 2.9,
         "defense_rank": 19,
         "overall_grade": 2.5,
         "overall_rank": 24
@@ -574,7 +574,7 @@
       },
       "aggregate": {
         "offense_grade": 5.3,
-        "offense_rank": 21,
+        "offense_rank": 22,
         "defense_grade": 2.8,
         "defense_rank": 20,
         "overall_grade": 2.5,
@@ -655,7 +655,7 @@
       },
       "aggregate": {
         "offense_grade": 5.3,
-        "offense_rank": 22,
+        "offense_rank": 23,
         "defense_grade": 2.8,
         "defense_rank": 21,
         "overall_grade": 2.5,
