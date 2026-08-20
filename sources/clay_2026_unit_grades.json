@@ -3,8 +3,8 @@
     "source_id": "mike_clay_unit_grades",
     "source_name": "Mike Clay - ESPN 2026 NFL Projection Guide (unit grades)",
     "source_url": "https://g.espncdn.com/s/ffldraftkit/26/NFLDK2026_CS_ClayProjections2026.pdf",
-    "pdf_updated": "2026-08-18",
-    "fetched_at": "2026-08-19T11:20:19Z",
+    "pdf_updated": "2026-08-19",
+    "fetched_at": "2026-08-20T11:21:25Z",
     "format": "per_team_unit_grades",
     "scale": "1_to_10_integer_higher_is_better",
     "defensive_group_labels": {
@@ -60,12 +60,12 @@
         "s": 7
       },
       "aggregate": {
-        "offense_grade": 5.0,
+        "offense_grade": 5.1,
         "offense_rank": 26,
         "defense_grade": 2.6,
-        "defense_rank": 23,
+        "defense_rank": 22,
         "overall_grade": 2.4,
-        "overall_rank": 29
+        "overall_rank": 26
       },
       "projected_wins": 5.7,
       "projected_wins_rank": null,
@@ -119,7 +119,7 @@
         "defense_grade": 3.7,
         "defense_rank": 2,
         "overall_grade": 2.4,
-        "overall_rank": 26
+        "overall_rank": 27
       },
       "projected_wins": 10.0,
       "projected_wins_rank": null,
@@ -333,7 +333,7 @@
         "offense_grade": 5.7,
         "offense_rank": 13,
         "defense_grade": 3.1,
-        "defense_rank": 13,
+        "defense_rank": 12,
         "overall_grade": 2.6,
         "overall_rank": 14
       },
@@ -360,7 +360,7 @@
         "offense_grade": 5.7,
         "offense_rank": 14,
         "defense_grade": 2.6,
-        "defense_rank": 22,
+        "defense_rank": 24,
         "overall_grade": 3.1,
         "overall_rank": 2
       },
@@ -455,7 +455,7 @@
         "rb": 6,
         "wr": 5,
         "te": 5,
-        "ol": 7
+        "ol": 6
       },
       "defense": {
         "di": 5,
@@ -467,8 +467,8 @@
       "aggregate": {
         "offense_grade": 5.7,
         "offense_rank": 15,
-        "defense_grade": 3.2,
-        "defense_rank": 12,
+        "defense_grade": 3.1,
+        "defense_rank": 14,
         "overall_grade": 2.6,
         "overall_rank": 16
       },
@@ -524,7 +524,7 @@
         "defense_grade": 2.5,
         "defense_rank": 28,
         "overall_grade": 2.4,
-        "overall_rank": 27
+        "overall_rank": 28
       },
       "projected_wins": 4.7,
       "projected_wins_rank": null,
@@ -595,7 +595,7 @@
       "defense": {
         "di": 6,
         "ed": 5,
-        "lb": 5,
+        "lb": 6,
         "cb": 7,
         "s": 7
       },
@@ -684,7 +684,7 @@
         "offense_grade": 5.4,
         "offense_rank": 20,
         "defense_grade": 2.6,
-        "defense_rank": 24,
+        "defense_rank": 23,
         "overall_grade": 2.7,
         "overall_rank": 10
       },
@@ -765,7 +765,7 @@
         "offense_grade": 6.0,
         "offense_rank": 7,
         "defense_grade": 3.1,
-        "defense_rank": 14,
+        "defense_rank": 13,
         "overall_grade": 2.9,
         "overall_rank": 6
       },
@@ -848,7 +848,7 @@
         "defense_grade": 2.5,
         "defense_rank": 29,
         "overall_grade": 2.4,
-        "overall_rank": 28
+        "overall_rank": 29
       },
       "projected_wins": 4.8,
       "projected_wins_rank": null,
