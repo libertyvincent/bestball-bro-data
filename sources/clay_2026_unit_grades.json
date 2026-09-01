@@ -4,7 +4,7 @@
     "source_name": "Mike Clay - ESPN 2026 NFL Projection Guide (unit grades)",
     "source_url": "https://g.espncdn.com/s/ffldraftkit/26/NFLDK2026_CS_ClayProjections2026.pdf",
     "pdf_updated": "2026-08-31",
-    "fetched_at": "2026-08-31T17:48:36Z",
+    "fetched_at": "2026-09-01T15:22:01Z",
     "format": "per_team_unit_grades",
     "scale": "1_to_10_integer_higher_is_better",
     "defensive_group_labels": {
@@ -184,7 +184,7 @@
         "qb": 8,
         "rb": 6,
         "wr": 8,
-        "te": 3,
+        "te": 4,
         "ol": 5
       },
       "defense": {
@@ -222,7 +222,7 @@
         "s": 6
       },
       "aggregate": {
-        "offense_grade": 4.9,
+        "offense_grade": 4.8,
         "offense_rank": 30,
         "defense_grade": 2.2,
         "defense_rank": 31,
@@ -317,7 +317,7 @@
     "GB": {
       "offense": {
         "qb": 7,
-        "rb": 6,
+        "rb": 5,
         "wr": 5,
         "te": 6,
         "ol": 6
@@ -335,9 +335,9 @@
         "defense_grade": 3.1,
         "defense_rank": 14,
         "overall_grade": 2.6,
-        "overall_rank": 14
+        "overall_rank": 13
       },
-      "projected_wins": 9.5,
+      "projected_wins": 9.6,
       "projected_wins_rank": null,
       "strength_of_schedule_rank": 14
     },
@@ -434,7 +434,7 @@
         "di": 5,
         "ed": 5,
         "lb": 7,
-        "cb": 4,
+        "cb": 5,
         "s": 6
       },
       "aggregate": {
@@ -443,7 +443,7 @@
         "defense_grade": 3.3,
         "defense_rank": 7,
         "overall_grade": 2.6,
-        "overall_rank": 13
+        "overall_rank": 14
       },
       "projected_wins": 10.0,
       "projected_wins_rank": null,
@@ -539,7 +539,7 @@
         "ol": 5
       },
       "defense": {
-        "di": 4,
+        "di": 5,
         "ed": 3,
         "lb": 6,
         "cb": 3,
@@ -553,7 +553,7 @@
         "overall_grade": 1.8,
         "overall_rank": 32
       },
-      "projected_wins": 2.5,
+      "projected_wins": 2.6,
       "projected_wins_rank": null,
       "strength_of_schedule_rank": 30
     },
@@ -595,7 +595,7 @@
       "defense": {
         "di": 5,
         "ed": 4,
-        "lb": 5,
+        "lb": 6,
         "cb": 7,
         "s": 7
       },
@@ -688,7 +688,7 @@
         "overall_grade": 2.7,
         "overall_rank": 10
       },
-      "projected_wins": 7.4,
+      "projected_wins": 7.2,
       "projected_wins_rank": null,
       "strength_of_schedule_rank": 7
     },
@@ -840,7 +840,7 @@
         "ed": 5,
         "lb": 5,
         "cb": 5,
-        "s": 4
+        "s": 5
       },
       "aggregate": {
         "offense_grade": 4.9,
