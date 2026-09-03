@@ -2,7 +2,7 @@
   "_meta": {
     "source": "etr",
     "slate": "nfl_2026_season",
-    "fetched_at": "2026-09-02T14:55:12Z",
+    "fetched_at": "2026-09-03T14:50:45Z",
     "etr_updated_at": null,
     "page_url": "https://establishtherun.com/etrs-top-300-for-underdogfantasy/",
     "player_count": 300
@@ -243,14 +243,27 @@
       "ownership_pct": 100
     },
     {
+      "underdog_id": "9f4b0912-cb1e-4d16-b82b-45b05b012839",
+      "player_name": null,
+      "position": "RB",
+      "team": "LV",
+      "etr_rank": 19,
+      "etr_pos_rank": null,
+      "adp": 16.1,
+      "adp_diff": -2.9,
+      "pos_rank_adp": "RB10",
+      "pos_rank_diff": -1,
+      "ownership_pct": 100
+    },
+    {
       "underdog_id": "bcd9dd40-142a-4f3c-b47e-654117d32658",
       "player_name": null,
       "position": "WR",
       "team": "HOU",
-      "etr_rank": 19,
+      "etr_rank": 20,
       "etr_pos_rank": null,
       "adp": 21.9,
-      "adp_diff": 2.9,
+      "adp_diff": 1.9,
       "pos_rank_adp": "WR08",
       "pos_rank_diff": -1,
       "ownership_pct": 100
@@ -260,10 +273,10 @@
       "player_name": null,
       "position": "TE",
       "team": "LV",
-      "etr_rank": 20,
+      "etr_rank": 21,
       "etr_pos_rank": null,
       "adp": 20,
-      "adp_diff": 0,
+      "adp_diff": -1,
       "pos_rank_adp": "TE01",
       "pos_rank_diff": 0,
       "ownership_pct": 100
@@ -273,12 +286,12 @@
       "player_name": null,
       "position": "RB",
       "team": "MIA",
-      "etr_rank": 21,
+      "etr_rank": 22,
       "etr_pos_rank": null,
       "adp": 17.3,
-      "adp_diff": -3.7,
+      "adp_diff": -4.7,
       "pos_rank_adp": "RB12",
-      "pos_rank_diff": 1,
+      "pos_rank_diff": 0,
       "ownership_pct": 100
     },
     {
@@ -286,10 +299,10 @@
       "player_name": null,
       "position": "WR",
       "team": "NO",
-      "etr_rank": 22,
+      "etr_rank": 23,
       "etr_pos_rank": null,
       "adp": 27.2,
-      "adp_diff": 5.2,
+      "adp_diff": 4.2,
       "pos_rank_adp": "WR12",
       "pos_rank_diff": 2,
       "ownership_pct": 100
@@ -299,25 +312,12 @@
       "player_name": null,
       "position": "WR",
       "team": "DAL",
-      "etr_rank": 23,
-      "etr_pos_rank": null,
-      "adp": 23.5,
-      "adp_diff": 0.5,
-      "pos_rank_adp": "WR11",
-      "pos_rank_diff": 0,
-      "ownership_pct": 100
-    },
-    {
-      "underdog_id": "9f4b0912-cb1e-4d16-b82b-45b05b012839",
-      "player_name": null,
-      "position": "RB",
-      "team": "LV",
       "etr_rank": 24,
       "etr_pos_rank": null,
-      "adp": 16.1,
-      "adp_diff": -7.9,
-      "pos_rank_adp": "RB10",
-      "pos_rank_diff": -2,
+      "adp": 23.5,
+      "adp_diff": -0.5,
+      "pos_rank_adp": "WR11",
+      "pos_rank_diff": 0,
       "ownership_pct": 100
     },
     {
@@ -789,29 +789,29 @@
       "ownership_pct": 100
     },
     {
+      "underdog_id": "e91cddd5-487d-4d8b-8131-c85691917e82",
+      "player_name": null,
+      "position": "WR",
+      "team": "CHI",
+      "etr_rank": 61,
+      "etr_pos_rank": null,
+      "adp": 58,
+      "adp_diff": -3,
+      "pos_rank_adp": "WR30",
+      "pos_rank_diff": 0,
+      "ownership_pct": 100
+    },
+    {
       "underdog_id": "986f5827-6ed9-4992-9c64-df54cc33c2b2",
       "player_name": null,
       "position": "QB",
       "team": "WAS",
-      "etr_rank": 61,
-      "etr_pos_rank": null,
-      "adp": 70.6,
-      "adp_diff": 9.6,
-      "pos_rank_adp": "QB05",
-      "pos_rank_diff": 2,
-      "ownership_pct": 100
-    },
-    {
-      "underdog_id": "54ddd66e-ce84-4ff8-979d-6cc9e1ff78ff",
-      "player_name": null,
-      "position": "RB",
-      "team": "NE",
       "etr_rank": 62,
       "etr_pos_rank": null,
-      "adp": 60.7,
-      "adp_diff": -1.3,
-      "pos_rank_adp": "RB26",
-      "pos_rank_diff": 0,
+      "adp": 70.6,
+      "adp_diff": 8.6,
+      "pos_rank_adp": "QB05",
+      "pos_rank_diff": 2,
       "ownership_pct": 100
     },
     {
@@ -824,33 +824,33 @@
       "adp": 75,
       "adp_diff": 12,
       "pos_rank_adp": "WR35",
-      "pos_rank_diff": 5,
+      "pos_rank_diff": 4,
       "ownership_pct": 100
     },
     {
-      "underdog_id": "89d88336-52d9-468c-bbe3-c1167c2e7819",
+      "underdog_id": "54ddd66e-ce84-4ff8-979d-6cc9e1ff78ff",
       "player_name": null,
-      "position": "WR",
-      "team": "TEN",
+      "position": "RB",
+      "team": "NE",
       "etr_rank": 64,
       "etr_pos_rank": null,
-      "adp": 62.8,
-      "adp_diff": -1.2,
-      "pos_rank_adp": "WR31",
+      "adp": 60.7,
+      "adp_diff": -3.3,
+      "pos_rank_adp": "RB26",
       "pos_rank_diff": 0,
       "ownership_pct": 100
     },
     {
-      "underdog_id": "e91cddd5-487d-4d8b-8131-c85691917e82",
+      "underdog_id": "ac9035c0-d09b-4223-8db3-76c7994fd11a",
       "player_name": null,
       "position": "WR",
-      "team": "CHI",
+      "team": "JAX",
       "etr_rank": 65,
       "etr_pos_rank": null,
-      "adp": 58,
-      "adp_diff": -7,
-      "pos_rank_adp": "WR30",
-      "pos_rank_diff": -2,
+      "adp": 65.4,
+      "adp_diff": 0.4,
+      "pos_rank_adp": "WR32",
+      "pos_rank_diff": 0,
       "ownership_pct": 100
     },
     {
@@ -867,16 +867,16 @@
       "ownership_pct": 100
     },
     {
-      "underdog_id": "ac9035c0-d09b-4223-8db3-76c7994fd11a",
+      "underdog_id": "d407419c-8b2a-4590-b343-2f813554d6e0",
       "player_name": null,
       "position": "WR",
-      "team": "JAX",
+      "team": "ARI",
       "etr_rank": 67,
       "etr_pos_rank": null,
-      "adp": 65.4,
-      "adp_diff": -1.6,
-      "pos_rank_adp": "WR32",
-      "pos_rank_diff": -1,
+      "adp": 66.1,
+      "adp_diff": -0.9,
+      "pos_rank_adp": "WR33",
+      "pos_rank_diff": 0,
       "ownership_pct": 100
     },
     {
@@ -893,29 +893,16 @@
       "ownership_pct": 100
     },
     {
-      "underdog_id": "d407419c-8b2a-4590-b343-2f813554d6e0",
+      "underdog_id": "89d88336-52d9-468c-bbe3-c1167c2e7819",
       "player_name": null,
       "position": "WR",
-      "team": "ARI",
+      "team": "TEN",
       "etr_rank": 69,
       "etr_pos_rank": null,
-      "adp": 66.1,
-      "adp_diff": -2.9,
-      "pos_rank_adp": "WR33",
-      "pos_rank_diff": -1,
-      "ownership_pct": 100
-    },
-    {
-      "underdog_id": "41bac526-b103-4a40-9142-dcef21e5da72",
-      "player_name": null,
-      "position": "RB",
-      "team": "PIT",
-      "etr_rank": 70,
-      "etr_pos_rank": null,
-      "adp": 69.9,
-      "adp_diff": -0.1,
-      "pos_rank_adp": "RB28",
-      "pos_rank_diff": 1,
+      "adp": 62.8,
+      "adp_diff": -6.2,
+      "pos_rank_adp": "WR31",
+      "pos_rank_diff": -3,
       "ownership_pct": 100
     },
     {
@@ -923,12 +910,25 @@
       "player_name": null,
       "position": "TE",
       "team": "GB",
-      "etr_rank": 71,
+      "etr_rank": 70,
       "etr_pos_rank": null,
       "adp": 77.1,
-      "adp_diff": 6.1,
+      "adp_diff": 7.1,
       "pos_rank_adp": "TE05",
       "pos_rank_diff": 0,
+      "ownership_pct": 100
+    },
+    {
+      "underdog_id": "41bac526-b103-4a40-9142-dcef21e5da72",
+      "player_name": null,
+      "position": "RB",
+      "team": "PIT",
+      "etr_rank": 71,
+      "etr_pos_rank": null,
+      "adp": 69.9,
+      "adp_diff": -1.1,
+      "pos_rank_adp": "RB28",
+      "pos_rank_diff": 1,
       "ownership_pct": 100
     },
     {
@@ -981,7 +981,7 @@
       "adp_diff": 60.1,
       "pos_rank_adp": "RB44",
       "pos_rank_diff": 15,
-      "ownership_pct": 76.93
+      "ownership_pct": 77.29
     },
     {
       "underdog_id": "b63d54a7-769e-4dd3-8ba8-bc1e865afc2f",
@@ -1036,14 +1036,27 @@
       "ownership_pct": 100
     },
     {
+      "underdog_id": "8b23a214-cb44-4db0-a1f2-10a1d6c9e8bf",
+      "player_name": null,
+      "position": "QB",
+      "team": "CHI",
+      "etr_rank": 80,
+      "etr_pos_rank": null,
+      "adp": 73.8,
+      "adp_diff": -6.2,
+      "pos_rank_adp": "QB07",
+      "pos_rank_diff": -1,
+      "ownership_pct": 100
+    },
+    {
       "underdog_id": "cf099f63-ced6-4321-9a10-2b3ef7692315",
       "player_name": null,
       "position": "WR",
       "team": "MIN",
-      "etr_rank": 80,
+      "etr_rank": 81,
       "etr_pos_rank": null,
       "adp": 88.9,
-      "adp_diff": 8.9,
+      "adp_diff": 7.9,
       "pos_rank_adp": "WR41",
       "pos_rank_diff": 4,
       "ownership_pct": 100
@@ -1053,25 +1066,12 @@
       "player_name": null,
       "position": "WR",
       "team": "TB",
-      "etr_rank": 81,
-      "etr_pos_rank": null,
-      "adp": 83.9,
-      "adp_diff": 2.9,
-      "pos_rank_adp": "WR40",
-      "pos_rank_diff": 2,
-      "ownership_pct": 100
-    },
-    {
-      "underdog_id": "8b23a214-cb44-4db0-a1f2-10a1d6c9e8bf",
-      "player_name": null,
-      "position": "QB",
-      "team": "CHI",
       "etr_rank": 82,
       "etr_pos_rank": null,
-      "adp": 73.8,
-      "adp_diff": -8.2,
-      "pos_rank_adp": "QB07",
-      "pos_rank_diff": -1,
+      "adp": 83.9,
+      "adp_diff": 1.9,
+      "pos_rank_adp": "WR40",
+      "pos_rank_diff": 2,
       "ownership_pct": 100
     },
     {
@@ -1267,7 +1267,7 @@
       "adp_diff": 11.3,
       "pos_rank_adp": "WR49",
       "pos_rank_diff": 4,
-      "ownership_pct": 99.5
+      "ownership_pct": 99.51
     },
     {
       "underdog_id": "8a17ba41-08bf-455e-852c-e5f9776021af",
@@ -1309,14 +1309,27 @@
       "ownership_pct": 100
     },
     {
+      "underdog_id": "dd0faf01-71b1-4348-8299-d0de3d50c0da",
+      "player_name": null,
+      "position": "TE",
+      "team": "SF",
+      "etr_rank": 101,
+      "etr_pos_rank": null,
+      "adp": 112.1,
+      "adp_diff": 11.1,
+      "pos_rank_adp": "TE09",
+      "pos_rank_diff": 0,
+      "ownership_pct": 100
+    },
+    {
       "underdog_id": "9ecd93f6-17dd-447b-96b7-8d54ca4ca886",
       "player_name": null,
       "position": "WR",
       "team": "PIT",
-      "etr_rank": 101,
+      "etr_rank": 102,
       "etr_pos_rank": null,
       "adp": 101.6,
-      "adp_diff": 0.6,
+      "adp_diff": -0.4,
       "pos_rank_adp": "WR47",
       "pos_rank_diff": -1,
       "ownership_pct": 100
@@ -1326,10 +1339,10 @@
       "player_name": null,
       "position": "WR",
       "team": "CLE",
-      "etr_rank": 102,
+      "etr_rank": 103,
       "etr_pos_rank": null,
       "adp": 110.3,
-      "adp_diff": 8.3,
+      "adp_diff": 7.3,
       "pos_rank_adp": "WR50",
       "pos_rank_diff": 1,
       "ownership_pct": 100
@@ -1339,10 +1352,10 @@
       "player_name": null,
       "position": "QB",
       "team": "GB",
-      "etr_rank": 103,
+      "etr_rank": 104,
       "etr_pos_rank": null,
       "adp": 116.9,
-      "adp_diff": 13.9,
+      "adp_diff": 12.9,
       "pos_rank_adp": "QB18",
       "pos_rank_diff": 6,
       "ownership_pct": 100
@@ -1352,10 +1365,10 @@
       "player_name": null,
       "position": "QB",
       "team": "LA",
-      "etr_rank": 104,
+      "etr_rank": 105,
       "etr_pos_rank": null,
       "adp": 111.9,
-      "adp_diff": 7.9,
+      "adp_diff": 6.9,
       "pos_rank_adp": "QB16",
       "pos_rank_diff": 3,
       "ownership_pct": 100
@@ -1365,10 +1378,10 @@
       "player_name": null,
       "position": "QB",
       "team": "NYG",
-      "etr_rank": 105,
+      "etr_rank": 106,
       "etr_pos_rank": null,
       "adp": 104.6,
-      "adp_diff": -0.4,
+      "adp_diff": -1.4,
       "pos_rank_adp": "QB13",
       "pos_rank_diff": -1,
       "ownership_pct": 100
@@ -1378,10 +1391,10 @@
       "player_name": null,
       "position": "RB",
       "team": "WAS",
-      "etr_rank": 106,
+      "etr_rank": 107,
       "etr_pos_rank": null,
       "adp": 99.8,
-      "adp_diff": -6.2,
+      "adp_diff": -7.2,
       "pos_rank_adp": "RB36",
       "pos_rank_diff": 1,
       "ownership_pct": 100
@@ -1391,10 +1404,10 @@
       "player_name": null,
       "position": "RB",
       "team": "DEN",
-      "etr_rank": 107,
+      "etr_rank": 108,
       "etr_pos_rank": null,
       "adp": 96.1,
-      "adp_diff": -10.9,
+      "adp_diff": -11.9,
       "pos_rank_adp": "RB34",
       "pos_rank_diff": -2,
       "ownership_pct": 100
@@ -1404,10 +1417,10 @@
       "player_name": null,
       "position": "QB",
       "team": "SF",
-      "etr_rank": 108,
+      "etr_rank": 109,
       "etr_pos_rank": null,
       "adp": 103.1,
-      "adp_diff": -4.9,
+      "adp_diff": -5.9,
       "pos_rank_adp": "QB12",
       "pos_rank_diff": -3,
       "ownership_pct": 100
@@ -1417,25 +1430,25 @@
       "player_name": null,
       "position": "RB",
       "team": "MIN",
-      "etr_rank": 109,
+      "etr_rank": 110,
       "etr_pos_rank": null,
       "adp": 96.2,
-      "adp_diff": -12.8,
+      "adp_diff": -13.8,
       "pos_rank_adp": "RB35",
       "pos_rank_diff": -2,
       "ownership_pct": 100
     },
     {
-      "underdog_id": "dd0faf01-71b1-4348-8299-d0de3d50c0da",
+      "underdog_id": "48fe455e-166b-42f0-8c77-9b6a9d03d251",
       "player_name": null,
-      "position": "TE",
-      "team": "SF",
-      "etr_rank": 110,
+      "position": "WR",
+      "team": "TEN",
+      "etr_rank": 111,
       "etr_pos_rank": null,
-      "adp": 112.1,
-      "adp_diff": 2.1,
-      "pos_rank_adp": "TE09",
-      "pos_rank_diff": 0,
+      "adp": 114.6,
+      "adp_diff": 3.6,
+      "pos_rank_adp": "WR51",
+      "pos_rank_diff": 1,
       "ownership_pct": 100
     },
     {
@@ -1443,10 +1456,10 @@
       "player_name": null,
       "position": "QB",
       "team": "MIN",
-      "etr_rank": 111,
+      "etr_rank": 112,
       "etr_pos_rank": null,
       "adp": 114,
-      "adp_diff": 3,
+      "adp_diff": 2,
       "pos_rank_adp": "QB17",
       "pos_rank_diff": 1,
       "ownership_pct": 100
@@ -1456,10 +1469,10 @@
       "player_name": null,
       "position": "QB",
       "team": "DEN",
-      "etr_rank": 112,
+      "etr_rank": 113,
       "etr_pos_rank": null,
       "adp": 106.6,
-      "adp_diff": -5.4,
+      "adp_diff": -6.4,
       "pos_rank_adp": "QB14",
       "pos_rank_diff": -3,
       "ownership_pct": 100
@@ -1469,24 +1482,11 @@
       "player_name": null,
       "position": "RB",
       "team": "TB",
-      "etr_rank": 113,
-      "etr_pos_rank": null,
-      "adp": 109.1,
-      "adp_diff": -3.9,
-      "pos_rank_adp": "RB39",
-      "pos_rank_diff": 1,
-      "ownership_pct": 100
-    },
-    {
-      "underdog_id": "48fe455e-166b-42f0-8c77-9b6a9d03d251",
-      "player_name": null,
-      "position": "WR",
-      "team": "TEN",
       "etr_rank": 114,
       "etr_pos_rank": null,
-      "adp": 114.6,
-      "adp_diff": 0.6,
-      "pos_rank_adp": "WR51",
+      "adp": 109.1,
+      "adp_diff": -4.9,
+      "pos_rank_adp": "RB39",
       "pos_rank_diff": 1,
       "ownership_pct": 100
     },
@@ -1774,7 +1774,7 @@
       "adp_diff": -7.2,
       "pos_rank_adp": "WR54",
       "pos_rank_diff": -4,
-      "ownership_pct": 99.71
+      "ownership_pct": 99.72
     },
     {
       "underdog_id": "f9b4b51b-3d0e-47b6-bbc4-d73ed3340f82",
@@ -1907,55 +1907,42 @@
       "ownership_pct": 99.6
     },
     {
-      "underdog_id": "9fd3effd-2d57-43d1-9da9-118e0aa3689b",
-      "player_name": null,
-      "position": "TE",
-      "team": "HOU",
-      "etr_rank": 147,
-      "etr_pos_rank": null,
-      "adp": 160.4,
-      "adp_diff": 13.4,
-      "pos_rank_adp": "TE21",
-      "pos_rank_diff": 2,
-      "ownership_pct": 99.47
-    },
-    {
       "underdog_id": "9abe9b0f-ac15-496a-9fe6-8e2936d122c1",
       "player_name": null,
       "position": "RB",
       "team": "ARI",
-      "etr_rank": 148,
+      "etr_rank": 147,
       "etr_pos_rank": null,
       "adp": 139.1,
-      "adp_diff": -8.9,
+      "adp_diff": -7.9,
       "pos_rank_adp": "RB46",
       "pos_rank_diff": 0,
-      "ownership_pct": 99.67
+      "ownership_pct": 99.68
     },
     {
-      "underdog_id": "5a5bfcaa-e87c-4ace-8f2c-5c494dd7950e",
+      "underdog_id": "9fd3effd-2d57-43d1-9da9-118e0aa3689b",
       "player_name": null,
-      "position": "RB",
-      "team": "LV",
-      "etr_rank": 149,
+      "position": "TE",
+      "team": "HOU",
+      "etr_rank": 148,
       "etr_pos_rank": null,
-      "adp": 144.8,
-      "adp_diff": -4.2,
-      "pos_rank_adp": "RB48",
-      "pos_rank_diff": 1,
-      "ownership_pct": 92.25
+      "adp": 160.4,
+      "adp_diff": 12.4,
+      "pos_rank_adp": "TE21",
+      "pos_rank_diff": 2,
+      "ownership_pct": 99.47
     },
     {
       "underdog_id": "05a6881d-5311-49a0-be02-83b85e831b2b",
       "player_name": null,
       "position": "RB",
       "team": "TEN",
-      "etr_rank": 150,
+      "etr_rank": 149,
       "etr_pos_rank": null,
       "adp": 154.9,
-      "adp_diff": 4.9,
+      "adp_diff": 5.9,
       "pos_rank_adp": "RB50",
-      "pos_rank_diff": 2,
+      "pos_rank_diff": 3,
       "ownership_pct": 99.5
     },
     {
@@ -1963,12 +1950,12 @@
       "player_name": null,
       "position": "RB",
       "team": "PHI",
-      "etr_rank": 151,
+      "etr_rank": 150,
       "etr_pos_rank": null,
       "adp": 152,
-      "adp_diff": 1,
+      "adp_diff": 2,
       "pos_rank_adp": "RB49",
-      "pos_rank_diff": 0,
+      "pos_rank_diff": 1,
       "ownership_pct": 99.42
     },
     {
@@ -1976,26 +1963,39 @@
       "player_name": null,
       "position": "WR",
       "team": "IND",
-      "etr_rank": 152,
+      "etr_rank": 151,
       "etr_pos_rank": null,
       "adp": 152.3,
-      "adp_diff": 0.3,
+      "adp_diff": 1.3,
       "pos_rank_adp": "WR61",
       "pos_rank_diff": 1,
-      "ownership_pct": 44.37
+      "ownership_pct": 45.24
     },
     {
       "underdog_id": "9f843748-952c-4e26-b336-d35a73a18c2e",
       "player_name": null,
       "position": "TE",
       "team": "WAS",
-      "etr_rank": 153,
+      "etr_rank": 152,
       "etr_pos_rank": null,
       "adp": 149,
-      "adp_diff": -4,
+      "adp_diff": -3,
       "pos_rank_adp": "TE17",
       "pos_rank_diff": -3,
-      "ownership_pct": 99.91
+      "ownership_pct": 99.92
+    },
+    {
+      "underdog_id": "5a5bfcaa-e87c-4ace-8f2c-5c494dd7950e",
+      "player_name": null,
+      "position": "RB",
+      "team": "LV",
+      "etr_rank": 153,
+      "etr_pos_rank": null,
+      "adp": 144.8,
+      "adp_diff": -8.2,
+      "pos_rank_adp": "RB48",
+      "pos_rank_diff": -1,
+      "ownership_pct": 92.37
     },
     {
       "underdog_id": "e77fc2ba-9f10-418d-8133-14b993d3f59e",
@@ -2011,30 +2011,30 @@
       "ownership_pct": 99.71
     },
     {
-      "underdog_id": "d53f8a01-f0d6-441b-b85a-d69b2095642d",
-      "player_name": null,
-      "position": "WR",
-      "team": "LAC",
-      "etr_rank": 155,
-      "etr_pos_rank": null,
-      "adp": 160.3,
-      "adp_diff": 5.3,
-      "pos_rank_adp": "WR65",
-      "pos_rank_diff": 4,
-      "ownership_pct": 99.29
-    },
-    {
       "underdog_id": "7d34e47d-044c-4a44-90b4-d1ce54549cea",
       "player_name": null,
       "position": "TE",
       "team": "MIN",
-      "etr_rank": 156,
+      "etr_rank": 155,
       "etr_pos_rank": null,
       "adp": 168.3,
-      "adp_diff": 12.3,
+      "adp_diff": 13.3,
       "pos_rank_adp": "TE22",
       "pos_rank_diff": 1,
       "ownership_pct": 99.48
+    },
+    {
+      "underdog_id": "d53f8a01-f0d6-441b-b85a-d69b2095642d",
+      "player_name": null,
+      "position": "WR",
+      "team": "LAC",
+      "etr_rank": 156,
+      "etr_pos_rank": null,
+      "adp": 160.3,
+      "adp_diff": 4.3,
+      "pos_rank_adp": "WR65",
+      "pos_rank_diff": 4,
+      "ownership_pct": 99.29
     },
     {
       "underdog_id": "625be843-9bf8-4602-9029-a88e52b084bd",
@@ -2047,7 +2047,7 @@
       "adp_diff": -1,
       "pos_rank_adp": "TE20",
       "pos_rank_diff": -2,
-      "ownership_pct": 90.79
+      "ownership_pct": 90.93
     },
     {
       "underdog_id": "9b6b5dd5-bcdf-4155-aa42-9b6c948e851e",
@@ -2060,7 +2060,7 @@
       "adp_diff": 15.9,
       "pos_rank_adp": "WR71",
       "pos_rank_diff": 9,
-      "ownership_pct": 99.83
+      "ownership_pct": 99.82
     },
     {
       "underdog_id": "e351f43e-e09b-4509-be8b-9bfa83d46ad7",
@@ -2073,7 +2073,7 @@
       "adp_diff": 10.5,
       "pos_rank_adp": "WR69",
       "pos_rank_diff": 6,
-      "ownership_pct": 98.76
+      "ownership_pct": 98.78
     },
     {
       "underdog_id": "92537de5-d0be-45ec-b8ad-bf0ee3ddce60",
@@ -2086,7 +2086,7 @@
       "adp_diff": -0.8,
       "pos_rank_adp": "WR63",
       "pos_rank_diff": -1,
-      "ownership_pct": 99.82
+      "ownership_pct": 99.81
     },
     {
       "underdog_id": "84d2c2de-8b5a-41cd-a571-aa7aafcfbc06",
@@ -2112,7 +2112,7 @@
       "adp_diff": 8.2,
       "pos_rank_adp": "WR70",
       "pos_rank_diff": 5,
-      "ownership_pct": 70.46
+      "ownership_pct": 70.91
     },
     {
       "underdog_id": "0f66297e-c3ab-4840-9cea-c73def0f5ab4",
@@ -2138,7 +2138,7 @@
       "adp_diff": 4.3,
       "pos_rank_adp": "WR68",
       "pos_rank_diff": 2,
-      "ownership_pct": 91.95
+      "ownership_pct": 92.07
     },
     {
       "underdog_id": "578083fd-28b7-4f25-9ab5-76dac063ab44",
@@ -2151,7 +2151,7 @@
       "adp_diff": 9.5,
       "pos_rank_adp": "WR73",
       "pos_rank_diff": 6,
-      "ownership_pct": 67.9
+      "ownership_pct": 68.4
     },
     {
       "underdog_id": "52947412-4003-4b6b-9660-5a2aa4ca1bd7",
@@ -2164,7 +2164,7 @@
       "adp_diff": 37.1,
       "pos_rank_adp": "WR82",
       "pos_rank_diff": 14,
-      "ownership_pct": 92.66
+      "ownership_pct": 92.41
     },
     {
       "underdog_id": "5df1a513-165c-4a68-8430-397522553e27",
@@ -2177,7 +2177,7 @@
       "adp_diff": -7.7,
       "pos_rank_adp": "WR64",
       "pos_rank_diff": -5,
-      "ownership_pct": 91.76
+      "ownership_pct": 91.88
     },
     {
       "underdog_id": "58ef4b7e-c240-4470-8313-46a066fd93b9",
@@ -2190,7 +2190,7 @@
       "adp_diff": 16.6,
       "pos_rank_adp": "RB57",
       "pos_rank_diff": 6,
-      "ownership_pct": 90.32
+      "ownership_pct": 90.45
     },
     {
       "underdog_id": "268e4c6c-716d-467c-856a-1297e1c743cf",
@@ -2203,7 +2203,7 @@
       "adp_diff": 23.1,
       "pos_rank_adp": "TE26",
       "pos_rank_diff": 3,
-      "ownership_pct": 96.26
+      "ownership_pct": 96.24
     },
     {
       "underdog_id": "0c7ec0aa-bc36-49d5-a402-0cb26a244803",
@@ -2229,7 +2229,7 @@
       "adp_diff": 14.7,
       "pos_rank_adp": "WR76",
       "pos_rank_diff": 6,
-      "ownership_pct": 31.96
+      "ownership_pct": 33
     },
     {
       "underdog_id": "38bdcde6-0f06-4c83-8e57-6a1d562e57b2",
@@ -2255,7 +2255,7 @@
       "adp_diff": 4.4,
       "pos_rank_adp": "WR74",
       "pos_rank_diff": 2,
-      "ownership_pct": 99.62
+      "ownership_pct": 99.61
     },
     {
       "underdog_id": "530624e0-707b-487a-a29e-3d8eb2f85166",
@@ -2268,7 +2268,7 @@
       "adp_diff": 13.6,
       "pos_rank_adp": "WR77",
       "pos_rank_diff": 4,
-      "ownership_pct": 47.77
+      "ownership_pct": 48.54
     },
     {
       "underdog_id": "da4bbb87-fe7f-4d65-9cbe-c3085d2cbfc1",
@@ -2281,7 +2281,7 @@
       "adp_diff": -5.9,
       "pos_rank_adp": "RB53",
       "pos_rank_diff": 1,
-      "ownership_pct": 99.37
+      "ownership_pct": 99.38
     },
     {
       "underdog_id": "a59c3f47-ac4f-4bbc-8ea0-4b0afe04b9dc",
@@ -2307,7 +2307,7 @@
       "adp_diff": -27.6,
       "pos_rank_adp": "WR59",
       "pos_rank_diff": -15,
-      "ownership_pct": 46.24
+      "ownership_pct": 47.08
     },
     {
       "underdog_id": "ef187a90-1a0c-46af-9775-ebaa0fbbc6d1",
@@ -2320,7 +2320,7 @@
       "adp_diff": 19.7,
       "pos_rank_adp": "TE27",
       "pos_rank_diff": 1,
-      "ownership_pct": 92.1
+      "ownership_pct": 92.03
     },
     {
       "underdog_id": "86e4ae73-0fb9-4cbe-a457-71f3f7ea2a22",
@@ -2359,7 +2359,7 @@
       "adp_diff": 23.3,
       "pos_rank_adp": "WR83",
       "pos_rank_diff": 7,
-      "ownership_pct": 38.17
+      "ownership_pct": 38.7
     },
     {
       "underdog_id": "392cac47-00b2-4189-b006-58ebc14b23bf",
@@ -2372,7 +2372,7 @@
       "adp_diff": 23.1,
       "pos_rank_adp": "WR84",
       "pos_rank_diff": 7,
-      "ownership_pct": 93.76
+      "ownership_pct": 93.34
     },
     {
       "underdog_id": "2555530d-7eab-464c-94f3-15444cc81b0d",
@@ -2385,7 +2385,7 @@
       "adp_diff": -3.9,
       "pos_rank_adp": "WR75",
       "pos_rank_diff": -3,
-      "ownership_pct": 35.68
+      "ownership_pct": 36.68
     },
     {
       "underdog_id": "db9d8880-ccab-480e-8fa3-d0e1c1fe0297",
@@ -2424,7 +2424,7 @@
       "adp_diff": 0.2,
       "pos_rank_adp": "RB59",
       "pos_rank_diff": 4,
-      "ownership_pct": 91.74
+      "ownership_pct": 91.83
     },
     {
       "underdog_id": "05501245-ba7a-4aaa-893b-f4478a2921fd",
@@ -2437,7 +2437,7 @@
       "adp_diff": -23.6,
       "pos_rank_adp": "WR67",
       "pos_rank_diff": -12,
-      "ownership_pct": 42.97
+      "ownership_pct": 43.85
     },
     {
       "underdog_id": "2b4755db-65b8-4ebb-a6ac-dcc87d34c16b",
@@ -2450,7 +2450,7 @@
       "adp_diff": -2.5,
       "pos_rank_adp": "RB58",
       "pos_rank_diff": 2,
-      "ownership_pct": 49.7
+      "ownership_pct": 50.46
     },
     {
       "underdog_id": "647debe3-1f5b-41a9-bb4b-2814a7b24faf",
@@ -2463,7 +2463,7 @@
       "adp_diff": 24.2,
       "pos_rank_adp": "RB68",
       "pos_rank_diff": 11,
-      "ownership_pct": 5.03
+      "ownership_pct": 5.4
     },
     {
       "underdog_id": "f78d35e4-b166-4fc2-8d37-90fe6c95d790",
@@ -2476,7 +2476,7 @@
       "adp_diff": 2.5,
       "pos_rank_adp": "WR79",
       "pos_rank_diff": -1,
-      "ownership_pct": 44.61
+      "ownership_pct": 45.39
     },
     {
       "underdog_id": "ae5ffec8-ddb5-44de-bfbe-0ac08be1c2ae",
@@ -2489,7 +2489,7 @@
       "adp_diff": 7.7,
       "pos_rank_adp": "WR80",
       "pos_rank_diff": -1,
-      "ownership_pct": 82.01
+      "ownership_pct": 82.08
     },
     {
       "underdog_id": "76ded0dc-a456-4503-a04d-a4fb41aafbc8",
@@ -2502,7 +2502,7 @@
       "adp_diff": 8.4,
       "pos_rank_adp": "WR81",
       "pos_rank_diff": -1,
-      "ownership_pct": 93.92
+      "ownership_pct": 93.74
     },
     {
       "underdog_id": "9ff86d7b-4419-4124-b7f7-45e95948cd07",
@@ -2515,7 +2515,7 @@
       "adp_diff": -19.1,
       "pos_rank_adp": "WR71",
       "pos_rank_diff": -12,
-      "ownership_pct": 95.76
+      "ownership_pct": 95.82
     },
     {
       "underdog_id": "4f3c5505-9940-4dfc-bc57-603892bccb40",
@@ -2528,7 +2528,7 @@
       "adp_diff": 11.4,
       "pos_rank_adp": "WR85",
       "pos_rank_diff": 1,
-      "ownership_pct": 89.1
+      "ownership_pct": 88.77
     },
     {
       "underdog_id": "8b12012c-b9e9-40d8-bb16-f4d696bb150f",
@@ -2541,7 +2541,7 @@
       "adp_diff": 4.1,
       "pos_rank_adp": "TE29",
       "pos_rank_diff": 2,
-      "ownership_pct": 96.38
+      "ownership_pct": 96.2
     },
     {
       "underdog_id": "8d520a36-2e8c-4bd3-84d3-29708cef21ab",
@@ -2554,7 +2554,7 @@
       "adp_diff": 11.2,
       "pos_rank_adp": "WR86",
       "pos_rank_diff": 1,
-      "ownership_pct": 95.32
+      "ownership_pct": 94.81
     },
     {
       "underdog_id": "0b218e62-7871-4c50-99aa-7268ab5c5c28",
@@ -2567,7 +2567,7 @@
       "adp_diff": -5.3,
       "pos_rank_adp": "QB29",
       "pos_rank_diff": 1,
-      "ownership_pct": 98.53
+      "ownership_pct": 98.48
     },
     {
       "underdog_id": "076cc44c-a1fc-4a68-9985-1ddd4875623a",
@@ -2580,7 +2580,7 @@
       "adp_diff": 10.9,
       "pos_rank_adp": "TE30",
       "pos_rank_diff": 2,
-      "ownership_pct": 14.86
+      "ownership_pct": 15.52
     },
     {
       "underdog_id": "c90c934c-9d10-4836-a138-d8ce1e2198d2",
@@ -2593,7 +2593,7 @@
       "adp_diff": -15.5,
       "pos_rank_adp": "RB54",
       "pos_rank_diff": -4,
-      "ownership_pct": 70.07
+      "ownership_pct": 70.52
     },
     {
       "underdog_id": "dbe588a1-cdaf-458e-a0b4-daa450f19bbf",
@@ -2606,7 +2606,7 @@
       "adp_diff": 12,
       "pos_rank_adp": "WR88",
       "pos_rank_diff": 2,
-      "ownership_pct": 55.53
+      "ownership_pct": 55.25
     },
     {
       "underdog_id": "dc7ac01a-208f-4915-b6c2-a7f2766b7e1d",
@@ -2619,7 +2619,7 @@
       "adp_diff": 11.9,
       "pos_rank_adp": "TE33",
       "pos_rank_diff": 4,
-      "ownership_pct": 33.97
+      "ownership_pct": 33.93
     },
     {
       "underdog_id": "0c387d43-416a-4895-932c-6ffdf97ff68a",
@@ -2632,7 +2632,7 @@
       "adp_diff": 9.2,
       "pos_rank_adp": "WR87",
       "pos_rank_diff": 0,
-      "ownership_pct": 46.02
+      "ownership_pct": 45.95
     },
     {
       "underdog_id": "bade36dc-92a4-4fa5-8238-c737fbceaeb4",
@@ -2645,7 +2645,7 @@
       "adp_diff": -14.6,
       "pos_rank_adp": "TE25",
       "pos_rank_diff": -5,
-      "ownership_pct": 89.76
+      "ownership_pct": 89.87
     },
     {
       "underdog_id": "4a119663-b322-43a7-bfd3-19662f4e21b2",
@@ -2658,7 +2658,7 @@
       "adp_diff": 4.4,
       "pos_rank_adp": "RB63",
       "pos_rank_diff": 4,
-      "ownership_pct": 37.56
+      "ownership_pct": 37.87
     },
     {
       "underdog_id": "96e67ed5-d19b-461e-bd32-6ab1bb7a7697",
@@ -2671,7 +2671,7 @@
       "adp_diff": 8.7,
       "pos_rank_adp": "RB70",
       "pos_rank_diff": 10,
-      "ownership_pct": 11.08
+      "ownership_pct": 11.29
     },
     {
       "underdog_id": "e7734d2c-72f2-49da-91b8-6d09036794be",
@@ -2684,7 +2684,7 @@
       "adp_diff": -7.3,
       "pos_rank_adp": "TE28",
       "pos_rank_diff": -3,
-      "ownership_pct": 98.71
+      "ownership_pct": 98.52
     },
     {
       "underdog_id": "46c38053-1a51-43ee-8012-140463fe894e",
@@ -2697,7 +2697,7 @@
       "adp_diff": 5,
       "pos_rank_adp": "RB65",
       "pos_rank_diff": 4,
-      "ownership_pct": 6.52
+      "ownership_pct": 7
     },
     {
       "underdog_id": "6687791c-ed7b-4d99-8a3a-a3b4b54e4324",
@@ -2710,7 +2710,7 @@
       "adp_diff": 6.6,
       "pos_rank_adp": "WR93",
       "pos_rank_diff": 5,
-      "ownership_pct": 26.76
+      "ownership_pct": 26.59
     },
     {
       "underdog_id": "ad50c6db-b65f-462d-a607-ea75895ed062",
@@ -2723,7 +2723,7 @@
       "adp_diff": 6.6,
       "pos_rank_adp": "WR99",
       "pos_rank_diff": 10,
-      "ownership_pct": 2.38
+      "ownership_pct": 2.42
     },
     {
       "underdog_id": "6ad094f1-6730-4225-872e-60def37f1efd",
@@ -2736,7 +2736,7 @@
       "adp_diff": 3.7,
       "pos_rank_adp": "TE34",
       "pos_rank_diff": 2,
-      "ownership_pct": 23.99
+      "ownership_pct": 24
     },
     {
       "underdog_id": "8f61d453-4928-4717-a57e-d8f8f21fa211",
@@ -2749,7 +2749,7 @@
       "adp_diff": -14.1,
       "pos_rank_adp": "RB60",
       "pos_rank_diff": -2,
-      "ownership_pct": 97.83
+      "ownership_pct": 97.69
     },
     {
       "underdog_id": "1667e6e5-2d54-4f7c-80fc-94b400a81d5a",
@@ -2762,7 +2762,7 @@
       "adp_diff": 3.4,
       "pos_rank_adp": "RB73",
       "pos_rank_diff": 10,
-      "ownership_pct": 21.18
+      "ownership_pct": 20.97
     },
     {
       "underdog_id": "5c1416ec-0b1b-47d6-ad15-6dc75e170caf",
@@ -2775,7 +2775,7 @@
       "adp_diff": 1.6,
       "pos_rank_adp": "RB71",
       "pos_rank_diff": 7,
-      "ownership_pct": 32.79
+      "ownership_pct": 32.53
     },
     {
       "underdog_id": "892fedf8-412c-4307-bab0-2a04c33b1642",
@@ -2788,7 +2788,7 @@
       "adp_diff": -3,
       "pos_rank_adp": "RB64",
       "pos_rank_diff": -1,
-      "ownership_pct": 68.67
+      "ownership_pct": 68.25
     },
     {
       "underdog_id": "4e8e072d-6099-489b-a97f-a1e75f2cf1ab",
@@ -2801,7 +2801,7 @@
       "adp_diff": 0.8,
       "pos_rank_adp": "TE43",
       "pos_rank_diff": 10,
-      "ownership_pct": 2.93
+      "ownership_pct": 2.92
     },
     {
       "underdog_id": "9e0fd3fb-73c5-4f37-b250-1b768168bbf1",
@@ -2814,7 +2814,7 @@
       "adp_diff": -2.2,
       "pos_rank_adp": "WR91",
       "pos_rank_diff": 1,
-      "ownership_pct": 76.71
+      "ownership_pct": 75.87
     },
     {
       "underdog_id": "81bb7937-f269-4ae1-a713-aba675d04c04",
@@ -2827,7 +2827,7 @@
       "adp_diff": -3.3,
       "pos_rank_adp": "WR90",
       "pos_rank_diff": -1,
-      "ownership_pct": 4.44
+      "ownership_pct": 4.75
     },
     {
       "underdog_id": "ad69fd40-04a0-42d9-b8bc-b01b02910d5d",
@@ -2840,7 +2840,7 @@
       "adp_diff": -5.2,
       "pos_rank_adp": "RB67",
       "pos_rank_diff": 1,
-      "ownership_pct": 22.06
+      "ownership_pct": 22.21
     },
     {
       "underdog_id": "42b49068-33a3-4f43-9e66-005433044a40",
@@ -2853,7 +2853,7 @@
       "adp_diff": -5,
       "pos_rank_adp": "TE35",
       "pos_rank_diff": 1,
-      "ownership_pct": 11.98
+      "ownership_pct": 12.11
     },
     {
       "underdog_id": "e1ab7ce2-99e4-4b80-ba12-c0d88f14a73b",
@@ -2866,7 +2866,7 @@
       "adp_diff": -4.1,
       "pos_rank_adp": "WR110",
       "pos_rank_diff": 18,
-      "ownership_pct": 1.05
+      "ownership_pct": 1.06
     },
     {
       "underdog_id": "9a32dd2e-70c2-4179-9efd-abf7dddb250f",
@@ -2892,7 +2892,7 @@
       "adp_diff": -8.4,
       "pos_rank_adp": "RB69",
       "pos_rank_diff": 2,
-      "ownership_pct": 64.21
+      "ownership_pct": 63.6
     },
     {
       "underdog_id": "9431a971-42d8-4e26-9957-06ad738b37f9",
@@ -2918,7 +2918,7 @@
       "adp_diff": -8,
       "pos_rank_adp": "WR125",
       "pos_rank_diff": 30,
-      "ownership_pct": 1.23
+      "ownership_pct": 1.22
     },
     {
       "underdog_id": "a494d7c8-4c78-4055-9609-5ca71960b260",
@@ -2931,7 +2931,7 @@
       "adp_diff": -9.6,
       "pos_rank_adp": "TE38",
       "pos_rank_diff": 3,
-      "ownership_pct": 11.36
+      "ownership_pct": 11.3
     },
     {
       "underdog_id": "8346d01a-e5c5-46c8-bb8d-90e142e9926c",
@@ -2957,7 +2957,7 @@
       "adp_diff": -12.2,
       "pos_rank_adp": "TE36",
       "pos_rank_diff": 0,
-      "ownership_pct": 51.42
+      "ownership_pct": 50.83
     },
     {
       "underdog_id": "fc7b0083-b914-4355-b7da-9b914f2c25fc",
@@ -2970,7 +2970,7 @@
       "adp_diff": -12.1,
       "pos_rank_adp": "TE45",
       "pos_rank_diff": 8,
-      "ownership_pct": 4.66
+      "ownership_pct": 4.6
     },
     {
       "underdog_id": "7dc31508-0db1-42b9-b2da-7cc6226ef122",
@@ -2996,7 +2996,7 @@
       "adp_diff": -39,
       "pos_rank_adp": "QB28",
       "pos_rank_diff": -1,
-      "ownership_pct": 97.48
+      "ownership_pct": 97.45
     },
     {
       "underdog_id": "5d017d0c-0864-4cec-93d0-e5c68c76fca2",
@@ -3022,7 +3022,7 @@
       "adp_diff": -16.3,
       "pos_rank_adp": "TE40",
       "pos_rank_diff": 2,
-      "ownership_pct": 2.02
+      "ownership_pct": 2.05
     },
     {
       "underdog_id": "f2a656e2-be14-4a3a-bf51-ac49ca042585",
@@ -3035,7 +3035,7 @@
       "adp_diff": -23.3,
       "pos_rank_adp": "TE31",
       "pos_rank_diff": -8,
-      "ownership_pct": 16.96
+      "ownership_pct": 17.49
     },
     {
       "underdog_id": "0fd06655-ece8-4168-a588-f8fd5cb4410b",
@@ -3061,7 +3061,7 @@
       "adp_diff": -35.5,
       "pos_rank_adp": "RB62",
       "pos_rank_diff": -7,
-      "ownership_pct": 16.13
+      "ownership_pct": 17.2
     },
     {
       "underdog_id": "02dccdb4-7ecd-4ee5-9fd8-1531213ce3c6",
@@ -3074,7 +3074,7 @@
       "adp_diff": -20.2,
       "pos_rank_adp": "RB77",
       "pos_rank_diff": 7,
-      "ownership_pct": 3.49
+      "ownership_pct": 3.47
     },
     {
       "underdog_id": "a45bcf8f-c281-4efb-9114-62e078297bb8",
@@ -3087,7 +3087,7 @@
       "adp_diff": -21,
       "pos_rank_adp": "RB82",
       "pos_rank_diff": 11,
-      "ownership_pct": 1.12
+      "ownership_pct": 1.11
     },
     {
       "underdog_id": "24c187ac-e613-495f-9fd8-4befd4710517",
@@ -3100,7 +3100,7 @@
       "adp_diff": -22.2,
       "pos_rank_adp": "WR104",
       "pos_rank_diff": 6,
-      "ownership_pct": 3.88
+      "ownership_pct": 3.85
     },
     {
       "underdog_id": "de7bde14-cf9f-4b06-98f4-8c52c41bf649",
@@ -3113,7 +3113,7 @@
       "adp_diff": -28.4,
       "pos_rank_adp": "TE32",
       "pos_rank_diff": -9,
-      "ownership_pct": 51.06
+      "ownership_pct": 50.99
     },
     {
       "underdog_id": "4a2d05c3-cb53-441f-b01f-869caa3d3db1",
@@ -3126,7 +3126,7 @@
       "adp_diff": -29.9,
       "pos_rank_adp": "QB31",
       "pos_rank_diff": 1,
-      "ownership_pct": 16.88
+      "ownership_pct": 17.38
     },
     {
       "underdog_id": "3cc10408-1eb5-42d7-ba02-acb14de1d788",
@@ -3139,7 +3139,7 @@
       "adp_diff": -25.5,
       "pos_rank_adp": "RB74",
       "pos_rank_diff": 2,
-      "ownership_pct": 4.52
+      "ownership_pct": 4.55
     },
     {
       "underdog_id": "24c1ee61-5bbe-43c0-9512-2a1c9ba741a4",
@@ -3152,7 +3152,7 @@
       "adp_diff": -26.2,
       "pos_rank_adp": "WR104",
       "pos_rank_diff": 5,
-      "ownership_pct": 2.63
+      "ownership_pct": 2.62
     },
     {
       "underdog_id": "27ddd6aa-fac1-4c95-9d5d-31d471606308",
@@ -3165,7 +3165,7 @@
       "adp_diff": -27,
       "pos_rank_adp": "RB82",
       "pos_rank_diff": 9,
-      "ownership_pct": 2.07
+      "ownership_pct": 2.05
     },
     {
       "underdog_id": "ce461ae0-18b8-4c69-a198-2432c70bd0ea",
@@ -3178,7 +3178,7 @@
       "adp_diff": -29.1,
       "pos_rank_adp": "RB72",
       "pos_rank_diff": -2,
-      "ownership_pct": 25.25
+      "ownership_pct": 25.06
     },
     {
       "underdog_id": "91d9b2f2-d819-4399-b361-a55d6f47b969",
@@ -3204,7 +3204,7 @@
       "adp_diff": -30.1,
       "pos_rank_adp": "RB78",
       "pos_rank_diff": 3,
-      "ownership_pct": 5.46
+      "ownership_pct": 5.4
     },
     {
       "underdog_id": "6f9a391e-7cce-49ac-aaa4-4e593c7dcd4a",
@@ -3217,7 +3217,7 @@
       "adp_diff": -31.1,
       "pos_rank_adp": "WR110",
       "pos_rank_diff": 10,
-      "ownership_pct": 1.93
+      "ownership_pct": 1.92
     },
     {
       "underdog_id": "3a013faa-4c46-49e8-bc5d-54d3a9803c1e",
@@ -3230,7 +3230,7 @@
       "adp_diff": -35.3,
       "pos_rank_adp": "RB66",
       "pos_rank_diff": -10,
-      "ownership_pct": 85.27
+      "ownership_pct": 84.43
     },
     {
       "underdog_id": "903044f4-028a-4930-b027-80a8564afd17",
@@ -3243,7 +3243,7 @@
       "adp_diff": -33.5,
       "pos_rank_adp": "TE39",
       "pos_rank_diff": -4,
-      "ownership_pct": 4.17
+      "ownership_pct": 4.2
     },
     {
       "underdog_id": "ca8c5014-bf51-4571-a462-800ceb464974",
@@ -3269,7 +3269,7 @@
       "adp_diff": -35.9,
       "pos_rank_adp": "TE37",
       "pos_rank_diff": -8,
-      "ownership_pct": 5.6
+      "ownership_pct": 5.69
     },
     {
       "underdog_id": "29d13ef4-debe-47ec-97ae-0fc2d7f4ed03",
@@ -3295,7 +3295,7 @@
       "adp_diff": -37.2,
       "pos_rank_adp": "TE43",
       "pos_rank_diff": -3,
-      "ownership_pct": 2.49
+      "ownership_pct": 2.48
     },
     {
       "underdog_id": "c6997cdf-ca0f-4868-b272-566f4225afd0",
@@ -3308,7 +3308,7 @@
       "adp_diff": -38.1,
       "pos_rank_adp": "WR110",
       "pos_rank_diff": 8,
-      "ownership_pct": 0.81
+      "ownership_pct": 0.82
     },
     {
       "underdog_id": "1862183c-6a0a-4cf9-b4ae-071c39cab7d1",
@@ -3321,7 +3321,7 @@
       "adp_diff": -43,
       "pos_rank_adp": "WR88",
       "pos_rank_diff": -15,
-      "ownership_pct": 37
+      "ownership_pct": 37.01
     },
     {
       "underdog_id": "35a464cc-a50d-4923-a77d-18638d55cae3",
@@ -3347,7 +3347,7 @@
       "adp_diff": -41.6,
       "pos_rank_adp": "WR97",
       "pos_rank_diff": -8,
-      "ownership_pct": 59.58
+      "ownership_pct": 58.76
     },
     {
       "underdog_id": "00fa8a29-92e1-4a0f-b4d1-8fab945cfcd3",
@@ -3360,7 +3360,7 @@
       "adp_diff": -57.1,
       "pos_rank_adp": "QB30",
       "pos_rank_diff": -1,
-      "ownership_pct": 89.03
+      "ownership_pct": 88.91
     },
     {
       "underdog_id": "2fc9683e-305e-4f34-b1d9-33a6b3c711f1",
@@ -3373,7 +3373,7 @@
       "adp_diff": -43,
       "pos_rank_adp": "RB82",
       "pos_rank_diff": 5,
-      "ownership_pct": 0.66
+      "ownership_pct": 0.65
     },
     {
       "underdog_id": "d880f724-0897-4914-969b-af6a01eb4ac7",
@@ -3386,7 +3386,7 @@
       "adp_diff": -44.1,
       "pos_rank_adp": "WR110",
       "pos_rank_diff": 4,
-      "ownership_pct": 2.86
+      "ownership_pct": 2.83
     },
     {
       "underdog_id": "2cb27cb4-b51e-4a38-8423-6d72866efedb",
@@ -3399,7 +3399,7 @@
       "adp_diff": -45.2,
       "pos_rank_adp": "WR104",
       "pos_rank_diff": -3,
-      "ownership_pct": 1.68
+      "ownership_pct": 1.69
     },
     {
       "underdog_id": "f9ed3e1f-0d74-4963-b3b6-d72c35411ef7",
@@ -3425,7 +3425,7 @@
       "adp_diff": -47.1,
       "pos_rank_adp": "RB78",
       "pos_rank_diff": -1,
-      "ownership_pct": 22.02
+      "ownership_pct": 21.69
     },
     {
       "underdog_id": "a2a2da64-8443-4c7d-a1ce-835f30eca698",
@@ -3438,7 +3438,7 @@
       "adp_diff": -48.4,
       "pos_rank_adp": "WR99",
       "pos_rank_diff": -9,
-      "ownership_pct": 43.3
+      "ownership_pct": 42.7
     },
     {
       "underdog_id": "1bca686d-e264-4c60-9f2f-2c099315b414",
@@ -3464,7 +3464,7 @@
       "adp_diff": -50.1,
       "pos_rank_adp": "RB78",
       "pos_rank_diff": -3,
-      "ownership_pct": 0.35
+      "ownership_pct": 0.36
     },
     {
       "underdog_id": "f9cad7c6-ed11-4cf8-a863-1a8d9a3e41c7",
@@ -3490,7 +3490,7 @@
       "adp_diff": -52.1,
       "pos_rank_adp": "WR110",
       "pos_rank_diff": 1,
-      "ownership_pct": 3.51
+      "ownership_pct": 3.47
     },
     {
       "underdog_id": "e7ceb8ee-3f04-41d2-ade4-c91891883414",
@@ -3503,7 +3503,7 @@
       "adp_diff": -53.7,
       "pos_rank_adp": "WR96",
       "pos_rank_diff": -14,
-      "ownership_pct": 29.95
+      "ownership_pct": 29.62
     },
     {
       "underdog_id": "32bdcf83-11aa-4fef-857a-88419965dbc2",
@@ -3516,7 +3516,7 @@
       "adp_diff": -54.5,
       "pos_rank_adp": "WR98",
       "pos_rank_diff": -13,
-      "ownership_pct": 10.07
+      "ownership_pct": 10.01
     },
     {
       "underdog_id": "b2f0b4fc-2bbb-424e-a07f-a2d4b9e15e34",
@@ -3542,7 +3542,7 @@
       "adp_diff": -56.4,
       "pos_rank_adp": "WR99",
       "pos_rank_diff": -13,
-      "ownership_pct": 23.02
+      "ownership_pct": 22.73
     },
     {
       "underdog_id": "ee61b327-de07-483b-b872-eb251e6c2613",
@@ -3555,7 +3555,7 @@
       "adp_diff": -57.2,
       "pos_rank_adp": "WR104",
       "pos_rank_diff": -9,
-      "ownership_pct": 4.38
+      "ownership_pct": 4.35
     },
     {
       "underdog_id": "ab83aafa-2eb9-4896-b4ce-1384d4e16b93",
@@ -3568,7 +3568,7 @@
       "adp_diff": -60,
       "pos_rank_adp": "WR92",
       "pos_rank_diff": -22,
-      "ownership_pct": 2.94
+      "ownership_pct": 3.22
     },
     {
       "underdog_id": "290c697a-95db-494a-9728-a1c3f90d4395",
@@ -3581,7 +3581,7 @@
       "adp_diff": -59.3,
       "pos_rank_adp": "TE40",
       "pos_rank_diff": -7,
-      "ownership_pct": 50.97
+      "ownership_pct": 50.23
     },
     {
       "underdog_id": "f09f8ce4-e384-4263-9781-3445671e00bd",
@@ -3633,7 +3633,7 @@
       "adp_diff": -59,
       "pos_rank_adp": "TE78",
       "pos_rank_diff": 29,
-      "ownership_pct": 0.59
+      "ownership_pct": 0.58
     },
     {
       "underdog_id": "34c157be-724a-4c32-a9d9-a67147595565",
@@ -3672,7 +3672,7 @@
       "adp_diff": -66,
       "pos_rank_adp": "TE48",
       "pos_rank_diff": -3,
-      "ownership_pct": 0.37
+      "ownership_pct": 0.38
     },
     {
       "underdog_id": "e64c7835-a044-4748-9840-2cd5ae669189",
@@ -3685,7 +3685,7 @@
       "adp_diff": -67.3,
       "pos_rank_adp": "WR103",
       "pos_rank_diff": -14,
-      "ownership_pct": 4.61
+      "ownership_pct": 4.59
     },
     {
       "underdog_id": "6204f71e-c037-4b12-96ec-412f3cee7bf1",
@@ -3737,7 +3737,7 @@
       "adp_diff": -71.1,
       "pos_rank_adp": "WR110",
       "pos_rank_diff": -8,
-      "ownership_pct": 0.95
+      "ownership_pct": 0.96
     },
     {
       "underdog_id": "97fa3851-1235-4e1a-b3bd-b5f2cadf830e",
@@ -3750,7 +3750,7 @@
       "adp_diff": -72,
       "pos_rank_adp": "WR125",
       "pos_rank_diff": 6,
-      "ownership_pct": 1
+      "ownership_pct": 0.99
     },
     {
       "underdog_id": "f534e711-7613-4464-9570-3f2171bac825",
@@ -3763,7 +3763,7 @@
       "adp_diff": -73.1,
       "pos_rank_adp": "WR110",
       "pos_rank_diff": -10,
-      "ownership_pct": 0.64
+      "ownership_pct": 0.65
     },
     {
       "underdog_id": "ff73b868-18dc-4dc0-aa07-30bf79323218",
@@ -3776,7 +3776,7 @@
       "adp_diff": -74.1,
       "pos_rank_adp": "WR110",
       "pos_rank_diff": -11,
-      "ownership_pct": 3.12
+      "ownership_pct": 3.09
     },
     {
       "underdog_id": "41af4ab9-6754-4e81-81d7-b8cdec562d23",
@@ -3802,7 +3802,7 @@
       "adp_diff": -76.5,
       "pos_rank_adp": "RB74",
       "pos_rank_diff": -13,
-      "ownership_pct": 14.9
+      "ownership_pct": 14.77
     },
     {
       "underdog_id": "5ed83400-1f53-4281-8e26-add34de68fcb",
@@ -3828,7 +3828,7 @@
       "adp_diff": -110,
       "pos_rank_adp": "RB56",
       "pos_rank_diff": -33,
-      "ownership_pct": 75.27
+      "ownership_pct": 75.63
     },
     {
       "underdog_id": "a3984671-8b17-4d47-844f-fa7c3a0e5476",
@@ -3880,7 +3880,7 @@
       "adp_diff": -82,
       "pos_rank_adp": "RB82",
       "pos_rank_diff": -9,
-      "ownership_pct": 0.15
+      "ownership_pct": 0.16
     },
     {
       "underdog_id": "3dea7062-fa54-4cdd-bd31-acf6d05040f6",
