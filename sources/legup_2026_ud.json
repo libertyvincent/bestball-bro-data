@@ -3,7 +3,7 @@
     "source": "legup",
     "slug": "ud-ranks",
     "slate": "nfl_2026_season",
-    "version": "1788822266595-1f157c91",
+    "version": "1788909996124-6b80c556",
     "headers": [
       "Name",
       "Team",
@@ -15,7 +15,7 @@
       "+/-",
       "id"
     ],
-    "fetched_at": "2026-09-08T14:51:30Z",
+    "fetched_at": "2026-09-09T14:59:44Z",
     "player_count": 230
   },
   "players": [
@@ -587,11 +587,20 @@
       "wk17_opponent": null
     },
     {
+      "underdog_id": "017da9b8-968f-4baa-858f-d8bbf32373ee",
+      "player_name": "Rhamondre Stevenson",
+      "position": "RB",
+      "team": "NE",
+      "legup_rank": 64,
+      "legup_pos_rank": 26,
+      "wk17_opponent": null
+    },
+    {
       "underdog_id": "7c4c6c1d-bce9-45e7-9578-1eb5b4ace271",
       "player_name": "Tyler Warren",
       "position": "TE",
       "team": "IND",
-      "legup_rank": 64,
+      "legup_rank": 65,
       "legup_pos_rank": 4,
       "wk17_opponent": null
     },
@@ -600,7 +609,7 @@
       "player_name": "Joe Burrow",
       "position": "QB",
       "team": "CIN",
-      "legup_rank": 65,
+      "legup_rank": 66,
       "legup_pos_rank": 5,
       "wk17_opponent": null
     },
@@ -609,7 +618,7 @@
       "player_name": "Marvin Harrison",
       "position": "WR",
       "team": "ARI",
-      "legup_rank": 66,
+      "legup_rank": 67,
       "legup_pos_rank": 32,
       "wk17_opponent": null
     },
@@ -618,26 +627,8 @@
       "player_name": "Brian Thomas",
       "position": "WR",
       "team": "JAX",
-      "legup_rank": 67,
-      "legup_pos_rank": 33,
-      "wk17_opponent": null
-    },
-    {
-      "underdog_id": "017da9b8-968f-4baa-858f-d8bbf32373ee",
-      "player_name": "Rhamondre Stevenson",
-      "position": "RB",
-      "team": "NE",
       "legup_rank": 68,
-      "legup_pos_rank": 26,
-      "wk17_opponent": null
-    },
-    {
-      "underdog_id": "41bac526-b103-4a40-9142-dcef21e5da72",
-      "player_name": "Jaylen Warren",
-      "position": "RB",
-      "team": "PIT",
-      "legup_rank": 69,
-      "legup_pos_rank": 27,
+      "legup_pos_rank": 33,
       "wk17_opponent": null
     },
     {
@@ -645,8 +636,17 @@
       "player_name": "Jalen Hurts",
       "position": "QB",
       "team": "PHI",
-      "legup_rank": 70,
+      "legup_rank": 69,
       "legup_pos_rank": 6,
+      "wk17_opponent": null
+    },
+    {
+      "underdog_id": "41bac526-b103-4a40-9142-dcef21e5da72",
+      "player_name": "Jaylen Warren",
+      "position": "RB",
+      "team": "PIT",
+      "legup_rank": 70,
+      "legup_pos_rank": 27,
       "wk17_opponent": null
     },
     {

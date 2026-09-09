@@ -3,7 +3,7 @@
     "source": "legup",
     "slug": "eliminator-ranks",
     "slate": "nfl_2026_eliminator",
-    "version": "1788822266595-1f157c91",
+    "version": "1788909996124-6b80c556",
     "headers": [
       "Name",
       "Team",
@@ -16,7 +16,7 @@
       "+/-",
       "id"
     ],
-    "fetched_at": "2026-09-08T14:51:30Z",
+    "fetched_at": "2026-09-09T14:59:44Z",
     "player_count": 240
   },
   "players": [
@@ -462,11 +462,20 @@
       "wk17_opponent": "HOU"
     },
     {
+      "underdog_id": "689720bd-7adb-4742-a928-7d2057de2ef0",
+      "player_name": "Rhamondre Stevenson",
+      "position": "RB",
+      "team": "NE",
+      "legup_rank": 50,
+      "legup_pos_rank": 23,
+      "wk17_opponent": "DEN"
+    },
+    {
       "underdog_id": "3028a392-f3e2-4dd7-bf6e-8174e4442be4",
       "player_name": "Drake Maye",
       "position": "QB",
       "team": "NE",
-      "legup_rank": 50,
+      "legup_rank": 51,
       "legup_pos_rank": 3,
       "wk17_opponent": "DEN"
     },
@@ -475,7 +484,7 @@
       "player_name": "Tyler Warren",
       "position": "TE",
       "team": "IND",
-      "legup_rank": 51,
+      "legup_rank": 52,
       "legup_pos_rank": 4,
       "wk17_opponent": "CLE"
     },
@@ -484,7 +493,7 @@
       "player_name": "Emeka Egbuka",
       "position": "WR",
       "team": "TB",
-      "legup_rank": 52,
+      "legup_rank": 53,
       "legup_pos_rank": 23,
       "wk17_opponent": "LAR"
     },
@@ -493,7 +502,7 @@
       "player_name": "Jameson Williams",
       "position": "WR",
       "team": "DET",
-      "legup_rank": 53,
+      "legup_rank": 54,
       "legup_pos_rank": 24,
       "wk17_opponent": "CHI"
     },
@@ -502,18 +511,9 @@
       "player_name": "Parker Washington",
       "position": "WR",
       "team": "JAX",
-      "legup_rank": 54,
+      "legup_rank": 55,
       "legup_pos_rank": 25,
       "wk17_opponent": "WAS"
-    },
-    {
-      "underdog_id": "7d87b82a-b43e-48d0-97f0-a48cff87f5dd",
-      "player_name": "Mike Evans",
-      "position": "WR",
-      "team": "SF",
-      "legup_rank": 55,
-      "legup_pos_rank": 26,
-      "wk17_opponent": "PHI"
     },
     {
       "underdog_id": "0215e03a-22cf-4131-8616-4c0eb43370e4",
@@ -525,22 +525,22 @@
       "wk17_opponent": "JAX"
     },
     {
+      "underdog_id": "7d87b82a-b43e-48d0-97f0-a48cff87f5dd",
+      "player_name": "Mike Evans",
+      "position": "WR",
+      "team": "SF",
+      "legup_rank": 57,
+      "legup_pos_rank": 26,
+      "wk17_opponent": "PHI"
+    },
+    {
       "underdog_id": "5c5c7619-b010-4c54-a3d6-a0782715499d",
       "player_name": "Rome Odunze",
       "position": "WR",
       "team": "CHI",
-      "legup_rank": 57,
+      "legup_rank": 58,
       "legup_pos_rank": 27,
       "wk17_opponent": "DET"
-    },
-    {
-      "underdog_id": "ffb7348e-0ed4-4e7a-ad7b-90880272652e",
-      "player_name": "Jaylen Warren",
-      "position": "RB",
-      "team": "PIT",
-      "legup_rank": 58,
-      "legup_pos_rank": 23,
-      "wk17_opponent": "TEN"
     },
     {
       "underdog_id": "6a411dbd-0948-4990-8759-f521e4c2c52f",
@@ -552,11 +552,20 @@
       "wk17_opponent": "BAL"
     },
     {
+      "underdog_id": "ffb7348e-0ed4-4e7a-ad7b-90880272652e",
+      "player_name": "Jaylen Warren",
+      "position": "RB",
+      "team": "PIT",
+      "legup_rank": 60,
+      "legup_pos_rank": 24,
+      "wk17_opponent": "TEN"
+    },
+    {
       "underdog_id": "8849ccd7-230c-4f8a-9958-3b2fd7c3350d",
       "player_name": "D.J. Moore",
       "position": "WR",
       "team": "BUF",
-      "legup_rank": 60,
+      "legup_rank": 61,
       "legup_pos_rank": 28,
       "wk17_opponent": "MIA"
     },
@@ -565,7 +574,7 @@
       "player_name": "Jalen Hurts",
       "position": "QB",
       "team": "PHI",
-      "legup_rank": 61,
+      "legup_rank": 62,
       "legup_pos_rank": 6,
       "wk17_opponent": "SF"
     },
@@ -574,7 +583,7 @@
       "player_name": "Luther Burden",
       "position": "WR",
       "team": "CHI",
-      "legup_rank": 62,
+      "legup_rank": 63,
       "legup_pos_rank": 29,
       "wk17_opponent": "DET"
     },
@@ -583,18 +592,9 @@
       "player_name": "Marvin Harrison",
       "position": "WR",
       "team": "ARI",
-      "legup_rank": 63,
+      "legup_rank": 64,
       "legup_pos_rank": 30,
       "wk17_opponent": "LV"
-    },
-    {
-      "underdog_id": "689720bd-7adb-4742-a928-7d2057de2ef0",
-      "player_name": "Rhamondre Stevenson",
-      "position": "RB",
-      "team": "NE",
-      "legup_rank": 64,
-      "legup_pos_rank": 24,
-      "wk17_opponent": "DEN"
     },
     {
       "underdog_id": "cd5eaa93-600f-48cc-8586-34c755731f54",
@@ -1011,22 +1011,22 @@
       "wk17_opponent": "MIA"
     },
     {
-      "underdog_id": "975266aa-225e-4cd0-960d-1c682a9f9392",
-      "player_name": "Khalil Shakir",
-      "position": "WR",
-      "team": "BUF",
-      "legup_rank": 111,
-      "legup_pos_rank": 45,
-      "wk17_opponent": "MIA"
-    },
-    {
       "underdog_id": "3ee950bf-2f56-4706-838a-fb41361b9eb6",
       "player_name": "Matthew Golden",
       "position": "WR",
       "team": "GB",
+      "legup_rank": 111,
+      "legup_pos_rank": 45,
+      "wk17_opponent": "HOU"
+    },
+    {
+      "underdog_id": "975266aa-225e-4cd0-960d-1c682a9f9392",
+      "player_name": "Khalil Shakir",
+      "position": "WR",
+      "team": "BUF",
       "legup_rank": 112,
       "legup_pos_rank": 46,
-      "wk17_opponent": "HOU"
+      "wk17_opponent": "MIA"
     },
     {
       "underdog_id": "00832915-7414-435e-ba1a-11b654632c48",
@@ -1083,22 +1083,22 @@
       "wk17_opponent": "PHI"
     },
     {
-      "underdog_id": "652b2dff-d8e1-4d3a-9a45-7d43288c4944",
-      "player_name": "Dallas Goedert",
-      "position": "TE",
-      "team": "PHI",
-      "legup_rank": 119,
-      "legup_pos_rank": 13,
-      "wk17_opponent": "SF"
-    },
-    {
       "underdog_id": "e23aa22e-52d2-403c-9dde-3588570fb78c",
       "player_name": "Alec Pierce",
       "position": "WR",
       "team": "IND",
-      "legup_rank": 120,
+      "legup_rank": 119,
       "legup_pos_rank": 49,
       "wk17_opponent": "CLE"
+    },
+    {
+      "underdog_id": "652b2dff-d8e1-4d3a-9a45-7d43288c4944",
+      "player_name": "Dallas Goedert",
+      "position": "TE",
+      "team": "PHI",
+      "legup_rank": 120,
+      "legup_pos_rank": 13,
+      "wk17_opponent": "SF"
     },
     {
       "underdog_id": "45b540b8-659b-473e-a06a-e341ed7020bc",
@@ -1128,21 +1128,21 @@
       "wk17_opponent": "SEA"
     },
     {
-      "underdog_id": "96c76488-1ada-4938-803a-edfddd4963e4",
-      "player_name": "C.J. Stroud",
-      "position": "QB",
-      "team": "HOU",
-      "legup_rank": 124,
-      "legup_pos_rank": 20,
-      "wk17_opponent": "GB"
-    },
-    {
       "underdog_id": "e2cd0fbe-c0d2-4f0d-8412-8a5608e67f5e",
       "player_name": "Woody Marks",
       "position": "RB",
       "team": "HOU",
-      "legup_rank": 125,
+      "legup_rank": 124,
       "legup_pos_rank": 42,
+      "wk17_opponent": "GB"
+    },
+    {
+      "underdog_id": "96c76488-1ada-4938-803a-edfddd4963e4",
+      "player_name": "C.J. Stroud",
+      "position": "QB",
+      "team": "HOU",
+      "legup_rank": 125,
+      "legup_pos_rank": 20,
       "wk17_opponent": "GB"
     },
     {
@@ -1497,22 +1497,22 @@
       "wk17_opponent": "ATL"
     },
     {
-      "underdog_id": "a34624be-fce5-414c-a79f-0d9bada5874f",
-      "player_name": "Justice Hill",
-      "position": "RB",
-      "team": "BAL",
-      "legup_rank": 165,
-      "legup_pos_rank": 49,
-      "wk17_opponent": "CIN"
-    },
-    {
       "underdog_id": "4101194a-a80c-49f4-b187-b3600ee8fcd0",
       "player_name": "Daniel Jones",
       "position": "QB",
       "team": "IND",
-      "legup_rank": 166,
+      "legup_rank": 165,
       "legup_pos_rank": 26,
       "wk17_opponent": "CLE"
+    },
+    {
+      "underdog_id": "a34624be-fce5-414c-a79f-0d9bada5874f",
+      "player_name": "Justice Hill",
+      "position": "RB",
+      "team": "BAL",
+      "legup_rank": 166,
+      "legup_pos_rank": 49,
+      "wk17_opponent": "CIN"
     },
     {
       "underdog_id": "d0a9f485-d99e-437b-a4a6-f6a08d1867ac",
